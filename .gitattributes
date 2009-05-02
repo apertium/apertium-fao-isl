@@ -1,0 +1,6 @@
+* text=auto !eol
+/apertium-fo-is.fo-is.dix -text
+/apertium-fo-is.fo.dix -text
+/apertium-fo-is.fo.rlx -text
+/apertium-fo-is.is.dix -text
+/apertium-fo-is.is.rlx -text
