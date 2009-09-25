@@ -67,6 +67,14 @@
     <e><p><l>hálvfems</l><r>níutíu<s n="num"/></r></p></e>
     <e><p><l>hundrað<s n="num"/></l><r>eitt<b/>hundrað<s n="num"/></r></p></e>
 
+    <!-- Nouns -->
+
+    <e><p><l>vatn<s n="n"/><s n="nt"/></l><r>vatn<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>myrkur<s n="n"/><s n="nt"/></l><r>myrkur<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>upphav<s n="n"/><s n="nt"/></l><r>upphaf<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>djúp<s n="n"/><s n="nt"/></l><r>djúpi<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>himmal<s n="n"/><s n="m"/></l><r>himmin<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>jørð<s n="n"/><s n="f"/></l><r>jörð<s n="n"/><s n="f"/></r></p></e>
 
     <!-- Adjectives -->
     <e><p><l>fræls<s n="adj"/></l><r>frjáls<s n="adj"/></r></p></e>
@@ -74,5 +82,8 @@
 
     <!-- Verbs -->
     <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vblex"/></r></p></e>
+    <e><p><l>skapa<s n="vblex"/></l><r>skapa<s n="vblex"/></r></p></e>
+    <e><p><l>sveima<s n="vblex"/></l><r>svífa<s n="vblex"/></r></p></e>
+
   </section>
 </dictionary>
