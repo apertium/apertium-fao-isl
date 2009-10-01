@@ -1,376 +1,170 @@
-
-# ===================== #
-# Icelandic disambiguator #
-# ===================== #
+###############################################################################
 #
-# Hacked version of Faroese disambiguator:
-# Author: Trond Trosterud, University of Tromsø
-# The original may be found here:
-#   http://giellatekno.uit.no/doc/infra/anonymous-cvs.html
+#	This is a partial conversion of the rule file from the IceTagger 
+#	part-of-speech tagger for Icelandic by Hrafn Loftsson.
 #
-# For instructions on using CG with Apertium, read:
-#
-#   http://xixona.dlsi.ua.es/wiki/index.php/Apertium_and_Constraint_Grammar
+###############################################################################
 
-# ///////////////////////////////////////////////////////
-# This section shall be copied to fao-dep.rle if changed
+SOFT-DELIMITERS = "<,>" ;
+DELIMITERS = "<.>"ri "<:>"ri "<!>"ri "<?>"ri ;
 
-# ========== #
-# Delimiters #
-# ========== #
+LIST BOS = (>>>) (<s>) (sent) ; 
+LIST EOS = (<<<) (</s>) (sent) ; 
 
+LIST Noun = (n) ;
+LIST ProperNoun = (np) ;
+LIST Adj = (adj) ;
+LIST Adv = (adv) ;
+LIST PersonalPronoun = (prn) ;
+LIST IndefinitePronoun = (prn ind);
+LIST DemonstrativePronoun = (prn dem) ;
+LIST ReflexivePronoun = (prn ref) ;
+LIST InterrogativePronoun = (prn itg) ;
+LIST PossessivePronoun = (prn pos) ;
+LIST Preposition = (pr) ;
+LIST Infinitive = (inf) ;
+LIST VerbInfinitive = (vblex inf) ;
+LIST VerbSpecAux = (vaux) ;
+LIST VerbAux = (vaux) ;
+LIST VerbSupine = (vblex supn) ;
+LIST VerbBe = (vbser) ;
+LIST Verb = (vblex) ;
+LIST RelativeConjunction = (rel) ;
+LIST Conjunction = (cnjcoo) (cnjadv) (cnjsub) ;
+LIST Numeral = (num) ;
+LIST Exclamation = (ij) ;
+LIST Article = (def) ;
 
-DELIMITERS = "<.>" "<!>" "<?>" "<¶>";
+LIST Fem = (f);
+LIST Masc = (m);
+LIST Neu = (nt);
 
-# ============= #
-# Tags and sets #
-# ============= #
+LIST Gen = (gen);
+LIST Acc = (acc);
+LIST Dat = (dat);
 
+LIST Inf = (inf);
 
-# ========
-   SETS
-# ========
-
-LIST BOS = (>>>) (<s>) (sent); 
-LIST EOS = (<<<) (</s>) (sent); # vislcg and CG-2 together.
-
-LIST N = n ;
-LIST V = vblex vbser;
-LIST A = adj (adj sta) (adj vei) (adj vei pst) (adj sta pst);
-LIST Prop = Prop ;
-LIST Adv = adv ;
-LIST Num = num ;
-LIST CC = cnjcoo ;
-LIST CS = cnjsub ;
-LIST Interj = ij ;
-LIST Abbr = Abbr ;
-LIST ACR = acr ;
-LIST Pr = pr ;
-LIST Pron = prn ;
-LIST Pers = "prpers"ri "ég"ri "þú"ri "hann"ri "hon"ri "það"ri "við"ri "þið"ri "þeir"ri "þær"ri "þau"ri;
-LIST Dem = dem ;
-LIST Det = det ;
-LIST Refl = ref ;
-LIST Recipr = Recipr ;
-LIST Poss = pos ;
-LIST Interr = itg ;
-LIST Nom = nom ;
-LIST Acc = acc ;
-LIST Gen = gen ;
-LIST Dat = dat ;
-LIST Msc = m ;
-LIST Fem = f ;
-LIST Neu = nt ;
-LIST Sg = sg ;
-LIST Pl = pl ;
-LIST Def = def ;
-LIST Indef = ind ;
-LIST Cmp = comp ;
-LIST Superl = sup ;
-LIST Prs = prs ;
-LIST Prt = pri ;
-LIST 1Sg = (p1 sg);
-LIST 2Sg = (p2 sg);
-LIST 3Sg = (p3 sg);
-LIST Inf = inf;
-LIST PrfPrc = pp;
-LIST PrsPrc = ger;
-LIST Imp = imp ;
-LIST CLB = CLB ;
-LIST PUNCT = PUNCT ;
-LIST LEFT = LEFT ;
-LIST RIGHT = RIGHT ;
-
-
-LIST TAG = N V A Adv CC CS Interj Pr Pron Pers Det Refl Recipr Poss Nom Acc Gen
-Dat Msc Fem Neu Sg Pl Def Indef Cmp Sup Prs Prt 1Sg 2Sg 3Sg Inf PrfPrc
-PrsPrc Sup Imp CLB PUNCT LEFT RIGHT ;
-
-
-LIST NAGD = Nom Acc Gen Dat ;
-LIST GENDER = Msc Fem Neu ;
-LIST NUMBER = Sg Pl ;
-
-# Sets
-# ====
-
-# Noun sets
-
-
-SET NounMscFem = (N Msc) OR (N Fem) ;
-SET NounMscNeu = (N Msc) OR (N Neu) ;
-SET NounFemNeu = (N Fem) OR (N Neu) ;
-
-# Nominal sets
-
-LIST NOMINALHEAD = N Num Pron ;
-
-LIST PRENAGR = Det Dem A ;
-
-
-# Verb sets
-
-LIST AUX = "vera" "verða" ;
-
-LIST VFIN = Prs Prt Imp ;
-LIST Ind = Prs Prt ;
-
-LIST VINDNONTHIRD = Ind | NONTHIRDV;
-
-LIST VINFIN = Inf Sup PrfPrs PrsPrc ;
-
-# Noun-Verb sets
-
-LIST THIRD = Sg 3Sg Pl 3Pl ;
-
-# Number sets
-
-SET NUMBERS = Num - ("eitt") - ("1") ;
-#
-# Preposition sets
-
-LIST GENPREP = "án" "auk" "austan" "innan" "í staö" "meðal" "megin" "milli" "millum" "neðan" "norðan" "ofan" "sakir" "sunnan" "sökum" "til" "utan" "vegna" "vestan";
-
-LIST ACCPREP = "fyrir ofan" "gegnum" "kringum" "um" "umfram" "umhverfis" ;
-
-LIST DATPREP = "að" "af" "andspænis" "ásamt" "frá" "gagn" "gagnvart" "gegnt" "handa" "hjá" "meðfram" "mót" "móti" "nálægt" "undan" "úr";
-
-LIST ACCDATPREP = "á" "eftir" "fyrir" "í" "með" "undir" "við" "yfir" ;
-
-SET SOMEACCPREP = ACCPREP | ACCDATPREP ;
-
-SET SOMEDATPREP = DATPREP | ACCDATPREP ;
-
-SET SOMEGENPREP = GENPREP ;
-
-# Boundary sets
-
-SET S-BOUNDARY = CS | Interr ;
-
-# Complementary set
-
-# Case sets
-
-SET NOTDAT = Nom | Gen | Acc ;
-SET NOTACC = Nom | Gen | Dat ;
-SET NOTACCDAT = Nom | Gen ;
-SET OBL = Acc | Dat | Gen ;
-
-#SET NO
-
-SET PRE-N =  A | Det | Dem | (N Gen) | Num ; # Det???
-
-SET WORD = N | V | A | Pr | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
-SET MARK =  ("\,") | ("\:") | ("\;") ;
-SET WORDMARK = WORD | MARK ;
-
-SET NPNH = WORDMARK - PRE-N ;
-SET NPNHA = WORDMARK - PRE-N - Adv ;
-SET NOT-ADV = WORDMARK - Adv ;
-SET NOT-A = WORDMARK - A ;
-
-
-# The section to be copied to fao-dep.rle stops here
-# \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-
+LIST GenPrep = "án"ri "auk"ri "austan"ri "innan"ri "í staö"ri "meðal"ri "megin"ri "milli"ri "millum"ri 
+               "neðan"ri "norðan"ri "ofan"ri "sakir"ri "sunnan"ri "sökum"ri "til"ri "utan"ri "vegna"ri "vestan"ri ;
+LIST AccPrep = "fyrir ofan"ri "gegnum"ri "kringum"ri "um"ri "umfram"ri "umhverfis"ri ;
+LIST DatPrep = "að"ri "af"ri "andspænis"ri "ásamt"ri "frá"ri "gagn"ri "gagnvart"ri "gegnt"ri "handa"ri 
+               "hjá"ri "meðfram"ri "mót"ri "móti"ri "nálægt"ri "undan"ri "úr"ri ;
+LIST AccDatPrep = "á"ri "eftir"ri "fyrir"ri "í"ri "með"ri "undir"ri "við"ri "yfir"ri ;
 
 SECTION
 
-# POS disambiguation
-# ==================
+#################################################################################
+# Proper nouns
+#################################################################################
 
-# Pron Pers or Dem
+# hús Láru
 
-# Det
+SELECT ProperNoun IF (-1C Noun) (1 Gen) ; 					# !tag.isCase(GENITIVE) ;
+SELECT ProperNoun IF (-1C GenPrep) (1 Gen) ;	
+SELECT ProperNoun IF (-1C AccPrep) (1 Acc) ;
+SELECT ProperNoun IF (-1C DatPrep) (1 Dat) ;
 
-REMOVE (num) IF (0 ("ein" det))(*1 N BARRIER NPNHA);
-	## eina mynd
+# Hildar Guðmundsdóttur
+SELECT ProperNoun IF (-1C ProperNoun) (-1C Gen) (0 ("<.*dóttur">)) (0 Gen) ; 	# !tag.isCase(GENITIVE) ;
+SELECT ProperNoun IF (-1C ProperNoun) (-1C Fem) ; 				# !tag.isGender(FEMININE) ;
+SELECT ProperNoun IF (-1C ProperNoun) (-1C Masc) ; 				# !tag.isGender(MASCULINE) ;
 
-# Specific lexemes
-# ================
+#################################################################################
+# Nouns
+#################################################################################
 
-SELECT Pr IF (0 ("á"))(1 Dat OR Acc);
-SELECT Pr IF (0 ("til"))(*1 (n gen) BARRIER NPNHA);
-SELECT CS IF (0 ("at"))(1C Inf);
+# hann sýnir but stakk hún hendi is ok, það sýnir aldrei
+SELECT Noun IF ((-1C PersonalPronoun) OR (-1C PersonalPronoun LINK -1C DemonstrativePronoun) OR (-1C ("<við>"ri)));
+SELECT Noun IF (-1C GenPrep) (1 Gen) ;	
+SELECT Noun IF (-1C AccPrep) (1 Acc) ;
+SELECT Noun IF (-1C DatPrep) (1 Dat) ;
 
+# að (cn/aa) beina (sgn/n*) mér
+SELECT Noun IF (-1 Inf) (0 VerbInfinitive) ;
 
-REMOVE Dem IF (0 Pers)(NOT 1 NPNHA OR N);
+# einhvern sem sæti
+SELECT Noun IF (-1 ("<sem>"ri)) (0 Verb) ;
 
-# Adverb
+# choose the verb
+SELECT Noun IF (-1C ProperNoun) (0 Verb) ;
 
-SELECT Adv IF (-1 DATPREP)(*1 Dat BARRIER NPNHA);
+# Disallow two nouns in a row unless the latter is in the genitive case
+SELECT Noun IF (-1C Noun) (NOT -1 Gen) ((NOT -2 ProperNoun) OR (-2 BOS));
 
+# select the possessive pronoun, "pabbi sinn"
+SELECT PossessivePronoun IF (-1C Noun);
 
-# NP internal constraints
-# =======================
+SELECT ("á"ri) IF (-1 Adv);
 
-# Determiner disambiguation
+# skal (ekki) hita
+SELECT VerbInfinitive IF ((-1 VerbSpecAux) OR (-1C Adv LINK NOT -2 BOS LINK -2 VerbSpecAux));
 
-REMOVE:NotNeuToMscFemDemNagd Neu IF (0 (Pron Dem) + $$NAGD)(*1 NounMscFem + $$NAGD BARRIER NPNHA LINK NOT 0 Neu);
-REMOVE:NotMscToFemNeuDemNagd Msc IF (0 (Pron Dem) + $$NAGD)(*1 NounFemNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Msc);
-REMOVE:NotFemToMscNeuDemNagd Fem IF (0 (Pron Dem) + $$NAGD)(*1 NounMscNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Fem);
+# hafði talið, velja sagnbót
+SELECT VerbSupine IF (-1 VerbAux);
 
+# select the adjective, but ok is "fyrir framan X", and ok is "bara verð markaðarins"
+SELECT Adv IF (0 Adj) (-1 BOS OR (NOT -1 Prep)) (1 EOS OR (NOT 1 Noun LINK 1 Gen));
 
-REMOVE:NotNeuToMscFemDetNagd Neu IF (0 Det + $$NAGD)(*1 NounMscFem + $$NAGD BARRIER NPNHA LINK NOT 0 Neu);
-REMOVE:NotMscToFemNeuDetNagd Msc IF (0 Det + $$NAGD)(*1 NounFemNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Msc);
-REMOVE:NotFemToMscNeuDetNagd Fem IF (0 Det + $$NAGD)(*1 NounMscNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Fem);
+# sú líkn
+SELECT DemonstrativePronoun IF (-1 Noun) (NOT 0 Noun);
 
+SELECT VerbBe IF (NOT 0 Noun);
 
+# select the adjective, "hann er lasinn",
+SELECT Adj IF (-1 VerbBe) (NOT -2 BOS) (-2 PersonalPronoun);
 
-# Case disambiguation
 
-SELECT:NagdDemToN $$NAGD IF (0 (prn dem))(*1C $$NAGD BARRIER NPNHA);
+#################################################################################
+# Adjectives
+#################################################################################
 
-REMOVE:NotNagdDemToN $$NAGD IF (0 (prn dem))(*1 N    BARRIER NPNHA LINK NOT 0 $$NAGD);						  
 
-SELECT:NagdDetToN $$NAGD IF (0 Det)(*1C $$NAGD BARRIER NPNHA);
 
+#################################################################################
+# Adverbs
+#################################################################################
 
-REMOVE:NotNagdDetToN $$NAGD IF (0 Det)(*1 N    BARRIER NPNHA LINK NOT 0 $$NAGD);						  
 
 
-# Adjective disambiguation
-# ------------------------
+#################################################################################
+# Personal pronouns 
+#################################################################################
 
-REMOVE:NotFemAdjToMscNeuN Fem IF (0 (A) + $$NAGD) (*1 NounMscNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Fem);
-REMOVE:NotMscAdjToFemNeuN Msc IF (0 (A) + $$NAGD) (*1 NounFemNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Msc);
-REMOVE:NotNeuAdjToMscFemN Neu IF (0 (A) + $$NAGD) (*1 NounMscFem + $$NAGD BARRIER NPNHA LINK NOT 0 Neu);
 
+#################################################################################
+# Indefinite pronouns 
+#################################################################################
 
 
-# Case disambiguation
+#################################################################################
+# Demonstrative pronouns 
+#################################################################################
 
-SELECT:NagdAdjToNagd $$NAGD IF (0 A)(*1C $$NAGD BARRIER NPNHA)(NOT 0 V);
 
-REMOVE:NotNagdAdjToAdjNotNagd $$NAGD IF (0 A)(*1 N BARRIER NPNHA LINK NOT 0 $$NAGD);
+#################################################################################
+# Reflexive pronouns 
+#################################################################################
 
 
+#################################################################################
+# Interrogative pronouns 
+#################################################################################
 
-# Numeral disambiguation
 
-SELECT:NumAdjToN $$NUMBER IF (0 A)(1 N + $$NUMBER);
-	## í ta døkku moldina.
+#################################################################################
+# Possessive pronouns 
+#################################################################################
 
-SELECT:NumDetToN $$NUMBER IF (0 Det)(*1 N + $$NUMBER BARRIER NOT-A);
 
-# Gender disamb of numerals
+#################################################################################
+# Prepositions
+#################################################################################
 
-SELECT:GenderNumToN $$GENDER IF (0 Num)(*1C (N $$GENDER) BARRIER A);
 
-	## eit sindur
+#################################################################################
+# Verbs  
+#################################################################################
 
-# Case disamb of numerals
-
-SELECT:GenderNumToA $$NAGD IF (0 Num)(*1C (N $$NAGD) BARRIER A);
-
-
-# Perhaps also rules that remove Neu if Msc or Fem, etc.
-
-
-# Noun disambiguation
-# -------------------
-
-SELECT:GenderNounToAdj $$GENDER IF (-1C (A) + $$GENDER)(0 N);
-
-SELECT:NagdNounToAdj $$NAGD IF (-1C (A) + $$NAGD)(0 N);
-
-SELECT:NumberNounToAdj $$NUMBER IF (-1C (A) + $$NUMBER)(0 N);
-
-# Poss disambiguation
-
-REMOVE:GenderPossToPrecNoun $$GENDER IF (-1 N LINK NOT 0 $$GENDER)(0 Poss);
-
-REMOVE:GenderPossToNoun $$GENDER IF (0 Poss)(*1 N BARRIER NPNHA LINK NOT 0 $$GENDER);
-
-# Number disambiguation
-REMOVE Pl IF (*-1 (num sg) OR (dem sg) BARRIER NOT-A)(0 (n sg));
-# Here, we need vislcg3 and variable notation!
-
-
-# NP head disambiguation
-# ======================
-
-# Inversion
-
-REMOVE:NotInverseNonSubj Acc IF (-2 CS)(-1 (vblex pl))(0 (pl nom)) ;
-	## Tað var, sum váru tey sett út úr luftini.
-
-
-# PP disambiguation
-# =================
-
-# P or not?
-
-# at
-REMOVE Pr IF (0 ("at"))(NOT *1 Acc OR Gen OR Dat BARRIER V);
-SELECT CS IF (0 ("at"))(*1 Nom BARRIER NPNHA LINK *1 V BARRIER OBL);
-
-# til
-SELECT Pr IF (0 ("til"))(*1 N OR NPNH OR ("at") BARRIER NPNHA);
-
-# Case within PP phrases
-
-SELECT:PPAcc Acc IF (*-1 ACCPREP BARRIER NOTACC);
-SELECT:PPDat Dat IF (*-1 DATPREP BARRIER NOTDAT);
-SELECT:PPGen Gen IF (*-1 GENPREP BARRIER NOTACCDAT);
-
-REMOVE:NotPPNotDat NOTDAT IF (*-1 DATPREP BARRIER NOTDAT);
-#REMOVE Acc IF (*-1 DATPREP BARRIER NOTDAT);
-#REMOVE Gen IF (*-1 DATPREP BARRIER NOTDAT);
-
-REMOVE:NotPPGen Gen IF (*-1 ACCDATPREP BARRIER NOTACCDAT);
-REMOVE:NotPPNom Nom IF (*-1 ACCDATPREP BARRIER NOTACCDAT);
-
-# P chains or not
-
-SELECT Adv IF (0 Pr)(1C Pr);
-	## Hann fór niðan um Danmark.
-
-# Pronoun disambiguation
-
-REMOVE:NotDemBeforeVerb Dem IF (0 Pers)(1C V);
-	## Tey vóru so hugnalig.
-
-REMOVE:NotDemBeforeNonDef Dem IF (0 Pers)(NEGATE *1 Def BARRIER NPNH);
-	##
-
-
-# VP disambiguation
-# =================
-
-# V or A
-
-REMOVE A IF (0 ("vera"))(1 (n sg));
-	## Enskt mál er móðurmál.
-
-# Infinitive
-
-SELECT Inf IF (-1 ("at"));
-
-# Imperative
-
-REMOVE Imp IF (-1 Adv OR Nom)(0 Prs OR Prt);
-
-REMOVE Imp IF (0 N)(1 CC)(*2 N BARRIER NPNHA);
-	## Stýrið og stjórnin hjá...
-
-REMOVE (imp pl) IF (0 (n nt))(1 VFIN);
-	## Húsið er stórt.
-
-# Present singular
-
-SELECT (vblex pri p3 sg) IF (-1 (np nom) OR (n sg nom) LINK NOT *-1 CC BARRIER NPNHA)(1 (prn ref acc)) ;
-REMOVE (vblex pri p2 sg) IF (*-1 (n sg nom) BARRIER NOT-ADV);
-SELECT (vblex pri p3 sg) IF (-1 (np nom) OR (n sg nom) LINK NOT *-1 CC BARRIER NPNHA OR S-BOUNDARY) ;
-
-# Present plural
-
-SELECT (vblex pl) IF (-1 (n pl nom) OR (prn pl) OR (1 (n pl nom) OR (prn pl)) ;
-
-# Pronoun disambiguation
-# =======================
-
-REMOVE ("hannur") IF (0 ("hann" nom))(1 (V 3Sg));
-       ## Han var her.
-
+SELECT (vbser p3 sg) IF (-1 (prn p3 sg));
+SELECT (vbser p1 sg) IF (-1 (prn p1 sg));

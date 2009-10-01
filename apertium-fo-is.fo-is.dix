@@ -5,6 +5,7 @@
     <sdef n="n"        c="Noun"/>
     <sdef n="np"       c="Proper noun"/>
     <sdef n="pr"       c="Preposition"/>
+    <sdef n="prn"      c="Pronoun"/>
     <sdef n="num"      c="Numeral"/>
     <sdef n="adj"      c="Adjective"/>
     <sdef n="adv"      c="Adverb"/>
@@ -13,9 +14,17 @@
     <sdef n="cnjcoo"   c="Co-ordinating conjunction"/>
     <sdef n="cnjsub"   c="Sub-ordinating conjunction"/>
 
+    <sdef n="sg"       c="Singular"/>
+    <sdef n="pl"       c="Plural"/>
+
     <sdef n="f"        c="Feminine"/>
     <sdef n="m"        c="Masculine"/>
     <sdef n="nt"       c="Neuter"/>
+    <sdef n="mf"       c="Masculine / feminine"/>
+
+    <sdef n="p1"       c="First person"/>
+    <sdef n="p2"       c="Second person"/>
+    <sdef n="p3"       c="Third person"/>
 
     <sdef n="al"       c="Altres"/>
 
@@ -64,6 +73,19 @@
     <e><p><l>og<s n="cnjsub"/></l><r>og<s n="cnjsub"/></r></p></e>
     <e><p><l>meðan<s n="cnjsub"/></l><r>meðan<s n="cnjsub"/></r></p></e>
     <e><p><l>síðan<s n="cnjsub"/></l><r>síðan<s n="cnjsub"/></r></p></e>
+
+    <!-- Pronouns -->
+
+    <e><p><l>prnpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>ég<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>þú<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>hann<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>hann<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>hann<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>við<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>þið<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>þeir<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>þeir<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></l><r>þeir<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
 
     <!-- Numerals -->
 
@@ -122,6 +144,7 @@
     <e><p><l>jørð<s n="n"/><s n="f"/></l><r>jörð<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>skriðdýr<s n="n"/><s n="nt"/></l><r>skriðkvikindi<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>lík<s n="n"/><s n="nt"/></l><r>lík<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>orð<s n="n"/><s n="nt"/></l><r>orð<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>gudur<s n="n"/><s n="m"/></l><r>guð<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
 
     <!-- Proper nouns -->
