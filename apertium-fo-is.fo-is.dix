@@ -146,6 +146,7 @@
     <e><p><l>lík<s n="n"/><s n="nt"/></l><r>lík<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>orð<s n="n"/><s n="nt"/></l><r>orð<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>gudur<s n="n"/><s n="m"/></l><r>guð<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>hundur<s n="n"/><s n="m"/></l><r>hundur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
 
     <!-- Proper nouns -->
 
@@ -155,6 +156,7 @@
     <e><p><l>fræls<s n="adj"/></l><r>frjáls<s n="adj"/></r></p></e>
     <e><p><l>jøvn<s n="adj"/></l><r>jafn<s n="adj"/></r></p></e>
     <e><p><l>bláur<s n="adj"/></l><r>blár<s n="adj"/></r></p></e>
+    <e><p><l>stórur<s n="adj"/></l><r>stór<s n="adj"/></r></p></e>
 
     <!-- Verbs -->
     <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vbser"/></r></p></e>
