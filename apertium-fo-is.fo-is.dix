@@ -1,7 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet/>
-  <sdefs/>
+  <sdefs>
+    <sdef n="n"        c="Noun"/>
+    <sdef n="pr"       c="Preposition"/>
+    <sdef n="num"      c="Numeral"/>
+    <sdef n="adj"      c="Adjective"/>
+    <sdef n="adv"      c="Adverb"/>
+    <sdef n="vblex"    c="Verb"/>
+    <sdef n="cnjcoo"   c="Co-ordinating conjunction"/>
+    <sdef n="cnjsub"   c="Sub-ordinating conjunction"/>
+
+    <sdef n="f"        c="Feminine"/>
+    <sdef n="m"        c="Masculine"/>
+    <sdef n="nt"       c="Neuter"/>
+  </sdefs>
 
   <section id="main" type="standard">
     <!-- Prepositions -->
@@ -15,6 +28,7 @@
     <e><p><l>undir<s n="pr"/></l><r>undir<s n="pr"/></r></p></e>
     <e><p><l>úr<s n="pr"/></l><r>úr<s n="pr"/></r></p></e>
     <e><p><l>við<s n="pr"/></l><r>við<s n="pr"/></r></p></e>
+    <e><p><l>yvir<s n="pr"/></l><r>yfir<s n="pr"/></r></p></e>
 
     <!-- Conjunctions -->
     <e><p><l>enn<s n="cnjcoo"/></l><r>enn<s n="cnjcoo"/></r></p></e>
