@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <mode name="is-fo" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="is-fo.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="is-fo.rlx.bin"/> 
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="is-fo.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/> 
+      <program name="apertium-transfer">
+        <file name="apertium-fo-is.is-fo.t1x"/>
+        <file name="is-fo.t1x.bin"/>
+        <file name="is-fo.autobil.bin"/>
+      </program>
+<!--
+      <program name="apertium-interchunk">
+        <file name="apertium-fo-is.is-fo.t2x"/>
+        <file name="is-fo.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-fo-is.is-fo.t3x"/>
+        <file name="is-fo.t3x.bin"/>
+      </program>
+-->
+      <program name="lt-proc $1">
+        <file name="is-fo.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="is-fo-tagger" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="is-fo.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="is-fo.rlx.bin"/> 
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="is-fo.prob"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="is-fo-transfer" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="is-fo.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="is-fo.rlx.bin"/> 
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="is-fo.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/> 
+      <program name="apertium-transfer">
+        <file name="apertium-fo-is.is-fo.t1x"/>
+        <file name="is-fo.t1x.bin"/>
+        <file name="is-fo.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
+</modes>

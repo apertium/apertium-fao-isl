@@ -1,6 +1,16 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
 /apertium-fo-is.fo-is.dix -text
+/apertium-fo-is.fo-is.rlx -text
 /apertium-fo-is.fo.dix -text
-/apertium-fo-is.fo.rlx -text
+/apertium-fo-is.is-fo.rlx -text
 /apertium-fo-is.is.dix -text
-/apertium-fo-is.is.rlx -text
+/configure.ac -text
+/is-fo.prob -text
+/modes.xml -text
+/regression-tests.sh -text
