@@ -3,6 +3,7 @@
   <alphabet/>
   <sdefs>
     <sdef n="n"        c="Noun"/>
+    <sdef n="np"       c="Proper noun"/>
     <sdef n="pr"       c="Preposition"/>
     <sdef n="num"      c="Numeral"/>
     <sdef n="adj"      c="Adjective"/>
@@ -15,10 +16,15 @@
     <sdef n="m"        c="Masculine"/>
     <sdef n="nt"       c="Neuter"/>
 
+    <sdef n="al"       c="Altres"/>
+
     <sdef n="sent"     c="Sentence marker"/>
   </sdefs>
   <pardefs>
     <pardef n="default__n">
+      <e><p><l/><r/></p></e>
+    </pardef>
+    <pardef n="default__np">
       <e><p><l/><r/></p></e>
     </pardef>
   </pardefs>
@@ -114,7 +120,12 @@
     <e><p><l>fiskur<s n="n"/><s n="m"/></l><r>fiskur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>jørð<s n="n"/><s n="f"/></l><r>jörð<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>skriðdýr<s n="n"/><s n="nt"/></l><r>skriðkvikindi<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>lík<s n="n"/><s n="nt"/></l><r>líkan<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>lík<s n="n"/><s n="nt"/></l><r>lík<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>gudur<s n="n"/><s n="m"/></l><r>guð<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+
+    <!-- Proper nouns -->
+
+    <e><p><l>Gud<s n="np"/><s n="al"/><s n="m"/></l><r>Guð<s n="np"/><s n="al"/><s n="m"/></r></p><par n="default__np"/></e>
 
     <!-- Adjectives -->
     <e><p><l>fræls<s n="adj"/></l><r>frjáls<s n="adj"/></r></p></e>

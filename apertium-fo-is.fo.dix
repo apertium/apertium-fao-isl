@@ -40,6 +40,8 @@
     <sdef n="cnjsub" c="Sub-ordinate conjunction"/>
     <sdef n="cnjadv" c="Adverbial conjunction"/>
 
+    <sdef n="al"     c="Altres"/>
+
     <sdef n="ij"     c="Interjection"/>
 
     <sdef n="det"    c="Determiner"/>
@@ -4932,6 +4934,35 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="Gud__np">
+      <e>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="al"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="al"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r><s n="np"/><s n="al"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r><s n="np"/><s n="al"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
     <pardef n="gudur__n">
       <e>
         <p>
@@ -6801,6 +6832,58 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="upphav__n">
+      <e>
+        <p>
+          <l/>
+          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l/>
+          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/><s n="ind"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/><s n="ind"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/><s n="ind"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ið</l>
+          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ið</l>
+          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/><s n="def"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>inum</l>
+          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/><s n="def"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sins</l>
+          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="ráð__n">
       <e>
         <p>
@@ -10293,6 +10376,8 @@
     <e lm="Spania"><i>Spania</i><par n="Spania__np"/></e>
     <e lm="Danmark"><i>Spania</i><par n="Danmark__np"/></e>
 
+    <e lm="Gud"><i>Gud</i><par n="Gud__np"/></e>
+
     <!-- Nouns -->
 
     <e lm="himmal"><i>him</i><par n="him/mal__n"/></e>
@@ -10708,6 +10793,7 @@
     <e lm="hanagal"><i>hanagal</i><par n="ár__n"/></e>
     <e lm="vagnur"><i>vagnur</i><par n="vagnur__n"/></e>
     <e lm="ráð"><i>ráð</i><par n="ráð__n"/></e>
+    <e lm="upphav"><i>upphav</i><par n="upphav__n"/></e>
     <e lm="landsverkfrøðingur"><i>landsverkfrøðingur</i><par n="gudur__n"/></e>
     <e lm="foreldraráð"><i>foreldraráð</i><par n="ráð__n"/></e>
     <e lm="fosturtøkulóg"><i>fosturtøkulóg</i><par n="álv__n"/></e>
