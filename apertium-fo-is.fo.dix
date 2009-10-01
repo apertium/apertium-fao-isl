@@ -26,7 +26,7 @@
     <sdef n="inf"    c="Infinitive"/>
     <sdef n="pp"     c="Past participle"/>
     <sdef n="past"   c="Past tense"/>
-    <sdef n="pres"   c="Present tense"/>
+    <sdef n="pri"   c="Present tense"/>
     <sdef n="p1"     c="First person"/>
     <sdef n="p2"     c="Second person"/>
     <sdef n="p3"     c="Third person"/>
@@ -1019,25 +1019,25 @@
       <e>
         <p>
           <l>ari</l>
-          <r>ara<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
+          <r>ara<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ert</l>
-          <r>ara<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
+          <r>ara<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>er</l>
-          <r>ara<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <r>ara<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ara</l>
-          <r>ara<s n="vblex"/><s n="pl"/><s n="pres"/></r>
+          <r>ara<s n="vblex"/><s n="pl"/><s n="pri"/></r>
         </p>
       </e>
       <e>
@@ -1076,13 +1076,13 @@
       <e>
         <p>
           <l>ri</l>
-          <r>ra<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
+          <r>ra<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>rir</l>
-          <r>ra<s n="vblex"/><s n="sg"/><s n="pres"/></r>
+          <r>ra<s n="vblex"/><s n="sg"/><s n="pri"/></r>
         </p>
       </e>
       <e>
@@ -1115,13 +1115,13 @@
       <e>
         <p>
           <l>ógvi</l>
-          <r>ógva<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
+          <r>ógva<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>øgvrur</l>
-          <r>ógva<s n="vblex"/><s n="sg"/><s n="pres"/></r>
+          <r>ógva<s n="vblex"/><s n="sg"/><s n="pri"/></r>
         </p>
       </e>
       <e>
@@ -1148,25 +1148,25 @@
       <e>
         <p>
           <l>eri</l>
-          <r>vera<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
+          <r>vera<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ert</l>
-          <r>vera<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
+          <r>vera<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>er</l>
-          <r>vera<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <r>vera<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>eru</l>
-          <r>vera<s n="vblex"/><s n="pl"/><s n="pres"/></r>
+          <r>vera<s n="vblex"/><s n="pl"/><s n="pri"/></r>
         </p>
       </e>
       <e>
@@ -1213,25 +1213,25 @@
       <e>
         <p>
           <l>ann</l>
-          <r>unna<s n="vbmod"/><s n="sg"/><s n="pres"/></r>
+          <r>unna<s n="vbmod"/><s n="sg"/><s n="pri"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>anst</l>
-          <r>unna<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
+          <r>unna<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>unnu</l>
-          <r>unna<s n="vbmod"/><s n="pl"/><s n="pres"/></r>
+          <r>unna<s n="vbmod"/><s n="pl"/><s n="pri"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>anna</l>
-          <r>unna<s n="vbmod"/><s n="pl"/><s n="pres"/></r>
+          <r>unna<s n="vbmod"/><s n="pl"/><s n="pri"/></r>
         </p>
       </e>
       <e>
@@ -1266,19 +1266,19 @@
       <e>
         <p>
           <l>erði</l>
-          <r>erða<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
+          <r>erða<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>erður</l>
-          <r>erða<s n="vblex"/><s n="sg"/><s n="pres"/></r>
+          <r>erða<s n="vblex"/><s n="sg"/><s n="pri"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>erða</l>
-          <r>erða<s n="vblex"/><s n="pl"/><s n="pres"/></r>
+          <r>erða<s n="vblex"/><s n="pl"/><s n="pri"/></r>
         </p>
       </e>
       <e>
@@ -1318,19 +1318,19 @@
       <e>
         <p>
           <l>ívi</l>
-          <r>íva<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
+          <r>íva<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ívur</l>
-          <r>íva<s n="vblex"/><s n="sg"/><s n="pres"/></r>
+          <r>íva<s n="vblex"/><s n="sg"/><s n="pri"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>íva</l>
-          <r>íva<s n="vblex"/><s n="pl"/><s n="pres"/></r>
+          <r>íva<s n="vblex"/><s n="pl"/><s n="pri"/></r>
         </p>
       </e>
       <e>
@@ -1370,19 +1370,19 @@
       <e>
         <p>
           <l>avi</l>
-          <r>ava<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
+          <r>ava<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>evur</l>
-          <r>ava<s n="vblex"/><s n="sg"/><s n="pres"/></r>
+          <r>ava<s n="vblex"/><s n="sg"/><s n="pri"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ava</l>
-          <r>ava<s n="vblex"/><s n="pl"/><s n="pres"/></r>
+          <r>ava<s n="vblex"/><s n="pl"/><s n="pri"/></r>
         </p>
       </e>
       <e>
@@ -1442,7 +1442,7 @@
       <e>
         <p>
           <l>r</l>
-          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -5372,7 +5372,7 @@
       <e>
         <p>
           <l>r</l>
-          <r>a<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e r="LR">
@@ -5461,7 +5461,7 @@
       <e>
         <p>
           <l>r</l>
-          <r>a<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -6724,7 +6724,7 @@
       <e>
         <p>
           <l>ir</l>
-          <r>a<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>

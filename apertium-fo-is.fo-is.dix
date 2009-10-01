@@ -9,6 +9,7 @@
     <sdef n="adj"      c="Adjective"/>
     <sdef n="adv"      c="Adverb"/>
     <sdef n="vblex"    c="Verb"/>
+    <sdef n="vbser"    c="The verb 'to be'"/>
     <sdef n="cnjcoo"   c="Co-ordinating conjunction"/>
     <sdef n="cnjsub"   c="Sub-ordinating conjunction"/>
 
@@ -132,6 +133,8 @@
     <e><p><l>jøvn<s n="adj"/></l><r>jafn<s n="adj"/></r></p></e>
 
     <!-- Verbs -->
+    <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vbser"/></r></p></e>
+
     <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vblex"/></r></p></e>
     <e><p><l>skapa<s n="vblex"/></l><r>skapa<s n="vblex"/></r></p></e>
     <e><p><l>sveima<s n="vblex"/></l><r>svífa<s n="vblex"/></r></p></e>
