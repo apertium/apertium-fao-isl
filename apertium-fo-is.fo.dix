@@ -1669,6 +1669,157 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="blá/ur__adj">
+      <e>
+        <p>
+          <l>ur</l>
+          <r>ur<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>an</l>
+          <r>ur<s n="adj"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>um</l>
+          <r>ur<s n="adj"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r>ur<s n="adj"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r>ur<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>ur<s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ari</l>
+          <r>ur<s n="adj"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ar</l>
+          <r>ur<s n="adj"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tt</l>
+          <r>ur<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tt</l>
+          <r>ur<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>um</l>
+          <r>ur<s n="adj"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r>ur<s n="adj"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>ur<s n="adj"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ar</l>
+          <r>ur<s n="adj"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>um</l>
+          <r>ur<s n="adj"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>ur<s n="adj"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>a</l>
+          <r>ur<s n="adj"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ar</l>
+          <r>ur<s n="adj"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ar</l>
+          <r>ur<s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>um</l>
+          <r>ur<s n="adj"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>a</l>
+          <r>ur<s n="adj"/><s n="nt"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r>ur<s n="adj"/><s n="nt"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r>ur<s n="adj"/><s n="nt"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>um</l>
+          <r>ur<s n="adj"/><s n="nt"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
     <pardef n="fjasaður__adj">
       <e>
         <p>
@@ -11849,6 +12000,7 @@
     <e lm="grein"><i>grein</i><par n="grein__n"/></e>
 
     <e lm="lívtøkniligur"><i>lívtøkniligur</i><par n="tøkniligur__adj"/></e>
+    <e lm="bláur"><i>blá</i><par n="blá/ur__adj"/></e>
 
 
     <e lm="rógva"><i>r</i><par n="r/ógva__vblex"/></e> 
