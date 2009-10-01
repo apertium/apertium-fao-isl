@@ -15,7 +15,9 @@
     <sdef n="m"        c="Masculine"/>
     <sdef n="nt"       c="Neuter"/>
   </sdefs>
-
+  <pardefs n="default__n">
+    <e><p><l/><r/></p></e>
+  </pardefs>
   <section id="main" type="standard">
     <!-- Prepositions -->
     <e><p><l>á<s n="pr"/></l><r>á<s n="pr"/></r></p></e>
@@ -83,12 +85,17 @@
 
     <!-- Nouns -->
 
-    <e><p><l>vatn<s n="n"/><s n="nt"/></l><r>vatn<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>myrkur<s n="n"/><s n="nt"/></l><r>myrkur<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>upphav<s n="n"/><s n="nt"/></l><r>upphaf<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>djúp<s n="n"/><s n="nt"/></l><r>djúp<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>himmal<s n="n"/><s n="m"/></l><r>himmin<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>jørð<s n="n"/><s n="f"/></l><r>jörð<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vatn<s n="n"/><s n="nt"/></l><r>vatn<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>myrkur<s n="n"/><s n="nt"/></l><r>myrkur<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>upphav<s n="n"/><s n="nt"/></l><r>upphaf<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>djúp<s n="n"/><s n="nt"/></l><r>djúp<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>himmal<s n="n"/><s n="m"/></l><r>himmin<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>fuglur<s n="n"/><s n="m"/></l><r>fugl<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>sjógvur<s n="n"/><s n="m"/></l><r>sjór<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>fiskur<s n="n"/><s n="m"/></l><r>fiskur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>jørð<s n="n"/><s n="f"/></l><r>jörð<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
+    <e><p><l>skriðdýr<s n="n"/><s n="nt"/></l><r>skriðkvikindi<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>lík<s n="n"/><s n="nt"/></l><r>líkan<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
 
     <!-- Adjectives -->
     <e><p><l>fræls<s n="adj"/></l><r>frjáls<s n="adj"/></r></p></e>
@@ -98,6 +105,8 @@
     <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vblex"/></r></p></e>
     <e><p><l>skapa<s n="vblex"/></l><r>skapa<s n="vblex"/></r></p></e>
     <e><p><l>sveima<s n="vblex"/></l><r>svífa<s n="vblex"/></r></p></e>
+    <e><p><l>skula<s n="vblex"/></l><r>skulu<s n="vblex"/></r></p></e>
+    <e><p><l>siga<s n="vblex"/></l><r>segja<s n="vblex"/></r></p></e>
 
   </section>
 </dictionary>
