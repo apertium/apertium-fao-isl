@@ -32,6 +32,20 @@
     <e><p><l>við<s n="pr"/></l><r>við<s n="pr"/></r></p></e>
     <e><p><l>yvir<s n="pr"/></l><r>yfir<s n="pr"/></r></p></e>
 
+    <e><p><l>av<s n="pr"/></l><r>af<s n="pr"/></r></p></e>
+    <e><p><l>fyri<s n="pr"/></l><r>fyrir<s n="pr"/></r></p></e>
+    <e><p><l>gjøgnum<s n="pr"/></l><r>gegnum<s n="pr"/></r></p></e>
+    <e><p><l>ímóti<s n="pr"/></l><r>móti<s n="pr"/></r></p></e>
+    <e><p><l>móti<s n="pr"/></l><r>móti<s n="pr"/></r></p></e>
+    <e><p><l>innan<s n="pr"/></l><r>innan<s n="pr"/></r></p></e>
+    <e><p><l>í<s n="pr"/></l><r>í<s n="pr"/></r></p></e>
+    <e><p><l>millum<s n="pr"/></l><r>milli<s n="pr"/></r></p></e>
+    <e><p><l>undan<s n="pr"/></l><r>undan<s n="pr"/></r></p></e>
+    <e><p><l>uttan<s n="pr"/></l><r>utan<s n="pr"/></r></p></e>
+    <e><p><l>vegna<s n="pr"/></l><r>vegna<s n="pr"/></r></p></e>
+    <e><p><l>við<s n="pr"/></l><r>við<s n="pr"/></r></p></e>
+
+
     <!-- Conjunctions -->
     <e><p><l>enn<s n="cnjcoo"/></l><r>enn<s n="cnjcoo"/></r></p></e>
     <e><p><l>og<s n="cnjcoo"/></l><r>og<s n="cnjcoo"/></r></p></e>
