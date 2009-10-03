@@ -149,10 +149,13 @@
     <e><p><l>skriðdýr<s n="n"/><s n="nt"/></l><r>skriðkvikindi<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>lík<s n="n"/><s n="nt"/></l><r>lík<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>orð<s n="n"/><s n="nt"/></l><r>orð<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>hús<s n="n"/><s n="nt"/></l><r>hús<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>bók<s n="n"/><s n="f"/></l><r>bók<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
+    <e><p><l>genta<s n="n"/><s n="f"/></l><r>stúlka<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>bilur<s n="n"/><s n="m"/></l><r>bíll<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>gudur<s n="n"/><s n="m"/></l><r>guð<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>hundur<s n="n"/><s n="m"/></l><r>hundur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>maður<s n="n"/><s n="m"/></l><r>maður<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
 
     <!-- Proper nouns -->
 
@@ -164,6 +167,11 @@
     <e><p><l>bláur<s n="adj"/></l><r>blár<s n="adj"/></r></p></e>
     <e><p><l>lítil<s n="adj"/></l><r>lítill<s n="adj"/></r></p></e>
     <e><p><l>stórur<s n="adj"/></l><r>stór<s n="adj"/></r></p></e>
+    <e><p><l>ríkur<s n="adj"/></l><r>ríkur<s n="adj"/></r></p></e>
+
+    <!-- Adverbs -->
+
+    <e><p><l>her<s n="adv"/></l><r>hér<s n="adv"/></r></p></e>
 
     <!-- Verbs -->
     <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vbser"/></r></p></e>
@@ -173,6 +181,7 @@
     <e><p><l>sveima<s n="vblex"/></l><r>svífa<s n="vblex"/></r></p></e>
     <e><p><l>skula<s n="vblex"/></l><r>skulu<s n="vblex"/></r></p></e>
     <e><p><l>siga<s n="vblex"/></l><r>segja<s n="vblex"/></r></p></e>
+    <e><p><l>síggja<s n="vblex"/></l><r>sjá<s n="vblex"/></r></p></e>
 
 
     <!-- Punctuation -->
