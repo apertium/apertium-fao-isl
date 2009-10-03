@@ -27,6 +27,7 @@
     <sdef n="p3"       c="Third person"/>
 
     <sdef n="dem"      c="Demonstrative"/>
+    <sdef n="ref"      c="Reflexive"/>
 
     <sdef n="al"       c="Altres"/>
 
@@ -81,7 +82,7 @@
     <e><p><l>prnpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>ég<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>þú<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>hann<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>hann<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>hún<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>hann<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>við<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>þið<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -90,6 +91,9 @@
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></l><r>þeir<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
 
     <e><p><l>hesin<s n="prn"/><s n="dem"/></l><r>þessi<s n="prn"/><s n="dem"/></r></p></e>
+
+
+    <e><p><l>seg<s n="prn"/><s n="ref"/></l><r>sig<s n="prn"/><s n="ref"/></r></p></e>
 
     <!-- Numerals -->
 
@@ -155,6 +159,7 @@
     <e><p><l>bilur<s n="n"/><s n="m"/></l><r>bíll<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>gudur<s n="n"/><s n="m"/></l><r>guð<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>hundur<s n="n"/><s n="m"/></l><r>hundur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>bróðir<s n="n"/><s n="m"/></l><r>bróðir<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>maður<s n="n"/><s n="m"/></l><r>maður<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
 
     <!-- Proper nouns -->
@@ -182,6 +187,8 @@
     <e><p><l>skula<s n="vblex"/></l><r>skulu<s n="vblex"/></r></p></e>
     <e><p><l>siga<s n="vblex"/></l><r>segja<s n="vblex"/></r></p></e>
     <e><p><l>síggja<s n="vblex"/></l><r>sjá<s n="vblex"/></r></p></e>
+    <e><p><l>klæða<s n="vblex"/></l><r>klæða<s n="vblex"/></r></p></e>
+    <e><p><l>vaska<s n="vblex"/></l><r>þvo<s n="vblex"/></r></p></e>
 
 
     <!-- Punctuation -->

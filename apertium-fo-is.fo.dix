@@ -9,6 +9,7 @@
     <sdef n="f"      c="Feminine"/>
     <sdef n="nt"     c="Neuter"/>
     <sdef n="sg"     c="Singular"/>
+    <sdef n="sp"     c="Singular / plural"/>
     <sdef n="pl"     c="Plural"/>
     <sdef n="acc"    c="Accusative"/>
     <sdef n="nom"    c="Nominative"/>
@@ -290,23 +291,24 @@
       </e>
     </pardef>
 
+
     <pardef n="s/eg__prn">
       <e>
         <p>
           <l>eg</l>
-          <r>eg<s n="prn"/><s n="ref"/><s n="acc"/></r>
+          <r>eg<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ær</l>
-          <r>eg<s n="prn"/><s n="ref"/><s n="dat"/></r>
+          <r>eg<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ín</l>
-          <r>eg<s n="prn"/><s n="ref"/><s n="gen"/></r>
+          <r>eg<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><s n="gen"/></r>
         </p>
       </e>
     </pardef>
@@ -1397,6 +1399,89 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="klæð/a__vblex">
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r>a<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>a<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>á</l>
+          <r>a<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ást</l>
+          <r>a<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>á</l>
+          <r>a<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óu</l>
+          <r>a<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óu</l>
+          <r>a<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óu</l>
+          <r>a<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
 
     <pardef n="s/íggja__vblex">
       <e>
@@ -12845,6 +12930,7 @@
     <e lm="rógva"><i>r</i><par n="r/ógva__vblex"/></e> 
     <e lm="røra"><i>rø</i><par n="rø/ra__vblex"/></e> 
     <e lm="síggja"><i>s</i><par n="s/íggja__vblex"/></e> 
+    <e lm="klæða"><i>klæð</i><par n="klæð/a__vblex"/></e> 
 <!--
     <e lm="fara"><i>f</i><par n="f/ara__vblex"/></e> 
 -->
