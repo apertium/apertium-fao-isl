@@ -26,6 +26,8 @@
     <sdef n="p2"       c="Second person"/>
     <sdef n="p3"       c="Third person"/>
 
+    <sdef n="dem"      c="Demonstrative"/>
+
     <sdef n="al"       c="Altres"/>
 
     <sdef n="sent"     c="Sentence marker"/>
@@ -87,6 +89,8 @@
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>þeir<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></l><r>þeir<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
 
+    <e><p><l>hesin<s n="prn"/><s n="dem"/></l><r>þessi<s n="prn"/><s n="dem"/></r></p></e>
+
     <!-- Numerals -->
 
     <e><p><l>null</l><r>núll<s n="num"/></r></p></e>
@@ -145,6 +149,8 @@
     <e><p><l>skriðdýr<s n="n"/><s n="nt"/></l><r>skriðkvikindi<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>lík<s n="n"/><s n="nt"/></l><r>lík<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>orð<s n="n"/><s n="nt"/></l><r>orð<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>bók<s n="n"/><s n="f"/></l><r>bók<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
+    <e><p><l>bilur<s n="n"/><s n="m"/></l><r>bíll<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>gudur<s n="n"/><s n="m"/></l><r>guð<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>hundur<s n="n"/><s n="m"/></l><r>hundur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
 
@@ -156,6 +162,7 @@
     <e><p><l>fræls<s n="adj"/></l><r>frjáls<s n="adj"/></r></p></e>
     <e><p><l>jøvn<s n="adj"/></l><r>jafn<s n="adj"/></r></p></e>
     <e><p><l>bláur<s n="adj"/></l><r>blár<s n="adj"/></r></p></e>
+    <e><p><l>lítil<s n="adj"/></l><r>lítill<s n="adj"/></r></p></e>
     <e><p><l>stórur<s n="adj"/></l><r>stór<s n="adj"/></r></p></e>
 
     <!-- Verbs -->

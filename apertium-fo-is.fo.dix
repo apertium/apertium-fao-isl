@@ -477,6 +477,140 @@
     </pardef>
 
 
+    <pardef n="he/sin__prn">
+      <e>
+        <p>
+          <l>sin</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ndan</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sum</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>ndan</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sa</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sari</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>tta</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tta</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sum</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>sir</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sar</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sum</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sa</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>sar</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sar</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sum</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sa</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>si</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="nt"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>si</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="nt"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sum</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="nt"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sa</l>
+          <r>sin<s n="prn"/><s n="dem"/><s n="nt"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <!-- Nouns -->
 
     <pardef n="him/mal__n">
@@ -1672,6 +1806,170 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="lít/il__adj">
+      <e>
+        <p>
+          <l>il</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lan</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lum</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ils</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>il</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>la</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lari</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lar</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ið</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ið</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lum</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ils</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lir</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lar</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lum</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>la</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>lar</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lar</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lum</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>la</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>il</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="nt"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>il</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="nt"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lum</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="nt"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>la</l>
+          <r>il<s n="adj"/><s n="pst"/><s n="nt"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+<!--
+      <e>
+        <p>
+          <l>iliri</l>
+          <r>il<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>il</l>
+          <r>il<s n="adj"/><s n="sup"/></r>
+        </p>
+      </e>
+-->
+    </pardef>
+
 
     <pardef n="st/órur__adj">
       <e>
@@ -6140,6 +6438,107 @@
         </p>
       </e>
     </pardef>
+    <pardef n="b/ók__n">
+      <e>
+        <p>
+          <l>ók</l>
+          <r>ók<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ók</l>
+          <r>ók<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/><s n="ind"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ók</l>
+          <r>ók<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/><s n="ind"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ókar</l>
+          <r>ók<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/><s n="ind"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>ókin</l>
+          <r>ók<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ókina</l>
+          <r>ók<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/><s n="def"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ókini</l>
+          <r>ók<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/><s n="def"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ókarinnar</l>
+          <r>ók<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/><s n="def"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>økur</l>
+          <r>ók<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>økur</l>
+          <r>ók<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/><s n="ind"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ókum</l>
+          <r>ók<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/><s n="ind"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óka</l>
+          <r>ók<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/><s n="ind"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ókurnar</l>
+          <r>ók<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="def"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ókurnar</l>
+          <r>ók<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/><s n="def"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ókunum</l>
+          <r>ók<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/><s n="def"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ókanna</l>
+          <r>ók<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/><s n="def"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="øð/a__n">
       <e>
         <p>
@@ -10630,7 +11029,9 @@
     <e lm="síðan"><i>síðan</i><par n="sum__cnjsub"/></e>
 
     <e lm="ein"><i>ei</i><par n="ei/n__det"/></e>
+
     <e lm="tann"><i>t</i><par n="t/ann__prn"/></e>
+    <e lm="hesin"><i>he</i><par n="he/sin__prn"/></e>
     <e lm="seg"><i>s</i><par n="s/eg__prn"/></e>
     <e lm="prnpers"><i/><par n="/eg__prn"/></e>
 
@@ -11128,6 +11529,8 @@
     <e lm="foreldraráð"><i>foreldraráð</i><par n="ráð__n"/></e>
     <e lm="fosturtøkulóg"><i>fosturtøkulóg</i><par n="álv__n"/></e>
     <e lm="bilur"><i>bilur</i><par n="gudur__n"/></e>
+    <e lm="bók"><i>b</i><par n="b/ók__n"/></e>
+    <e lm="orðbók"><i>orðb</i><par n="b/ók__n"/></e>
     <e lm="bumbumaður"><i>bumbum</i><par n="áarm/aður__n"/></e>
     <e lm="andlit"><i>andlit</i><par n="ár__n"/></e>
     <e lm="undanmaður"><i>undanm</i><par n="eykam/aður__n"/></e>
@@ -12166,6 +12569,7 @@
     <e lm="lívtøkniligur"><i>lívtøkniligur</i><par n="tøkniligur__adj"/></e>
     <e lm="bláur"><i>blá</i><par n="blá/ur__adj"/></e>
     <e lm="stórur"><i>st</i><par n="st/órur__adj"/></e>
+    <e lm="lítil"><i>lít</i><par n="lít/il__adj"/></e>
 
 
     <e lm="rógva"><i>r</i><par n="r/ógva__vblex"/></e> 
