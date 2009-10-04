@@ -1705,6 +1705,88 @@
 
 
 
+    <pardef n="t/aka__vblex">
+      <e>
+        <p>
+          <l>aka</l>
+          <r>aka<s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aki</l>
+          <r>aka<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ekur</l>
+          <r>aka<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ekur</l>
+          <r>aka<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aka</l>
+          <r>aka<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aka</l>
+          <r>aka<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aka</l>
+          <r>aka<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ók</l>
+          <r>aka<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ókst</l>
+          <r>aka<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ók</l>
+          <r>aka<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óku</l>
+          <r>aka<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óku</l>
+          <r>aka<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óku</l>
+          <r>aka<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
     <pardef n="k/oma__vblex">
       <e>
         <p>
@@ -13241,6 +13323,7 @@
     <e lm="røra"><i>rø</i><par n="rø/ra__vblex"/></e> 
     <e lm="síggja"><i>s</i><par n="s/íggja__vblex"/></e> 
     <e lm="koma"><i>k</i><par n="k/oma__vblex"/></e> 
+    <e lm="taka"><i>t</i><par n="t/aka__vblex"/></e> 
     <e lm="klæða"><i>klæð</i><par n="klæð/a__vblex"/></e> 
 <!--
     <e lm="fara"><i>f</i><par n="f/ara__vblex"/></e> 
