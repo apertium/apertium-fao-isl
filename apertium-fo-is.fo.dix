@@ -1498,32 +1498,86 @@
       </e>
       <e>
         <p>
-          <l>ð</l>
+          <l>að</l>
           <r>a<s n="vblex"/><s n="pp"/></r>
         </p>
       </e>
       <e>
         <p>
+          <l>ar</l>
+          <r>a<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ar</l>
+          <r>a<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ar</l>
+          <r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
           <l>ði</l>
-          <r>a<s n="vblex"/><s n="past"/><s n="sg"/></r>
+          <r>a<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ði</l>
+          <r>a<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ði</l>
+          <r>a<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ðu</l>
-          <r>a<s n="vblex"/><s n="past"/><s n="pl"/></r>
+          <r>a<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ðu</l>
+          <r>a<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ðu</l>
+          <r>a<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ður</l>
           <r>a<s n="vblex"/><s n="pp"/><s n="m"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>r</l>
-          <r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -1649,6 +1703,88 @@
       </e>
     </pardef>
 
+
+
+    <pardef n="k/oma__vblex">
+      <e>
+        <p>
+          <l>oma</l>
+          <r>oma<s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>omi</l>
+          <r>oma<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>emur</l>
+          <r>oma<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>emur</l>
+          <r>oma<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oma</l>
+          <r>oma<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oma</l>
+          <r>oma<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oma</l>
+          <r>oma<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>om</l>
+          <r>oma<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>omst</l>
+          <r>oma<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>om</l>
+          <r>oma<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>omu</l>
+          <r>oma<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>omu</l>
+          <r>oma<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>omu</l>
+          <r>oma<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
 
 
     <pardef n="s/íggja__vblex">
@@ -13104,6 +13240,7 @@
     <e lm="rógva"><i>r</i><par n="r/ógva__vblex"/></e> 
     <e lm="røra"><i>rø</i><par n="rø/ra__vblex"/></e> 
     <e lm="síggja"><i>s</i><par n="s/íggja__vblex"/></e> 
+    <e lm="koma"><i>k</i><par n="k/oma__vblex"/></e> 
     <e lm="klæða"><i>klæð</i><par n="klæð/a__vblex"/></e> 
 <!--
     <e lm="fara"><i>f</i><par n="f/ara__vblex"/></e> 
@@ -13172,7 +13309,8 @@
     <e lm="fjasa"><i>fjasa</i><par n="árna__vblex"/></e>
     <e lm="fjøltátta"><i>fjøltátta</i><par n="árna__vblex"/></e>
     <e lm="fjøtra"><i>fjøtra</i><par n="árna__vblex"/></e>
-    <e lm="fløga"><i>fløga</i><par n="árna__vblex"/></e>
+    <e lm="fløga"><i>fløg</i><par n="fløg/a__vblex"/></e>
+    <e lm="vita"><i>vit</i><par n="fløg/a__vblex"/></e>
     <e lm="flokka"><i>flokka</i><par n="árna__vblex"/></e>
     <e lm="føðga"><i>føðga</i><par n="árna__vblex"/></e>
     <e lm="fola"><i>fola</i><par n="árna__vblex"/></e>
