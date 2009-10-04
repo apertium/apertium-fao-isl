@@ -58,15 +58,6 @@
   </sdefs>
 
   <pardefs>
-    <pardef n="numeros">
-      <e>
-        <re>[0-9]+([.,][0-9]+)?</re>
-        <p>
-          <l/>
-          <r><s n="num"/></r>
-        </p>
-      </e>
-    </pardef>
 
     <pardef n="separa">
       <e>
@@ -78,6 +69,18 @@
       </e>
     </pardef>
 
+    <pardef n="numeros">
+      <e>
+        <re>[0-9]+([.,][0-9]+)?</re>
+        <p>
+          <l/>
+          <r><s n="num"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <!-- Interjections -->
+
     <pardef n="skál__ij">
       <e>
         <p>
@@ -87,6 +90,8 @@
       </e>
     </pardef>
 
+    <!-- Prepositions -->
+
     <pardef n="við__pr">
       <e>
         <p>
@@ -95,6 +100,8 @@
         </p>
       </e>
     </pardef>
+ 
+    <!-- Conjunctions -->
 
     <pardef n="og__cnjcoo">
       <e>
@@ -114,6 +121,8 @@
       </e>
     </pardef>
 
+    <!-- Adverbs -->
+
     <pardef n="ikki__adv">
       <e>
         <p>
@@ -131,6 +140,8 @@
         </p>
       </e>
     </pardef>
+
+    <!-- Determiners -->
 
     <pardef n="ei/n__det">
       <e>
@@ -213,12 +224,6 @@
       </e>
       <e>
         <p>
-          <l>num</l>
-          <r>n<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
           <l>nir</l>
           <r>n<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/><s n="nom"/></r>
         </p>
@@ -291,6 +296,7 @@
       </e>
     </pardef>
 
+    <!-- Pronouns -->
 
     <pardef n="s/eg__prn">
       <e>
@@ -313,23 +319,167 @@
       </e>
     </pardef>
 
-    <pardef n="t/ann__prn">
+    <pardef n="hv/ør__prn"> <!-- That -->
+      <e>
+        <p>
+          <l>ør</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ønn</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørjum</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørs</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ør</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørja</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørji</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ørjari</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørjar</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>at</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>at</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="nt"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørjum</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørs</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>ørjir</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørjar</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørjum</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørja</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørjar</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørjar</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørjum</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørja</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørji</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="nt"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørji</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="nt"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørjum</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="nt"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ørja</l>
+          <r>ør<s n="prn"/><s n="itg"/><s n="nt"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+
+    <pardef n="t/ann__prn"> <!-- That -->
       <e>
         <p>
           <l>ann</l>
           <r>ann<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ann</l>
-          <r>ann<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>að</l>
-          <r>ann<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
@@ -340,8 +490,62 @@
       </e>
       <e>
         <p>
+          <l>í</l>
+          <r>ann<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ann</l>
+          <r>ann<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ess</l>
+          <r>ann<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ann</l>
+          <r>ann<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
           <l>a</l>
           <r>ann<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>í</l>
+          <r>ann<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>eirri</l>
+          <r>ann<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>í</l>
+          <r>ann<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eirrar</l>
+          <r>ann<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>að</l>
+          <r>ann<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
@@ -353,43 +557,7 @@
       <e>
         <p>
           <l>í</l>
-          <r>ann<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ann</l>
-          <r>ann<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>í</l>
-          <r>ann<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>eirri</l>
-          <r>ann<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>í</l>
           <r>ann<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ess</l>
-          <r>ann<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>eirrar</l>
-          <r>ann<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
       <e>
@@ -398,10 +566,35 @@
           <r>ann<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
+
       <e>
         <p>
           <l>eir</l>
           <r>ann<s n="prn"/><s n="dem"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>á</l>
+          <r>ann<s n="prn"/><s n="dem"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eir</l>
+          <r>ann<s n="prn"/><s n="dem"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eimum</l>
+          <r>ann<s n="prn"/><s n="dem"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eirra</l>
+          <r>ann<s n="prn"/><s n="dem"/><s n="m"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
       <e>
@@ -412,26 +605,26 @@
       </e>
       <e>
         <p>
-          <l>ey</l>
-          <r>ann<s n="prn"/><s n="dem"/><s n="nt"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>eir</l>
-          <r>ann<s n="prn"/><s n="dem"/><s n="m"/><s n="pl"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>á</l>
-          <r>ann<s n="prn"/><s n="dem"/><s n="m"/><s n="pl"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
           <l>ær</l>
           <r>ann<s n="prn"/><s n="dem"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eimum</l>
+          <r>ann<s n="prn"/><s n="dem"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eirra</l>
+          <r>ann<s n="prn"/><s n="dem"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ey</l>
+          <r>ann<s n="prn"/><s n="dem"/><s n="nt"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
       <e>
@@ -443,31 +636,7 @@
       <e>
         <p>
           <l>eimum</l>
-          <r>ann<s n="prn"/><s n="dem"/><s n="m"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>eimum</l>
-          <r>ann<s n="prn"/><s n="dem"/><s n="f"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>eimum</l>
           <r>ann<s n="prn"/><s n="dem"/><s n="nt"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>eirra</l>
-          <r>ann<s n="prn"/><s n="dem"/><s n="m"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>eirra</l>
-          <r>ann<s n="prn"/><s n="dem"/><s n="f"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
       <e>
@@ -478,8 +647,7 @@
       </e>
     </pardef>
 
-
-    <pardef n="he/sin__prn">
+    <pardef n="he/sin__prn"> <!-- This (here) -->
       <e>
         <p>
           <l>sin</l>
@@ -3697,6 +3865,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="/eg__prn">
       <e>
         <p>
@@ -11301,6 +11470,8 @@
   </pardefs>
   <section id="main" type="standard">
 
+    <!-- Prepositions -->
+
     <e lm="við"><i>við</i><par n="við__pr"/></e>
     <e lm="av"><i>av</i><par n="við__pr"/></e>
     <e lm="til"><i>til</i><par n="við__pr"/></e>
@@ -11383,10 +11554,13 @@
 
     <e lm="ein"><i>ei</i><par n="ei/n__det"/></e>
 
+    <e lm="prnpers"><i/><par n="/eg__prn"/></e>
+
     <e lm="tann"><i>t</i><par n="t/ann__prn"/></e>
     <e lm="hesin"><i>he</i><par n="he/sin__prn"/></e>
+    <e lm="hasin"><i>ha</i><par n="he/sin__prn"/></e>
     <e lm="seg"><i>s</i><par n="s/eg__prn"/></e>
-    <e lm="prnpers"><i/><par n="/eg__prn"/></e>
+    <e lm="hvør"><i>hv</i><par n="hv/ør__prn"/></e>
 
 
     <!-- Adverbs -->

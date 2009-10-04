@@ -27,6 +27,7 @@
     <sdef n="p3"       c="Third person"/>
 
     <sdef n="dem"      c="Demonstrative"/>
+    <sdef n="itg"      c="Interrogative"/>
     <sdef n="ref"      c="Reflexive"/>
 
     <sdef n="al"       c="Altres"/>
@@ -68,6 +69,8 @@
     <e><p><l>vegna<s n="pr"/></l><r>vegna<s n="pr"/></r></p></e>
     <e><p><l>við<s n="pr"/></l><r>við<s n="pr"/></r></p></e>
 
+    <e><p><l>at<s n="pr"/></l><r>að<s n="pr"/></r></p></e>
+
 
     <!-- Conjunctions -->
     <e><p><l>enn<s n="cnjcoo"/></l><r>enn<s n="cnjcoo"/></r></p></e>
@@ -76,6 +79,8 @@
     <e><p><l>og<s n="cnjsub"/></l><r>og<s n="cnjsub"/></r></p></e>
     <e><p><l>meðan<s n="cnjsub"/></l><r>meðan<s n="cnjsub"/></r></p></e>
     <e><p><l>síðan<s n="cnjsub"/></l><r>síðan<s n="cnjsub"/></r></p></e>
+
+    <e><p><l>at<s n="cnjsub"/></l><r>að<s n="cnjsub"/></r></p></e>
 
     <!-- Pronouns -->
 
@@ -94,6 +99,9 @@
 
 
     <e><p><l>seg<s n="prn"/><s n="ref"/></l><r>sig<s n="prn"/><s n="ref"/></r></p></e>
+
+    <e><p><l>hvør<s n="prn"/><s n="itg"/></l><r>hver<s n="prn"/><s n="itg"/></r></p></e> <!-- who -->
+    <e><p><l>hvør<s n="prn"/><s n="itg"/></l><r>hvor<s n="prn"/><s n="itg"/></r></p></e> <!-- which -->
 
     <!-- Numerals -->
 
@@ -177,6 +185,9 @@
     <!-- Adverbs -->
 
     <e><p><l>her<s n="adv"/></l><r>hér<s n="adv"/></r></p></e>
+    <e><p><l>ikki<s n="adv"/></l><r>ekki<s n="adv"/></r></p></e>
+
+    <e><p><l>hví<s n="adv"/><s n="itg"/></l><r>hví<s n="adv"/><s n="itg"/></r></p></e>
 
     <!-- Verbs -->
     <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vbser"/></r></p></e>
@@ -189,6 +200,10 @@
     <e><p><l>síggja<s n="vblex"/></l><r>sjá<s n="vblex"/></r></p></e>
     <e><p><l>klæða<s n="vblex"/></l><r>klæða<s n="vblex"/></r></p></e>
     <e><p><l>vaska<s n="vblex"/></l><r>þvo<s n="vblex"/></r></p></e>
+    <e><p><l>koma<s n="vblex"/></l><r>koma<s n="vblex"/></r></p></e>
+    <e><p><l>vita<s n="vblex"/></l><r>vita<s n="vblex"/></r></p></e>
+    <e><p><l>vilja<s n="vblex"/></l><r>vilja<s n="vblex"/></r></p></e>
+    <e><p><l>taka<s n="vblex"/></l><r>taka<s n="vblex"/></r></p></e>
 
 
     <!-- Punctuation -->
