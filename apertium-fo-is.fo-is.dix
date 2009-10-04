@@ -11,6 +11,7 @@
     <sdef n="adv"      c="Adverb"/>
     <sdef n="vblex"    c="Verb"/>
     <sdef n="vbser"    c="The verb 'to be'"/>
+    <sdef n="vbhaver"  c="The verb 'to have'"/>
     <sdef n="cnjcoo"   c="Co-ordinating conjunction"/>
     <sdef n="cnjsub"   c="Sub-ordinating conjunction"/>
 
@@ -88,7 +89,7 @@
     <e><p><l>prnpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>þú<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>hann<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>hún<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>hann<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>það<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>við<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>þið<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>þeir<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
@@ -188,9 +189,12 @@
     <e><p><l>ikki<s n="adv"/></l><r>ekki<s n="adv"/></r></p></e>
 
     <e><p><l>hví<s n="adv"/><s n="itg"/></l><r>hví<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>nær<s n="adv"/><s n="itg"/></l><r>hvenær<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>hvussu<s n="adv"/><s n="itg"/></l><r>hvernig<s n="adv"/><s n="itg"/></r></p></e>
 
     <!-- Verbs -->
     <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vbser"/></r></p></e>
+    <e><p><l>hava<s n="vblex"/></l><r>hafa<s n="vbhaver"/></r></p></e>
 
     <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vblex"/></r></p></e>
     <e><p><l>skapa<s n="vblex"/></l><r>skapa<s n="vblex"/></r></p></e>
@@ -204,6 +208,7 @@
     <e><p><l>vita<s n="vblex"/></l><r>vita<s n="vblex"/></r></p></e>
     <e><p><l>vilja<s n="vblex"/></l><r>vilja<s n="vblex"/></r></p></e>
     <e><p><l>taka<s n="vblex"/></l><r>taka<s n="vblex"/></r></p></e>
+    <e><p><l>fara<s n="vblex"/></l><r>fara<s n="vblex"/></r></p></e>
 
 
     <!-- Punctuation -->

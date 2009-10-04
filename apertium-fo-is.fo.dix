@@ -1787,6 +1787,88 @@
     </pardef>
 
 
+    <pardef n="f/ara__vblex">
+      <e>
+        <p>
+          <l>ara</l>
+          <r>ara<s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ari</l>
+          <r>ara<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ert</l>
+          <r>ara<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>er</l>
+          <r>ara<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ara</l>
+          <r>ara<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ara</l>
+          <r>ara<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ara</l>
+          <r>ara<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ór</l>
+          <r>ara<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>órt</l>
+          <r>ara<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ór</l>
+          <r>ara<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óru</l>
+          <r>ara<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óru</l>
+          <r>ara<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óru</l>
+          <r>ara<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
     <pardef n="k/oma__vblex">
       <e>
         <p>
@@ -2260,7 +2342,13 @@
       <e>
         <p>
           <l>evur</l>
-          <r>ava<s n="vblex"/><s n="sg"/><s n="pri"/></r>
+          <r>ava<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>evur</l>
+          <r>ava<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -13325,9 +13413,7 @@
     <e lm="koma"><i>k</i><par n="k/oma__vblex"/></e> 
     <e lm="taka"><i>t</i><par n="t/aka__vblex"/></e> 
     <e lm="klæða"><i>klæð</i><par n="klæð/a__vblex"/></e> 
-<!--
     <e lm="fara"><i>f</i><par n="f/ara__vblex"/></e> 
--->
     <e lm="skapa"><i>skap</i><par n="skap/a__vblex"/></e> 
 
     <!-- Automatically added using Extract -->
