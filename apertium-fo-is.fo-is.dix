@@ -191,6 +191,7 @@
     <e><p><l>hví<s n="adv"/><s n="itg"/></l><r>hví<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>nær<s n="adv"/><s n="itg"/></l><r>hvenær<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>hvussu<s n="adv"/><s n="itg"/></l><r>hvernig<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>hvar<s n="adv"/><s n="itg"/></l><r>hvar<s n="adv"/><s n="itg"/></r></p></e>
 
     <!-- Verbs -->
     <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vbser"/></r></p></e>
@@ -209,6 +210,7 @@
     <e><p><l>vilja<s n="vblex"/></l><r>vilja<s n="vblex"/></r></p></e>
     <e><p><l>taka<s n="vblex"/></l><r>taka<s n="vblex"/></r></p></e>
     <e><p><l>fara<s n="vblex"/></l><r>fara<s n="vblex"/></r></p></e>
+    <e><p><l>keypa<s n="vblex"/></l><r>kaupa<s n="vblex"/></r></p></e>
 
 
     <!-- Punctuation -->
