@@ -27,6 +27,7 @@
     <sdef n="p2"       c="Second person"/>
     <sdef n="p3"       c="Third person"/>
 
+    <sdef n="pos"      c="Possessive"/>
     <sdef n="dem"      c="Demonstrative"/>
     <sdef n="itg"      c="Interrogative"/>
     <sdef n="ref"      c="Reflexive"/>
@@ -44,7 +45,9 @@
     </pardef>
   </pardefs>
   <section id="main" type="standard">
+
     <!-- Prepositions -->
+
     <e><p><l>á<s n="pr"/></l><r>á<s n="pr"/></r></p></e>
     <e><p><l>eftir<s n="pr"/></l><r>eftir<s n="pr"/></r></p></e>
     <e><p><l>frá<s n="pr"/></l><r>frá<s n="pr"/></r></p></e>
@@ -72,8 +75,8 @@
 
     <e><p><l>at<s n="pr"/></l><r>að<s n="pr"/></r></p></e>
 
-
     <!-- Conjunctions -->
+
     <e><p><l>enn<s n="cnjcoo"/></l><r>enn<s n="cnjcoo"/></r></p></e>
     <e><p><l>og<s n="cnjcoo"/></l><r>og<s n="cnjcoo"/></r></p></e>
 
@@ -95,6 +98,10 @@
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>þeir<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>þeir<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></l><r>þeir<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
+
+    <e><p><l>mín<s n="prn"/><s n="pos"/></l><r>minn<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>tín<s n="prn"/><s n="pos"/></l><r>þinn<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>sín<s n="prn"/><s n="pos"/></l><r>sinn<s n="prn"/><s n="pos"/></r></p></e>
 
     <e><p><l>hesin<s n="prn"/><s n="dem"/></l><r>þessi<s n="prn"/><s n="dem"/></r></p></e>
 
@@ -127,6 +134,7 @@
     <e><p><l>átjan</l><r>átján<s n="num"/></r></p></e>
     <e><p><l>nítjan</l><r>nítján<s n="num"/></r></p></e>
     <e><p><l>tjúgu</l><r>tuttugu<s n="num"/></r></p></e>
+
     <e><p><l>ein<b/>og<b/>tjúgu</l><r>tuttugu<b/>og<b/>einn<s n="num"/></r></p></e>
     <e><p><l>tvey<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>tveir<s n="num"/></r></p></e>
     <e><p><l>trý<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>þrír<s n="num"/></r></p></e>
@@ -159,15 +167,22 @@
     <e><p><l>sjógvur<s n="n"/><s n="m"/></l><r>sjór<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>fiskur<s n="n"/><s n="m"/></l><r>fiskur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>jørð<s n="n"/><s n="f"/></l><r>jörð<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
+    <e><p><l>mynd<s n="n"/><s n="f"/></l><r>mynd<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>skriðdýr<s n="n"/><s n="nt"/></l><r>skriðkvikindi<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>lík<s n="n"/><s n="nt"/></l><r>lík<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>orð<s n="n"/><s n="nt"/></l><r>orð<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>hús<s n="n"/><s n="nt"/></l><r>hús<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>blað<s n="n"/><s n="nt"/></l><r>blað<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>gras<s n="n"/><s n="nt"/></l><r>gras<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>ljós<s n="n"/><s n="nt"/></l><r>ljós<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>bók<s n="n"/><s n="f"/></l><r>bók<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>genta<s n="n"/><s n="f"/></l><r>stúlka<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>bilur<s n="n"/><s n="m"/></l><r>bíll<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>gudur<s n="n"/><s n="m"/></l><r>guð<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>hundur<s n="n"/><s n="m"/></l><r>hundur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>bóndi<s n="n"/><s n="m"/></l><r>bóndi<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>morgun<s n="n"/><s n="m"/></l><r>morgunn<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>dagur<s n="n"/><s n="m"/></l><r>dagur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>bróðir<s n="n"/><s n="m"/></l><r>bróðir<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>maður<s n="n"/><s n="m"/></l><r>maður<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
 
@@ -176,12 +191,14 @@
     <e><p><l>Gud<s n="np"/><s n="al"/><s n="m"/></l><r>Guð<s n="np"/><s n="al"/><s n="m"/></r></p><par n="default__np"/></e>
 
     <!-- Adjectives -->
+
     <e><p><l>fræls<s n="adj"/></l><r>frjáls<s n="adj"/></r></p></e>
     <e><p><l>jøvn<s n="adj"/></l><r>jafn<s n="adj"/></r></p></e>
     <e><p><l>bláur<s n="adj"/></l><r>blár<s n="adj"/></r></p></e>
     <e><p><l>lítil<s n="adj"/></l><r>lítill<s n="adj"/></r></p></e>
     <e><p><l>stórur<s n="adj"/></l><r>stór<s n="adj"/></r></p></e>
     <e><p><l>ríkur<s n="adj"/></l><r>ríkur<s n="adj"/></r></p></e>
+    <e><p><l>grønur<s n="adj"/></l><r>grænn<s n="adj"/></r></p></e>
 
     <!-- Adverbs -->
 
@@ -189,6 +206,8 @@
     <e><p><l>ikki<s n="adv"/></l><r>ekki<s n="adv"/></r></p></e>
 
     <e><p><l>hví<s n="adv"/><s n="itg"/></l><r>hví<s n="adv"/><s n="itg"/></r></p></e>
+    <e r="RL"><p><l>hví<s n="adv"/><s n="itg"/></l><r>af<b/>hverju<s n="adv"/><s n="itg"/></r></p></e>
+
     <e><p><l>nær<s n="adv"/><s n="itg"/></l><r>hvenær<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>hvussu<s n="adv"/><s n="itg"/></l><r>hvernig<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>hvar<s n="adv"/><s n="itg"/></l><r>hvar<s n="adv"/><s n="itg"/></r></p></e>
@@ -211,10 +230,13 @@
     <e><p><l>taka<s n="vblex"/></l><r>taka<s n="vblex"/></r></p></e>
     <e><p><l>fara<s n="vblex"/></l><r>fara<s n="vblex"/></r></p></e>
     <e><p><l>keypa<s n="vblex"/></l><r>kaupa<s n="vblex"/></r></p></e>
+    <e><p><l>láta<s n="vblex"/></l><r>láta<s n="vblex"/></r></p></e>
+    <e><p><l>flúgva<s n="vblex"/></l><r>fljúga<s n="vblex"/></r></p></e>
 
 
     <!-- Punctuation -->
     <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 
   </section>
 </dictionary>
