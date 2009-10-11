@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
+<transfer>
+<section-def-cats>
+
+     <def-cat n="sent">
+	  <cat-item tags="sent"/>
+     </def-cat>
+  
+     <def-cat n="verb">
+	  <cat-item tags="vblex.*"/>
+	  <cat-item tags="vbser.*"/>
+     </def-cat>
+
+     <def-cat n="navn_def">
+	  <cat-item tags="n.*.*.*.def"/>
+     </def-cat>
+
+     <def-cat n="pron_pos">
+	  <cat-item tags="prn.pos.*"/>
+     </def-cat>
+
+     <def-cat n="navn">
+	  <cat-item tags="n.*"/>
+     </def-cat>
+     
+      <def-cat n="detdem">          
+	  <cat-item tags="det.dem.*"/>
+      </def-cat>
+
+     <def-cat n="adjec">          
+	  <cat-item tags="adj.*"/>
+	  <cat-item tags="vblex.pp.*"/>
+      </def-cat>
+         
+</section-def-cats>
+
+<section-def-attrs>
+     <def-attr n="a_nom">
+	  <attr-item tags="n"/>
+     </def-attr>
+
+     <def-attr n="a_prn">
+	  <attr-item tags="prn"/>
+	  <attr-item tags="prn.pos"/>
+	  <attr-item tags="prn.dem"/>
+	  <attr-item tags="prn.qnt"/>
+     </def-attr>
+
+     <def-attr n="a_adj">
+	  <attr-item tags="adj"/>
+	  <attr-item tags="adj.pst"/>
+	  <attr-item tags="adj.comp"/>
+	  <attr-item tags="adj.sup"/>
+	  <attr-item tags="adj.ssup"/>
+	  <attr-item tags="adj.sta"/>
+	  <attr-item tags="adj.vei"/>
+     </def-attr>
+
+     <def-attr n="gen">
+          <attr-item tags="mf"/>
+          <attr-item tags="m"/>
+          <attr-item tags="f"/>
+	  <attr-item tags="nt"/>
+
+	  <attr-item tags="GD"/>
+     </def-attr>
+      
+       <def-attr n="pers">
+          <attr-item tags="p1"/>
+	  <attr-item tags="p2"/>
+	  <attr-item tags="p3"/>
+      </def-attr>
+
+     <def-attr n="a_verb">
+          <attr-item tags="vblex"/>
+	  <attr-item tags="vbmod"/>
+	  <attr-item tags="vaux"/>
+     </def-attr>
+
+     <def-attr n="temps">
+	  <attr-item tags="inf"/>
+	  <attr-item tags="pp"/>
+	  <attr-item tags="past"/>
+	  <attr-item tags="pres"/>
+	  <attr-item tags="ppres"/>
+	  <attr-item tags="prs"/>
+	  <attr-item tags="psi"/>
+	  <attr-item tags="pss"/>
+	  <attr-item tags="part"/>
+       </def-attr>   
+
+     <def-attr n="nbr">
+          <attr-item tags="sg"/>
+	  <attr-item tags="pl"/>
+	  <attr-item tags="sp"/>
+	  <attr-item tags="ND"/>
+      </def-attr>
+
+      <def-attr n="voz">
+          <attr-item tags="pasv"/>
+          <attr-item tags="actv"/>
+      </def-attr>
+
+      <def-attr n="cas">
+          <attr-item tags="nom"/>
+          <attr-item tags="gen"/>
+          <attr-item tags="acc"/>
+          <attr-item tags="dat"/>
+     </def-attr>
+
+     <def-attr n="defnes">
+          <attr-item tags="def"/>
+          <attr-item tags="ind"/>
+     </def-attr>
+    
+</section-def-attrs>
+
+<section-def-vars>
+      <def-var n="uno"/>
+      <def-var n="genero"/>
+      <def-var n="definite"/>
+      <def-var n="numero"/>
+      <def-var n="concDet"/>
+      <def-var n="concAdj"/>
+      <def-var n="concPrimero"/>
+      <def-var n="concSegundo"/>
+      <def-var n="concTercero"/>
+      <def-var n="interrogativa"/>
+      <def-var n="exclamativa"/>
+      <def-var n="adjectiu1"/>
+      <def-var n="poss_prep"/>
+   
+</section-def-vars>
+
+
+<section-def-macros>
+
+  <def-macro n="set_poss_prep2" npar="2"><!-- Set the possessive preposition dependent on the possessor (2) and possessed (1) -->
+    <let>
+      <var n="poss_prep"/> <!-- Most common preposition to indicate true possession of animate beings is hjá + dative -->
+      <concat>
+        <lit v="hjá"/>
+        <lit-tag v="pr"/>
+      </concat>
+    </let>
+    <let>
+      <clip pos="2" side="tl" part="cas"/>
+      <lit-tag v="dat"/>
+    </let>
+  </def-macro>
+
+  <def-macro n="conv_poss_to_pers1" npar="1">
+    <let>
+      <clip pos="1" side="tl" part="a_prn"/>
+      <lit-tag v="prn"/>
+    </let>
+    <let>
+      <clip pos="1" side="tl" part="lem"/>
+      <lit v="prnpers"/>
+    </let>
+    <choose>
+      <when>
+        <test>
+          <equal>
+            <clip pos="1" side="sl" part="lem"/>
+            <lit v="minn"/>
+          </equal>
+        </test>
+        <let>
+          <clip pos="1" side="tl" part="gen"/>
+          <lit-tag v="mf"/>
+        </let>
+      </when>   
+    </choose>
+  </def-macro>
+
+  <def-macro n="f_bcond" npar="1"><!--Per mirar si el blanc conté o no format -->
+    <choose>
+      <when>
+	<test>
+	  <not>
+	    <equal>
+	      <b pos="1"/>
+	      <lit v=" "/>
+	    </equal>
+	  </not>
+	</test>
+	<out>
+	  <b pos="1"/>
+	</out>
+      </when>     	    
+    </choose>
+  </def-macro>
+
+    <def-macro n="f_comparatiu1" npar="1"><!--per a afegir adverbi 'més' en adjs comparatius. -->
+      <let>
+        <var n="adjectiu1"/>
+        <lit v=""/>
+      </let>
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal>
+                <clip pos="1" side="tl" part="a_adj"/>
+                <lit-tag v="adj.unsint"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="sl" part="grau_adj"/>
+                <lit-tag v="pst"/>
+              </equal>
+            </and>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="a_adj"/>
+            <lit-tag v="adj.pst"/>
+          </let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal>
+                <clip pos="1" side="tl" part="a_adj"/>
+                <lit-tag v="adj.unsint"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="sl" part="grau_adj"/>
+                <lit-tag v="comp"/>
+              </equal>
+            </and>
+          </test>
+          <append n="adjectiu1">
+            <lit v="mere"/>
+            <lit-tag v="preadv"/>
+            <lit v="$ ^"/>
+          </append>
+          <let>
+            <clip pos="1" side="tl" part="a_adj"/>
+            <lit-tag v="adj.pst"/>
+          </let>
+          <let>
+            <clip pos="1" side="tl" part="nbr"/>
+            <concat>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit-tag v="ind"/>
+            </concat>
+          </let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal>
+                <clip pos="1" side="tl" part="a_adj"/>
+                <lit-tag v="adj.unsint"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="sl" part="grau_adj"/>
+                <lit-tag v="sup"/>
+              </equal>
+            </and>
+          </test>
+          <append n="adjectiu1">
+            <lit v="mest"/>
+            <lit-tag v="preadv"/>
+            <lit v="$ ^"/>
+          </append>
+          <let>
+            <clip pos="1" side="tl" part="a_adj"/>
+            <lit-tag v="adj.pst"/>
+          </let>
+          <let>
+            <clip pos="1" side="tl" part="nbr"/>
+            <concat>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit-tag v="ind"/>
+            </concat>
+          </let>
+        </when>
+        <otherwise>
+          <append n="adjectiu1">
+            <lit v=""/>
+          </append> 
+        </otherwise>
+      </choose>
+    </def-macro>
+
+  <def-macro n="conj_vblex1" npar="1">
+    <choose>
+      <when>
+        <test> <!-- Switch the 'pss' (past subjunctive) to 'past' (past indicative) -->
+              <equal>
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="pss"/>
+              </equal>
+        </test>
+        <let>
+          <clip pos="1" side="tl" part="temps"/>
+          <lit-tag v="past"/>
+        </let>
+      </when>
+
+      <when>
+        <test> <!-- Switch the 'psi' (past indicative) to 'past' (past indicative) -->
+              <equal>
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="psi"/>
+              </equal>
+        </test>
+        <let>
+          <clip pos="1" side="tl" part="temps"/>
+          <lit-tag v="past"/>
+        </let>
+      </when>
+
+      <when>
+        <test> <!-- Switch the 'prs' (present subjunctive) to 'pri' (present indicative) -->
+              <equal>
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="prs"/>
+              </equal>
+        </test>
+        <let>
+          <clip pos="1" side="tl" part="temps"/>
+          <lit-tag v="pri"/>
+        </let>
+      </when>
+    </choose>
+  </def-macro>
+
+  <def-macro n="conj_adjec1" npar="1">
+    <choose>
+      <when>
+        <test> <!-- Remove strength -->
+          <or>
+              <equal>
+                <clip pos="1" side="tl" part="a_adj"/>
+                <lit-tag v="adj.vei"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="tl" part="a_adj"/>
+                <lit-tag v="adj.sta"/>
+              </equal>
+          </or>
+        </test>
+        <let>
+          <clip pos="1" side="tl" part="a_adj"/>
+          <lit-tag v="adj"/>
+        </let>
+      </when>
+    </choose>
+  </def-macro>
+
+    <def-macro n="resetvars" npar="1">
+        <let>
+          <var n="numero"/>
+          <lit-tag v="sg"/>
+        </let>
+        <let>
+          <var n="genero"/>
+          <lit-tag v="m"/>
+        </let>
+        <let>
+          <var n="definite"/>
+          <lit v=""/>
+        </let>
+    </def-macro>
+
+
+  
+</section-def-macros>
+
+<section-rules>
+
+    <!-- SINTAGMES NOMINALS // NOUN PHRASES -->
+
+    <rule comment="REGLA: ADJEC">
+      <pattern>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+        <call-macro n="conj_adjec1">
+          <with-param pos="1"/>
+        </call-macro>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: NAVNDEF PRONPOS → NAVNDEF prep PRONPERS">
+      <pattern>
+	<pattern-item n="navn_def"/>
+	<pattern-item n="pron_pos"/>
+      </pattern>
+      <action>
+        <call-macro n="set_poss_prep2"> <!-- Set the possessive preposition and case -->
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="conv_poss_to_pers1"> <!-- Convert the possessive pronoun to a personal pronoun -->
+          <with-param pos="2"/>
+        </call-macro>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+          <b pos="1"/>
+          <lu>
+            <var n="poss_prep"/>
+          </lu>
+          <b/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_prn"/>
+	    <clip pos="2" side="tl" part="pers"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="cas"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <!-- VERBS // VERBS -->
+
+    <rule comment="REGLA: VERB // skapði → skapti">
+      <pattern>
+	<pattern-item n="verb"/>
+      </pattern>
+      <action>
+        <call-macro n="conj_vblex1">
+          <with-param pos="1"/>
+        </call-macro>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: SENT // . → .">
+      <pattern>
+	<pattern-item n="sent"/>
+      </pattern>
+      <action>
+        <call-macro n="resetvars">
+          <with-param pos="1"/>
+        </call-macro>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
+</section-rules>
+
+</transfer>

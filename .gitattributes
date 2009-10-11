@@ -9,6 +9,7 @@
 /apertium-fo-is.fo-is.rlx -text
 /apertium-fo-is.fo.dix -text
 /apertium-fo-is.is-fo.rlx -text
+/apertium-fo-is.is-fo.t1x -text
 /apertium-fo-is.is.dix -text
 /configure.ac -text
 dev/bidix/adjs.list -text
