@@ -66,7 +66,6 @@
     <e><p><l>ímóti<s n="pr"/></l><r>móti<s n="pr"/></r></p></e>
     <e><p><l>móti<s n="pr"/></l><r>móti<s n="pr"/></r></p></e>
     <e><p><l>innan<s n="pr"/></l><r>innan<s n="pr"/></r></p></e>
-    <e><p><l>í<s n="pr"/></l><r>í<s n="pr"/></r></p></e>
     <e><p><l>millum<s n="pr"/></l><r>milli<s n="pr"/></r></p></e>
     <e><p><l>undan<s n="pr"/></l><r>undan<s n="pr"/></r></p></e>
     <e><p><l>uttan<s n="pr"/></l><r>utan<s n="pr"/></r></p></e>
@@ -84,6 +83,14 @@
     <e><p><l>meðan<s n="cnjsub"/></l><r>meðan<s n="cnjsub"/></r></p></e>
     <e><p><l>síðan<s n="cnjsub"/></l><r>síðan<s n="cnjsub"/></r></p></e>
 
+    <!-- The conjunction vissi (or viss) is common in the spoken language 
+         but frowned up on in the written language since it is derived from 
+         the Danish hvis ‘if’ and um recommended instead. -->
+    <e r="LR"><p><l>vissi<s n="cnjsub"/></l><r>ef<s n="cnjsub"/></r></p></e> 
+    <e><p><l>um<s n="cnjsub"/></l><r>ef<s n="cnjsub"/></r></p></e> 
+
+    <e><p><l>sum<s n="cnjsub"/></l><r>sem<s n="cnjsub"/></r></p></e>
+
     <e><p><l>at<s n="cnjsub"/></l><r>að<s n="cnjsub"/></r></p></e>
 
     <!-- Pronouns -->
@@ -96,8 +103,8 @@
     <e><p><l>prnpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>við<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>þið<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>þeir<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>þeir<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></l><r>þeir<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>þær<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></l><r>þau<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
 
     <e><p><l>mín<s n="prn"/><s n="pos"/></l><r>minn<s n="prn"/><s n="pos"/></r></p></e>
     <e><p><l>tín<s n="prn"/><s n="pos"/></l><r>þinn<s n="prn"/><s n="pos"/></r></p></e>
@@ -175,9 +182,11 @@
     <e><p><l>blað<s n="n"/><s n="nt"/></l><r>blað<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>gras<s n="n"/><s n="nt"/></l><r>gras<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>ljós<s n="n"/><s n="nt"/></l><r>ljós<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>breyð<s n="n"/><s n="nt"/></l><r>brauð<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>bók<s n="n"/><s n="f"/></l><r>bók<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>genta<s n="n"/><s n="f"/></l><r>stúlka<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>dóttir<s n="n"/><s n="f"/></l><r>dóttir<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
+    <e><p><l>vinna<s n="n"/><s n="f"/></l><r>vinna<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>bilur<s n="n"/><s n="m"/></l><r>bíll<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>gudur<s n="n"/><s n="m"/></l><r>guð<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>hundur<s n="n"/><s n="m"/></l><r>hundur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
@@ -186,6 +195,9 @@
     <e><p><l>dagur<s n="n"/><s n="m"/></l><r>dagur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>bróðir<s n="n"/><s n="m"/></l><r>bróðir<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>maður<s n="n"/><s n="m"/></l><r>maður<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+
+    <e><p><l>drongur<s n="n"/><s n="m"/></l><r>drengur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e r="RL"><p><l>drongur<s n="n"/><s n="m"/></l><r>strákur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
 
     <!-- Proper nouns -->
 
@@ -200,12 +212,16 @@
     <e><p><l>stórur<s n="adj"/></l><r>stór<s n="adj"/></r></p></e>
     <e><p><l>ríkur<s n="adj"/></l><r>ríkur<s n="adj"/></r></p></e>
     <e><p><l>grønur<s n="adj"/></l><r>grænn<s n="adj"/></r></p></e>
+    <e><p><l>sterkur<s n="adj"/></l><r>sterkur<s n="adj"/></r></p></e>
 
     <!-- Adverbs -->
 
     <e><p><l>her<s n="adv"/></l><r>hér<s n="adv"/></r></p></e>
     <e><p><l>ikki<s n="adv"/></l><r>ekki<s n="adv"/></r></p></e>
     <e><p><l>í<b/>gjár<s n="adv"/></l><r>í<b/>gær<s n="adv"/></r></p></e>
+    <e><p><l>í<b/>morgin<s n="adv"/></l><r>á<b/>morgun<s n="adv"/></r></p></e>
+    <e><p><l>ofta<s n="adv"/></l><r>oft<s n="adv"/></r></p></e>
+    <e><p><l>mikið<s n="adv"/></l><r>mikið<s n="adv"/></r></p></e>
 
     <e><p><l>hví<s n="adv"/><s n="itg"/></l><r>hví<s n="adv"/><s n="itg"/></r></p></e>
     <e r="RL"><p><l>hví<s n="adv"/><s n="itg"/></l><r>af<b/>hverju<s n="adv"/><s n="itg"/></r></p></e>
@@ -217,6 +233,7 @@
     <!-- Verbs -->
     <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vbser"/></r></p></e>
     <e><p><l>hava<s n="vblex"/></l><r>hafa<s n="vbhaver"/></r></p></e>
+    <e><p><l>fáa<s n="vblex"/></l><r>geta<s n="vblex"/></r></p></e>
 
     <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vblex"/></r></p></e>
     <e><p><l>skapa<s n="vblex"/></l><r>skapa<s n="vblex"/></r></p></e>
@@ -235,6 +252,13 @@
     <e><p><l>láta<s n="vblex"/></l><r>láta<s n="vblex"/></r></p></e>
     <e><p><l>flúgva<s n="vblex"/></l><r>fljúga<s n="vblex"/></r></p></e>
     <e><p><l>gera<s n="vblex"/></l><r>gera<s n="vblex"/></r></p></e>
+    <e><p><l>lesa<s n="vblex"/></l><r>lesa<s n="vblex"/></r></p></e>
+    <e><p><l>baka<s n="vblex"/></l><r>baka<s n="vblex"/></r></p></e>
+    <e><p><l>tala<s n="vblex"/></l><r>tala<s n="vblex"/></r></p></e>
+    <e><p><l>skriva<s n="vblex"/></l><r>skrifa<s n="vblex"/></r></p></e>
+    <e><p><l>sláa<s n="vblex"/></l><r>slá<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>sláa<s n="vblex"/></l><r>lemja<s n="vblex"/></r></p></e>
+
 
 
     <!-- Punctuation -->
