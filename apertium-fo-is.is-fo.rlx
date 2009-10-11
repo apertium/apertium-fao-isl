@@ -181,6 +181,11 @@ SELECT (vblex p1 sg) IF (-1C (prn p1 sg));
 SELECT (vbser p3 sg) IF (-1 (prn p3 sg));
 SELECT (vbser p1 sg) IF (-1 (prn p1 sg));
 
+SELECT (vaux p3 sg) IF (-1 (prn p3 sg));
+SELECT (vaux p1 sg) IF (-1 (prn p1 sg));
+# Ex. Við munum fara í dag
+SELECT (vaux p1 pl) IF (-1 (prn p1 pl));
+
 # Ex.: Þið lesið bókina
 REMOVE PastPart IF (-1C PrnPers);
 

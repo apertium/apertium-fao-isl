@@ -10,6 +10,8 @@
     <sdef n="adj"      c="Adjective"/>
     <sdef n="adv"      c="Adverb"/>
     <sdef n="vblex"    c="Verb"/>
+    <sdef n="vaux"     c="Auxilliary verb"/>
+    <sdef n="vbmod"    c="Modal verb"/>
     <sdef n="vbser"    c="The verb 'to be'"/>
     <sdef n="vbhaver"  c="The verb 'to have'"/>
     <sdef n="cnjcoo"   c="Co-ordinating conjunction"/>
@@ -236,6 +238,7 @@
     <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vbser"/></r></p></e>
     <e><p><l>hava<s n="vblex"/></l><r>hafa<s n="vbhaver"/></r></p></e>
     <e><p><l>fáa<s n="vblex"/></l><r>geta<s n="vblex"/></r></p></e>
+    <e><p><l>munna<s n="vbmod"/></l><r>munu<s n="vaux"/></r></p></e>
 
     <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vblex"/></r></p></e>
     <e><p><l>skapa<s n="vblex"/></l><r>skapa<s n="vblex"/></r></p></e>
@@ -260,6 +263,8 @@
     <e><p><l>skriva<s n="vblex"/></l><r>skrifa<s n="vblex"/></r></p></e>
     <e><p><l>sláa<s n="vblex"/></l><r>slá<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>sláa<s n="vblex"/></l><r>lemja<s n="vblex"/></r></p></e>
+    <e><p><l>eta<s n="vblex"/></l><r>éta<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>eta<s n="vblex"/></l><r>borða<s n="vblex"/></r></p></e>
 
 
 
