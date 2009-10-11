@@ -177,6 +177,7 @@
     <e><p><l>ljós<s n="n"/><s n="nt"/></l><r>ljós<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>bók<s n="n"/><s n="f"/></l><r>bók<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>genta<s n="n"/><s n="f"/></l><r>stúlka<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
+    <e><p><l>dóttir<s n="n"/><s n="f"/></l><r>dóttir<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>bilur<s n="n"/><s n="m"/></l><r>bíll<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>gudur<s n="n"/><s n="m"/></l><r>guð<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>hundur<s n="n"/><s n="m"/></l><r>hundur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
@@ -204,6 +205,7 @@
 
     <e><p><l>her<s n="adv"/></l><r>hér<s n="adv"/></r></p></e>
     <e><p><l>ikki<s n="adv"/></l><r>ekki<s n="adv"/></r></p></e>
+    <e><p><l>í<b/>gjár<s n="adv"/></l><r>í<b/>gær<s n="adv"/></r></p></e>
 
     <e><p><l>hví<s n="adv"/><s n="itg"/></l><r>hví<s n="adv"/><s n="itg"/></r></p></e>
     <e r="RL"><p><l>hví<s n="adv"/><s n="itg"/></l><r>af<b/>hverju<s n="adv"/><s n="itg"/></r></p></e>
