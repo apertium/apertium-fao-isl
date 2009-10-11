@@ -33,6 +33,8 @@
     <sdef n="dem"      c="Demonstrative"/>
     <sdef n="itg"      c="Interrogative"/>
     <sdef n="ref"      c="Reflexive"/>
+    <sdef n="ind"      c="Indefinite"/>
+    <sdef n="qnt"      c="Quantifier"/>
 
     <sdef n="al"       c="Altres"/>
 
@@ -113,7 +115,16 @@
     <e><p><l>sín<s n="prn"/><s n="pos"/></l><r>sinn<s n="prn"/><s n="pos"/></r></p></e>
 
     <e><p><l>hesin<s n="prn"/><s n="dem"/></l><r>þessi<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>tann<s n="prn"/><s n="dem"/></l><r>sá<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>hin<s n="prn"/><s n="dem"/></l><r>hinn<s n="prn"/><s n="dem"/></r></p></e>
 
+    <e><p><l>sjálvur<s n="prn"/><s n="ind"/></l><r>sjálfur<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>onkur<s n="prn"/><s n="ind"/></l><r>einhver<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>nakar<s n="prn"/><s n="ind"/></l><r>nokkur<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>annar<s n="prn"/><s n="ind"/></l><r>annar<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>eingin<s n="prn"/><s n="ind"/></l><r>enginn<s n="prn"/><s n="ind"/></r></p></e>
+
+    <e><p><l>allur<s n="prn"/><s n="qnt"/></l><r>allur<s n="prn"/><s n="qnt"/></r></p></e>
 
     <e><p><l>seg<s n="prn"/><s n="ref"/></l><r>sig<s n="prn"/><s n="ref"/></r></p></e>
 
@@ -200,6 +211,7 @@
     <e><p><l>bróðir<s n="n"/><s n="m"/></l><r>bróðir<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>maður<s n="n"/><s n="m"/></l><r>maður<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>hattur<s n="n"/><s n="m"/></l><r>hattur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>hestur<s n="n"/><s n="m"/></l><r>hestur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
 
     <e><p><l>drongur<s n="n"/><s n="m"/></l><r>drengur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e r="RL"><p><l>drongur<s n="n"/><s n="m"/></l><r>strákur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
@@ -218,6 +230,7 @@
     <e><p><l>ríkur<s n="adj"/></l><r>ríkur<s n="adj"/></r></p></e>
     <e><p><l>grønur<s n="adj"/></l><r>grænn<s n="adj"/></r></p></e>
     <e><p><l>sterkur<s n="adj"/></l><r>sterkur<s n="adj"/></r></p></e>
+    <e><p><l>skynsamur<s n="adj"/></l><r>greindur<s n="adj"/></r></p></e>
 
     <!-- Adverbs -->
 
