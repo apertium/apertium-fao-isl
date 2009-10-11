@@ -181,6 +181,7 @@
     <e><p><l>hús<s n="n"/><s n="nt"/></l><r>hús<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>blað<s n="n"/><s n="nt"/></l><r>blað<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>gras<s n="n"/><s n="nt"/></l><r>gras<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>skip<s n="n"/><s n="nt"/></l><r>skip<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>ljós<s n="n"/><s n="nt"/></l><r>ljós<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>breyð<s n="n"/><s n="nt"/></l><r>brauð<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>bók<s n="n"/><s n="f"/></l><r>bók<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
@@ -195,6 +196,7 @@
     <e><p><l>dagur<s n="n"/><s n="m"/></l><r>dagur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>bróðir<s n="n"/><s n="m"/></l><r>bróðir<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>maður<s n="n"/><s n="m"/></l><r>maður<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>hattur<s n="n"/><s n="m"/></l><r>hattur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
 
     <e><p><l>drongur<s n="n"/><s n="m"/></l><r>drengur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e r="RL"><p><l>drongur<s n="n"/><s n="m"/></l><r>strákur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
