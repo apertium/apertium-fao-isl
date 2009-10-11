@@ -24,6 +24,7 @@ dev/bidix/prep.scored.list -text
 dev/bidix/rerun-scores.sh -text
 dev/bidix/vblex.list -text
 dev/bidix/vblex.scored.list -text
+dev/inconsistency.sh -text
 /is-fo.prob -text
 /modes.xml -text
 /regression-tests.sh -text
