@@ -2774,6 +2774,12 @@
       </e>
       <e>
         <p>
+          <l>arin</l>
+          <r>ara<s n="vblex"/><s n="pp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
           <l>ari</l>
           <r>ara<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
@@ -3057,6 +3063,88 @@
       <e>
         <p>
           <l>ja</l>
+          <r>ja<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>di</l>
+          <r>ja<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>di</l>
+          <r>ja<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>di</l>
+          <r>ja<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>du</l>
+          <r>ja<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>du</l>
+          <r>ja<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>du</l>
+          <r>ja<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+    <pardef n="vel/ja__vblex">
+      <e>
+        <p>
+          <l>ja</l>
+          <r>ja<s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r>ja<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ur</l>
+          <r>ja<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ur</l>
+          <r>ja<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>ja<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>ja<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
           <r>ja<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
@@ -9059,6 +9147,7 @@
       </e>
     </pardef>
 
+
     <pardef n="øð/a__n">
       <e>
         <p>
@@ -13613,6 +13702,7 @@
     <e lm="fiskifrøðingur"><i>fiskifrøðingur</i><par n="fílur__n"/></e>
     <e lm="ísraelsmaður"><i>ísraelsm</i><par n="áarm/aður__n"/></e>
     <e lm="soga"><i>sog</i><par n="øð/a__n"/></e>
+    <e lm="vinna"><i>vinn</i><par n="øð/a__n"/></e>
     <e lm="nútíðarmaður"><i>nútíðarm</i><par n="áarm/aður__n"/></e>
     <e lm="gignisverk"><i>gignisverk</i><par n="ár__n"/></e>
     <e lm="parlamentslimur"><i>parlamentslimur</i><par n="býur__n"/></e>
@@ -15071,6 +15161,7 @@
     <e lm="lítil"><i>lít</i><par n="lít/il__adj"/></e>
 
 
+    <e lm="velja"><i>vel</i><par n="vel/ja__vblex"/></e>
     <e lm="rógva"><i>r</i><par n="r/ógva__vblex"/></e> 
     <e lm="røra"><i>rø</i><par n="rø/ra__vblex"/></e> 
     <e lm="síggja"><i>s</i><par n="s/íggja__vblex"/></e> 

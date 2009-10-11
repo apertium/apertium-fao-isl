@@ -184,6 +184,7 @@
     <e><p><l>blað<s n="n"/><s n="nt"/></l><r>blað<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>gras<s n="n"/><s n="nt"/></l><r>gras<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>skip<s n="n"/><s n="nt"/></l><r>skip<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>svar<s n="n"/><s n="nt"/></l><r>svar<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>ljós<s n="n"/><s n="nt"/></l><r>ljós<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>breyð<s n="n"/><s n="nt"/></l><r>brauð<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>bók<s n="n"/><s n="f"/></l><r>bók<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
@@ -262,6 +263,7 @@
     <e><p><l>tala<s n="vblex"/></l><r>tala<s n="vblex"/></r></p></e>
     <e><p><l>skriva<s n="vblex"/></l><r>skrifa<s n="vblex"/></r></p></e>
     <e><p><l>sláa<s n="vblex"/></l><r>slá<s n="vblex"/></r></p></e>
+    <e><p><l>velja<s n="vblex"/></l><r>velja<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>sláa<s n="vblex"/></l><r>lemja<s n="vblex"/></r></p></e>
     <e><p><l>eta<s n="vblex"/></l><r>éta<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>eta<s n="vblex"/></l><r>borða<s n="vblex"/></r></p></e>
