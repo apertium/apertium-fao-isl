@@ -406,6 +406,180 @@
       </e>
     </pardef>
 
+    <pardef n="t/ann__det"> <!-- That -->
+      <e>
+        <p>
+          <l>ann</l>
+          <r>ann<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ann</l>
+          <r>ann<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>í</l>
+          <r>ann<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ann</l>
+          <r>ann<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ess</l>
+          <r>ann<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ann</l>
+          <r>ann<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>ann<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>í</l>
+          <r>ann<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>eirri</l>
+          <r>ann<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>í</l>
+          <r>ann<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eirrar</l>
+          <r>ann<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>að</l>
+          <r>ann<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>að</l>
+          <r>ann<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>í</l>
+          <r>ann<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ess</l>
+          <r>ann<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>eir</l>
+          <r>ann<s n="det"/><s n="def"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>á</l>
+          <r>ann<s n="det"/><s n="def"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eir</l>
+          <r>ann<s n="det"/><s n="def"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eimum</l>
+          <r>ann<s n="det"/><s n="def"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eirra</l>
+          <r>ann<s n="det"/><s n="def"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ær</l>
+          <r>ann<s n="det"/><s n="def"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ær</l>
+          <r>ann<s n="det"/><s n="def"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eimum</l>
+          <r>ann<s n="det"/><s n="def"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eirra</l>
+          <r>ann<s n="det"/><s n="def"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ey</l>
+          <r>ann<s n="det"/><s n="def"/><s n="nt"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ey</l>
+          <r>ann<s n="det"/><s n="def"/><s n="nt"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eimum</l>
+          <r>ann<s n="det"/><s n="def"/><s n="nt"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eirra</l>
+          <r>ann<s n="det"/><s n="def"/><s n="nt"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+
     <!-- Pronouns -->
 
     <pardef n="s/eg__prn">
@@ -14954,6 +15128,8 @@
     <e lm="annaðhvørt"><i>annaðhvørt</i><par n="og__cnjcoo"/></e>
     <e lm="meðan"><i>meðan</i><par n="og__cnjcoo"/></e>
 
+    <e lm="so"><i>so</i><par n="og__cnjcoo"/></e>
+
 
     <e lm="sum"><i>sum</i><par n="sum__cnjsub"/></e>
     <e lm="og"><i>og</i><par n="sum__cnjsub"/></e>
@@ -14965,8 +15141,14 @@
     <e lm="so"><i>so</i><par n="sum__cnjsub"/></e>
     <e lm="hóast"><i>hóast</i><par n="sum__cnjsub"/></e>
     <e lm="síðan"><i>síðan</i><par n="sum__cnjsub"/></e>
+    <e lm="uttan"><i>uttan</i><par n="sum__cnjsub"/></e>
+    <e lm="tó at"><i>tó<b/>at</i><par n="sum__cnjsub"/></e>
+    <e lm="eftirsum"><i>eftirsum</i><par n="sum__cnjsub"/></e>
+    <e lm="tí at"><i>tí<b/>at</i><par n="sum__cnjsub"/></e>
+    <e lm="av tí at"><i>av<b/>tí<b/>at</i><par n="sum__cnjsub"/></e>
 
     <e lm="ein"><i>ei</i><par n="ei/n__det"/></e>
+    <e lm="tann"><i>t</i><par n="t/ann__det"/></e>
 
     <e lm="prnpers"><i/><par n="/eg__prn"/></e>
 

@@ -6,6 +6,7 @@
     <sdef n="np"       c="Proper noun"/>
     <sdef n="pr"       c="Preposition"/>
     <sdef n="prn"      c="Pronoun"/>
+    <sdef n="det"      c="Determiner"/>
     <sdef n="num"      c="Numeral"/>
     <sdef n="adj"      c="Adjective"/>
     <sdef n="adv"      c="Adverb"/>
@@ -34,6 +35,7 @@
     <sdef n="itg"      c="Interrogative"/>
     <sdef n="ref"      c="Reflexive"/>
     <sdef n="ind"      c="Indefinite"/>
+    <sdef n="def"      c="Definite"/>
     <sdef n="qnt"      c="Quantifier"/>
 
     <sdef n="al"       c="Altres"/>
@@ -82,6 +84,11 @@
 
     <e><p><l>enn<s n="cnjcoo"/></l><r>enn<s n="cnjcoo"/></r></p></e>
     <e><p><l>og<s n="cnjcoo"/></l><r>og<s n="cnjcoo"/></r></p></e>
+    <e><p><l>men<s n="cnjcoo"/></l><r>en<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ella<s n="cnjcoo"/></l><r>eða<s n="cnjcoo"/></r></p></e>       <!-- or -->
+    <e r="RL"><p><l>ella<s n="cnjcoo"/></l><r>né<s n="cnjcoo"/></r></p></e> <!-- nor -->
+    <e><p><l>annaðhvørt<s n="cnjcoo"/></l><r>annaðhvort<s n="cnjcoo"/></r></p></e>
+    <e><p><l>so<s n="cnjcoo"/></l><r>svona<s n="cnjcoo"/></r></p></e>       <!-- so -->
 
     <e><p><l>og<s n="cnjsub"/></l><r>og<s n="cnjsub"/></r></p></e>
     <e><p><l>meðan<s n="cnjsub"/></l><r>meðan<s n="cnjsub"/></r></p></e>
@@ -96,6 +103,12 @@
     <e><p><l>sum<s n="cnjsub"/></l><r>sem<s n="cnjsub"/></r></p></e>
 
     <e><p><l>at<s n="cnjsub"/></l><r>að<s n="cnjsub"/></r></p></e>
+    <e><p><l>uttan<s n="cnjsub"/></l><r>nema<s n="cnjsub"/></r></p></e>
+    <e><p><l>tó<b/>at<s n="cnjsub"/></l><r>þó<s n="cnjsub"/></r></p></e>
+    <e><p><l>tó<b/>at<s n="cnjsub"/></l><r>þó<b/>að<s n="cnjsub"/></r></p></e>
+    <e><p><l>av<b/>tí<b/>at<s n="cnjsub"/></l><r>af<b/>því<b/>að<s n="cnjsub"/></r></p></e>
+    <e><p><l>tí<b/>at<s n="cnjsub"/></l><r>því<b/>að<s n="cnjsub"/></r></p></e>
+    <e><p><l>eftirsum<s n="cnjsub"/></l><r>þar<b/>sem<s n="cnjsub"/></r></p></e>
 
     <!-- Pronouns -->
 
@@ -130,6 +143,11 @@
 
     <e><p><l>hvør<s n="prn"/><s n="itg"/></l><r>hver<s n="prn"/><s n="itg"/></r></p></e> <!-- who -->
     <e><p><l>hvør<s n="prn"/><s n="itg"/></l><r>hvor<s n="prn"/><s n="itg"/></r></p></e> <!-- which -->
+
+    <!-- Determiners -->
+
+    <e r="LR"><p><l>hin<s n="det"/><s n="def"/></l><r>hinn<s n="det"/><s n="def"/></r></p></e>
+    <e><p><l>tann<s n="det"/><s n="def"/></l><r>hinn<s n="det"/><s n="def"/></r></p></e>
 
     <!-- Numerals -->
 
