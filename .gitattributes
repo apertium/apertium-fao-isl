@@ -11,6 +11,7 @@
 /apertium-fo-is.is-fo.rlx -text
 /apertium-fo-is.is-fo.t1x -text
 /apertium-fo-is.is.dix -text
+/autogen.sh -text
 /configure.ac -text
 dev/bidix/adjs.list -text
 dev/bidix/adjs.scored.list -text
