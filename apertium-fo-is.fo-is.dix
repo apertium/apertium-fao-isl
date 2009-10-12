@@ -638,7 +638,9 @@
     <e><p><l>fáa<s n="vblex"/></l><r>geta<s n="vblex"/></r></p></e>
     <e><p><l>munna<s n="vbmod"/></l><r>munu<s n="vaux"/></r></p></e>
 
+    <e><p><l>hava<s n="vblex"/></l><r>hafa<s n="vblex"/></r></p></e>
     <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vblex"/></r></p></e>
+
     <e><p><l>skapa<s n="vblex"/></l><r>skapa<s n="vblex"/></r></p></e>
     <e><p><l>sveima<s n="vblex"/></l><r>svífa<s n="vblex"/></r></p></e>
     <e><p><l>skula<s n="vblex"/></l><r>skulu<s n="vblex"/></r></p></e>
@@ -666,6 +668,104 @@
     <e r="RL"><p><l>sláa<s n="vblex"/></l><r>lemja<s n="vblex"/></r></p></e>
     <e><p><l>eta<s n="vblex"/></l><r>éta<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>eta<s n="vblex"/></l><r>borða<s n="vblex"/></r></p></e>
+
+    <e><p><l>hoyra<s n="vblex"/></l><r>heyra<s n="vblex"/></r></p></e>
+    <e><p><l>ganga<s n="vblex"/></l><r>ganga<s n="vblex"/></r></p></e>
+    <e><p><l>hata<s n="vblex"/></l><r>hata<s n="vblex"/></r></p></e>
+    <e><p><l>fylgja<s n="vblex"/></l><r>fylgja<s n="vblex"/></r></p></e>
+    <e><p><l>leita<s n="vblex"/></l><r>leita<s n="vblex"/></r></p></e>
+    <e><p><l>mála<s n="vblex"/></l><r>mæla<s n="vblex"/></r></p></e>
+    <e><p><l>toyggja<s n="vblex"/></l><r>teygja<s n="vblex"/></r></p></e>
+    <e><p><l>bjóða<s n="vblex"/></l><r>bjóða<s n="vblex"/></r></p></e>
+    <e><p><l>fáa<s n="vblex"/></l><r>fá<s n="vblex"/></r></p></e>
+    <e><p><l>kasta<s n="vblex"/></l><r>kasta<s n="vblex"/></r></p></e>
+    <e><p><l>royna<s n="vblex"/></l><r>reyna<s n="vblex"/></r></p></e>
+    <e><p><l>seta<s n="vblex"/></l><r>setja<s n="vblex"/></r></p></e>
+    <e><p><l>stjala<s n="vblex"/></l><r>stela<s n="vblex"/></r></p></e>
+    <e><p><l>sova<s n="vblex"/></l><r>sofa<s n="vblex"/></r></p></e>
+    <e><p><l>biðja<s n="vblex"/></l><r>biðja<s n="vblex"/></r></p></e>
+    <e><p><l>vinna<s n="vblex"/></l><r>ávinna<s n="vblex"/></r></p></e>
+    <e><p><l>heilsa<s n="vblex"/></l><r>heilsa<s n="vblex"/></r></p></e>
+    <e><p><l>sita<s n="vblex"/></l><r>sitja<s n="vblex"/></r></p></e>
+    <e><p><l>kalla<s n="vblex"/></l><r>kalla<s n="vblex"/></r></p></e>
+    <e><p><l>oyða<s n="vblex"/></l><r>eyða<s n="vblex"/></r></p></e>
+    <e><p><l>breiða<s n="vblex"/></l><r>breiða<s n="vblex"/></r></p></e>
+    <e><p><l>leiða<s n="vblex"/></l><r>leiða<s n="vblex"/></r></p></e>
+    <e><p><l>sovna<s n="vblex"/></l><r>sofna<s n="vblex"/></r></p></e>
+    <e><p><l>hitta<s n="vblex"/></l><r>hitta<s n="vblex"/></r></p></e>
+    <e><p><l>bróta<s n="vblex"/></l><r>brjóta<s n="vblex"/></r></p></e>
+    <e><p><l>heingja<s n="vblex"/></l><r>hengja<s n="vblex"/></r></p></e>
+    <e><p><l>flóta<s n="vblex"/></l><r>fljóta<s n="vblex"/></r></p></e>
+    <e><p><l>finna<s n="vblex"/></l><r>finna<s n="vblex"/></r></p></e>
+    <e><p><l>ljóða<s n="vblex"/></l><r>hljóma<s n="vblex"/></r></p></e>
+    <e><p><l>turka<s n="vblex"/></l><r>þerra<s n="vblex"/></r></p></e>
+    <e><p><l>ætla<s n="vblex"/></l><r>ætla<s n="vblex"/></r></p></e>
+    <e><p><l>berja<s n="vblex"/></l><r>berja<s n="vblex"/></r></p></e>
+    <e><p><l>standa<s n="vblex"/></l><r>standa<s n="vblex"/></r></p></e>
+    <e><p><l>verja<s n="vblex"/></l><r>verja<s n="vblex"/></r></p></e>
+    <e><p><l>skriva<s n="vblex"/></l><r>rita<s n="vblex"/></r></p></e>
+    <e><p><l>ríva<s n="vblex"/></l><r>rífa<s n="vblex"/></r></p></e>
+    <e><p><l>skera<s n="vblex"/></l><r>skera<s n="vblex"/></r></p></e>
+    <e><p><l>døma<s n="vblex"/></l><r>dæma<s n="vblex"/></r></p></e>
+    <e><p><l>vistast<s n="vblex"/></l><r>mega<s n="vblex"/></r></p></e>
+    <e><p><l>geva<s n="vblex"/></l><r>gefa<s n="vblex"/></r></p></e>
+    <e><p><l>gloyma<s n="vblex"/></l><r>gleyma<s n="vblex"/></r></p></e>
+    <e><p><l>vakna<s n="vblex"/></l><r>vakna<s n="vblex"/></r></p></e>
+    <e><p><l>spinna<s n="vblex"/></l><r>spinna<s n="vblex"/></r></p></e>
+    <e><p><l>doyða<s n="vblex"/></l><r>deyja<s n="vblex"/></r></p></e>
+    <e><p><l>selja<s n="vblex"/></l><r>selja<s n="vblex"/></r></p></e>
+    <e><p><l>regna<s n="vblex"/></l><r>rigna<s n="vblex"/></r></p></e>
+    <e><p><l>stinga<s n="vblex"/></l><r>stinga<s n="vblex"/></r></p></e>
+    <e><p><l>telja<s n="vblex"/></l><r>telja<s n="vblex"/></r></p></e>
+    <e><p><l>liggja<s n="vblex"/></l><r>liggja<s n="vblex"/></r></p></e>
+    <e><p><l>drekka<s n="vblex"/></l><r>drekka<s n="vblex"/></r></p></e>
+    <e><p><l>bíða<s n="vblex"/></l><r>bíða<s n="vblex"/></r></p></e>
+    <e><p><l>gera<s n="vblex"/></l><r>gjöra<s n="vblex"/></r></p></e>
+    <e><p><l>styrkja<s n="vblex"/></l><r>styrkja<s n="vblex"/></r></p></e>
+    <e><p><l>fylkja<s n="vblex"/></l><r>fylkja<s n="vblex"/></r></p></e>
+    <e><p><l>leggja<s n="vblex"/></l><r>leggja<s n="vblex"/></r></p></e>
+    <e><p><l>opna<s n="vblex"/></l><r>opna<s n="vblex"/></r></p></e>
+    <e><p><l>leika<s n="vblex"/></l><r>leika<s n="vblex"/></r></p></e>
+    <e><p><l>spyrja<s n="vblex"/></l><r>spyrja<s n="vblex"/></r></p></e>
+    <e><p><l>liva<s n="vblex"/></l><r>lifa<s n="vblex"/></r></p></e>
+    <e><p><l>synda<s n="vblex"/></l><r>syndga<s n="vblex"/></r></p></e>
+    <e><p><l>sakna<s n="vblex"/></l><r>sakna<s n="vblex"/></r></p></e>
+    <e><p><l>bera<s n="vblex"/></l><r>bera<s n="vblex"/></r></p></e>
+    <e><p><l>halda<s n="vblex"/></l><r>halda<s n="vblex"/></r></p></e>
+    <e><p><l>binda<s n="vblex"/></l><r>binda<s n="vblex"/></r></p></e>
+    <e><p><l>draga<s n="vblex"/></l><r>draga<s n="vblex"/></r></p></e>
+    <e><p><l>verða<s n="vblex"/></l><r>verða<s n="vblex"/></r></p></e>
+    <e><p><l>ríða<s n="vblex"/></l><r>ríða<s n="vblex"/></r></p></e>
+    <e><p><l>elska<s n="vblex"/></l><r>elska<s n="vblex"/></r></p></e>
+    <e><p><l>líða<s n="vblex"/></l><r>líða<s n="vblex"/></r></p></e>
+    <e><p><l>vaka<s n="vblex"/></l><r>vaka<s n="vblex"/></r></p></e>
+    <e><p><l>skilja<s n="vblex"/></l><r>skilja<s n="vblex"/></r></p></e>
+    <e><p><l>skifta<s n="vblex"/></l><r>skipta<s n="vblex"/></r></p></e>
+    <e><p><l>volda<s n="vblex"/></l><r>valda<s n="vblex"/></r></p></e>
+    <e><p><l>brenna<s n="vblex"/></l><r>brenna<s n="vblex"/></r></p></e>
+    <e><p><l>rísa<s n="vblex"/></l><r>rísa<s n="vblex"/></r></p></e>
+    <e><p><l>njóta<s n="vblex"/></l><r>njóta<s n="vblex"/></r></p></e>
+    <e><p><l>hugsa<s n="vblex"/></l><r>hugsa<s n="vblex"/></r></p></e>
+    <e><p><l>gifta<s n="vblex"/></l><r>gifta<s n="vblex"/></r></p></e>
+    <e><p><l>drepa<s n="vblex"/></l><r>drepa<s n="vblex"/></r></p></e>
+    <e><p><l>droyma<s n="vblex"/></l><r>dreyma<s n="vblex"/></r></p></e>
+    <e><p><l>fylla<s n="vblex"/></l><r>fylla<s n="vblex"/></r></p></e>
+    <e><p><l>svara<s n="vblex"/></l><r>svara<s n="vblex"/></r></p></e>
+    <e><p><l>flyta<s n="vblex"/></l><r>flytja<s n="vblex"/></r></p></e>
+    <e><p><l>súgva<s n="vblex"/></l><r>sjúga<s n="vblex"/></r></p></e>
+    <e><p><l>búgva<s n="vblex"/></l><r>búa<s n="vblex"/></r></p></e>
+    <e><p><l>gloypa<s n="vblex"/></l><r>gleypa<s n="vblex"/></r></p></e>
+    <e><p><l>læsa<s n="vblex"/></l><r>loka<s n="vblex"/></r></p></e>
+    <e><p><l>lova<s n="vblex"/></l><r>lofa<s n="vblex"/></r></p></e>
+    <e><p><l>læra<s n="vblex"/></l><r>læra<s n="vblex"/></r></p></e>
+    <e><p><l>vóna<s n="vblex"/></l><r>vona<s n="vblex"/></r></p></e>
+    <e><p><l>boyggja<s n="vblex"/></l><r>beygja<s n="vblex"/></r></p></e>
+    <e><p><l>syrgja<s n="vblex"/></l><r>syrgja<s n="vblex"/></r></p></e>
+    <e><p><l>eiga<s n="vblex"/></l><r>eiga<s n="vblex"/></r></p></e>
+
+
+
+    <!-- Interjections -->
 
     <e><p><l>takk<s n="ij"/></l><r>takk<s n="ij"/></r></p></e>
     <e><p><l>takk<b/>fyri<s n="ij"/></l><r>takk<b/>fyrir<s n="ij"/></r></p></e>

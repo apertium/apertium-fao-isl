@@ -5839,74 +5839,14 @@
     <pardef n="grein__n">
       <e>
         <p>
-          <l>anna</l>
-          <r><s n="n"/><s n="f"/><s n="pl"/><s n="gen"/><s n="def"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>a</l>
-          <r><s n="n"/><s n="f"/><s n="pl"/><s n="gen"/><s n="ind"/></r>
+          <l>ar</l>
+          <r><s n="n"/><s n="f"/><s n="sg"/><s n="gen"/><s n="ind"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>arinnar</l>
           <r><s n="n"/><s n="f"/><s n="sg"/><s n="gen"/><s n="def"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>arnar</l>
-          <r><s n="n"/><s n="f"/><s n="pl"/><s n="acc"/><s n="def"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>irnar</l>
-          <r><s n="n"/><s n="f"/><s n="pl"/><s n="acc"/><s n="def"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>arnar</l>
-          <r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="def"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>irnar</l>
-          <r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="def"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ar</l>
-          <r><s n="n"/><s n="f"/><s n="pl"/><s n="acc"/><s n="ind"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ir</l>
-          <r><s n="n"/><s n="f"/><s n="pl"/><s n="acc"/><s n="ind"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ar</l>
-          <r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ir</l>
-          <r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ar</l>
-          <r><s n="n"/><s n="f"/><s n="sg"/><s n="gen"/><s n="ind"/></r>
         </p>
       </e>
       <e>
@@ -5937,6 +5877,61 @@
         <p>
           <l/>
           <r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>anna</l>
+          <r><s n="n"/><s n="f"/><s n="pl"/><s n="gen"/><s n="def"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r><s n="n"/><s n="f"/><s n="pl"/><s n="gen"/><s n="ind"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>arnar</l>
+          <r><s n="n"/><s n="f"/><s n="pl"/><s n="acc"/><s n="def"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irnar</l>
+          <r><s n="n"/><s n="f"/><s n="pl"/><s n="acc"/><s n="def"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>arnar</l>
+          <r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="def"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irnar</l>
+          <r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="def"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r><s n="n"/><s n="f"/><s n="pl"/><s n="acc"/><s n="ind"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ar</l>
+          <r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r>
         </p>
       </e>
       <e>
@@ -15456,6 +15451,7 @@
     <e lm="fiskifrøðingur"><i>fiskifrøðingur</i><par n="fílur__n"/></e>
     <e lm="ísraelsmaður"><i>ísraelsm</i><par n="áarm/aður__n"/></e>
     <e lm="soga"><i>sog</i><par n="øð/a__n"/></e>
+    <e lm="kona"><i>kon</i><par n="øð/a__n"/></e>
     <e lm="vinna"><i>vinn</i><par n="øð/a__n"/></e>
     <e lm="nútíðarmaður"><i>nútíðarm</i><par n="áarm/aður__n"/></e>
     <e lm="gignisverk"><i>gignisverk</i><par n="ár__n"/></e>
@@ -16906,6 +16902,7 @@
     <e lm="alkohol"><i>alkohol</i><par n="ár__n"/></e>
 
     <e lm="grein"><i>grein</i><par n="grein__n"/></e>
+    <e lm="mynd"><i>mynd</i><par n="grein__n"/></e>
 
     <e lm="lívtøkniligur"><i>lívtøkniligur</i><par n="tøkniligur__adj"/></e>
     <e lm="bláur"><i>blá</i><par n="blá/ur__adj"/></e>
