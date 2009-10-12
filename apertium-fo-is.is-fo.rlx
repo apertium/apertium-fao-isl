@@ -17,7 +17,7 @@ LIST Adj = (adj) ;
 LIST Adv = (adv) ;
 LIST PrnPers = (prn) ;
 LIST IndefinitePronoun = (prn ind);
-LIST DemonstrativePronoun = (prn dem) ;
+LIST PrnDem = (prn dem) ;
 LIST ReflexivePronoun = (prn ref) ;
 LIST InterrogativePronoun = (prn itg) ;
 LIST PossessivePronoun = (prn pos) ;
@@ -39,7 +39,7 @@ LIST Exclamation = (ij) ;
 LIST Article = (def) ;
 
 LIST Fem = (f);
-LIST Masc = (m);
+LIST Msc = (m);
 LIST Neu = (nt);
 
 LIST Gen = (gen);
@@ -73,7 +73,7 @@ SELECT ProperNoun IF (-1C DatPrep) (1 Dat) ;
 # Hildar Guðmundsdóttur
 SELECT ProperNoun IF (-1C ProperNoun) (-1C Gen) (0 ("<.*dóttur">)) (0 Gen) ; 	# !tag.isCase(GENITIVE) ;
 SELECT ProperNoun IF (-1C ProperNoun) (-1C Fem) ; 				# !tag.isGender(FEMININE) ;
-SELECT ProperNoun IF (-1C ProperNoun) (-1C Masc) ; 				# !tag.isGender(MASCULINE) ;
+SELECT ProperNoun IF (-1C ProperNoun) (-1C Msc) ; 				# !tag.isGender(MASCULINE) ;
 
 #################################################################################
 # Nouns
@@ -82,7 +82,7 @@ SELECT ProperNoun IF (-1C ProperNoun) (-1C Masc) ; 				# !tag.isGender(MASCULINE
 # hann sýnir but stakk hún hendi is ok, það sýnir aldrei
 
 # CEx.  Ég borða fisk
-#SELECT Noun IF ((-1C PrnPers) OR (-1C PrnPers LINK -1C DemonstrativePronoun) OR (-1C ("<við>"ri))); 
+#SELECT Noun IF ((-1C PrnPers) OR (-1C PrnPers LINK -1C PrnDem) OR (-1C ("<við>"ri))); 
 
 SELECT Noun IF (-1C GenPrep) (1 Gen) ;	
 SELECT Noun IF (-1C AccPrep) (1 Acc) ;
@@ -115,7 +115,7 @@ SELECT VerbSupine IF (-1 VerbAux);
 SELECT Adv IF (0 Adj) (-1 BOS OR (NOT -1 Prep)) (1 EOS OR (NOT 1 Noun LINK 1 Gen));
 
 # sú líkn
-SELECT DemonstrativePronoun IF (-1 Noun) (NOT 0 Noun);
+SELECT PrnDem IF (-1 Noun) (NOT 0 Noun);
 
 SELECT VerbBe IF (NOT 0 Noun);
 
@@ -148,6 +148,14 @@ SELECT Adj IF (-1 VerbBe) (NOT -2 BOS) (-2 PrnPers);
 #################################################################################
 # Demonstrative pronouns 
 #################################################################################
+
+REMOVE Fem IF (0C PrnDem)  (1C Neu);
+REMOVE Fem IF (0C PrnDem)  (1C Msc);
+REMOVE Msc IF (0C PrnDem)  (1C Neu);
+REMOVE Msc IF (0C PrnDem)  (1C Fem);
+REMOVE Neu IF (0C PrnDem)  (1C Fem);
+REMOVE Neu IF (0C PrnDem)  (1C Msc);
+REMOVE Msc IF (0C PrnDem)  (1C Fem);
 
 
 #################################################################################
