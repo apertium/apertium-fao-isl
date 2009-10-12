@@ -102,8 +102,11 @@
     <e><p><l>um<s n="cnjsub"/></l><r>ef<s n="cnjsub"/></r></p></e> 
 
     <e><p><l>sum<s n="cnjsub"/></l><r>sem<s n="cnjsub"/></r></p></e>
+    <e r="RL"><p><l>sum<s n="cnjsub"/></l><r>þangað<b/>sem<s n="cnjsub"/></r></p></e>
 
     <e><p><l>at<s n="cnjsub"/></l><r>að<s n="cnjsub"/></r></p></e>
+    <e><p><l>hagar<b/>at<s n="cnjsub"/></l><r>þangað<b/>til<b/>að<s n="cnjsub"/></r></p></e>
+    <e><p><l>áðrenn<s n="cnjsub"/></l><r>áður<b/>en<s n="cnjsub"/></r></p></e>
     <e><p><l>heldur<b/>enn<s n="cnjsub"/></l><r>heldur<b/>en<s n="cnjsub"/></r></p></e>
     <e><p><l>so<b/>sum<s n="cnjsub"/></l><r>svo<b/>sem<s n="cnjsub"/></r></p></e>
     <e><p><l>so<b/>at<s n="cnjsub"/></l><r>svo<b/>að<s n="cnjsub"/></r></p></e>
@@ -116,13 +119,21 @@
     <e><p><l>tó<b/>at<s n="cnjsub"/></l><r>þó<b/>að<s n="cnjsub"/></r></p></e>
     <e><p><l>fyri<b/>at<s n="cnjsub"/></l><r>fyrir<b/>því<b/>að<s n="cnjsub"/></r></p></e>
     <e><p><l>av<b/>tí<b/>at<s n="cnjsub"/></l><r>af<b/>því<b/>að<s n="cnjsub"/></r></p></e>
+    <e r="RL"><p><l>av<b/>tí<b/>at<s n="cnjsub"/></l><r>sökum<b/>þess<b/>að<s n="cnjsub"/></r></p></e>
+    <e r="RL"><p><l>av<b/>tí<b/>at<s n="cnjsub"/></l><r>vegna<b/>þess<b/>að<s n="cnjsub"/></r></p></e>
     <e><p><l>tí<b/>at<s n="cnjsub"/></l><r>því<b/>að<s n="cnjsub"/></r></p></e>
-    <e><p><l>eftirsum<s n="cnjsub"/></l><r>þar<b/>sem<s n="cnjsub"/></r></p></e>
+    <e><p><l>táið<s n="cnjsub"/></l><r>þá<b/>er<s n="cnjsub"/></r></p></e>
+    <e><p><l>inntil<s n="cnjsub"/></l><r>þar<b/>til<b/>er<s n="cnjsub"/></r></p></e>
     <e><p><l>eins<b/>og<s n="cnjsub"/></l><r>eins<b/>og<s n="cnjsub"/></r></p></e>
-    <e><p><l>har<b/>sum<s n="cnjsub"/></l><r>þar<b/>sem<s n="cnjsub"/></r></p></e>
+    <e><p><l>eftirsum<s n="cnjsub"/></l><r>þar<b/>sem<s n="cnjsub"/></r></p></e>
+    <e r="RL"><p><l>har<b/>sum<s n="cnjsub"/></l><r>þar<b/>sem<s n="cnjsub"/></r></p></e>
+    <e><p><l>tað<b/>sama<b/>sum<s n="cnjsub"/></l><r>um<b/>leið<b/>og<s n="cnjsub"/></r></p></e>
     <e><p><l>til<b/>at<s n="cnjsub"/></l><r>til<b/>að<s n="cnjsub"/></r></p></e>
     <e><p><l>til<b/>tess<b/>at<s n="cnjsub"/></l><r>til<b/>þess<b/>að<s n="cnjsub"/></r></p></e>
+    <e><p><l>sum<b/>fara<b/>at<s n="cnjsub"/></l><r>þegar<b/>er<s n="cnjsub"/></r></p></e>
     <e><p><l>hvar<b/>sum<b/>helst<s n="cnjsub"/></l><r>hvar<b/>sem<s n="cnjsub"/></r></p></e>
+    <e><p><l>síðani<s n="cnjsub"/></l><r>úr<b/>því<b/>að<s n="cnjsub"/></r></p></e>
+    <e><p><l>samur<b/>sum<b/>nú<s n="cnjsub"/></l><r>undireins<b/>og<s n="cnjsub"/></r></p></e>
     <e r="RL"><p><l>hvar<b/>sum<b/>helst<s n="cnjsub"/></l><r>hvert<b/>sem<s n="cnjsub"/></r></p></e>
     <e r="RL"><p><l>hvar<b/>sum<b/>helst<s n="cnjsub"/></l><r>hvert<b/>er<s n="cnjsub"/></r></p></e>
 
