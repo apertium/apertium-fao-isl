@@ -42,6 +42,8 @@
 
     <sdef n="ij"       c="Interjection"/>
     <sdef n="sent"     c="Sentence marker"/>
+
+    <sdef n="GD"       c="Gender to be determined"/>
   </sdefs>
   <pardefs>
     <pardef n="default__n">
@@ -143,7 +145,7 @@
     <e><p><l>inntil<s n="cnjsub"/></l><r>þar<b/>til<b/>er<s n="cnjsub"/></r></p></e>
     <e><p><l>eins<b/>og<s n="cnjsub"/></l><r>eins<b/>og<s n="cnjsub"/></r></p></e>
     <e><p><l>eftirsum<s n="cnjsub"/></l><r>þar<b/>sem<s n="cnjsub"/></r></p></e>
-    <e r="RL"><p><l>har<b/>sum<s n="cnjsub"/></l><r>þar<b/>sem<s n="cnjsub"/></r></p></e>
+    <e r="LR"><p><l>har<b/>sum<s n="cnjsub"/></l><r>þar<b/>sem<s n="cnjsub"/></r></p></e>
     <e><p><l>tað<b/>sama<b/>sum<s n="cnjsub"/></l><r>um<b/>leið<b/>og<s n="cnjsub"/></r></p></e>
     <e><p><l>til<b/>at<s n="cnjsub"/></l><r>til<b/>að<s n="cnjsub"/></r></p></e>
     <e><p><l>til<b/>tess<b/>at<s n="cnjsub"/></l><r>til<b/>þess<b/>að<s n="cnjsub"/></r></p></e>
@@ -196,10 +198,16 @@
     <!-- Numerals -->
 
     <e><p><l>null<s n="num"/></l><r>núll<s n="num"/></r></p></e>
-    <e><p><l>ein<s n="num"/></l><r>einn<s n="num"/></r></p></e>
+    <e><p><l>eitt<s n="num"/></l><r>einn<s n="num"/></r></p></e>
     <e><p><l>tvey<s n="num"/></l><r>tveir<s n="num"/></r></p></e>
     <e><p><l>trý<s n="num"/></l><r>þrír<s n="num"/></r></p></e>
-    <e><p><l>fýra<s n="num"/></l><r>fjórir<s n="num"/></r></p></e>
+
+    <e><p><l>fýra<s n="num"/><s n="mf"/></l><r>fjórir<s n="num"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>fýra<s n="num"/><s n="mf"/></l><r>fjórir<s n="num"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>fýra<s n="num"/><s n="mf"/></l><r>fjórir<s n="num"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>fýra<s n="num"/><s n="mf"/></l><r>fjórir<s n="num"/><s n="nt"/></r></p></e>
+    <e r="LR"><p><l>fýra<s n="num"/><s n="mf"/></l><r>fjórir<s n="num"/><s n="GD"/></r></p></e>
+
     <e><p><l>fimm<s n="num"/></l><r>fimm<s n="num"/></r></p></e>
     <e><p><l>seks<s n="num"/></l><r>sex<s n="num"/></r></p></e>
     <e><p><l>sjey<s n="num"/></l><r>sjö<s n="num"/></r></p></e>
@@ -226,17 +234,17 @@
     <e><p><l>sjey<b/>og<b/>tjúga<s n="num"/></l><r>tuttugu<b/>og<b/>sjö<s n="num"/></r></p></e>
     <e><p><l>átta<b/>og<b/>tjúga<s n="num"/></l><r>tuttugu<b/>og<b/>átta<s n="num"/></r></p></e>
     <e><p><l>níggju<b/>og<b/>tjúga<s n="num"/></l><r>tuttugu<b/>og<b/>níu<s n="num"/></r></p></e>
-    <e><p><l>tretivu<s n="num"/></l><r>þrátíu<s n="num"/></r></p></e>
+    <e><p><l>tretivu<s n="num"/></l><r>þrjátíu<s n="num"/></r></p></e>
     <e><p><l>ein<b/>og<b/>tretivu<s n="num"/></l><r>þrátíu<b/>og<b/>einn<s n="num"/></r></p></e>
     <e><p><l>tvey<b/>og<b/>tretiva<s n="num"/></l><r>þrátíu<b/>og<b/>tveir<s n="num"/></r></p></e>
     <e><p><l>trý<b/>og<b/>tretiva<s n="num"/></l><r>þrátíu<b/>og<b/>þrír<s n="num"/></r></p></e>
     <e><p><l>fjøruti<s n="num"/></l><r>fjörutíu<s n="num"/></r></p></e>
-    <e><p><l>hálvtrýss<s n="num"/></l><r>fimmtú<s n="num"/></r></p></e>
+    <e><p><l>hálvtrýss<s n="num"/></l><r>fimmtíu<s n="num"/></r></p></e>
     <e><p><l>trýss<s n="num"/></l><r>sextíu<s n="num"/></r></p></e>
     <e><p><l>hálvfjerðs<s n="num"/></l><r>sjötíu<s n="num"/></r></p></e>
     <e><p><l>fýrs<s n="num"/></l><r>áttatíu<s n="num"/></r></p></e>
     <e><p><l>hálvfems<s n="num"/></l><r>níutíu<s n="num"/></r></p></e>
-    <e><p><l>hundrað<s n="num"/></l><r>eitt<b/>hundrað<s n="num"/></r></p></e>
+    <e><p><l>hundrað<s n="num"/></l><r>hundrað<s n="num"/></r></p></e>
 
     <!-- Nouns -->
 
@@ -344,8 +352,10 @@
     <e r="RL"><p><l>eta<s n="vblex"/></l><r>borða<s n="vblex"/></r></p></e>
 
     <e><p><l>takk<s n="ij"/></l><r>takk<s n="ij"/></r></p></e>
+    <e><p><l>takk<b/>fyri<s n="ij"/></l><r>takk<b/>fyrir<s n="ij"/></r></p></e>
     <e><p><l>skál<s n="ij"/></l><r>sko<s n="ij"/></r></p></e>
     <e><p><l>ja<s n="ij"/></l><r>já<s n="ij"/></r></p></e>
+    <e><p><l>va<s n="ij"/></l><r>vá<s n="ij"/></r></p></e>
 
 
     <!-- Punctuation -->
