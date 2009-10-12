@@ -149,6 +149,7 @@ SELECT Adj IF (-1 VerbBe) (NOT -2 BOS) (-2 PrnPers);
 # Demonstrative pronouns 
 #################################################################################
 
+# Ex. Guð talaði öll þessi orð og sagði:
 REMOVE Fem IF (0C PrnDem)  (1C Neu);
 REMOVE Fem IF (0C PrnDem)  (1C Msc);
 REMOVE Msc IF (0C PrnDem)  (1C Neu);
