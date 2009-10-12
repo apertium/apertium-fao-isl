@@ -85,61 +85,61 @@
     <pardef n="ei/n__num">
       <e>
         <p>
-          <l>a</l>
+          <l>na</l>
           <r>n<s n="num"/><s n="f"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l/>
+          <l>n</l>
           <r>n<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>i</l>
+          <l>ni</l>
           <r>n<s n="num"/><s n="f"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l/>
+          <l>n</l>
           <r>n<s n="num"/><s n="m"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l/>
+          <l>n</l>
           <r>n<s n="num"/><s n="m"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>s</l>
+          <l>ns</l>
           <r>n<s n="num"/><s n="f"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>s</l>
+          <l>ns</l>
           <r>n<s n="num"/><s n="m"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>s</l>
+          <l>ns</l>
           <r>n<s n="num"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>um</l>
+          <l>num</l>
           <r>n<s n="num"/><s n="m"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>um</l>
+          <l>num</l>
           <r>n<s n="num"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
@@ -162,7 +162,7 @@
       <e>
         <p>
           <l>ggja</l>
-          <r>ir<s n="num"/><s n="nt"/><s n="gen"/></r>
+          <r>ir<s n="num"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
     </pardef>
@@ -15096,7 +15096,6 @@
     <e lm="umhvøris"><i>umhvøris</i><par n="við__pr"/></e>
     <e lm="báðumegin"><i>báðumegin</i><par n="við__pr"/></e>
     <e lm="hasumegin"><i>hasumegin</i><par n="við__pr"/></e>
-    <e lm="hesumegin"><i>hesumegin</i><par n="við__pr"/></e>
     <e lm="hvørgumegin"><i>hvørgumegin</i><par n="við__pr"/></e>
     <e lm="høgrumegin"><i>høgrumegin</i><par n="við__pr"/></e>
     <e lm="sínumegin"><i>sínumegin</i><par n="við__pr"/></e>
@@ -15118,6 +15117,8 @@
     <e lm="áðrenn"><i>áðrenn</i><par n="við__pr"/></e> 
     <e lm="uttan"><i>uttan</i><par n="við__pr"/></e> 
 
+    <!-- Conjunctions -->
+
     <e lm="og"><i>og</i><par n="og__cnjcoo"/></e>
     <e lm="enn"><i>enn</i><par n="og__cnjcoo"/></e>
     <e lm="ella"><i>ella</i><par n="og__cnjcoo"/></e>
@@ -15129,7 +15130,6 @@
     <e lm="meðan"><i>meðan</i><par n="og__cnjcoo"/></e>
 
     <e lm="so"><i>so</i><par n="og__cnjcoo"/></e>
-
 
     <e lm="sum"><i>sum</i><par n="sum__cnjsub"/></e>
     <e lm="og"><i>og</i><par n="sum__cnjsub"/></e>
@@ -15147,8 +15147,12 @@
     <e lm="tí at"><i>tí<b/>at</i><par n="sum__cnjsub"/></e>
     <e lm="av tí at"><i>av<b/>tí<b/>at</i><par n="sum__cnjsub"/></e>
 
+    <!-- Determiners -->
+
     <e lm="ein"><i>ei</i><par n="ei/n__det"/></e>
     <e lm="tann"><i>t</i><par n="t/ann__det"/></e>
+
+    <!-- Pronouns -->
 
     <e lm="prnpers"><i/><par n="/eg__prn"/></e>
 
@@ -15170,7 +15174,12 @@
     <e lm="allur"><i/><par n="/allur__prn"/></e>
     <e lm="sjálvur"><i>sjálv</i><par n="sjálv/ur__prn"/></e>
 
+    <!-- Numerals -->
+
+    <e lm="ein"><i>ei</i><par n="ei/n__num"/></e>
+
     <!-- Adverbs -->
+
     <e lm="hví"><i>hví</i><par n="hví__adv"/></e> 
     <e lm="hvussu"><i>hvussu</i><par n="hví__adv"/></e> 
     <e lm="hvar"><i>hvar</i><par n="hví__adv"/></e> 
@@ -17000,7 +17009,6 @@
     <e lm="dekan"><i>dekan</i><par n="skál__ij"/></e>
     <e lm="dums"><i>dums</i><par n="skál__ij"/></e>
     <e lm="eya"><i>eya</i><par n="skál__ij"/></e>
-    <e lm="meg"><i>meg</i><par n="skál__ij"/></e>
     <e lm="eyeya"><i>eyeya</i><par n="skál__ij"/></e>
     <e lm="meg"><i>meg</i><par n="skál__ij"/></e>
     <e lm="fý"><i>fý</i><par n="skál__ij"/></e>
@@ -17009,11 +17017,11 @@
     <e lm="hey"><i>hey</i><par n="skál__ij"/></e>
     <e lm="hó"><i>hó</i><par n="skál__ij"/></e>
     <e lm="hygga"><i>hygga</i><par n="skál__ij"/></e>
-    <e lm="hygga"><i>hygga</i><par n="skál__ij"/></e>
     <e lm="síggj"><i>síggj</i><par n="skál__ij"/></e>
     <e lm="illanstíð"><i>illanstíð</i><par n="skál__ij"/></e>
     <e lm="íðan"><i>íðan</i><par n="skál__ij"/></e>
     <e lm="íss"><i>íss</i><par n="skál__ij"/></e>
+    <e lm="ja"><i>ja</i><par n="skál__ij"/></e>
     <e lm="jú"><i>jú</i><par n="skál__ij"/></e>
     <e lm="menn"><i>menn</i><par n="skál__ij"/></e>
     <e lm="júsa"><i>júsa</i><par n="skál__ij"/></e>
@@ -17023,7 +17031,6 @@
     <e lm="skál"><i>skál</i><par n="skál__ij"/></e>
     <e lm="takk"><i>takk</i><par n="skál__ij"/></e>
     <e lm="tramanstíð"><i>tramanstíð</i><par n="skál__ij"/></e>
-    <e lm="trumm"><i>trumm</i><par n="skál__ij"/></e>
     <e lm="trumm"><i>trumm</i><par n="skál__ij"/></e>
     <e lm="tralalei"><i>tralalei</i><par n="skál__ij"/></e>
     <e lm="tví"><i>tví</i><par n="skál__ij"/></e>

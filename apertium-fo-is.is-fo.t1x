@@ -9,6 +9,7 @@
      <def-cat n="verb">
 	  <cat-item tags="vblex.*"/>
 	  <cat-item tags="vbser.*"/>
+	  <cat-item tags="vaux.*"/>
      </def-cat>
 
      <def-cat n="navn_def">

@@ -40,6 +40,7 @@
 
     <sdef n="al"       c="Altres"/>
 
+    <sdef n="ij"       c="Interjection"/>
     <sdef n="sent"     c="Sentence marker"/>
   </sdefs>
   <pardefs>
@@ -103,12 +104,27 @@
     <e><p><l>sum<s n="cnjsub"/></l><r>sem<s n="cnjsub"/></r></p></e>
 
     <e><p><l>at<s n="cnjsub"/></l><r>að<s n="cnjsub"/></r></p></e>
+    <e><p><l>heldur<b/>enn<s n="cnjsub"/></l><r>heldur<b/>en<s n="cnjsub"/></r></p></e>
+    <e><p><l>so<b/>sum<s n="cnjsub"/></l><r>svo<b/>sem<s n="cnjsub"/></r></p></e>
+    <e><p><l>so<b/>at<s n="cnjsub"/></l><r>svo<b/>að<s n="cnjsub"/></r></p></e>
+    <e><p><l>so<b/>satt<b/>sum<s n="cnjsub"/></l><r>svo<b/>framarlega<b/>sem<s n="cnjsub"/></r></p></e>
     <e><p><l>uttan<s n="cnjsub"/></l><r>nema<s n="cnjsub"/></r></p></e>
+    <e><p><l>fyrsta<s n="cnjsub"/></l><r>fyrst<s n="cnjsub"/></r></p></e>
+    <e><p><l>eftir<b/>at<s n="cnjsub"/></l><r>eftir<b/>að<s n="cnjsub"/></r></p></e>
+    <e><p><l>fyrr<b/>enn<s n="cnjsub"/></l><r>fyrr<b/>en<s n="cnjsub"/></r></p></e>
     <e><p><l>tó<b/>at<s n="cnjsub"/></l><r>þó<s n="cnjsub"/></r></p></e>
     <e><p><l>tó<b/>at<s n="cnjsub"/></l><r>þó<b/>að<s n="cnjsub"/></r></p></e>
+    <e><p><l>fyri<b/>at<s n="cnjsub"/></l><r>fyrir<b/>því<b/>að<s n="cnjsub"/></r></p></e>
     <e><p><l>av<b/>tí<b/>at<s n="cnjsub"/></l><r>af<b/>því<b/>að<s n="cnjsub"/></r></p></e>
     <e><p><l>tí<b/>at<s n="cnjsub"/></l><r>því<b/>að<s n="cnjsub"/></r></p></e>
     <e><p><l>eftirsum<s n="cnjsub"/></l><r>þar<b/>sem<s n="cnjsub"/></r></p></e>
+    <e><p><l>eins<b/>og<s n="cnjsub"/></l><r>eins<b/>og<s n="cnjsub"/></r></p></e>
+    <e><p><l>har<b/>sum<s n="cnjsub"/></l><r>þar<b/>sem<s n="cnjsub"/></r></p></e>
+    <e><p><l>til<b/>at<s n="cnjsub"/></l><r>til<b/>að<s n="cnjsub"/></r></p></e>
+    <e><p><l>til<b/>tess<b/>at<s n="cnjsub"/></l><r>til<b/>þess<b/>að<s n="cnjsub"/></r></p></e>
+    <e><p><l>hvar<b/>sum<b/>helst<s n="cnjsub"/></l><r>hvar<b/>sem<s n="cnjsub"/></r></p></e>
+    <e r="RL"><p><l>hvar<b/>sum<b/>helst<s n="cnjsub"/></l><r>hvert<b/>sem<s n="cnjsub"/></r></p></e>
+    <e r="RL"><p><l>hvar<b/>sum<b/>helst<s n="cnjsub"/></l><r>hvert<b/>er<s n="cnjsub"/></r></p></e>
 
     <!-- Pronouns -->
 
@@ -151,47 +167,47 @@
 
     <!-- Numerals -->
 
-    <e><p><l>null</l><r>núll<s n="num"/></r></p></e>
-    <e><p><l>eitt</l><r>einn<s n="num"/></r></p></e>
-    <e><p><l>tvey</l><r>tveir<s n="num"/></r></p></e>
-    <e><p><l>trý</l><r>þrír<s n="num"/></r></p></e>
-    <e><p><l>fýra</l><r>fjórir<s n="num"/></r></p></e>
-    <e><p><l>fimm</l><r>fimm<s n="num"/></r></p></e>
-    <e><p><l>seks</l><r>sex<s n="num"/></r></p></e>
-    <e><p><l>sjey</l><r>sjö<s n="num"/></r></p></e>
-    <e><p><l>átta</l><r>átta<s n="num"/></r></p></e>
-    <e><p><l>níggju</l><r>níu<s n="num"/></r></p></e>
-    <e><p><l>tíggju</l><r>tíu<s n="num"/></r></p></e>
-    <e><p><l>ellivu</l><r>ellefu<s n="num"/></r></p></e>
-    <e><p><l>tólv</l><r>tólf<s n="num"/></r></p></e>
-    <e><p><l>trettan</l><r>þrettán<s n="num"/></r></p></e>
-    <e><p><l>fjúrtan</l><r>fjórtán<s n="num"/></r></p></e>
-    <e><p><l>fimtan</l><r>fimmtán<s n="num"/></r></p></e>
-    <e><p><l>sekstan</l><r>sextán<s n="num"/></r></p></e>
-    <e><p><l>seytjan</l><r>sautján<s n="num"/></r></p></e>
-    <e><p><l>átjan</l><r>átján<s n="num"/></r></p></e>
-    <e><p><l>nítjan</l><r>nítján<s n="num"/></r></p></e>
-    <e><p><l>tjúgu</l><r>tuttugu<s n="num"/></r></p></e>
+    <e><p><l>null<s n="num"/></l><r>núll<s n="num"/></r></p></e>
+    <e><p><l>ein<s n="num"/></l><r>einn<s n="num"/></r></p></e>
+    <e><p><l>tvey<s n="num"/></l><r>tveir<s n="num"/></r></p></e>
+    <e><p><l>trý<s n="num"/></l><r>þrír<s n="num"/></r></p></e>
+    <e><p><l>fýra<s n="num"/></l><r>fjórir<s n="num"/></r></p></e>
+    <e><p><l>fimm<s n="num"/></l><r>fimm<s n="num"/></r></p></e>
+    <e><p><l>seks<s n="num"/></l><r>sex<s n="num"/></r></p></e>
+    <e><p><l>sjey<s n="num"/></l><r>sjö<s n="num"/></r></p></e>
+    <e><p><l>átta<s n="num"/></l><r>átta<s n="num"/></r></p></e>
+    <e><p><l>níggju<s n="num"/></l><r>níu<s n="num"/></r></p></e>
+    <e><p><l>tíggju<s n="num"/></l><r>tíu<s n="num"/></r></p></e>
+    <e><p><l>ellivu<s n="num"/></l><r>ellefu<s n="num"/></r></p></e>
+    <e><p><l>tólv<s n="num"/></l><r>tólf<s n="num"/></r></p></e>
+    <e><p><l>trettan<s n="num"/></l><r>þrettán<s n="num"/></r></p></e>
+    <e><p><l>fjúrtan<s n="num"/></l><r>fjórtán<s n="num"/></r></p></e>
+    <e><p><l>fimtan<s n="num"/></l><r>fimmtán<s n="num"/></r></p></e>
+    <e><p><l>sekstan<s n="num"/></l><r>sextán<s n="num"/></r></p></e>
+    <e><p><l>seytjan<s n="num"/></l><r>sautján<s n="num"/></r></p></e>
+    <e><p><l>átjan<s n="num"/></l><r>átján<s n="num"/></r></p></e>
+    <e><p><l>nítjan<s n="num"/></l><r>nítján<s n="num"/></r></p></e>
+    <e><p><l>tjúgu<s n="num"/></l><r>tuttugu<s n="num"/></r></p></e>
 
-    <e><p><l>ein<b/>og<b/>tjúgu</l><r>tuttugu<b/>og<b/>einn<s n="num"/></r></p></e>
-    <e><p><l>tvey<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>tveir<s n="num"/></r></p></e>
-    <e><p><l>trý<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>þrír<s n="num"/></r></p></e>
-    <e><p><l>fýra<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>fjórir<s n="num"/></r></p></e>
-    <e><p><l>fimm<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>fimm<s n="num"/></r></p></e>
-    <e><p><l>seks<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>sex<s n="num"/></r></p></e>
-    <e><p><l>sjey<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>sjö<s n="num"/></r></p></e>
-    <e><p><l>átta<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>átta<s n="num"/></r></p></e>
-    <e><p><l>níggju<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>níu<s n="num"/></r></p></e>
-    <e><p><l>tretivu</l><r>þrátíu<s n="num"/></r></p></e>
-    <e><p><l>ein<b/>og<b/>tretivu</l><r>þrátíu<b/>og<b/>einn<s n="num"/></r></p></e>
-    <e><p><l>tvey<b/>og<b/>tretiva</l><r>þrátíu<b/>og<b/>tveir<s n="num"/></r></p></e>
-    <e><p><l>trý<b/>og<b/>tretiva</l><r>þrátíu<b/>og<b/>þrír<s n="num"/></r></p></e>
-    <e><p><l>fjøruti</l><r>fjörutíu<s n="num"/></r></p></e>
-    <e><p><l>hálvtrýss</l><r>fimmtú<s n="num"/></r></p></e>
-    <e><p><l>trýss</l><r>sextíu<s n="num"/></r></p></e>
-    <e><p><l>hálvfjerðs</l><r>sjötíu<s n="num"/></r></p></e>
-    <e><p><l>fýrs</l><r>áttatíu<s n="num"/></r></p></e>
-    <e><p><l>hálvfems</l><r>níutíu<s n="num"/></r></p></e>
+    <e><p><l>ein<b/>og<b/>tjúgu<s n="num"/></l><r>tuttugu<b/>og<b/>einn<s n="num"/></r></p></e>
+    <e><p><l>tvey<b/>og<b/>tjúga<s n="num"/></l><r>tuttugu<b/>og<b/>tveir<s n="num"/></r></p></e>
+    <e><p><l>trý<b/>og<b/>tjúga<s n="num"/></l><r>tuttugu<b/>og<b/>þrír<s n="num"/></r></p></e>
+    <e><p><l>fýra<b/>og<b/>tjúga<s n="num"/></l><r>tuttugu<b/>og<b/>fjórir<s n="num"/></r></p></e>
+    <e><p><l>fimm<b/>og<b/>tjúga<s n="num"/></l><r>tuttugu<b/>og<b/>fimm<s n="num"/></r></p></e>
+    <e><p><l>seks<b/>og<b/>tjúga<s n="num"/></l><r>tuttugu<b/>og<b/>sex<s n="num"/></r></p></e>
+    <e><p><l>sjey<b/>og<b/>tjúga<s n="num"/></l><r>tuttugu<b/>og<b/>sjö<s n="num"/></r></p></e>
+    <e><p><l>átta<b/>og<b/>tjúga<s n="num"/></l><r>tuttugu<b/>og<b/>átta<s n="num"/></r></p></e>
+    <e><p><l>níggju<b/>og<b/>tjúga<s n="num"/></l><r>tuttugu<b/>og<b/>níu<s n="num"/></r></p></e>
+    <e><p><l>tretivu<s n="num"/></l><r>þrátíu<s n="num"/></r></p></e>
+    <e><p><l>ein<b/>og<b/>tretivu<s n="num"/></l><r>þrátíu<b/>og<b/>einn<s n="num"/></r></p></e>
+    <e><p><l>tvey<b/>og<b/>tretiva<s n="num"/></l><r>þrátíu<b/>og<b/>tveir<s n="num"/></r></p></e>
+    <e><p><l>trý<b/>og<b/>tretiva<s n="num"/></l><r>þrátíu<b/>og<b/>þrír<s n="num"/></r></p></e>
+    <e><p><l>fjøruti<s n="num"/></l><r>fjörutíu<s n="num"/></r></p></e>
+    <e><p><l>hálvtrýss<s n="num"/></l><r>fimmtú<s n="num"/></r></p></e>
+    <e><p><l>trýss<s n="num"/></l><r>sextíu<s n="num"/></r></p></e>
+    <e><p><l>hálvfjerðs<s n="num"/></l><r>sjötíu<s n="num"/></r></p></e>
+    <e><p><l>fýrs<s n="num"/></l><r>áttatíu<s n="num"/></r></p></e>
+    <e><p><l>hálvfems<s n="num"/></l><r>níutíu<s n="num"/></r></p></e>
     <e><p><l>hundrað<s n="num"/></l><r>eitt<b/>hundrað<s n="num"/></r></p></e>
 
     <!-- Nouns -->
@@ -299,6 +315,9 @@
     <e><p><l>eta<s n="vblex"/></l><r>éta<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>eta<s n="vblex"/></l><r>borða<s n="vblex"/></r></p></e>
 
+    <e><p><l>takk<s n="ij"/></l><r>takk<s n="ij"/></r></p></e>
+    <e><p><l>skál<s n="ij"/></l><r>sko<s n="ij"/></r></p></e>
+    <e><p><l>ja<s n="ij"/></l><r>já<s n="ij"/></r></p></e>
 
 
     <!-- Punctuation -->
