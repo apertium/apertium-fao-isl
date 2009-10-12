@@ -554,7 +554,6 @@
     <e><p><l>suður<s n="n"/><s n="nt"/></l><r>suður<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>ok<s n="n"/><s n="nt"/></l><r>ok<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>torg<s n="n"/><s n="nt"/></l><r>torg<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>tin<s n="n"/><s n="nt"/></l><r>t<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>seyður<s n="n"/><s n="m"/></l><r>sauður<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>likam<s n="n"/><s n="nt"/></l><r>líkami<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>svørð<s n="n"/><s n="nt"/></l><r>sverð<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
@@ -582,13 +581,27 @@
     <e><p><l>ormur<s n="n"/><s n="m"/></l><r>ormur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>eik<s n="n"/><s n="f"/></l><r>eik<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>skamm<s n="n"/><s n="f"/></l><r>skömm<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
+    <e><p><l>mark<s n="n"/><s n="f"/></l><r>mörk<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>veður<s n="n"/><s n="nt"/></l><r>hrútur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>reiður<s n="n"/><s n="nt"/></l><r>hreiður<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
 
+    <e><p><l>apríl<s n="n"/><s n="nt"/></l><r>apríl<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>august<s n="n"/><s n="nt"/></l><r>ágúst<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>desember<s n="n"/><s n="nt"/></l><r>desember<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>februar<s n="n"/><s n="nt"/></l><r>febrúar<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>januar<s n="n"/><s n="nt"/></l><r>janúar<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>juli<s n="n"/><s n="nt"/></l><r>júlí<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>juni<s n="n"/><s n="nt"/></l><r>júní<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>mai<s n="n"/><s n="nt"/></l><r>maí<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>mars<s n="n"/><s n="nt"/></l><r>mars<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>november<s n="n"/><s n="nt"/></l><r>nóvember<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>oktober<s n="n"/><s n="nt"/></l><r>október<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>september<s n="n"/><s n="nt"/></l><r>september<s n="n"/><s n="nt"/></r></p></e>
 
     <!-- Proper nouns -->
 
     <e><p><l>Gud<s n="np"/><s n="al"/><s n="m"/></l><r>Guð<s n="np"/><s n="al"/><s n="m"/></r></p><par n="default__np"/></e>
+    <e><p><l>Wikipedia<s n="np"/><s n="al"/><s n="f"/></l><r>Wikipedia<s n="np"/><s n="al"/><s n="f"/></r></p><par n="default__np"/></e>
 
     <!-- Adjectives -->
 
@@ -610,6 +623,7 @@
     <e><p><l>í<b/>morgin<s n="adv"/></l><r>á<b/>morgun<s n="adv"/></r></p></e>
     <e><p><l>ofta<s n="adv"/></l><r>oft<s n="adv"/></r></p></e>
     <e><p><l>mikið<s n="adv"/></l><r>mikið<s n="adv"/></r></p></e>
+    <e><p><l>upp<s n="adv"/></l><r>upp<s n="adv"/></r></p></e>
 
     <e><p><l>hví<s n="adv"/><s n="itg"/></l><r>hví<s n="adv"/><s n="itg"/></r></p></e>
     <e r="RL"><p><l>hví<s n="adv"/><s n="itg"/></l><r>af<b/>hverju<s n="adv"/><s n="itg"/></r></p></e>
@@ -647,6 +661,8 @@
     <e><p><l>skriva<s n="vblex"/></l><r>skrifa<s n="vblex"/></r></p></e>
     <e><p><l>sláa<s n="vblex"/></l><r>slá<s n="vblex"/></r></p></e>
     <e><p><l>velja<s n="vblex"/></l><r>velja<s n="vblex"/></r></p></e>
+    <e><p><l>byggja<s n="vblex"/></l><r>byggja<s n="vblex"/></r></p></e>
+    <e><p><l>byggja<g><b/>upp</g><s n="vblex"/></l><r>byggja<g><b/>upp</g><s n="vblex"/></r></p></e>
     <e r="RL"><p><l>sláa<s n="vblex"/></l><r>lemja<s n="vblex"/></r></p></e>
     <e><p><l>eta<s n="vblex"/></l><r>éta<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>eta<s n="vblex"/></l><r>borða<s n="vblex"/></r></p></e>
