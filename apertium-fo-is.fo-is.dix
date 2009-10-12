@@ -57,29 +57,46 @@
 
     <e><p><l>á<s n="pr"/></l><r>á<s n="pr"/></r></p></e>
     <e><p><l>eftir<s n="pr"/></l><r>eftir<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>eftir<s n="pr"/></l><r>samkvæmt<s n="pr"/></r></p></e> <!-- according to -->
     <e><p><l>frá<s n="pr"/></l><r>frá<s n="pr"/></r></p></e>
     <e><p><l>hjá<s n="pr"/></l><r>hjá<s n="pr"/></r></p></e>
     <e><p><l>í<s n="pr"/></l><r>í<s n="pr"/></r></p></e>
     <e><p><l>til<s n="pr"/></l><r>til<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>til<s n="pr"/></l><r>handa<s n="pr"/></r></p></e>
     <e><p><l>um<s n="pr"/></l><r>um<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>um<s n="pr"/></l><r>kringum<s n="pr"/></r></p></e>
     <e><p><l>undir<s n="pr"/></l><r>undir<s n="pr"/></r></p></e>
     <e><p><l>úr<s n="pr"/></l><r>úr<s n="pr"/></r></p></e>
     <e><p><l>við<s n="pr"/></l><r>við<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>við<s n="pr"/></l><r>með<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>við<s n="pr"/></l><r>ásamt<s n="pr"/></r></p></e>
     <e><p><l>yvir<s n="pr"/></l><r>yfir<s n="pr"/></r></p></e>
 
     <e><p><l>av<s n="pr"/></l><r>af<s n="pr"/></r></p></e>
     <e><p><l>fyri<s n="pr"/></l><r>fyrir<s n="pr"/></r></p></e>
+    <e><p><l>aftan<b/>fyri<s n="pr"/></l><r>bak<b/>við<s n="pr"/></r></p></e> 
     <e><p><l>gjøgnum<s n="pr"/></l><r>gegnum<s n="pr"/></r></p></e>
     <e><p><l>ímóti<s n="pr"/></l><r>móti<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>ímóti<s n="pr"/></l><r>á<b/>móti<s n="pr"/></r></p></e>
     <e><p><l>móti<s n="pr"/></l><r>móti<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>móti<s n="pr"/></l><r>gegn<s n="pr"/></r></p></e>
     <e><p><l>innan<s n="pr"/></l><r>innan<s n="pr"/></r></p></e>
     <e><p><l>millum<s n="pr"/></l><r>milli<s n="pr"/></r></p></e>
+    <e><p><l>ímillum<s n="pr"/></l><r>á<b/>milli<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>millum<s n="pr"/></l><r>meðal<s n="pr"/></r></p></e>
     <e><p><l>undan<s n="pr"/></l><r>undan<s n="pr"/></r></p></e>
     <e><p><l>uttan<s n="pr"/></l><r>utan<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>uttan<s n="pr"/></l><r>án<s n="pr"/></r></p></e>
     <e><p><l>vegna<s n="pr"/></l><r>vegna<s n="pr"/></r></p></e>
-    <e><p><l>við<s n="pr"/></l><r>við<s n="pr"/></r></p></e>
 
     <e><p><l>at<s n="pr"/></l><r>að<s n="pr"/></r></p></e>
+    <e><p><l>aftrat<s n="pr"/></l><r>auk<s n="pr"/></r></p></e>
+    <e><p><l>framvið<s n="pr"/></l><r>framhjá<s n="pr"/></r></p></e>
+
+    <e><p><l>yvir<b/>av<s n="pr"/></l><r>andspænis<s n="pr"/></r></p></e>
+    <e><p><l>fram<b/>við<s n="pr"/></l><r>meðfram<s n="pr"/></r></p></e>
+    <e><p><l>áðrenn<s n="pr"/></l><r>áður<b/>en<s n="pr"/></r></p></e>
+    <e><p><l>áraka<s n="pr"/></l><r>á<b/>móts<b/>við<s n="pr"/></r></p></e>
 
     <!-- Conjunctions -->
 
