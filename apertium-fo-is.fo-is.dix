@@ -116,7 +116,7 @@
 
     <!-- The conjunction vissi (or viss) is common in the spoken language 
          but frowned up on in the written language since it is derived from 
-         the Danish hvis ‘if’ and um recommended instead. -->
+         the Danish hvis ‘if’ and um recommended instead. (p. 261) -->
     <e r="LR"><p><l>vissi<s n="cnjsub"/></l><r>ef<s n="cnjsub"/></r></p></e> 
     <e><p><l>um<s n="cnjsub"/></l><r>ef<s n="cnjsub"/></r></p></e> 
 
@@ -415,7 +415,6 @@
     <e><p><l>net<s n="n"/><s n="nt"/></l><r>net<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>fuglur<s n="n"/><s n="m"/></l><r>fugl<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>vald<s n="n"/><s n="nt"/></l><r>vald<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>vera<s n="n"/><s n="f"/></l><r>vera<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>andlit<s n="n"/><s n="nt"/></l><r>ásjóna<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>navn<s n="n"/><s n="nt"/></l><r>nafn<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>tekn<s n="n"/><s n="nt"/></l><r>tákn<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
@@ -527,7 +526,7 @@
     <e><p><l>strongur<s n="n"/><s n="m"/></l><r>strengur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>breyð<s n="n"/><s n="nt"/></l><r>brauð<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>bróst<s n="n"/><s n="nt"/></l><r>brjóst<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>kraftar#gerð<s n="n"/><s n="f"/></l><r>kraftaverk<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>kraftargerð<s n="n"/><s n="f"/></l><r>kraftaverk<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>leyva<s n="n"/><s n="f"/></l><r>ljón<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>lóg<s n="n"/><s n="f"/></l><r>lögmál<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>fangahús<s n="n"/><s n="nt"/></l><r>fangelsi<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
@@ -585,6 +584,8 @@
     <e><p><l>veður<s n="n"/><s n="nt"/></l><r>hrútur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>reiður<s n="n"/><s n="nt"/></l><r>hreiður<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
 
+    <e><p><l>arbeiði<s n="n"/><s n="nt"/></l><r>starf<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+
     <e><p><l>apríl<s n="n"/><s n="nt"/></l><r>apríl<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>august<s n="n"/><s n="nt"/></l><r>ágúst<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>desember<s n="n"/><s n="nt"/></l><r>desember<s n="n"/><s n="nt"/></r></p></e>
@@ -597,6 +598,21 @@
     <e><p><l>november<s n="n"/><s n="nt"/></l><r>nóvember<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>oktober<s n="n"/><s n="nt"/></l><r>október<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>september<s n="n"/><s n="nt"/></l><r>september<s n="n"/><s n="nt"/></r></p></e>
+
+    <e><p><l>ægir<s n="n"/><s n="m"/></l><r>ægir<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>evra<s n="n"/><s n="f"/></l><r>evra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>forsíða<s n="n"/><s n="f"/></l><r>forsíða<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>hvalur<s n="n"/><s n="m"/></l><r>hvalur<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>jól<s n="n"/><s n="nt"/></l><r>jól<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>matur<s n="n"/><s n="m"/></l><r>matur<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rándýr<s n="n"/><s n="nt"/></l><r>rándýr<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>sagnorð<s n="n"/><s n="nt"/></l><r>sagnorð<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>samheiti<s n="n"/><s n="nt"/></l><r>samheiti<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>skordýr<s n="n"/><s n="nt"/></l><r>skordýr<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>skriðdýr<s n="n"/><s n="nt"/></l><r>skriðdýr<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>sunnudagur<s n="n"/><s n="m"/></l><r>sunnudagur<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tal<s n="n"/><s n="nt"/></l><r>tal<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>víkingur<s n="n"/><s n="m"/></l><r>víkingur<s n="n"/><s n="m"/></r></p></e>
 
     <!-- Proper nouns -->
 
@@ -633,8 +649,9 @@
     <e><p><l>hvar<s n="adv"/><s n="itg"/></l><r>hvar<s n="adv"/><s n="itg"/></r></p></e>
 
     <!-- Verbs -->
+
     <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vbser"/></r></p></e>
-    <e><p><l>hava<s n="vblex"/></l><r>hafa<s n="vbhaver"/></r></p></e>
+    <e><p><l>hava<s n="vbhaver"/></l><r>hafa<s n="vbhaver"/></r></p></e>
     <e><p><l>fáa<s n="vblex"/></l><r>geta<s n="vblex"/></r></p></e>
     <e><p><l>munna<s n="vbmod"/></l><r>munu<s n="vaux"/></r></p></e>
 
@@ -657,6 +674,7 @@
     <e><p><l>láta<s n="vblex"/></l><r>láta<s n="vblex"/></r></p></e>
     <e><p><l>flúgva<s n="vblex"/></l><r>fljúga<s n="vblex"/></r></p></e>
     <e><p><l>gera<s n="vblex"/></l><r>gera<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>gera<s n="vblex"/></l><r>gegna<s n="vblex"/></r></p></e>
     <e><p><l>lesa<s n="vblex"/></l><r>lesa<s n="vblex"/></r></p></e>
     <e><p><l>baka<s n="vblex"/></l><r>baka<s n="vblex"/></r></p></e>
     <e><p><l>tala<s n="vblex"/></l><r>tala<s n="vblex"/></r></p></e>

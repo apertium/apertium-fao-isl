@@ -3873,6 +3873,95 @@
 
 
 
+    <pardef n="/vera__vbser">
+      <e>
+        <p>
+          <l>eri</l>
+          <r>vera<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ert</l>
+          <r>vera<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>er</l>
+          <r>vera<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eru</l>
+          <r>vera<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eru</l>
+          <r>vera<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eru</l>
+          <r>vera<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>var</l>
+          <r>vera<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>vart</l>
+          <r>vera<s n="vbser"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>var</l>
+          <r>vera<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>vóru</l>
+          <r>vera<s n="vbser"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>vóru</l>
+          <r>vera<s n="vbser"/><s n="past"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>vóru</l>
+          <r>vera<s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <!-- Supine ? -->
+      <e> 
+        <p>
+          <l>verið</l>
+          <r>vera<s n="vbser"/><s n="pp"/><s n="m"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>vera</l>
+          <r>vera<s n="vbser"/><s n="inf"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
     <pardef n="/vera__vblex">
       <e>
         <p>
@@ -4273,6 +4362,58 @@
         <p>
           <l>ivið</l>
           <r>íva<s n="vblex"/><s n="pp"/><s n="m"/><s n="nom"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+    <pardef n="h/ava__vbhaver">
+      <e>
+        <p>
+          <l>ava</l>
+          <r>ava<s n="vbhaver"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>avi</l>
+          <r>ava<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>evur</l>
+          <r>ava<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>evur</l>
+          <r>ava<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ava</l>
+          <r>ava<s n="vbhaver"/><s n="pl"/><s n="pri"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>evði</l>
+          <r>ava<s n="vbhaver"/><s n="past"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>øvdu</l>
+          <r>ava<s n="vbhaver"/><s n="past"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>avt</l>
+          <r>ava<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="nom"/></r>
         </p>
       </e>
     </pardef>
@@ -15398,11 +15539,14 @@
     <e lm="síðan"><i>síðan</i><par n="ikki__adv"/></e> 
 
     <!-- Special verbs -->
-    <e lm="vera"><i/><par n="/vera__vblex"/></e>
-    <e lm="hava"><i>h</i><par n="h/ava__vblex"/></e>
+    <e lm="vera"><i/><par n="/vera__vbser"/></e>
+    <e lm="hava"><i>h</i><par n="h/ava__vbhaver"/></e>
     <e lm="verða"><i>v</i><par n="v/erða__vblex"/></e>
     <e lm="blíva"><i>bl</i><par n="bl/íva__vblex"/></e>
     <e lm="vilja"><i>vil</i><par n="vil/ja__vblex"/></e>
+
+    <e lm="hava"><i>h</i><par n="h/ava__vblex"/></e>
+    <e lm="vera"><i/><par n="/vera__vblex"/></e>
 
     <!-- Modal verbs -->
     <e lm="kunna"><i>k</i><par n="k/unna__vbmod"/></e>

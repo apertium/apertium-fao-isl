@@ -1,0 +1,6 @@
+                                                                               
+13/10/2009	~160 duplicates in Icelandic analyser
+
+		cat /tmp/testvoc-is-fo | grep '@' | grep '<n>' | \
+		grep '<sg><nom><ind>' | sort -f | uniq -c  | \
+		sort -gr | grep -v '^ *1\W' 
