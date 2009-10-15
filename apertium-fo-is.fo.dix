@@ -2,60 +2,62 @@
   <!-- Contains foreign letters which appear in loanwords (W, Z, C, Q, X) -->
   <alphabet>AÁBDÐEFGHIÍJKLMNOÓPRSTUÚVYÝÆØWZCQXaábdðefghiíjklmnoóprstuúvyýæøwzcqx</alphabet>
   <sdefs>
-    <sdef n="n"      c="Noun"/>
-    <sdef n="np"     c="Proper name"/>
-    <sdef n="m"      c="Masculine"/>
-    <sdef n="mf"     c="Masculine / feminine"/>
-    <sdef n="f"      c="Feminine"/>
-    <sdef n="nt"     c="Neuter"/>
-    <sdef n="sg"     c="Singular"/>
-    <sdef n="sp"     c="Singular / plural"/>
-    <sdef n="pl"     c="Plural"/>
-    <sdef n="acc"    c="Accusative"/>
-    <sdef n="nom"    c="Nominative"/>
-    <sdef n="dat"    c="Dative"/>
-    <sdef n="gen"    c="Genitive"/>
-    <sdef n="def"    c="Definite"/>
-    <sdef n="ind"    c="Indefinite"/>
+    <sdef n="n"       c="Noun"/>
+    <sdef n="np"      c="Proper name"/>
+    <sdef n="m"       c="Masculine"/>
+    <sdef n="mf"      c="Masculine / feminine"/>
+    <sdef n="f"       c="Feminine"/>
+    <sdef n="nt"      c="Neuter"/>
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="sp"      c="Singular / plural"/>
+    <sdef n="pl"      c="Plural"/>
+    <sdef n="acc"     c="Accusative"/>
+    <sdef n="nom"     c="Nominative"/>
+    <sdef n="dat"     c="Dative"/>
+    <sdef n="gen"     c="Genitive"/>
+    <sdef n="def"     c="Definite"/>
+    <sdef n="ind"     c="Indefinite"/>
 
-    <sdef n="prn"    c="Pronoun"/>
-    <sdef n="pos"    c="Possessive"/>
-    <sdef n="dem"    c="Demonstrative"/>
-    <sdef n="ref"    c="Reflexive"/>
-    <sdef n="qnt"    c="Quantifier"/>
+    <sdef n="prn"     c="Pronoun"/>
+    <sdef n="pos"     c="Possessive"/>
+    <sdef n="dem"     c="Demonstrative"/>
+    <sdef n="ref"     c="Reflexive"/>
+    <sdef n="qnt"     c="Quantifier"/>
 
-    <sdef n="vblex"  c="Verb"/>
-    <sdef n="vbmod"  c="Modal verb"/>
-    <sdef n="inf"    c="Infinitive"/>
-    <sdef n="pp"     c="Past participle"/>
-    <sdef n="supn"   c="Supine"/>
-    <sdef n="past"   c="Past tense"/>
-    <sdef n="pri"    c="Present tense"/>
-    <sdef n="p1"     c="First person"/>
-    <sdef n="p2"     c="Second person"/>
-    <sdef n="p3"     c="Third person"/>
+    <sdef n="vblex"   c="Verb"/>
+    <sdef n="vbser"   c="Verb 'to be'"/>
+    <sdef n="vbhaver" c="Verb 'to have'"/>
+    <sdef n="vbmod"   c="Modal verb"/>
+    <sdef n="inf"     c="Infinitive"/>
+    <sdef n="pp"      c="Past participle"/>
+    <sdef n="supn"    c="Supine"/>
+    <sdef n="past"    c="Past tense"/>
+    <sdef n="pri"     c="Present tense"/>
+    <sdef n="p1"      c="First person"/>
+    <sdef n="p2"      c="Second person"/>
+    <sdef n="p3"      c="Third person"/>
 
-    <sdef n="adj"    c="Adjective"/>
-    <sdef n="adv"    c="Adverb"/>
-    <sdef n="itg"    c="Interrogative"/>
+    <sdef n="adj"     c="Adjective"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="itg"     c="Interrogative"/>
 
-    <sdef n="pr"     c="Preposition"/>
-    <sdef n="cnjcoo" c="Co-ordinate conjunction"/>
-    <sdef n="cnjsub" c="Sub-ordinate conjunction"/>
-    <sdef n="cnjadv" c="Adverbial conjunction"/>
+    <sdef n="pr"      c="Preposition"/>
+    <sdef n="cnjcoo"  c="Co-ordinate conjunction"/>
+    <sdef n="cnjsub"  c="Sub-ordinate conjunction"/>
+    <sdef n="cnjadv"  c="Adverbial conjunction"/>
 
-    <sdef n="al"     c="Altres"/>
+    <sdef n="al"      c="Altres"/>
 
-    <sdef n="ij"     c="Interjection"/>
+    <sdef n="ij"      c="Interjection"/>
 
-    <sdef n="det"    c="Determiner"/>
-    <sdef n="pst"    c="Positive degree"/>
-    <sdef n="comp"    c="Comparative degree"/>
-    <sdef n="sup"    c="Superlative degree"/>
+    <sdef n="det"     c="Determiner"/>
+    <sdef n="pst"     c="Positive degree"/>
+    <sdef n="comp"     c="Comparative degree"/>
+    <sdef n="sup"     c="Superlative degree"/>
 
-    <sdef n="num"    c="Numeral"/>
+    <sdef n="num"     c="Numeral"/>
 
-    <sdef n="sent"   c="End of sentence marker"/>
+    <sdef n="sent"    c="End of sentence marker"/>
 
   </sdefs>
 

@@ -15,15 +15,17 @@ LIST Noun = (n) ;
 LIST ProperNoun = (np) ;
 LIST Adj = (adj) ;
 LIST Adv = (adv) ;
+
 LIST PrnPers = (prn) ;
-LIST IndefinitePronoun = (prn ind);
+LIST PrnInd = (prn ind);
 LIST PrnDem = (prn dem) ;
-LIST ReflexivePronoun = (prn ref) ;
-LIST InterrogativePronoun = (prn itg) ;
-LIST PossessivePronoun = (prn pos) ;
+LIST PrnRefl = (prn ref) ;
+LIST PrnItg = (prn itg) ;
+LIST PrnPoss = (prn pos) ;
+
 LIST Preposition = (pr) ;
 LIST Infinitive = (inf) ;
-LIST VerbInfinitive = (vblex inf) ;
+LIST VerbInf = (vblex inf) ;
 LIST VerbSpecAux = (vaux) ;
 LIST VerbAux = (vaux) ;
 LIST VerbSupine = (vblex supn) ;
@@ -34,6 +36,7 @@ LIST PastPart = (pp) ;
 LIST RelativeConjunction = (rel) ;
 LIST Conjunction = (cnjcoo) (cnjadv) (cnjsub) ;
 LIST CS = (cnjsub);
+LIST CC = (cnjcoo);
 LIST Numeral = (num) ;
 LIST Exclamation = (ij) ;
 LIST Article = (def) ;
@@ -89,7 +92,7 @@ SELECT Noun IF (-1C AccPrep) (1 Acc) ;
 SELECT Noun IF (-1C DatPrep) (1 Dat) ;
 
 # að (cn/aa) beina (sgn/n*) mér
-SELECT Noun IF (-1 Inf) (0 VerbInfinitive) ;
+SELECT Noun IF (-1 Inf) (0 VerbInf) ;
 
 # einhvern sem sæti
 SELECT Noun IF (-1 ("<sem>"ri)) (0 Verb) ;
@@ -101,12 +104,12 @@ SELECT Noun IF (-1C ProperNoun) (0 Verb) ;
 SELECT Noun IF (-1C Noun) (NOT -1 Gen) ((NOT -2 ProperNoun) OR (-2 BOS));
 
 # select the possessive pronoun, "pabbi sinn"
-SELECT PossessivePronoun IF (-1C Noun);
+SELECT PrnPoss IF (-1C Noun);
 
 SELECT ("á"ri) IF (-1 Adv);
 
 # skal (ekki) hita
-SELECT VerbInfinitive IF ((-1 VerbSpecAux) OR (-1C Adv LINK NOT -2 BOS LINK -2 VerbSpecAux));
+SELECT VerbInf IF ((-1 VerbSpecAux) OR (-1C Adv LINK NOT -2 BOS LINK -2 VerbSpecAux));
 
 # hafði talið, velja sagnbót
 SELECT VerbSupine IF (-1 VerbAux);
