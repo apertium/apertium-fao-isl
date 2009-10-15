@@ -1,0 +1,1908 @@
+áætlun<n><f> % plan<n> 
+abbadís<n><f> % abbess<n> 
+ábóti<n><m> % abbot<n> 
+áburður<n><m> % ointment<n> 
+ábyrgð<n><f> % responsibility<n> 
+aðaláhrif<n><nt> % main effect<n> 
+aðaláhugamál<n><nt> % main interest<n> 
+aðalbygging<n><f> % main building<n> 
+aðalhlutverk<n><nt> % leading role<n> 
+aðall<n><m> % nobility<n> 
+aðalpersóna<n><f> % protagonist<n> 
+aðalsögn<n><f> % main verb<n> 
+aðalvopn<n><nt> % main weapon<n> 
+adamsepli<n><nt> % Adam's apple<n> 
+aðdáun<n><f> % admiration<n> 
+aðdragandi<n><m> % events leading up to something<n> 
+aðdráttarafl<n><nt> % gravitation<n> 
+aðfeldi<n><nt> % factorial<n> 
+aðferð<n><f> % method<n> 
+aðflug<n><nt> % approach<n> 
+aðgangur<n><m> % access<n> 
+aðgreining<n><f> % distinction<n> 
+aðili<n><m> % party<n> 
+aðstoðarmaður<n><m> % assistant<n> 
+æð<n><f> % vein<n> 
+æfing<n><f> % exercise<n> 
+ægir<n><m> % sea<n> 
+ær<n><f> % ewe<n> 
+ætlun<n><f> % intention<n> 
+ætt<n><f> % family<n> 
+ævi<n><f> % life<n> 
+ævintýri<n><nt> % adventure<n> 
+ævisaga<n><f> % biography<n> 
+áfangi<n><m> % phase<n> 
+afbrigði<n><nt> % deviation<n> 
+áfengi<n><nt> % alcohol<n> 
+affosfórun<n><f> % dephosphorylation<n> 
+afi<n><m> % grandfather<n> 
+afkomandi<n><m> % descendant<n> 
+afkvæmi<n><nt> % offspring<n> 
+aflagssögn<n><f> % deponent verb<n> 
+afleiða<n><f> % derive<n> 
+afleiðing<n><f> % result<n> 
+aflfræði<n><f> % classical mechanics<n> 
+afl<n><nt> % force<n> 
+afmæli<n><nt> % birthday<n> 
+afmælisdagur<n><m> % birth day<n> 
+afmælisgjöf<n><f> % birthday present<n> 
+áform<n><nt> % plan<n> 
+afstaða<n><f> % stand<n> 
+afturbati<n><m> % convalescence<n> 
+ágreiningur<n><m> % dispute<n> 
+ágrip<n><nt> % summary<n> 
+ágúst<n><nt> % August<n> 
+áhætta<n><f> % risk<n> 
+áhersluatviksorð<n><nt> % adverb<n> 
+áhöfn<n><f> % crew<n> 
+áhorfandi<n><m> % spectator<n> 
+áhrif<n><nt> % influence<n> 
+áhugamaður<n><m> % enthusiast<n> 
+áhugamál<n><nt> % hobby<n> 
+áhugi<n><m> % interest<n> 
+áhyggja<n><f> % worry<n> 
+aínúmál<n><nt> % Ainu language<n> 
+akanmál<n><nt> % Akan language<n> 
+akur<n><m> % field<n> 
+ákvörðun<n><f> % decision<n> 
+alda<n><f> % ocean wave<n> 
+aldin<n><nt> % fruit<n> 
+aldur<n><m> % age<n> 
+álfadrottning<n><f> % elven queen<n> 
+álfkona<n><f> % female elf<n> 
+alfræðirit<n><nt> % encyclopedia<n> 
+álfur<n><m> % elf<n> 
+alheimur<n><m> % universe<n> 
+álit<n><nt> % opinion<n> 
+áll<n><m> % eel<n> 
+álma<n><f> % wing<n> 
+almenningur<n><m> % public<n> 
+ál<n><nt> % aluminum<n> 
+alur<n><m> % awl<n> 
+alvara<n><f> % serious<n> 
+ályktun<n><f> % conclusion<n> 
+alþingi<n><nt> % Althing<n> 
+alþingismaður<n><m> % member<n># of parliament 
+alþýðuflokkur<n><m> % social democratic party<n> 
+ameríkín<n><nt> % americium<n> 
+amma<n><f> % grandmother<n> 
+amper<n><nt> % ampere<n> 
+ánægja<n><f> % pleasure<n> 
+andarnefja<n><f> % bottlenose whale<n> 
+andheiti<n><nt> % antonym<n> 
+andlát<n><nt> % death<n> 
+andlit<n><nt> % face<n> 
+andrúmsloft<n><nt> % atmosphere<n> 
+andstaða<n><f> % opposition<n> 
+andstæða<n><f> % opposition<n> 
+andstæðingur<n><m> % opponent<n> 
+andvari<n><m> % soft breeze<n> 
+á<n><f> % river<n> 
+antimon<n><nt> % antimony<n> 
+apamaður<n><m> % Pithecanthropus<n> 
+api<n><m> % monkey<n> 
+apótek<n><nt> % pharmacy<n> 
+appelsína<n><f> % orange<n> 
+apríl<n><nt> % April<n> 
+arabíska<n><f> % Arabic language<n> 
+árangur<n><m> % success<n> 
+árás<n><f> % attack<n> 
+áratugur<n><m> % decade<n> 
+arfur<n><m> % inheritance<n> 
+armbandsúr<n><nt> % wristwatch<n> 
+ár<n><nt> % year<n> 
+asímál<n><nt> % Asi language<n> 
+askur<n><m> % ash tree<n> 
+asni<n><m> % ass<n> 
+ás<n><m> % ridge<n> 
+ásökun<n><f> % accusation<n> 
+ástæða<n><f> % reason<n> 
+ástand<n><nt> % condition<n> 
+astat<n><nt> % astatine<n> 
+ást<n><f> % love<n> 
+atabaskamál<n><nt> % Ibibio language<n> 
+atburður<n><m> % event<n> 
+atferli<n><nt> % behaviour<n> 
+athöfn<n><f> % ceremony<n> 
+athugun<n><f> % observation<n> 
+athygli<n><f> % attention<n> 
+atkvæði<n><nt> % vote<n> 
+át<n><nt> % eating<n> 
+at<n><nt> % fight<n> 
+atómmassi<n><m> % atomic mass<n> 
+atriði<n><nt> % point<n> 
+áttund<n><f> % octave<n> 
+atvik<n><nt> % incident<n> 
+atviksorð<n><nt> % adverb<n> 
+atvinna<n><f> % employment<n> 
+atvinnuleysi<n><nt> % unemployment<n> 
+auðna<n><f> % good fortune<n> 
+auga<n><nt> % eye<n> 
+auglýsing<n><f> % advertisement<n> 
+augnablik<n><nt> % moment<n> 
+aukafall<n><nt> % oblique case<n> 
+auki<n><m> % growth<n> 
+austur<n><nt> % east<n> 
+ávarpsfall<n><nt> % vocative case<n> 
+ávöxtur<n><m> % fruit<n> 
+baðherbergi<n><nt> % bathroom<n> 
+bað<n><nt> % bath<n> 
+bæjarstjóri<n><m> % mayor<n> 
+bær<n><m> % town<n> 
+bæti<n><nt> % byte<n> 
+bakari<n><m> % baker<n> 
+bakki<n><m> % tray<n> 
+bak<n><nt> % back<n> 
+bakpoki<n><m> % backpack<n> 
+baktería<n><f> % bacteria<n> 
+banani<n><m> % banana<n> 
+bandamaður<n><m> % ally<n> 
+band<n><nt> % string<n> 
+banki<n><m> % bank<n> 
+bann<n><nt> % ban<n> 
+barátta<n><f> % struggle<n> 
+barbari<n><m> % barbarian<n> 
+bardagi<n><m> % fight<n> 
+barín<n><nt> % barium<n> 
+barkakýli<n><nt> % Adam's apple<n> 
+barki<n><m> % windpipe<n> 
+barnabarn<n><nt> % grandchild<n> 
+barn<n><nt> % child<n> 
+barrtré<n><nt> % conifer<n> 
+basalt<n><nt> % basalt<n> 
+bassaleikari<n><m> % bass guitar player<n> 
+básúna<n><f> % trombone<n> 
+bati<n><m> % recovery<n> 
+bátur<n><m> % boat<n> 
+baugur<n><m> % ring<n> 
+baun<n><f> % pea<n> 
+beiðni<n><f> % request<n> 
+beisli<n><nt> % bridle<n> 
+beita<n><f> % bait<n> 
+bekkur<n><m> % bench<n> 
+belti<n><nt> % belt<n> 
+benda<n><f> % entanglement<n> 
+bensínstöð<n><f> % gas station<n> 
+berkelín<n><nt> % berkelium<n> 
+beryllín<n><nt> % beryllium<n> 
+beyki<n><nt> % beech<n> 
+biblía<n><f> % bible<n> 
+Biblía<n><f> % Bible<n> 
+biðstöð<n><f> % bus stop<n> 
+bifhjól<n><nt> % motorcycle<n> 
+bíll<n><m> % car<n> 
+bil<n><nt> % space<n> 
+bilun<n><f> % breakdown<n> 
+biskup<n><m> % bishop<n> 
+bismút<n><nt> % bismuth<n> 
+biti<n><m> % bite<n> 
+bjalla<n><f> % bell<n> 
+björg<n><f> % rescue<n> 
+björk<n><f> % birch<n> 
+bjór<n><m> % beer<n> 
+björn<n><m> % bear<n> 
+blaðamaður<n><m> % reporter<n> 
+blað<n><nt> % paper<n> 
+blaðsíða<n><f> % page<n> 
+blak<n><nt> % volleyball<n> 
+blanda<n><f> % mixture<n> 
+blásturshljóðfæri<n><nt> % wind instrument<n> 
+blettur<n><m> % stain<n> 
+blíða<n><f> % good weather<n> 
+blístra<n><f> % whistle<n> 
+blóðbað<n><nt> % bloodbath<n> 
+blóðflaga<n><f> % platelet<n> 
+blóð<n><nt> % blood<n> 
+blóðvökvi<n><m> % blood plasma<n> 
+blóm<n><nt> % flower<n> 
+blysbjalla<n><f> % firefly<n> 
+b<n><nt> % b<n> 
+boðháttur<n><m> % imperative mood<n> 
+boð<n><nt> % invitation<n> 
+boðskapur<n><m> % message<n> 
+böggull<n><m> % package<n> 
+bogi<n><m> % arch<n> 
+bógur<n><m> % shoulder<n> 
+bókasafn<n><nt> % library<n> 
+bókfinka<n><f> % chaffinch<n> 
+bókmenntasaga<n><f> % literary history<n> 
+bók<n><f> % book<n> 
+bókstafur<n><m> % letter<n> 
+bólga<n><f> % swelling<n> 
+bolli<n><m> % cup<n> 
+bolti<n><m> % ball<n> 
+borð<n><nt> % table<n> 
+borðtölva<n><f> % desktop computer<n> 
+borgarastríð<n><nt> % civil war<n> 
+borgari<n><m> % citizen<n> 
+borgarstjóri<n><m> % mayor<n> 
+borg<n><f> % city<n> 
+bor<n><m> % drill<n> 
+bór<n><nt> % boron<n> 
+botn<n><m> % bottom<n> 
+bótúlíneitrun<n><f> % botulism<n> 
+bræðslumark<n><nt> % melting point<n> 
+bragð<n><nt> % taste<n> 
+brá<n><f> % eyelash<n> 
+brauð<n><nt> % bread<n> 
+braut<n><f> % path<n> 
+bréf<n><nt> % letter<n> 
+breidd<n><f> % width<n> 
+breiðskífa<n><f> % lp album<n> 
+brenna<n><f> % bonfire<n> 
+brennisteinn<n><m> % sulfur<n> 
+brennivín<n><nt> % liquor<n> 
+breska<n><f> % British<n> 
+breyta<n><f> % variable<n> 
+breyting<n><f> % change<n> 
+bringa<n><f> % chest<n> 
+bringubein<n><nt> % breastbone<n> 
+brjóst<n><nt> % breast<n> 
+bróðir<n><m> % brother<n> 
+brók<n><f> % drawers<n> 
+bróm<n><nt> % bromine<n> 
+bros<n><nt> % smile<n> 
+brot<n><nt> % break<n> 
+brottför<n><f> % departure<n> 
+brúðkaup<n><nt> % wedding<n> 
+brú<n><f> % bridge<n> 
+bruni<n><m> % fire<n> 
+búðarborð<n><nt> % counter<n> 
+búddismi<n><m> % buddhism<n> 
+búð<n><f> % store<n> 
+bugur<n><m> % brend<n> 
+búr<n><nt> % cage<n> 
+búskapur<n><m> % farming<n> 
+buxur<n><nt> % pants<n> 
+byggð<n><f> % settlement<n> 
+bygging<n><f> % building<n> 
+bylgja<n><f> % wave<n> 
+bylting<n><f> % revolution<n> 
+byrjun<n><f> % beginning<n> 
+byssa<n><f> % gun<n> 
+c<n><nt> % c<n> 
+dæmi<n><nt> % example<n> 
+dagblað<n><nt> % newspaper<n> 
+dagsetning<n><f> % date<n> 
+dagskrá<n><f> % agenda<n> 
+dagur<n><m> % day<n> 
+dalur<n><m> % valley<n> 
+dama<n><f> % lady<n> 
+dá<n><nt> % admire<n> 
+danska<n><f> % Danish<n> 
+deila<n><f> % dispute<n> 
+deild<n><f> % department<n> 
+demantur<n><m> % diamond<n> 
+desember<n><nt> % December<n> 
+diskótek<n><nt> % discotheque<n> 
+diskur<n><m> % plate<n> 
+dís<n><f> % goddess<n> 
+djöfull<n><m> % devil<n> 
+djúp<n><nt> % deep<n> 
+d<n><nt> % d<n> 
+ð<n><nt> % ð<n> 
+doktorsritgerð<n><f> % dissertation<n> 
+dómari<n><m> % judge<n> 
+dómsmálaráðherra<n><m> % minister<n># of justice 
+dömubindi<n><nt> % sanitary towel<n> 
+dómur<n><m> % verdict<n> 
+dósent<n><m> % dosent<n> 
+dóttir<n><f> % daughter<n> 
+draumur<n><m> % dream<n> 
+dreifing<n><f> % distribution<n> 
+dreki<n><m> % dragon<n> 
+drengur<n><m> % boy<n> 
+drepa<n><f> % kill<n> 
+dropi<n><m> % drop<n> 
+drottning<n><f> % queen<n> 
+dúr<n><m> % major<n> 
+dvöl<n><f> % stay<n> 
+dymbildagavika<n><f> % Holy Week<n> 
+dymbilvika<n><f> % Holy Week<n> 
+dýpi<n><nt> % depth<n> 
+dýrafræði<n><f> % zoology<n> 
+dýratónfræði<n><f> % zoomusicology<n> 
+edik<n><nt> % vinegar<n> 
+eðli<n><nt> % essence<n> 
+eðlisfræðilögmál<n><nt> % physical law<n> 
+eðlisfræði<n><f> % physics<n> 
+eðlisfræðingur<n><m> % physicist<n> 
+eðlismassi<n><m> % density<n> 
+efahyggja<n><f> % skepticism<n> 
+efasemd<n><f> % doubt<n> 
+efi<n><m> % doubt<n> 
+efli<n><nt> % power<n> 
+efnaflokkur<n><m> % group<n> 
+efnafræði<n><f> % chemistry<n> 
+efnasamband<n><nt> % chemical compound<n> 
+efnatákn<n><nt> % element symbol<n> 
+efni<n><nt> % material<n> 
+eftirlíking<n><f> % imitation<n> 
+eftirlit<n><nt> % inspection<n> 
+eftirmiðdagur<n><m> % afternoon<n> 
+eftirspurn<n><f> % demand<n> 
+egg<n><nt> % egg<n> 
+eigandi<n><m> % owner<n> 
+eiginkona<n><f> % wife<n> 
+eiginmaður<n><m> % husband<n> 
+eiginnafn<n><nt> % given name<n> 
+eignarfall<n><nt> % genitive case<n> 
+eignarfornafn<n><nt> % possessive pronoun<n> 
+eignarréttur<n><m> % ownership<n> 
+eign<n><f> % property<n> 
+eik<n><f> % oak<n> 
+eining<n><f> % unity<n> 
+einir<n><m> % juniper<n> 
+einkenni<n><nt> % distinctive feature<n> 
+einkunn<n><f> % grade<n> 
+einmanaleiki<n><m> % loneliness<n> 
+einsemd<n><f> % solitude<n> 
+einstaklingur<n><m> % individual<n> 
+eintak<n><nt> % copy<n> 
+eintala<n><f> % singular<n> 
+einvígi<n><nt> % duel<n> 
+einyrki<n><m> % solitary farmer<n> 
+eitrun<n><f> % poisoning<n> 
+eiturlyf<n><nt> % drug<n> 
+eitur<n><nt> % poison<n> 
+ekkja<n><f> % widow<n> 
+ekra<n><f> % field<n> 
+eldfjallafræði<n><f> % volcanology<n> 
+eldfjall<n><nt> % volcano<n> 
+eldgos<n><nt> % eruption<n> 
+eldhús<n><nt> % kitchen<n> 
+elding<n><f> % lightning<n> 
+eldsneyti<n><nt> % fuel<n> 
+eldur<n><m> % fire<n> 
+elja<n><f> % endurance<n> 
+elli<n><f> % old age<n> 
+elri<n><nt> % alder<n> 
+elska<n><f> % love<n> 
+embætti<n><nt> % office<n> 
+endurlífgun<n><f> % resuscitation<n> 
+engill<n><m> % angel<n> 
+e<n><nt> % e<n> 
+é<n><nt> % é<n> 
+eplasafi<n><m> % apple juice<n> 
+eplatré<n><nt> % apple tree<n> 
+epli<n><nt> % apple<n> 
+erfiðisvinna<n><f> % labour<n> 
+erfiðleiki<n><m> % difficulty<n> 
+erindi<n><nt> % errand<n> 
+etja<n><f> % egg on<n> 
+evra<n><f> % euro<n> 
+eyða<n><f> % gap<n> 
+eyðni<n><f> % AIDS<n> 
+eyja<n><f> % island<n> 
+eyra<n><nt> % ear<n> 
+eyri<n><f> % sandbank<n> 
+faðir<n><m> % father<n> 
+faðirvor<n><nt> % Lord's prayer<n> 
+fæða<n><f> % food<n> 
+fæðing<n><f> % birth<n> 
+fall<n><nt> % fall<n> 
+fangelsi<n><nt> % prison<n> 
+fangi<n><m> % prisoner<n> 
+fáni<n><m> % flag<n> 
+fár<n><nt> % craze<n> 
+farsími<n><m> % mobile phone<n> 
+fartölva<n><f> % laptop computer<n> 
+fasismi<n><m> % fascism<n> 
+fat<n><nt> % platter<n> 
+febrúar<n><nt> % February<n> 
+fegurð<n><f> % beauty<n> 
+félagi<n><m> % partner<n> 
+félag<n><nt> % society<n> 
+feldur<n><m> % fur coat<n> 
+felling<n><f> % pleat<n> 
+fé<n><nt> % money<n> 
+ferðamaður<n><m> % tourist<n> 
+ferðataska<n><f> % suitcase<n> 
+ferðaþjónusta<n><f> % tourism<n> 
+ferð<n><f> % trip<n> 
+ferill<n><m> % career<n> 
+ferkílómetri<n><m> % square kilometre<n> 
+fermetri<n><m> % square metre<n> 
+ferming<n><f> % confirmation<n> 
+festa<n><f> % determination<n> 
+fet<n><nt> % foot<n> 
+fiðla<n><f> % violin<n> 
+fiðrildi<n><nt> % butterfly<n> 
+fíkn<n><f> % addiction<n> 
+fíll<n><m> % elephant<n> 
+fimma<n><f> % five<n> 
+fimmtudagur<n><m> % Thursday<n> 
+fingur<n><m> % finger<n> 
+finnska<n><f> % Finnish<n> 
+firma<n><nt> % business<n> 
+fiskur<n><m> % fish<n> 
+fiskveiði<n><f> % fishing<n> 
+fjallahjól<n><nt> % mountain bike<n> 
+fjallgarður<n><m> % mountain range<n> 
+fjall<n><nt> % mountain<n> 
+fjárfesting<n><f> % investment<n> 
+fjarki<n><m> % four<n> 
+fjarlægð<n><f> % distance<n> 
+fjármálaráðherra<n><m> % minister<n># of finance 
+fjarvera<n><f> % absence<n> 
+fjöldi<n><m> % multitude<n> 
+fjölkvæni<n><nt> % polygamy<n> 
+fjölmiðill<n><m> % mass medium<n> 
+fjölskylda<n><f> % family<n> 
+fjörður<n><m> % fjord<n> 
+fjós<n><nt> % cowshed<n> 
+flaga<n><f> % flake<n> 
+flaska<n><f> % bottle<n> 
+flatarmál<n><nt> % square measure<n> 
+flatbaka<n><f> % pizza<n> 
+fleirtala<n><f> % plural<n> 
+flétta<n><f> % braid<n> 
+fljót<n><nt> % river<n> 
+flói<n><m> % bay<n> 
+flokkur<n><m> % group<n> 
+floti<n><m> % fleet<n> 
+flótti<n><m> % escape<n> 
+fluga<n><f> % fly<n> 
+flugeldur<n><m> % firework<n> 
+flugher<n><m> % air force<n> 
+flug<n><nt> % flight<n> 
+flugvél<n><f> % aeroplane<n> 
+flugvöllur<n><m> % airport<n> 
+f<n><nt> % f<n> 
+föðurbróðir<n><m> % paternal uncle<n> 
+föðurland<n><nt> % fatherland<n> 
+fóður<n><nt> % fodder<n> 
+föðursystir<n><f> % paternal aunt<n> 
+foli<n><m> % foal<n> 
+fólk<n><nt> % people<n> 
+fólksfjöldi<n><m> % population<n> 
+fól<n><nt> % brute<n> 
+fordæmi<n><nt> % example<n> 
+forhúðarostur<n><m> % smegma<n> 
+formaður<n><m> % chairman<n> 
+formáli<n><m> % foreword<n> 
+form<n><nt> % form<n> 
+fornafn<n><nt> % given name<n> 
+för<n><f> % journey<n> 
+for<n><f> % mud<n> 
+fornfræði<n><f> % archaeology<n> 
+fórn<n><f> % sacrifice<n> 
+fornöld<n><f> % ancient times<n> 
+forrit<n><nt> % computer program<n> 
+forritunarmál<n><nt> % programming language<n> 
+forsæla<n><f> % shade<n> 
+forsætisráðherra<n><m> % prime minister<n> 
+forsenda<n><f> % prerequisite<n> 
+forseti<n><m> % president<n> 
+forsíða<n><f> % front page<n> 
+forstjóri<n><m> % CEO<n> 
+forysta<n><f> % leadership<n> 
+fosfór<n><nt> % phosphorus<n> 
+fosfórun<n><f> % phosphorylation<n> 
+foss<n><m> % waterfall<n> 
+föstudagur<n><m> % Friday<n> 
+fótbolti<n><m> % football<n> 
+fótgangandi<n><m> % on foot<n> 
+fótur<n><m> % foot<n> 
+frádráttur<n><m> % deduction<n> 
+frægð<n><f> % fame<n> 
+frændi<n><m> % uncle<n> 
+frænka<n><f> % female cousin<n> 
+fræ<n><nt> % seed<n> 
+fráfall<n><nt> % death<n> 
+frakki<n><m> % coat<n> 
+framför<n><f> % progress<n> 
+framhald<n><nt> % continuation<n> 
+framhlið<n><f> % front<n> 
+frami<n><m> % career<n> 
+framkvæmd<n><f> % process<n> 
+framleiðsla<n><f> % production<n> 
+framsöguháttur<n><m> % grammatical mood<n> 
+framsóknarflokkur<n><m> % Progressive party<n> 
+framtíð<n><f> % future<n> 
+fransín<n><nt> % francium<n> 
+franska<n><f> % French<n> 
+frásögn<n><f> % narrative<n> 
+frelsi<n><nt> % freedom<n> 
+frelsishetja<n><f> % freedom hero<n> 
+frestur<n><m> % delay<n> 
+fréttablað<n><nt> % newspaper<n> 
+frétt<n><f> % news<n> 
+friðarbogi<n><m> % rainbow<n> 
+friður<n><m> % peace<n> 
+frjálshyggja<n><f> % libertarianism<n> 
+frjálslyndi<n><nt> % liberalism<n> 
+froskdýr<n><nt> % amphibian<n> 
+froskur<n><m> % frog<n> 
+frumefni<n><nt> % prime matter<n> 
+frumeind<n><f> % atom<n> 
+frumkvæði<n><nt> % initiative<n> 
+frumlag<n><nt> % subject<n> 
+frumspeki<n><f> % metaphysics<n> 
+frumstig<n><nt> % initial stage<n> 
+frumuhimna<n><f> % cell membrane<n> 
+frumuveggur<n><m> % cell wall<n> 
+frumvarp<n><nt> % act of parliament<n> 
+frú<n><f> % Mrs.<n> 
+fuglafræði<n><f> % ornithology<n> 
+fugl<n><m> % bird<n> 
+fulltrúi<n><m> % representative<n> 
+fundur<n><m> % meeting<n> 
+fura<n><f> % pine<n> 
+fylgja<n><f> % placenta<n> 
+fylgsni<n><nt> % hideout<n> 
+fylki<n><nt> % state<n> 
+fyrirkomulag<n><nt> % arrangement<n> 
+fyrirlestur<n><m> % lecture<n> 
+fyrirmynd<n><f> % example<n> 
+fyrirspurn<n><f> % enquiry<n> 
+fyrirtæki<n><nt> % company<n> 
+gabon<n><nt> % Gabon<n> 
+gagnrýni<n><f> % criticism<n> 
+gagnsemi<n><f> % usefulness<n> 
+galdur<n><m> % magic<n> 
+galli<n><m> % fault<n> 
+gallín<n><nt> % gallium<n> 
+gaman<n><nt> % fun<n> 
+garðakornblóm<n><nt> % cornflower<n> 
+garður<n><m> % garden<n> 
+gas<n><nt> % gas<n> 
+gata<n><f> % road<n> 
+geðklofi<n><m> % schizophrenic<n> 
+geð<n><nt> % disposition<n> 
+geimskip<n><nt> % spaceship<n> 
+geimur<n><m> % outer space<n> 
+geisladiskur<n><m> % compact disc<n> 
+geislun<n><f> % radiation<n> 
+gemsi<n><m> % mobile phone<n> 
+gengi<n><nt> % exchange rate<n> 
+gerð<n><f> % make<n> 
+gervigreind<n><f> % artificial intelligence<n> 
+gestur<n><m> % guest<n> 
+geta<n><f> % ability<n> 
+geymir<n><m> % tank<n> 
+geymsla<n><f> % storeroom<n> 
+gifta<n><f> % marry<n> 
+gildi<n><nt> % value<n> 
+gistihús<n><nt> % guesthouse<n> 
+gítarleikari<n><m> % guitarist<n> 
+gítar<n><m> % guitar<n> 
+gjaldkeri<n><m> % cashier<n> 
+gjöf<n><f> % gift<n> 
+glæpamaður<n><m> % criminal<n> 
+glæpur<n><m> % crime<n> 
+glæruvængur<n><m> % pterygium<n> 
+glassúr<n><nt> % glaze 
+gluggi<n><m> % window<n> 
+g<n><nt> % g<n> 
+goðafræði<n><f> % mythology<n> 
+goð<n><nt> % deity<n> 
+gola<n><f> % breeze<n> 
+gos<n><nt> % soda<n> 
+gráða<n><f> % degree<n> 
+grænspæta<n><f> % green woodpecker<n> 
+grafhýsi<n><nt> % tomb<n> 
+grákráka<n><f> % hooded crow<n> 
+gramm<n><nt> % gramme<n> 
+grammófónn<n><m> % gramophone<n> 
+grannfræði<n><f> % topology<n> 
+grasafræði<n><f> % botany<n> 
+gras<n><nt> % grass<n> 
+grátur<n><m> % crying<n> 
+greinir<n><m> % definite article<n> 
+grein<n><f> % article<n> 
+grennd<n><f> % neighbourhood<n> 
+gripur<n><m> % object<n> 
+gröf<n><f> % grave<n> 
+gróf<n><f> % pit<n> 
+gró<n><nt> % spore<n> 
+grundvöllur<n><m> % basis<n> 
+grunnskóli<n><m> % elementary school<n> 
+grunnur<n><m> % foundation<n> 
+grýlukerti<n><nt> % icicle<n> 
+guðfræði<n><f> % theology<n> 
+guð<n><m> % God<n> 
+guð<n><nt> % god<n> 
+gull<n><nt> % gold<n> 
+gúmmí<n><nt> % rubber<n> 
+gyðingur<n><m> % Jew<n> 
+hádegi<n><nt> % noon<n> 
+hæð<n><f> % storey<n> 
+hæfileiki<n><m> % ability<n> 
+hæna<n><f> % hen<n> 
+hænsni<n><nt> % poultry<n> 
+hæsi<n><f> % hoarseness<n> 
+hæstiréttur<n><m> % supreme court of iceland<n> 
+hafnín<n><nt> % hafnium<n> 
+hagfræði<n><f> % economics<n> 
+hagi<n><m> % pasture<n> 
+hagur<n><m> % condition<n> 
+háhyrningur<n><m> % killer whale<n> 
+halda<n><f> % hold<n> 
+halógen<n><nt> % halogen<n> 
+háls<n><m> % neck<n> 
+hámark<n><nt> % maximum<n> 
+hamborgari<n><m> % hamburger<n> 
+hamingja<n><f> % happiness<n> 
+handbolti<n><m> % handball<n> 
+handhafi<n><m> % bearer<n> 
+handklæði<n><nt> % towel<n> 
+handrit<n><nt> % manuscript<n> 
+handtaka<n><f> % arrest<n> 
+hani<n><m> % rooster<n> 
+happ<n><nt> % good fortune<n> 
+harka<n><f> % severity<n> 
+harmleikur<n><m> % tragedy<n> 
+hár<n><nt> % hair<n> 
+harpa<n><f> % harp<n> 
+háskóli<n><m> % university<n> 
+hátíð<n><f> % festival<n> 
+hattur<n><m> % hat<n> 
+háttur<n><m> % manner<n> 
+hatur<n><nt> % hatred<n> 
+haus<n><m> % head<n> 
+haust<n><nt> % fall<n> 
+hebreska<n><f> % Hebrew<n> 
+hefð<n><f> % tradition<n> 
+hegðun<n><f> % behaviour<n> 
+heiður<n><m> % honor<n> 
+heilbrigði<n><f> % good health<n> 
+heili<n><m> % brain<n> 
+heilsa<n><f> % health<n> 
+heimasíða<n><f> % web site<n> 
+heimastjórn<n><f> % home rule<n> 
+heimild<n><f> % reference<n> 
+heimili<n><nt> % home<n> 
+heimkoma<n><f> % homecoming<n> 
+heimsálfa<n><f> % continent<n> 
+heimskautanótt<n><f> % polar night<n> 
+heimsókn<n><f> % visit<n> 
+heimspeki<n><f> % philosophy<n> 
+heimspekingur<n><m> % philosopher<n> 
+heimur<n><m> % world<n> 
+heiti<n><nt> % name<n> 
+helgi<n><f> % weekend<n> 
+helín<n><nt> % helium<n> 
+hellir<n><m> % cave<n> 
+helmingur<n><m> % half<n> 
+hel<n><f> % hell<n> 
+helvíti<n><nt> % hell<n> 
+hemill<n><m> % brake<n> 
+hérað<n><nt> % district<n> 
+herbergi<n><nt> % room<n> 
+herfylki<n><nt> % battalion<n> 
+hermaður<n><m> % soldier<n> 
+hernaður<n><m> % warfare<n> 
+her<n><m> % army<n> 
+herramaður<n><m> % gentleman<n> 
+hershöfðingi<n><m> % general<n> 
+herskip<n><nt> % warship<n> 
+hersveit<n><f> % regiment<n> 
+hestamennska<n><f> % activities involving horses<n> 
+hestur<n><m> % horse<n> 
+hetja<n><f> % hero<n> 
+hey<n><nt> % hay<n> 
+híbýli<n><nt> % house<n> 
+hilling<n><f> % mirage<n> 
+himinn<n><m> % sky<n> 
+hindber<n><nt> % raspberry<n> 
+hirðir<n><m> % shepherd<n> 
+hirð<n><f> % court<n> 
+hitastig<n><nt> % temperature<n> 
+hiti<n><m> % heat<n> 
+hjálparsögn<n><f> % auxiliary verb<n> 
+hjálp<n><f> % help<n> 
+hjarta<n><nt> % heart<n> 
+hjartardýr<n><nt> % deer<n> 
+hjól<n><nt> % bike<n> 
+hjónaband<n><nt> % marriage<n> 
+hlaða<n><f> % barn<n> 
+hlað<n><nt> % farmyard<n> 
+hlé<n><nt> % break<n> 
+hlíð<n><f> % hillside<n> 
+hlið<n><f> % side<n> 
+hlið<n><nt> % gate<n> 
+hlíf<n><f> % shield<n> 
+hljóðfæri<n><nt> % musical instrument<n> 
+hljóð<n><nt> % sound<n> 
+hljómplata<n><f> % record<n> 
+hljómsveit<n><f> % orchestra<n> 
+hlutabréf<n><nt> % stock<n> 
+hlutfall<n><nt> % proportion<n> 
+hluti<n><m> % part<n> 
+hlutur<n><m> % object<n> 
+hlutverk<n><nt> % role<n> 
+hnéfiðla<n><f> % cello<n> 
+hné<n><nt> % knee<n> 
+hnífur<n><m> % knife<n> 
+hnísa<n><f> % harbour porpoise<n> 
+h<n><nt> % h<n> 
+höfn<n><f> % harbor<n> 
+hof<n><nt> % temple<n> 
+höfuðborg<n><f> % capital<n> 
+höfuð<n><nt> % head<n> 
+höfundarréttur<n><m> % copyright<n> 
+höfundur<n><m> % author<n> 
+hola<n><f> % hole<n> 
+holdsveiki<n><f> % leprosy<n> 
+hollenska<n><f> % Dutch<n> 
+hóll<n><m> % hillock<n> 
+holt<n><nt> % hillock<n> 
+hommi<n><m> % homosexual<n> 
+hönd<n><f> % hand<n> 
+hönnuður<n><m> % designer<n> 
+hönnun<n><f> % design<n> 
+hópur<n><m> % group<n> 
+hormón<n><nt> % hormone<n> 
+horn<n><nt> % corner<n> 
+horvatn<n><nt> % sweat of a skinny person<n> 
+hótel<n><nt> % hotel<n> 
+hraðbraut<n><f> % freeway<n> 
+hraði<n><m> % speed<n> 
+hræða<n><f> % body<n> 
+hræsni<n><f> % hypocrisy<n> 
+hræsnistár<n><nt> % crocodile tears<n> 
+hrafn<n><m> % raven<n> 
+hraun<n><nt> % lava<n> 
+hrefna<n><f> % minke whale<n> 
+hreiður<n><nt> % nest<n> 
+hreindýr<n><nt> % reindeer<n> 
+hrekkur<n><m> % prank<n> 
+hreppur<n><m> % district<n> 
+hreyfing<n><f> % movement<n> 
+hríð<n><f> % snowstorm<n> 
+hrísgrjónavín<n><nt> % rice wine<n> 
+hrísgrjón<n><nt> % rice<n> 
+hríspappír<n><m> % rice paper<n> 
+hrókur<n><m> % rook<n> 
+hrollur<n><m> % shiver<n> 
+hróp<n><nt> % call<n> 
+hrossafluga<n><f> % daddy longlegs<n> 
+hrútur<n><m> % ram<n> 
+hryggdýr<n><nt> % vertebrate<n> 
+hryssa<n><f> % mare<n> 
+hugbúnaður<n><m> % software<n> 
+huggun<n><f> % consolation<n> 
+hugmyndafræði<n><f> % ideology<n> 
+hugmynd<n><f> % idea<n> 
+hugsun<n><f> % thought<n> 
+hugtak<n><nt> % concept<n> 
+hugur<n><m> % mind<n> 
+hulda<n><f> % secrecy<n> 
+hulduefni<n><nt> % dark matter<n> 
+huldufólk<n><nt> % elves<n> 
+humar<n><m> % lobster<n> 
+húm<n><nt> % dusk<n> 
+hundrað<n><nt> % hundred<n> 
+hundur<n><m> % dog<n> 
+hurð<n><f> % door<n> 
+húsdýr<n><nt> % domestic animal<n> 
+húsnæði<n><nt> % accomodation<n> 
+hús<n><nt> % house<n> 
+hvalur<n><m> % whale<n> 
+hvarf<n><nt> % disappearance<n> 
+hveitiklíð<n><nt> % wheat bran<n> 
+hvelatengsl<n><nt> % corpus callosum<n> 
+hvellur<n><m> % bang<n> 
+hverfi<n><nt> % neighborhood<n> 
+hvíla<n><f> % bed<n> 
+hvítkorn<n><nt> % white blood cell<n> 
+hvítvín<n><nt> % white wine<n> 
+íbúafjöldi<n><m> % population<n> 
+íbúi<n><m> % resident<n> 
+iðnaður<n><m> % industry<n> 
+íkorni<n><m> % squirrel<n> 
+ílát<n><nt> % container<n> 
+ímynd<n><f> % image<n> 
+indín<n><nt> % indium<n> 
+innblástur<n><m> % inspiration<n> 
+innganga<n><f> % entrance<n> 
+inngangur<n><m> % entrance<n> 
+innihald<n><nt> % content<n> 
+innræting<n><f> % indoctrination<n> 
+innrás<n><f> % invasion<n> 
+i<n><nt> % i<n> 
+internet<n><nt> % internet<n> 
+iridín<n><nt> % iridium<n> 
+Ísafjarðardjúp<n><nt> % Ísafjarðardjúp<n> 
+ísbjörn<n><m> % polar bear<n> 
+Íslendingur<n><m> % Icelander<n> 
+íslenska<n><f> % Icelandic<n> 
+ís<n><m> % ice cream<n> 
+ítalska<n><f> % Italian<n> 
+ívera<n><f> % habitat<n> 
+íverufall<n><nt> % inessive case<n> 
+íþróttahús<n><nt> % gymnasium<n> 
+íþrótt<n><f> % sport<n> 
+jafna<n><f> % equation<n> 
+jafntefli<n><nt> % tie<n> 
+jafnvægi<n><nt> % balance<n> 
+janúar<n><nt> % January<n> 
+japanska<n><f> % Japanese<n> 
+jarðarbúi<n><m> % Earthling<n> 
+jarðarför<n><f> % funeral<n> 
+jarðfræði<n><f> % geology<n> 
+jarðvegur<n><m> % soil<n> 
+járn<n><nt> % iron<n> 
+jeppi<n><m> % jeep<n> 
+j<n><nt> % j<n> 
+joð<n><nt> % iodine<n> 
+jökull<n><m> % glacier<n> 
+jól<n><nt> % Christmas<n> 
+jörð<n><f> % earth<n> 
+jötunn<n><m> % giant<n> 
+júgurbólga<n><f> % mastitis<n> 
+júlí<n><nt> % July<n> 
+júní<n><nt> % June<n> 
+jurt<n><f> % herb<n> 
+kadmín<n><nt> % cadmium<n> 
+kaffihús<n><nt> % coffee shop<n> 
+kafli<n><m> % chapter<n> 
+kaka<n><f> % cake<n> 
+kálfur<n><m> % calf<n> 
+kalín<n><nt> % potassium<n> 
+kalsín<n><nt> % calcium<n> 
+kanína<n><f> % rabbit<n> 
+kanna<n><f> % mug<n> 
+karfa<n><f> % basket<n> 
+karíbamál<n><nt> % Caribbean language<n> 
+karlkyn<n><nt> % male<n> 
+karlmaður<n><m> % man<n> 
+karl<n><m> % man<n> 
+kartafla<n><f> % potato<n> 
+kassi<n><m> % box<n> 
+kastali<n><m> % castle<n> 
+kast<n><nt> % cast<n> 
+kaupmaður<n><m> % merchant<n> 
+kaþólska<n><f> % Catholic<n> 
+keila<n><f> % cone<n> 
+keisari<n><m> % emperor<n> 
+kekkur<n><m> % lump<n> 
+kelvin<n><nt> % Kelvin<n> 
+kennari<n><m> % teacher<n> 
+kenning<n><f> % theory<n> 
+kennsla<n><f> % teaching<n> 
+keppa<n><f> % compete<n> 
+keppni<n><f> % contest<n> 
+kerfi<n><nt> % system<n> 
+kerti<n><nt> % candle<n> 
+kílómetri<n><m> % kilometer<n> 
+kind<n><f> % sheep<n> 
+kinn<n><f> % cheek<n> 
+kínverska<n><f> % Chinese<n> 
+kippur<n><m> % twitch<n> 
+kirkja<n><f> % church<n> 
+kirkjugarður<n><m> % cemetery<n> 
+kisa<n><f> % cat<n> 
+kjallari<n><m> % basement<n> 
+kjarneind<n><f> % nucleon<n> 
+kjarni<n><m> % core<n> 
+kjarnorkuver<n><nt> % nuclear power plant<n> 
+kjölfar<n><nt> % wake<n> 
+kjördæmi<n><nt> % constituency<n> 
+kjör<n><nt> % election<n> 
+kjörorð<n><nt> % motto<n> 
+kjöt<n><nt> % meat<n> 
+klæði<n><nt> % clothing<n> 
+klaki<n><m> % ice<n> 
+klaustur<n><nt> % monastery<n> 
+klór<n><nt> % chlorine<n> 
+klukka<n><f> % clock<n> 
+klukkustund<n><f> % hour<n> 
+knattspyrna<n><f> % soccer<n> 
+knéfiðla<n><f> % cello<n> 
+kné<n><nt> % knee<n> 
+k<n><nt> % k<n> 
+knús<n><nt> % cuddle<n> 
+kóbolt<n><nt> % cobalt<n> 
+koddi<n><m> % pillow<n> 
+köfnunarefni<n><nt> % nitrogen<n> 
+kolefni<n><nt> % carbon<n> 
+kollur<n><m> % stool<n> 
+kol<n><nt> % coal<n> 
+koma<n><f> % arrival<n> 
+kona<n><f> % woman<n> 
+kóngur<n><m> % king<n> 
+konungsríki<n><nt> % kingdom<n> 
+konungur<n><m> % king<n> 
+körfuknattleikur<n><m> % basketball<n> 
+kór<n><m> % chorus<n> 
+kort<n><nt> % map<n> 
+kosningaréttur<n><m> % suffrage<n> 
+koss<n><m> % kiss<n> 
+kostur<n><m> % choice<n> 
+köttur<n><m> % cat<n> 
+krabbamein<n><nt> % cancer<n> 
+krafa<n><f> % demand<n> 
+kraftaverk<n><nt> % miracle<n> 
+kraftur<n><m> % power<n> 
+kráka<n><f> % crow<n> 
+krakki<n><m> % child<n> 
+kringumstæður<n><nt> % circumstances<n> 
+kristni<n><f> % Christianity<n> 
+krókódílstár<n><nt> % crocodile tears<n> 
+króm<n><nt> % chromium<n> 
+króna<n><f> % krona<n> 
+krónprinsessa<n><f> % crown princess<n> 
+krypton<n><nt> % Krypton<n> 
+kurteisi<n><f> % courtesy<n> 
+kústur<n><m> % broom<n> 
+kvaðratrót<n><f> % square root<n> 
+kvæði<n><nt> % poem<n> 
+kveðja<n><f> % greeting<n> 
+kveðskapur<n><m> % poetry<n> 
+kvef<n><nt> % common cold<n> 
+kvenkyn<n><nt> % female<n> 
+kvikasilfur<n><nt> % mercury 
+kvikmyndagerð<n><f> % cinematography<n> 
+kvikmyndahús<n><nt> % movie theater<n> 
+kvikmynd<n><f> % movie<n> 
+kvísl<n><f> % branch<n> 
+kvöld<n><nt> % evening<n> 
+kýli<n><nt> % boil<n> 
+kynlíf<n><nt> % sex<n> 
+kyn<n><nt> % gender<n> 
+kýr<n><f> % cow<n> 
+kyrravika<n><f> % Holy Week<n> 
+kyrrð<n><f> % tranquility<n> 
+læða<n><f> % cat<n> 
+læknir<n><m> % doctor<n> 
+læknisfræði<n><f> % medicine<n> 
+lágfiðla<n><f> % viola<n> 
+lag<n><nt> % layer<n> 
+lamb<n><nt> % lamb<n> 
+landafræði<n><f> % geography<n> 
+landbúnaður<n><m> % agriculture<n> 
+landnám<n><nt> % colonisation<n> 
+landnámsöld<n><f> % settlement of Iceland<n> 
+land<n><nt> % land<n> 
+landstjóri<n><m> % governor<n> 
+langhlið<n><f> % hypotenuse<n> 
+lán<n><nt> % loan<n> 
+latína<n><f> % latin<n> 
+lauf<n><nt> % leaf<n> 
+lauftré<n><nt> % deciduous tree<n> 
+laugardagur<n><m> % Saturday<n> 
+laug<n><f> % pool<n> 
+leðurblaka<n><f> % bat<n> 
+leiðangur<n><m> % expedition<n> 
+leiðarljós<n><nt> % guiding light<n> 
+leiðbeinandi<n><m> % instructor<n> 
+leiðbeining<n><f> % guidance<n> 
+leiði<n><nt> % grave<n> 
+leið<n><f> % way<n> 
+leiðsögn<n><f> % guidance<n> 
+leiðtogi<n><m> % leader<n> 
+leiga<n><f> % rent<n> 
+leigubíll<n><m> % taxi<n> 
+leikari<n><m> % actor<n> 
+leikhús<n><nt> % theater<n> 
+leikkona<n><f> % actress<n> 
+leiklist<n><f> % acting<n> 
+leikritaskáld<n><nt> % playwright<n> 
+leikrit<n><nt> % play<n> 
+leikskóli<n><m> % kindergarten<n> 
+leikstjóri<n><m> % director<n> 
+leikur<n><m> % game<n> 
+leit<n><f> % search<n> 
+lenda<n><f> % flank<n> 
+lengd<n><f> % length<n> 
+lesbía<n><f> % lesbian<n> 
+letur<n><nt> % character<n> 
+leyfi<n><nt> % permit<n> 
+leyndarmál<n><nt> % secret<n> 
+leysir<n><m> % laser<n> 
+liðdýr<n><nt> % arthropod<n> 
+lið<n><nt> % team<n> 
+liður<n><m> % point<n> 
+líffærafræði<n><f> % anatomy<n> 
+líffæri<n><nt> % organ<n> 
+líffræði<n><f> % biology<n> 
+líffræðingur<n><m> % biologist<n> 
+lífhvolf<n><nt> % biosphere<n> 
+lífljómun<n><f> % bioluminescence<n> 
+líf<n><nt> % life<n> 
+lífvera<n><f> % organism<n> 
+líkami<n><m> % body<n> 
+líking<n><f> % likeness<n> 
+lík<n><nt> % corpse<n> 
+lilja<n><f> % lily<n> 
+lína<n><f> % line<n> 
+lindýr<n><nt> % mollusca<n> 
+listasafn<n><nt> % art museum<n> 
+list<n><f> % art<n> 
+lítri<n><m> % liter<n> 
+litur<n><m> % color<n> 
+liþín<n><nt> % lithium<n> 
+ljóðlist<n><f> % poetry<n> 
+ljóð<n><nt> % poem<n> 
+ljóðskáld<n><nt> % poet<n> 
+ljómi<n><m> % splendour<n> 
+ljón<n><nt> % lion<n> 
+ljósapera<n><f> % light bulb<n> 
+ljósár<n><nt> % light-year<n> 
+ljósfræði<n><f> % optics<n> 
+ljósmynd<n><f> % photograph<n> 
+ljósmyndun<n><f> % photography<n> 
+ljós<n><nt> % light<n> 
+l<n><nt> % l<n> 
+lóa<n><f> % plover<n> 
+lófatölva<n><f> % PDA<n> 
+lof<n><nt> % praise<n> 
+loft<n><nt> % air<n> 
+loftskip<n><nt> % zeppelin<n> 
+loftslag<n><nt> % climate<n> 
+lofttæmi<n><nt> % vacuum<n> 
+lögfræði<n><f> % law<n> 
+lögmaður<n><m> % attorney<n> 
+lögregla<n><f> % police<n> 
+lögreglumaður<n><m> % policeman<n> 
+loka<n><f> % flap<n> 
+lok<n><nt> % lid<n> 
+lotugræðgi<n><f> % bulimia nervosa<n> 
+lotukerfi<n><nt> % periodic table<n> 
+lunga<n><nt> % lung<n> 
+lungnakrabbamein<n><nt> % lung cancer<n> 
+lúta<n><f> % lute<n> 
+lútetín<n><nt> % lutetium<n> 
+lýðræði<n><nt> % democracy<n> 
+lýðveldi<n><nt> % republic<n> 
+lyfta<n><f> % elevator<n> 
+lyklaborð<n><nt> % keyboard<n> 
+lýsingarorð<n><nt> % adjective<n> 
+lýsing<n><f> % description<n> 
+lystarstol<n><nt> % anorexia nervosa<n> 
+maður<n><m> % man<n> 
+mæling<n><f> % measurement<n> 
+mæli<n><nt> % voice<n> 
+mæna<n><f> % spinal cord<n> 
+mænukylfa<n><f> % medulla oblongata<n> 
+máfur<n><m> % gull<n> 
+magnesín<n><nt> % magnesium<n> 
+magn<n><nt> % amount<n> 
+maí<n><nt> % May<n> 
+málefni<n><nt> % issue<n> 
+málfræði<n><f> % grammar<n> 
+mállýska<n><f> % dialect<n> 
+málmblanda<n><f> % alloy<n> 
+málmur<n><m> % metal<n> 
+mál<n><nt> % language<n> 
+málsháttur<n><m> % saying<n> 
+málverk<n><nt> % painting<n> 
+mamma<n><f> % mom<n> 
+mangan<n><nt> % Manganese<n> 
+máni<n><m> % moon<n> 
+manneskja<n><f> % person<n> 
+mannfall<n><nt> % casualty<n> 
+mannfjöldi<n><m> % population<n> 
+mannfræði<n><f> % anthropology<n> 
+mánudagur<n><m> % Monday<n> 
+mánuður<n><m> % month<n> 
+margfeldi<n><nt> % product<n> 
+margföldun<n><f> % multiplication<n> 
+markaður<n><m> % market<n> 
+markgildi<n><nt> % limit<n> 
+mark<n><nt> % goal<n> 
+marsbúi<n><m> % Martian<n> 
+mars<n><m> % March<n> 
+marsvín<n><nt> % pilot whale<n> 
+massi<n><m> % mass<n> 
+matarborð<n><nt> % dinner table<n> 
+matareitrun<n><f> % food poisoning<n> 
+máti<n><m> % manner<n> 
+matur<n><m> % food<n> 
+maur<n><nt> % ant<n> 
+mávur<n><m> % gull<n> 
+meðaltal<n><nt> % average<n> 
+meðvitund<n><f> % consciousness<n> 
+meginland<n><nt> % mainland<n> 
+megn<n><nt> % strength<n> 
+mein<n><nt> % harm<n> 
+meirihluti<n><m> % majority<n> 
+meistaraverk<n><nt> % masterpiece<n> 
+meistari<n><m> % master<n> 
+melding<n><f> % message<n> 
+meltingarkerfi<n><nt> % gastrointestinal tract<n> 
+melting<n><f> % digestion<n> 
+mengi<n><nt> % set<n> 
+mengjafræði<n><f> % set theory<n> 
+mengun<n><f> % pollution<n> 
+menning<n><f> % culture<n> 
+menntaskóli<n><m> % college<n> 
+menntun<n><f> % education<n> 
+merking<n><f> % meaning<n> 
+meta<n><f> % meta<n> 
+metri<n><m> % metre<n> 
+miði<n><m> % ticket<n> 
+miðja<n><f> % center<n> 
+mið<n><nt> % aim<n> 
+miðvikudagur<n><m> % Wednesday<n> 
+milljarður<n><m> % billion<n> 
+milljón<n><f> % million<n> 
+minjagripur<n><m> % souvenir<n> 
+minningagripur<n><m> % memento<n> 
+minning<n><f> % memory<n> 
+minni<n><nt> % memory<n> 
+minnismerki<n><nt> % monument<n> 
+mínus<n><m> % minus<n> 
+mínúta<n><f> % minute<n> 
+mistur<n><nt> % mist<n> 
+mjólk<n><f> % milk<n> 
+m<n><nt> % m<n> 
+móða<n><f> % haze<n> 
+móðir<n><f> % mother<n> 
+móðurborð<n><nt> % motherboard<n> 
+mölfiðrildi<n><nt> % moth<n> 
+moll<n><m> % minor scale<n> 
+mól<n><nt> % mol<n> 
+mólýbden<n><nt> % molybdenum<n> 
+morð<n><nt> % murder<n> 
+mörgæs<n><f> % penguin<n> 
+morgunn<n><m> % morning<n> 
+mót<n><nt> % meeting<n> 
+mótsögn<n><f> % contradiction<n> 
+munnur<n><m> % mouth<n> 
+munur<n><m> % difference<n> 
+mús<n><f> % mouse<n> 
+myndavél<n><f> % camera<n> 
+myndband<n><nt> % video<n> 
+myndlist<n><f> % visual arts<n> 
+mynd<n><f> % picture<n> 
+mynt<n><f> % coin<n> 
+mýri<n><f> % marsh<n> 
+myrkur<n><nt> % darkness<n> 
+myrkvi<n><m> % eclipse<n> 
+nærvera<n><f> % presence<n> 
+næturgali<n><m> % nightingale<n> 
+nafnháttur<n><m> % infinitive<n> 
+nafn<n><nt> % name<n> 
+nafnorð<n><nt> % noun<n> 
+nagdýr<n><nt> % rodent<n> 
+náhveli<n><nt> % narwhal<n> 
+nákvæmni<n><f> % accuracy<n> 
+nál<n><f> % needle<n> 
+náma<n><f> % pit<n> 
+nám<n><nt> % learning<n> 
+námskeið<n><nt> % course<n> 
+nár<n><m> % corpse<n> 
+natrín<n><nt> % sodium<n> 
+náttúra<n><f> % nature<n> 
+náttúruhyggja<n><f> % naturalism<n> 
+náttúruval<n><nt> % natural selection<n> 
+nauðsyn<n><f> % necessity<n> 
+nautnahyggja<n><f> % hedonism<n> 
+naut<n><nt> % bull<n> 
+nefnd<n><f> % committee<n> 
+nefnifall<n><nt> % nominative case<n> 
+nemandi<n><m> % student<n> 
+neon<n><nt> % neon<n> 
+nes<n><nt> % cape<n> 
+net<n><nt> % net<n> 
+niður<n><m> % drone<n> 
+nifteind<n><f> % neutron<n> 
+nikkel<n><nt> % nickel<n> 
+níóbín<n><nt> % niobium<n> 
+nitur<n><nt> % nitrogen<n> 
+n<n><nt> % n<n> 
+norðaustur<n><nt> % northeast<n> 
+norðurhvel<n><nt> % northern hemisphere<n> 
+norðurljós<n><nt> % northern lights<n> 
+norður<n><nt> % north<n> 
+norska<n><f> % Norwegian<n> 
+nös<n><f> % nostril<n> 
+notandi<n><m> % user<n> 
+notkun<n><f> % use<n> 
+nótt<n><f> % night<n> 
+nóvember<n><nt> % November<n> 
+núll<n><nt> % zero<n> 
+númer<n><nt> % number<n> 
+nútíð<n><f> % present tense<n> 
+nýöld<n><f> % modern times<n> 
+nýra<n><nt> % kidney<n> 
+nytjastefna<n><f> % utilitarianism<n> 
+óbó<n><nt> % oboe<n> 
+oddur<n><m> % point<n> 
+óendanleiki<n><m> % infinity<n> 
+ögn<n><f> % bit<n> 
+okkarína<n><f> % ocarina<n> 
+ok<n><nt> % yoke<n> 
+október<n><nt> % October<n> 
+öld<n><f> % century<n> 
+ölgerðarhús<n><nt> % brewery<n> 
+olía<n><f> % oil<n> 
+olnbogi<n><m> % elbow<n> 
+öl<n><nt> % ale<n> 
+önd<n><f> % duck<n> 
+öndun<n><f> % breathing<n> 
+o<n><nt> % o<n> 
+ö<n><nt> % ö<n> 
+op<n><nt> % opening<n> 
+orðabók<n><f> % dictionary<n> 
+orð<n><nt> % word<n> 
+orðsifjafræði<n><f> % etymology<n> 
+orðtak<n><nt> % phrase<n> 
+örgjörvi<n><m> % microprocessor<n> 
+orka<n><f> % energy<n> 
+ormur<n><m> % worm<n> 
+ör<n><f> % scar<n> 
+örn<n><m> % eagle<n> 
+orrusta<n><f> % battle<n> 
+orsök<n><f> % cause<n> 
+öryggisbelti<n><nt> % seat belt<n> 
+ósk<n><f> % wish<n> 
+osmín<n><nt> % osmium<n> 
+ostra<n><f> % oyster<n> 
+ostur<n><m> % cheese<n> 
+ótal<n><nt> % myriad<n> 
+ótti<n><m> % fear<n> 
+óvinur<n><m> % enemy<n> 
+öxi<n><f> % axe<n> 
+óþekkt<n><f> % disobedience<n> 
+pabbi<n><m> % dad<n> 
+páfagaukur<n><m> % parrot<n> 
+páfi<n><m> % pope<n> 
+palladín<n><nt> % palladium<n> 
+pappír<n><m> % paper<n> 
+parís<n><m> % hopscotch<n> 
+partur<n><m> % part<n> 
+páskavika<n><f> % Holy Week<n> 
+penni<n><m> % pen<n> 
+perla<n><f> % pearl<n> 
+persóna<n><f> % person<n> 
+persónufornafn<n><nt> % personal pronoun<n> 
+persónuleiki<n><m> % personality<n> 
+peysa<n><f> % sweater<n> 
+píanó<n><nt> % piano<n> 
+píka<n><f> % pussy<n> 
+pitsa<n><f> % pizza<n> 
+pítsa<n><f> % pizza<n> 
+pizza<n><f> % pizza<n> 
+pláneta<n><f> % planet<n> 
+planta<n><f> % plant<n> 
+platína<n><f> % platinum<n> 
+p<n><nt> % p<n> 
+poki<n><m> % bag<n> 
+pollur<n><m> % puddle<n> 
+pólon<n><nt> % polonium<n> 
+pönnukaka<n><f> % pancake<n> 
+port<n><nt> % courtyard<n> 
+pósthús<n><nt> % post office<n> 
+póstmódernismi<n><m> % postmodernism<n> 
+póstur<n><m> % post<n> 
+prentun<n><f> % printing<n> 
+prestur<n><m> % priest<n> 
+prinsessa<n><f> % princess<n> 
+prins<n><m> % prince<n> 
+prófessor<n><m> % professor<n> 
+próf<n><nt> % test<n> 
+prósent<n><nt> % percentage<n> 
+púls<n><m> % pulse<n> 
+punktur<n><m> % point<n> 
+q<n><nt> % q<n> 
+ráðherra<n><m> % minister<n> 
+radín<n><nt> % radium<n> 
+ráð<n><nt> % advice<n> 
+radon<n><nt> % radon<n> 
+ræða<n><f> % speech<n> 
+ræna<n><f> % rob<n> 
+rafeind<n><f> % electron<n> 
+rafgas<n><nt> % plasma<n> 
+rafhlaða<n><f> % battery<n> 
+rafmagn<n><nt> % electricity<n> 
+rafstraumur<n><m> % electric current<n> 
+rakki<n><m> % dog<n> 
+rándýr<n><nt> % carnivore<n> 
+rannsókn<n><f> % research<n> 
+rás<n><f> % channel<n> 
+rauðkorn<n><nt> % red blood cell<n> 
+rauðrefur<n><m> % red fox<n> 
+rauðvín<n><nt> % red wine<n> 
+raun<n><f> % ordeal<n> 
+refur<n><m> % fox<n> 
+regla<n><f> % rule<n> 
+regnbogi<n><m> % rainbow<n> 
+regnhlíf<n><f> % umbrella<n> 
+regn<n><nt> % rain<n> 
+reiðhjól<n><nt> % bicycle<n> 
+reiði<n><f> % anger<n> 
+reið<n><f> % ride<n> 
+reiknirit<n><nt> % algorithm<n> 
+reim<n><f> % shoelace<n> 
+reisa<n><f> % trip<n> 
+reka<n><f> % shovel<n> 
+reki<n><m> % flotsam<n> 
+rekstur<n><m> % management<n> 
+renín<n><nt> % rhenium<n> 
+renna<n><f> % duct<n> 
+réttur<n><m> % course<n> 
+reykur<n><m> % smoke<n> 
+reynd<n><f> % praxis<n> 
+reynsla<n><f> % experience<n> 
+riddari<n><m> % knight<n> 
+rigning<n><f> % rain<n> 
+ríki<n><nt> % state<n> 
+ríkisstjórn<n><f> % government<n> 
+ritari<n><m> % secretary<n> 
+ritgerð<n><f> % essay<n> 
+rithöfundur<n><m> % author<n> 
+rit<n><nt> % work<n> 
+r<n><nt> % r<n> 
+rödd<n><f> % voice<n> 
+ródín<n><nt> % rhodium<n> 
+röð<n><f> % row<n> 
+röðun<n><f> % ordering<n> 
+rof<n><nt> % erosion<n> 
+rökfræði<n><f> % logic<n> 
+rokk<n><nt> % rock<n> 
+rok<n><nt> % very strong wind<n> 
+rómur<n><m> % voice<n> 
+röntgen<n><nt> % x-ray<n> 
+rós<n><f> % rose<n> 
+rostungur<n><m> % walrus<n> 
+róteind<n><f> % proton<n> 
+rót<n><f> % root<n> 
+rotta<n><f> % rat<n> 
+rúbidín<n><nt> % rubidium<n> 
+rúmfræði<n><f> % geometry<n> 
+rúm<n><nt> % bed<n> 
+runa<n><f> % sequence<n> 
+rusl<n><nt> % trash<n> 
+rússneska<n><f> % Russian<n> 
+rúta<n><f> % bus<n> 
+rutherfordín<n><nt> % rutherfordium<n> 
+sæti<n><nt> % seat<n> 
+sætistala<n><f> % atomic number<n> 
+sætt<n><f> % reconciliation<n> 
+safaspæta<n><f> % yellow-bellied sapsucker<n> 
+safi<n><m> % juice<n> 
+safn<n><nt> % museum<n> 
+saga<n><f> % history<n> 
+sagnbeyging<n><f> % grammatical conjugation<n> 
+sagnorð<n><nt> % verb<n> 
+sala<n><f> % sale<n> 
+sálfræði<n><f> % psychology<n> 
+sál<n><f> % soul<n> 
+salt<n><nt> % salt<n> 
+salur<n><m> % hall<n> 
+samband<n><nt> % relation<n> 
+sameind<n><f> % molecule<n> 
+samfélag<n><nt> % community<n> 
+samfylking<n><f> % social democratic alliance<n> 
+samheiti<n><nt> % synonym<n> 
+samhengi<n><nt> % context<n> 
+samhljóð<n><nt> % consonant<n> 
+samkomulag<n><nt> % agreement<n> 
+samningur<n><m> % contract<n> 
+samsæta<n><f> % isotope<n> 
+samtal<n><nt> % conversation<n> 
+samtenging<n><f> % conjunction<n> 
+samvinna<n><f> % collaboration<n> 
+sannleikur<n><m> % truth<n> 
+sannur<n><m> % true<n> 
+sápa<n><f> % soap<n> 
+sárasótt<n><f> % syphilis<n> 
+sársauki<n><m> % pain<n> 
+sátt<n><f> % reconciliation<n> 
+sauðfé<n><nt> % sheep<n> 
+sauðnaut<n><nt> % muskox<n> 
+sauður<n><m> % sheep<n> 
+seborgín<n><nt> % seaborgium<n> 
+segulljós<n><nt> % aurora<n> 
+segulsvið<n><nt> % magnetic field<n> 
+sekúnda<n><f> % second<n> 
+sendibréf<n><nt> % letter<n> 
+sendiráð<n><nt> % embassy<n> 
+september<n><nt> % September<n> 
+séra<n><m> % reverend<n> 
+sérhljóð<n><nt> % vowel<n> 
+serín<n><nt> % cerium<n> 
+sesín<n><nt> % caesium<n> 
+síða<n><f> % side<n> 
+siðfræði<n><f> % ethics<n> 
+sigla<n><f> % mast<n> 
+sigur<n><m> % victory<n> 
+silfur<n><nt> % silver<n> 
+silkiormur<n><m> % silkworm<n> 
+símasamband<n><nt> % telephone connection<n> 
+sími<n><m> % telephone<n> 
+sinfóníuhljómsveit<n><f> % symphony orchestra<n> 
+sink<n><nt> % zinc<n> 
+sin<n><f> % sinew<n> 
+sirkon<n><nt> % zirconium<n> 
+sitjandi<n><m> % behind<n> 
+sítróna<n><f> % lemon<n> 
+sjálfsmorð<n><nt> % suicide<n> 
+sjálfstæði<n><nt> % independence<n> 
+sjávarmál<n><nt> % sea level<n> 
+sjónarmið<n><nt> % point of view<n> 
+sjón<n><f> % eyesight<n> 
+sjónvarp<n><nt> % television<n> 
+sjór<n><m> % ocean<n> 
+sjúkdómur<n><m> % disease<n> 
+sjúklingur<n><m> % patient<n> 
+sjúkrahús<n><nt> % hospital<n> 
+skaði<n><m> % damage<n> 
+skák<n><f> % chess<n> 
+skáld<n><nt> % poet<n> 
+skáldsaga<n><f> % novel<n> 
+skáldskapur<n><m> % fiction<n> 
+skammbyssa<n><f> % handgun<n> 
+skammhlaup<n><nt> % short circuit<n> 
+skammstöfun<n><f> % abbreviation<n> 
+skammtur<n><m> % portion<n> 
+skandín<n><nt> % scandium<n> 
+skapahár<n><nt> % pubic hair<n> 
+skap<n><nt> % temper<n> 
+skápur<n><m> % closet<n> 
+skattur<n><m> % tax<n> 
+skeið<n><f> % spoon<n> 
+skilyrði<n><nt> % condition<n> 
+skinn<n><nt> % skin<n> 
+skin<n><nt> % shine<n> 
+skipan<n><f> % order<n> 
+skip<n><nt> % ship<n> 
+skipti<n><nt> % exchange<n> 
+skipulagning<n><f> % plan<n> 
+skjaldarmerki<n><nt> % coat of arms<n> 
+skjaldbaka<n><f> % turtle<n> 
+skoðun<n><f> % opinion<n> 
+skógarfura<n><f> % Scots Pine<n> 
+skólaár<n><nt> % academic year<n> 
+skólastjóri<n><m> % principal<n> 
+skóli<n><m> % school<n> 
+skömm<n><f> % shame<n> 
+skorða<n><f> % immobilize<n> 
+skordýrafræði<n><f> % entomology<n> 
+skordýr<n><nt> % insect<n> 
+skortur<n><m> % shortage<n> 
+skoska<n><f> % Scottish<n> 
+skot<n><nt> % bullet<n> 
+skráakerfi<n><nt> % file system<n> 
+skrá<n><f> % list<n> 
+skrápdýr<n><nt> % echinoderm<n> 
+skref<n><nt> % pace<n> 
+skriðdýr<n><nt> % reptile<n> 
+skrif<n><nt> % writings<n> 
+skrifstofa<n><f> % office<n> 
+skuggi<n><m> % shadow<n> 
+skuld<n><f> % debt<n> 
+skyndiminni<n><nt> % cache<n> 
+skynfæri<n><nt> % sense<n> 
+skyn<n><nt> % sense<n> 
+ský<n><nt> % cloud<n> 
+skynsemi<n><f> % common sense<n> 
+skýring<n><f> % explanation<n> 
+skýrsla<n><f> % report<n> 
+skyrta<n><f> % shirt<n> 
+slagharpa<n><f> % piano<n> 
+slag<n><nt> % stroke<n> 
+slanga<n><f> % snake<n> 
+sláttur<n><m> % pulse<n> 
+slétta<n><f> % plain<n> 
+slippur<n><m> % shipyard<n> 
+slys<n><nt> % accident<n> 
+smáorð<n><nt> % function word<n> 
+smáskífa<n><f> % single<n> 
+smástirni<n><nt> % asteroid<n> 
+smiður<n><m> % carpenter<n> 
+smokkur<n><m> % condom<n> 
+snær<n><m> % snow<n> 
+snertill<n><m> % tangent<n> 
+snið<n><nt> % pattern<n> 
+snigill<n><m> % snail<n> 
+snípur<n><m> % clitoris<n> 
+snjókorn<n><nt> % snowflake<n> 
+s<n><nt> % s<n> 
+sófi<n><m> % couch<n> 
+sögn<n><f> % verb<n> 
+sök<n><f> % fault<n> 
+sókn<n><f> % offense<n> 
+sólarlag<n><nt> % sunset<n> 
+sólarljós<n><nt> % sunlight<n> 
+sólkerfi<n><nt> % solar system<n> 
+sólmyrkvi<n><m> % solar eclipse<n> 
+sól<n><f> % sun<n> 
+sólsetur<n><nt> % sunset<n> 
+sólskin<n><nt> % sunshine<n> 
+sólskjálftafræði<n><f> % helioseismology<n> 
+sólskríkja<n><f> % snow bunting<n> 
+söngur<n><m> % song<n> 
+söngvari<n><m> % singer<n> 
+sonur<n><m> % son<n> 
+sorg<n><f> % grief<n> 
+sótt<n><f> % illness<n> 
+spæta<n><f> % woodpecker<n> 
+spakmæli<n><nt> % saying<n> 
+spegill<n><m> % mirror<n> 
+spendýr<n><nt> % mammal<n> 
+speni<n><m> % teat<n> 
+spenna<n><f> % clasp<n> 
+spil<n><nt> % game<n> 
+sporðdreki<n><m> % scorpion<n> 
+spurnaratviksorð<n><nt> % adverb<n> 
+spurning<n><f> % question<n> 
+staðall<n><m> % standard<n> 
+staða<n><f> % situation<n> 
+staðaratviksorð<n><nt> % adverb<n> 
+staðarfall<n><nt> % locative case<n> 
+staðfesta<n><f> % resolve<n> 
+staðhæfing<n><f> % proposition<n> 
+staðreynd<n><f> % fact<n> 
+staður<n><m> % place<n> 
+stærðfræði<n><f> % mathematics<n> 
+stærðfræðingur<n><m> % mathematician<n> 
+stærð<n><f> % size<n> 
+stafafura<n><f> % Lodgepole pine<n> 
+stafróf<n><nt> % alphabet<n> 
+stafsetning<n><f> % spelling<n> 
+stafur<n><m> % staff<n> 
+stak<n><nt> % element<n> 
+starf<n><nt> % job<n> 
+starfsmaður<n><m> % employee<n> 
+stefna<n><f> % direction<n> 
+steinn<n><m> % stone<n> 
+stétt<n><f> % sidewalk<n> 
+stigi<n><m> % ladder<n> 
+stig<n><nt> % superlative degree<n> 
+stígvél<n><nt> % boot<n> 
+stilla<n><f> % calm<n> 
+stilling<n><f> % setting<n> 
+stjarna<n><f> % star<n> 
+stjarneðlisfræði<n><f> % astrophysics<n> 
+stjarnfræði<n><f> % astronomy<n> 
+stjórnarskrá<n><f> % constitution<n> 
+stjórnmálaflokkur<n><m> % political party<n> 
+stjórnmál<n><nt> % politics<n> 
+stjörnufræði<n><f> % astronomy<n> 
+stoð<n><f> % support<n> 
+stöðvun<n><f> % stopping<n> 
+stofa<n><f> % living room<n> 
+stofn<n><m> % stem<n> 
+stofnun<n><f> % establishment<n> 
+stóll<n><m> % chair<n> 
+stoppun<n><f> % stopping<n> 
+storkuberg<n><nt> % porphyritic igneous rock<n> 
+storkur<n><m> % stork<n> 
+stóuspeki<n><f> % stoicism<n> 
+stræti<n><nt> % street<n> 
+strákur<n><m> % boy<n> 
+strandfura<n><f> % maritime pine<n> 
+straumur<n><m> % stream<n> 
+streita<n><f> % stress<n> 
+strengjahljóðfæri<n><nt> % string instrument<n> 
+strengur<n><m> % string<n> 
+stríð<n><nt> % war<n> 
+strönd<n><f> % beach<n> 
+strontín<n><nt> % strontium<n> 
+strumpur<n><m> % smurf<n> 
+stubbspæta<n><f> % lesser spotted woodpecker<n> 
+stúdentspróf<n><nt> % college degree<n> 
+stúfa<n><f> % succisa pratensis<n> 
+stúlka<n><f> % girl<n> 
+stund<n><f> % hour<n> 
+stýri<n><nt> % steering wheel<n> 
+stytting<n><f> % shortening<n> 
+suðumark<n><nt> % boiling point<n> 
+suðurhvel<n><nt> % southern hemisphere<n> 
+suðurljós<n><nt> % Aurora australis<n> 
+suður<n><nt> % south<n> 
+súkkulaði<n><nt> % chocolate<n> 
+sumar<n><nt> % summer<n> 
+sundlaug<n><f> % swimming pool<n> 
+sund<n><nt> % swim<n> 
+sunnudagur<n><m> % Sunday<n> 
+súpa<n><f> % soup<n> 
+súrefni<n><nt> % oxygen<n> 
+svæði<n><nt> % area<n> 
+svar<n><nt> % reply<n> 
+svarthol<n><nt> % black hole<n> 
+svefnherbergi<n><nt> % bedroom<n> 
+sveitarfélag<n><nt> % municipality<n> 
+sveit<n><f> % countryside<n> 
+sverð<n><nt> % sword<n> 
+svið<n><nt> % stage<n> 
+svín<n><nt> % pig<n> 
+svipa<n><f> % riding crop<n> 
+svipur<n><m> % look<n> 
+sviti<n><m> % sweat<n> 
+sýning<n><f> % show<n> 
+sýsla<n><f> % county<n> 
+sýslumaður<n><m> % sheriff<n> 
+systir<n><f> % sister<n> 
+systkin<n><nt> % sibling<n> 
+tækifæri<n><nt> % chance<n> 
+tækni<n><f> % technology<n> 
+tafla<n><f> % pill<n> 
+tafl<n><nt> % chess<n> 
+tagl<n><nt> % tail<n> 
+tag<n><nt> % tag<n> 
+táknmál<n><nt> % sign language<n> 
+tákn<n><nt> % symbol<n> 
+tala<n><f> % number<n> 
+tal<n><nt> % talk<n> 
+talsmaður<n><m> % advocate<n> 
+tálvon<n><f> % false hope<n> 
+tantal<n><nt> % tantalum<n> 
+taska<n><f> % bag<n> 
+taugafruma<n><f> % neuron<n> 
+taugakerfi<n><nt> % nervous system<n> 
+taug<n><f> % nerve<n> 
+tegund<n><f> % kind<n> 
+teista<n><f> % black guillemot<n> 
+teknetín<n><nt> % technetium<n> 
+tellúr<n><nt> % tellurium<n> 
+tenging<n><f> % connection<n> 
+tengisögn<n><f> % copula<n> 
+te<n><nt> % tea<n> 
+textafræði<n><f> % philology<n> 
+texti<n><m> % text<n> 
+tíðaratviksorð<n><nt> % adverb<n> 
+tíð<n><f> % time<n> 
+tíðni<n><f> % frequency<n> 
+tík<n><f> % bitch<n> 
+tilboð<n><nt> % tender<n> 
+tilfinning<n><f> % feeling<n> 
+tilgangur<n><m> % purpose<n> 
+tilgáta<n><f> % hypothesis<n> 
+tilheyrandi<n><m> % appurtenant<n> 
+tilkynning<n><f> % announcement<n> 
+tillit<n><nt> % consideration<n> 
+tilraun<n><f> % attempt<n> 
+tilskipun<n><f> % decree<n> 
+tilviljun<n><f> % coincidence<n> 
+tilvist<n><f> % existence<n> 
+tilvísunarfornafn<n><nt> % relative pronoun<n> 
+tilvitnun<n><f> % quotation<n> 
+tímabil<n><nt> % phase<n> 
+tímarit<n><nt> % magazine<n> 
+tímatal<n><nt> % chronology<n> 
+timbur<n><nt> % timber<n> 
+tími<n><m> % time<n> 
+tinna<n><f> % flint<n> 
+tin<n><nt> % tin<n> 
+tíska<n><f> % fashion<n> 
+títan<n><nt> % titanium<n> 
+titill<n><m> % title<n> 
+t<n><nt> % t<n> 
+tölfræði<n><f> % statistics<n> 
+tollur<n><m> % customs<n> 
+tölva<n><f> % computer<n> 
+tölvuforrit<n><nt> % computer program<n> 
+tölvufræði<n><f> % computer science<n> 
+tölvumús<n><f> % computer mouse<n> 
+tölvunarfræði<n><f> % computer science<n> 
+tómatsósa<n><f> % ketchup<n> 
+tómatur<n><m> % tomato<n> 
+tomma<n><f> % inch<n> 
+tónbil<n><nt> % musical interval<n> 
+tónfræði<n><f> % musicology<n> 
+tónleikar<n><m> % concert<n> 
+tónlistarmaður<n><m> % musician<n> 
+tónlist<n><f> % music<n> 
+tönn<n><f> % tooth<n> 
+tonn<n><nt> % metric ton<n> 
+tónskáld<n><nt> % composer<n> 
+torg<n><nt> % square<n> 
+traust<n><nt> % trust<n> 
+tréblásturshljóðfæri<n><nt> % woodwind<n> 
+tré<n><nt> % tree<n> 
+trójuhestur<n><m> % Trojan horse<n> 
+tröll<n><nt> % troll<n> 
+tromma<n><f> % drum<n> 
+truflun<n><f> % disturbance<n> 
+trúfrelsi<n><nt> % freedom of religion<n> 
+túlín<n><nt> % thulium<n> 
+túlkur<n><m> % interpreter<n> 
+tunga<n><f> % tongue<n> 
+tunglmyrkvi<n><m> % lunar eclipse<n> 
+tungl<n><nt> % moon<n> 
+tungumál<n><nt> % language<n> 
+túr<n><m> % trip<n> 
+turn<n><m> % tower<n> 
+tvístirni<n><nt> % binary star<n> 
+tvistur<n><m> % deuce<n> 
+tyggigúmmí<n><nt> % chewing gum<n> 
+typpi<n><nt> % penis<n> 
+ugla<n><f> % owl<n> 
+úlfur<n><m> % wolf<n> 
+umboðsmaður<n><m> % agent<n> 
+umferð<n><f> % traffic<n> 
+umhverfi<n><nt> % environment<n> 
+ummál<n><nt> % circumference<n> 
+umræða<n><f> % discussion<n> 
+umsjá<n><f> % custody<n> 
+umsjón<n><f> % supervision<n> 
+undirheiti<n><nt> % hyponym<n> 
+u<n><nt> % u<n> 
+ú<n><nt> % ú<n> 
+unnusta<n><f> % fiancée<n> 
+unnusti<n><m> % fiancé<n> 
+upphæð<n><f> % sum<n> 
+upphaf<n><nt> % beginning<n> 
+upplýsing<n><f> % information<n> 
+uppreisn<n><f> % rebellion<n> 
+uppruni<n><m> % source<n> 
+upptökustjóri<n><m> % record producer<n> 
+úran<n><nt> % uranium<n> 
+úr<n><nt> % watch<n> 
+úrval<n><nt> % selection<n> 
+utanríkisráðherra<n><m> % Foreign Minister<n> 
+útgáfa<n><f> % version<n> 
+útgerð<n><f> % shipping<n> 
+úthaf<n><nt> % sea<n> 
+útlendingur<n><m> % foreigner<n> 
+útlit<n><nt> % appearance<n> 
+útsending<n><f> % broadcast<n> 
+útskýring<n><f> % explanation<n> 
+útvarp<n><nt> % radio<n> 
+vængur<n><m> % wing<n> 
+væta<n><f> % moisture<n> 
+vald<n><nt> % authority<n> 
+valur<n><m> % falcon<n> 
+vanadín<n><nt> % vanadium<n> 
+vandamál<n><nt> % problem<n> 
+vá<n><f> % danger<n> 
+vara<n><f> % goods<n> 
+varða<n><f> % cairn<n> 
+varðskip<n><nt> % coast guard<n> 
+varmi<n><m> % heat<n> 
+vasi<n><m> % pocket<n> 
+vatn<n><nt> % water<n> 
+vax<n><nt> % wax<n> 
+veðurfar<n><nt> % climate<n> 
+veðurfræði<n><f> % meteorology<n> 
+veður<n><nt> % weather<n> 
+vefdýr<n><nt> % metazoan<n> 
+vefsíða<n><f> % web page<n> 
+vefur<n><m> % web<n> 
+vegalengd<n><f> % distance<n> 
+veggur<n><m> % wall<n> 
+vegur<n><m> % road<n> 
+veiði<n><f> % hunting<n> 
+veira<n><f> % virus<n> 
+veisla<n><f> % party<n> 
+veitingahús<n><nt> % restaurant<n> 
+vél<n><f> % machine<n> 
+velta<n><f> % turnover<n> 
+vera<n><f> % creature<n> 
+verð<n><nt> % price<n> 
+verkamaður<n><m> % workman<n> 
+verkfæri<n><nt> % tool<n> 
+verk<n><nt> % work<n> 
+veröld<n><f> % world<n> 
+verslun<n><f> % store<n> 
+veruleiki<n><m> % reality<n> 
+verzlun<n><f> % store<n> 
+vestri<n><m> % Western<n> 
+vestur<n><nt> % west<n> 
+vetni<n><nt> % hydrogen<n> 
+vettvangur<n><m> % scene<n> 
+vetur<n><m> % winter<n> 
+viðbein<n><nt> % collarbone<n> 
+viðbót<n><f> % addition<n> 
+víðir<n><m> % willow<n> 
+viðleitni<n><f> % endeavor<n> 
+viðskeyti<n><nt> % suffix<n> 
+viðskiptavinur<n><m> % customer<n> 
+viðskipti<n><nt> % business<n> 
+viðtal<n><nt> % interview<n> 
+viðtengingarháttur<n><m> % subjunctive mood<n> 
+vika<n><f> % week<n> 
+vík<n><f> % bay<n> 
+vik<n><nt> % inlet<n> 
+villa<n><f> % error<n> 
+villutrú<n><f> % heresy<n> 
+vinátta<n><f> % friendship<n> 
+vindstig<n><nt> % Beaufort scale<n> 
+vindur<n><m> % wind<n> 
+víngarður<n><m> % vineyard<n> 
+vinkona<n><f> % female friend<n> 
+vinna<n><f> % work<n> 
+vín<n><nt> % liquor<n> 
+vinstri<n><nt> % left<n> 
+vinur<n><m> % male friend<n> 
+virðing<n><f> % respect<n> 
+virki<n><nt> % stronghold<n> 
+vísa<n><f> % verse<n> 
+vísindamaður<n><m> % scientist<n> 
+vísindi<n><nt> % science<n> 
+vismút<n><nt> % bismuth<n> 
+vistkerfi<n><nt> % ecosystem<n> 
+víti<n><nt> % hell<n> 
+vitni<n><nt> % witness<n> 
+v<n><nt> % v<n> 
+vöðvi<n><m> % muscle<n> 
+voffi<n><m> % doggy<n> 
+vog<n><f> % scale<n> 
+vök<n><f> % polynya<n> 
+vökvi<n><m> % liquid<n> 
+volfram<n><nt> % tungsten<n> 
+völlur<n><m> % field<n> 
+vol<n><nt> % whining<n> 
+von<n><f> % hope<n> 
+vopn<n><nt> % weapon<n> 
+vörður<n><m> % guard<n> 
+vör<n><f> % lip<n> 
+vörn<n><f> % defence<n> 
+vor<n><nt> % spring<n> 
+vörumerki<n><nt> % trademark<n> 
+vöxtur<n><m> % growth<n> 
+w<n><nt> % w<n> 
+xenon<n><nt> % xenon<n> 
+x<n><nt> % x<n> 
+yfirborð<n><nt> % surface<n> 
+yfirheiti<n><nt> % hypernym<n> 
+yfirlýsing<n><f> % declaration<n> 
+yfirmaður<n><m> % boss<n> 
+yfirráðasvæði<n><nt> % territory<n> 
+yfirvald<n><nt> % authority<n> 
+y<n><nt> % y<n> 
+ýta<n><f> % dozer<n> 
+ytterbín<n><nt> % ytterbium<n> 
+yttrín<n><nt> % yttrium<n> 
+z<n><nt> % z<n> 
+þágufall<n><nt> % dative case<n> 
+þak<n><nt> % roof<n> 
+þallín<n><nt> % thallium<n> 
+þátíð<n><f> % past tense<n> 
+þáttaskil<n><nt> % turning point<n> 
+þáttur<n><m> % component<n> 
+þekkingarfræði<n><f> % epistemology<n> 
+þekking<n><f> % knowledge<n> 
+þérun<n><f> % formal addressing of others<n> 
+þéttbýli<n><nt> % urban area<n> 
+þingmaður<n><m> % Member of Parliament<n> 
+þing<n><nt> % parliament<n> 
+þjóðaratkvæðagreiðsla<n><f> % referendum<n> 
+þjóðerni<n><nt> % nationality<n> 
+þjóðfélag<n><nt> % society<n> 
+þjóðhöfðingi<n><m> % head of state<n> 
+þjóð<n><f> % nation<n> 
+þjóðsaga<n><f> % folktale<n> 
+þjóðsöngur<n><m> % national anthem<n> 
+þjónn<n><m> % waiter<n> 
+þjónusta<n><f> % service<n> 
+þ<n><nt> % þ<n> 
+þögn<n><f> % silence<n> 
+þoka<n><f> % fog<n> 
+þökk<n><f> % thanks<n> 
+þolfall<n><nt> % accusative case<n> 
+þol<n><nt> % endurance<n> 
+þörf<n><f> % need<n> 
+þorp<n><nt> % village<n> 
+þota<n><f> % jet<n> 
+þráður<n><m> % thread<n> 
+þrælahald<n><nt> % slavery<n> 
+þræll<n><m> % slave<n> 
+þriðjudagur<n><m> % Tuesday<n> 
+þröstur<n><m> % thrush<n> 
+þróttur<n><m> % strength<n> 
+þróun<n><f> % evolution<n> 
+þumall<n><m> % thumb<n> 
+þunglyndi<n><nt> % depression<n> 
+þvermál<n><nt> % diameter<n> 
+þýðandi<n><m> % translator<n> 
+þýðing<n><f> % translation<n> 
+þyngdarafl<n><nt> % gravity<n> 
+þyngd<n><f> % weight<n> 
+þyrla<n><f> % helicopter<n> 
