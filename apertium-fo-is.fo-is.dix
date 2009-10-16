@@ -615,6 +615,8 @@
     <e><p><l>tal<s n="n"/><s n="nt"/></l><r>tal<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>víkingur<s n="n"/><s n="m"/></l><r>víkingur<s n="n"/><s n="m"/></r></p></e>
 
+    <e><p><l>fartelefon<s n="n"/><s n="m"/></l><r>farsími<s n="n"/><s n="m"/></r></p></e>
+
     <!-- Proper nouns -->
 
     <e><p><l>Gud<s n="np"/><s n="al"/><s n="m"/></l><r>Guð<s n="np"/><s n="al"/><s n="m"/></r></p><par n="default__np"/></e>
