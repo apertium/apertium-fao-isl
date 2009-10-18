@@ -37,6 +37,7 @@ def fao2isl(s): #{
 	out = s;
 
 	out = out.replace(u'ø', u'ö');
+	out = out.replace(u'þ', u't');
 
 	return out;
 #}
