@@ -3671,6 +3671,18 @@
       </e>
       <e>
         <p>
+          <l>íggja</l>
+          <r>íggja<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>íggja</l>
+          <r>íggja<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
           <l>á</l>
           <r>íggja<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
         </p>
@@ -4397,19 +4409,55 @@
       <e>
         <p>
           <l>ava</l>
-          <r>ava<s n="vbhaver"/><s n="pl"/><s n="pri"/></r>
+          <r>ava<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ava</l>
+          <r>ava<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ava</l>
+          <r>ava<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>evði</l>
-          <r>ava<s n="vbhaver"/><s n="past"/><s n="sg"/></r>
+          <r>ava<s n="vbhaver"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>evði</l>
+          <r>ava<s n="vbhaver"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>evði</l>
+          <r>ava<s n="vbhaver"/><s n="past"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>øvdu</l>
-          <r>ava<s n="vbhaver"/><s n="past"/><s n="pl"/></r>
+          <r>ava<s n="vbhaver"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>øvdu</l>
+          <r>ava<s n="vbhaver"/><s n="past"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>øvdu</l>
+          <r>ava<s n="vbhaver"/><s n="past"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
@@ -6199,7 +6247,7 @@
       </e>
       <e>
         <p>
-          <l>m</l>
+          <l>meg</l>
           <r>prnpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>

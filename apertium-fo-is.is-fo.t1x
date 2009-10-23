@@ -7,6 +7,7 @@
   
      <def-cat n="verb">
        <cat-item tags="vblex.*"/>
+       <cat-item tags="vbhaver.*"/>
        <cat-item tags="vbser.*"/>
        <cat-item tags="vaux.*"/>
      </def-cat>
@@ -301,19 +302,6 @@
               <equal>
                 <clip pos="1" side="tl" part="temps"/>
                 <lit-tag v="pss"/>
-              </equal>
-        </test>
-        <let>
-          <clip pos="1" side="tl" part="temps"/>
-          <lit-tag v="past"/>
-        </let>
-      </when>
-
-      <when>
-        <test> <!-- Switch the 'psi' (past indicative) to 'past' (past indicative) -->
-              <equal>
-                <clip pos="1" side="tl" part="temps"/>
-                <lit-tag v="psi"/>
               </equal>
         </test>
         <let>
