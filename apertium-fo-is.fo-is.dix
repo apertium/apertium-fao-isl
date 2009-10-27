@@ -621,7 +621,8 @@
 
     <e><p><l>ætlan<s n="n"/><s n="f"/></l><r>áætlun<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>állur<s n="n"/><s n="m"/></l><r>áll<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
-    <e><p><l>andi<s n="n"/><s n="f"/></l><r>önd<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
+<!--    <e><p><l>andi<s n="n"/><s n="f"/></l><r>önd<s n="n"/><s n="f"/></r></p><par n="default__n"/></e> -->
+    <e><p><l>ont<s n="n"/><s n="f"/></l><r>önd<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>arr<s n="n"/><s n="f"/></l><r>ör<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>bispur<s n="n"/><s n="m"/></l><r>biskup<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>diskil<s n="n"/><s n="m"/></l><r>diskur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
@@ -632,7 +633,6 @@
     <e><p><l>ítróttur<s n="n"/><s n="f"/></l><r>íþrótt<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>knæ<s n="n"/><s n="nt"/></l><r>hné<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>land<s n="n"/><s n="f"/></l><r>lenda<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
-    <e><p><l>ont<s n="n"/><s n="f"/></l><r>önd<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>roykilsi<s n="n"/><s n="nt"/></l><r>reykelsi<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>segl<s n="n"/><s n="f"/></l><r>sigla<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>skjúrta<s n="n"/><s n="f"/></l><r>skyrta<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
