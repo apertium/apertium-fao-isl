@@ -31,8 +31,8 @@ LIST VerbSpecAux = (vaux) ;
 LIST VerbAux = (vaux) ;
 LIST VerbSupine = (vblex supn) ;
 LIST VerbBe = (vbser) ;
-LIST Verb = (vblex) (vbser) (vbhaver);
-LIST FiniteTenses = (psi) (pss) (pri) (prs);
+LIST Verb = vblex vbser vbhaver;
+LIST FiniteTenses = (psi) (pss) (pri) (prs) (past);
 LIST PastPart = (pp) ;
 LIST RelativeConjunction = (rel) ;
 LIST Conjunction = (cnjcoo) (cnjadv) (cnjsub) ;
@@ -62,7 +62,7 @@ LIST DatPrep = "að"ri "af"ri "andspænis"ri "ásamt"ri "frá"ri "gagn"ri "gagnv
                "hjá"ri "meðfram"ri "mót"ri "móti"ri "nálægt"ri "undan"ri "úr"ri ;
 LIST AccDatPrep = "á"ri "eftir"ri "fyrir"ri "í"ri "með"ri "undir"ri "við"ri "yfir"ri ;
 
-SET VerbFin = Verb + FiniteTenses;
+SET VFIN = Verb + FiniteTenses;
 
 LIST NAGD = nom acc gen dat;
 LIST GENDER = m f nt;
@@ -236,7 +236,7 @@ SELECT (vaux p1 pl) IF (-1 (prn p1 pl));
 REMOVE PastPart IF (-1C PrnPers);
 
 # Ex.: Hann sagði að skipið færi á morgun
-REMOVE Verb IF (-1 CS) (1 VerbFin);
+REMOVE Verb IF (-1 CS) (1 VFIN);
 
 # Ex.: Peir hafa ekki vín
 SELECT Verb IF (-1 (prn p1 sg)) (0 (p1 sg)) (1C Adv);
@@ -245,6 +245,9 @@ SELECT Verb IF (-1 (prn p3 sg)) (0 (p3 sg)) (1C Adv);
 SELECT Verb IF (-1 (prn p1 pl)) (0 (p1 pl)) (1C Adv);
 SELECT Verb IF (-1 (prn p2 pl)) (0 (p2 pl)) (1C Adv);
 SELECT Verb IF (-1 (prn p3 pl)) (0 (p3 pl)) (1C Adv);
+
+# Ex. Sá einn, sem er frá Guði, hefur séð föðurinn.
+REMOVE:AlwaysVfin VFIN IF (1C* VFIN BARRIER EOS);
 
 #################################################################################
 # NPs  
@@ -269,3 +272,5 @@ SELECT:r30c $$NUMBER IF (-1C (Pron Indef) + $$NUMBER)(0 N);
 
 #Ex. við eiginkonu sína
 SELECT $$GENDER IF (-1C (n) + $$GENDER) (0 PrnPoss) (0 ("sinn"ri));
+
+
