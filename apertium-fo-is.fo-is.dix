@@ -446,7 +446,6 @@
     <e><p><l>grein<s n="n"/><s n="f"/></l><r>grein<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>snarljós<s n="n"/><s n="nt"/></l><r>elding<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>fjall<s n="n"/><s n="nt"/></l><r>fjall<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>bróðirir<s n="n"/><s n="m"/></l><r>bróðir<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>ár<s n="n"/><s n="nt"/></l><r>ár<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>helli<s n="n"/><s n="nt"/></l><r>hellir<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>dagur<s n="n"/><s n="m"/></l><r>dagur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
@@ -454,7 +453,7 @@
     <e><p><l>fangahús<s n="n"/><s n="nt"/></l><r>fangelsi<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>vinkona<s n="n"/><s n="f"/></l><r>vinkona<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>eyga<s n="n"/><s n="nt"/></l><r>auga<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>faðirbróðirir<s n="n"/><s n="m"/></l><r>föðurbróðir<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>faðirbróðir<s n="n"/><s n="m"/></l><r>föðurbróðir<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>drotning<s n="n"/><s n="f"/></l><r>drottning<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>sólarljós<s n="n"/><s n="nt"/></l><r>sólarljós<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>undur<s n="n"/><s n="nt"/></l><r>undur<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
@@ -582,23 +581,24 @@
     <e><p><l>skamm<s n="n"/><s n="f"/></l><r>skömm<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>mark<s n="n"/><s n="f"/></l><r>mörk<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>tøgn<s n="n"/><s n="f"/></l><r>þögn<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
-    <e><p><l>veður<s n="n"/><s n="nt"/></l><r>hrútur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>veður<s n="n"/><s n="m"/></l><r>hrútur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>veður<s n="n"/><s n="nt"/></l><r>veður<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>reiður<s n="n"/><s n="nt"/></l><r>hreiður<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
 
     <e><p><l>arbeiði<s n="n"/><s n="nt"/></l><r>starf<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
 
-    <e><p><l>apríl<s n="n"/><s n="nt"/></l><r>apríl<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>august<s n="n"/><s n="nt"/></l><r>ágúst<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>desember<s n="n"/><s n="nt"/></l><r>desember<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>februar<s n="n"/><s n="nt"/></l><r>febrúar<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>januar<s n="n"/><s n="nt"/></l><r>janúar<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>juli<s n="n"/><s n="nt"/></l><r>júlí<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>juni<s n="n"/><s n="nt"/></l><r>júní<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>mai<s n="n"/><s n="nt"/></l><r>maí<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>mars<s n="n"/><s n="nt"/></l><r>mars<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
-    <e><p><l>november<s n="n"/><s n="nt"/></l><r>nóvember<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>oktober<s n="n"/><s n="nt"/></l><r>október<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>september<s n="n"/><s n="nt"/></l><r>september<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>januar<s n="n"/><s n="m"/></l><r>janúar<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>februar<s n="n"/><s n="m"/></l><r>febrúar<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>mars<s n="n"/><s n="m"/></l><r>mars<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>apríl<s n="n"/><s n="m"/></l><r>apríl<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>mai<s n="n"/><s n="m"/></l><r>maí<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>juni<s n="n"/><s n="m"/></l><r>júní<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>juli<s n="n"/><s n="m"/></l><r>júlí<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>august<s n="n"/><s n="m"/></l><r>ágúst<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>september<s n="n"/><s n="m"/></l><r>september<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>oktober<s n="n"/><s n="m"/></l><r>október<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>november<s n="n"/><s n="m"/></l><r>nóvember<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
+    <e><p><l>desember<s n="n"/><s n="m"/></l><r>desember<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
 
     <e><p><l>ægir<s n="n"/><s n="m"/></l><r>ægir<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>evra<s n="n"/><s n="f"/></l><r>evra<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
@@ -615,7 +615,7 @@
     <e><p><l>tal<s n="n"/><s n="nt"/></l><r>tal<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>víkingur<s n="n"/><s n="m"/></l><r>víkingur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
 
-    <e><p><l>fartelefon<s n="n"/><s n="m"/></l><r>farsími<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>fartelefon<s n="n"/><s n="f"/></l><r>farsími<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>politistur<s n="n"/><s n="m"/></l><r>lögreglumaður<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>vekt<s n="n"/><s n="f"/></l><r>þyngd<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
 
@@ -623,7 +623,7 @@
     <e><p><l>állur<s n="n"/><s n="m"/></l><r>áll<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
 <!--    <e><p><l>andi<s n="n"/><s n="f"/></l><r>önd<s n="n"/><s n="f"/></r></p><par n="default__n"/></e> -->
     <e><p><l>ont<s n="n"/><s n="f"/></l><r>önd<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
-    <e><p><l>arr<s n="n"/><s n="f"/></l><r>ör<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
+    <e><p><l>arr<s n="n"/><s n="nt"/></l><r>ör<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>bispur<s n="n"/><s n="m"/></l><r>biskup<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>diskil<s n="n"/><s n="m"/></l><r>diskur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>edikur<s n="n"/><s n="nt"/></l><r>edik<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
@@ -632,17 +632,18 @@
     <e><p><l>høvundur<s n="n"/><s n="m"/></l><r>höfundur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>ítróttur<s n="n"/><s n="f"/></l><r>íþrótt<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>knæ<s n="n"/><s n="nt"/></l><r>hné<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>land<s n="n"/><s n="f"/></l><r>lenda<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
+<!--    <e><p><l>land<s n="n"/><s n="f"/></l><r>lenda<s n="n"/><s n="f"/></r></p><par n="default__n"/></e> -->
     <e><p><l>roykilsi<s n="n"/><s n="nt"/></l><r>reykelsi<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
-    <e><p><l>segl<s n="n"/><s n="f"/></l><r>sigla<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
+    <e><p><l>sigla<s n="n"/><s n="f"/></l><r>sigla<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
+    <e><p><l>sigla<s n="n"/><s n="nt"/></l><r>segl<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>skjúrta<s n="n"/><s n="f"/></l><r>skyrta<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>spurningur<s n="n"/><s n="f"/></l><r>spurning<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>stólur<s n="n"/><s n="m"/></l><r>stóll<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>telda<s n="n"/><s n="f"/></l><r>tölva<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>tólmenni<s n="n"/><s n="nt"/></l><r>vélmenni<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>trúgv<s n="n"/><s n="f"/></l><r>trú<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
-    <e><p><l>vreiðin<s n="n"/><s n="f"/></l><r>reiði<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
-    <e><p><l>apa<s n="n"/><s n="m"/></l><r>api<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>vreiði<s n="n"/><s n="f"/></l><r>reiði<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
+    <e><p><l>apa<s n="n"/><s n="f"/></l><r>api<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>bókasavn<s n="n"/><s n="nt"/></l><r>bókasafn<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>dømi<s n="n"/><s n="nt"/></l><r>dæmi<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>evni<s n="n"/><s n="nt"/></l><r>efni<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
@@ -661,7 +662,7 @@
     <e><p><l>ær<s n="n"/><s n="f"/></l><r>ær<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>ál<s n="n"/><s n="nt"/></l><r>ál<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>aldur<s n="n"/><s n="m"/></l><r>aldur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
-    <e><p><l>bjór<s n="n"/><s n="m"/></l><r>bjór<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>bjór<s n="n"/><s n="nt"/></l><r>bjór<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>blettur<s n="n"/><s n="m"/></l><r>blettur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>dalur<s n="n"/><s n="m"/></l><r>dalur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>egg<s n="n"/><s n="nt"/></l><r>egg<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
@@ -674,7 +675,7 @@
     <e><p><l>mjólk<s n="n"/><s n="f"/></l><r>mjólk<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>mús<s n="n"/><s n="f"/></l><r>mús<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>orðabók<s n="n"/><s n="f"/></l><r>orðabók<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
-    <e><p><l>pappír<s n="n"/><s n="m"/></l><r>pappír<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>pappír<s n="n"/><s n="nt"/></l><r>pappír<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>regn<s n="n"/><s n="nt"/></l><r>regn<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>salt<s n="n"/><s n="nt"/></l><r>salt<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>sápa<s n="n"/><s n="f"/></l><r>sápa<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
