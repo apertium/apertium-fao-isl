@@ -721,7 +721,75 @@
     <e><p><l>Jerúsalem<s n="np"/><s n="top"/><s n="f"/></l><r>Jerúsalem<s n="np"/><s n="top"/><s n="f"/></r></p><par n="default__np"/></e>
     <e><p><l>Egyptaland<s n="np"/><s n="top"/><s n="nt"/></l><r>Egyptaland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
     <e><p><l>Ísrael<s n="np"/><s n="top"/><s n="nt"/></l><r>Ísrael<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
-    <e><p><l>Eden<s n="np"/><s n="top"/><s n="nt"/></l><r>Eden<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Eden<s n="np"/><s n="top"/><s n="nt"/></l><r>Eden<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/><par n="default__np"/></e>
+    <e><p><l>Estland<s n="np"/><s n="top"/><s n="nt"/></l><r>Eistland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Ongland<s n="np"/><s n="top"/><s n="nt"/></l><r>England<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Finnland<s n="np"/><s n="top"/><s n="nt"/></l><r>Finnland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Frakland<s n="np"/><s n="top"/><s n="nt"/></l><r>Frakkland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Grønland<s n="np"/><s n="top"/><s n="nt"/></l><r>Grænland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Grikkaland<s n="np"/><s n="top"/><s n="nt"/></l><r>Grikkland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Niðurlond<s n="np"/><s n="top"/><s n="nt"/></l><r>Holland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>India<s n="np"/><s n="top"/><s n="nt"/></l><r>Indland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Ísland<s n="np"/><s n="top"/><s n="nt"/></l><r>Ísland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Lettland<s n="np"/><s n="top"/><s n="nt"/></l><r>Lettland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Pólland<s n="np"/><s n="top"/><s n="nt"/></l><r>Pólland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Russland<s n="np"/><s n="top"/><s n="nt"/></l><r>Rússland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Kekkia<s n="np"/><s n="top"/><s n="nt"/></l><r>Tékkland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Turkaland<s n="np"/><s n="top"/><s n="nt"/></l><r>Tyrkland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Týskland<s n="np"/><s n="top"/><s n="nt"/></l><r>Þýskaland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Ungarn<s n="np"/><s n="top"/><s n="nt"/></l><r>Ungverjaland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Guatemala<s n="np"/><s n="top"/><s n="nt"/></l><r>Guatemala<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Kanada<s n="np"/><s n="top"/><s n="nt"/></l><r>Kanada<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Sveis<s n="np"/><s n="top"/><s n="nt"/></l><r>Sviss<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Eysturríki<s n="np"/><s n="top"/><s n="nt"/></l><r>Austurríki<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Litava<s n="np"/><s n="top"/><s n="nt"/></l><r>Litháen<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Portugal<s n="np"/><s n="top"/><s n="nt"/></l><r>Portúgal<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Noreg<s n="np"/><s n="top"/><s n="m"/></l><r>Noregur<s n="np"/><s n="top"/><s n="m"/></r></p><par n="default__np"/></e>
+    <e><p><l>Spania<s n="np"/><s n="top"/><s n="m"/></l><r>Spánn<s n="np"/><s n="top"/><s n="m"/></r></p><par n="default__np"/></e>
+    <e><p><l>Svøríki<s n="np"/><s n="top"/><s n="f"/></l><r>Svíþjóð<s n="np"/><s n="top"/><s n="f"/></r></p><par n="default__np"/></e>
+    <e><p><l>Slovakia<s n="np"/><s n="top"/><s n="nt"/></l><r>Slóvakía<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Slovenia<s n="np"/><s n="top"/><s n="nt"/></l><r>Slóvenía<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Ukraina<s n="np"/><s n="top"/><s n="nt"/></l><r>Úkraína<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Evropa<s n="np"/><s n="top"/><s n="nt"/></l><r>Evrópa<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Miðevropa<s n="np"/><s n="top"/><s n="nt"/></l><r>Mið-Evrópa<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Bolivia<s n="np"/><s n="top"/><s n="nt"/></l><r>Bólivía<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Andorra<s n="np"/><s n="top"/><s n="nt"/></l><r>Andorra<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Argentina<s n="np"/><s n="top"/><s n="nt"/></l><r>Argentína<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Antarktis<s n="np"/><s n="top"/><s n="nt"/></l><r>Antarktíka<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Rumenia<s n="np"/><s n="top"/><s n="nt"/></l><r>Rúmenía<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Tansania<s n="np"/><s n="top"/><s n="nt"/></l><r>Tansanía<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Nigeria<s n="np"/><s n="top"/><s n="nt"/></l><r>Nígería<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Bulgaria<s n="np"/><s n="top"/><s n="nt"/></l><r>Búlgaría<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Belgia<s n="np"/><s n="top"/><s n="nt"/></l><r>Belgía<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Italia<s n="np"/><s n="top"/><s n="nt"/></l><r>Ítalía<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Albania<s n="np"/><s n="top"/><s n="nt"/></l><r>Albanía<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Kroatia<s n="np"/><s n="top"/><s n="nt"/></l><r>Króatía<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Etiopia<s n="np"/><s n="top"/><s n="nt"/></l><r>Eþíópía<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Kenja<s n="np"/><s n="top"/><s n="nt"/></l><r>Kenýa<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Gambia<s n="np"/><s n="top"/><s n="nt"/></l><r>Gambía<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Liberia<s n="np"/><s n="top"/><s n="nt"/></l><r>Líbería<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Afrika<s n="np"/><s n="top"/><s n="nt"/></l><r>Afríka<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Asia<s n="np"/><s n="top"/><s n="nt"/></l><r>Asía<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Georgia<s n="np"/><s n="top"/><s n="nt"/></l><r>Georgía<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Somalia<s n="np"/><s n="top"/><s n="nt"/></l><r>Sómalía<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Jamaika<s n="np"/><s n="top"/><s n="nt"/></l><r>Jamaíka<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Kuba<s n="np"/><s n="top"/><s n="nt"/></l><r>Kúba<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Brasil<s n="np"/><s n="top"/><s n="nt"/></l><r>Brasilía<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Norðuramerika<s n="np"/><s n="top"/><s n="nt"/></l><r>Norður-Ameríka<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Skandinavia<s n="np"/><s n="top"/><s n="nt"/></l><r>Skandinavía<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Suðuramerika<s n="np"/><s n="top"/><s n="nt"/></l><r>Suður-Ameríka<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Reykjavík<s n="np"/><s n="top"/><s n="nt"/></l><r>Reykjavík<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Akureyri<s n="np"/><s n="top"/><s n="nt"/></l><r>Akureyri<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Kalifornia<s n="np"/><s n="top"/><s n="f"/></l><r>Kalifornía<s n="np"/><s n="top"/><s n="f"/></r></p><par n="default__np"/></e>
+    <e><p><l>Bretland<s n="np"/><s n="top"/><s n="nt"/></l><r>Bretland<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Danmark<s n="np"/><s n="top"/><s n="f"/></l><r>Danmörk<s n="np"/><s n="top"/><s n="f"/></r></p><par n="default__np"/></e>
+    <e><p><l>Vjetnam<s n="np"/><s n="top"/><s n="nt"/></l><r>Víetnam<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Serbia<s n="np"/><s n="top"/><s n="f"/></l><r>Serbía<s n="np"/><s n="top"/><s n="f"/></r></p><par n="default__np"/></e>
+    <e><p><l>Avstralia<s n="np"/><s n="top"/><s n="f"/></l><r>Ástralía<s n="np"/><s n="top"/><s n="f"/></r></p><par n="default__np"/></e>
+    <e><p><l>Siberia<s n="np"/><s n="top"/><s n="f"/></l><r>Síbería<s n="np"/><s n="top"/><s n="f"/></r></p><par n="default__np"/></e>
+    <e><p><l>Japan<s n="np"/><s n="top"/><s n="nt"/></l><r>Japan<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+    <e><p><l>Irak<s n="np"/><s n="top"/><s n="nt"/></l><r>Írak<s n="np"/><s n="top"/><s n="nt"/></r></p><par n="default__np"/></e>
+
 
     <!-- Adjectives -->
 
