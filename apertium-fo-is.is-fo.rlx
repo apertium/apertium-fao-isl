@@ -86,6 +86,8 @@ SET WORD = N | Verb | Adj | Prep | Prn | Det | Adv | CC | CS | Interj | Num | ("
 SET MARK =  COMMA | ("\") | ("\;") ; #"
 SET WORDMARK = WORD | MARK ;
 
+SET CLB = MARK | CC | CS;
+
 SET NPNHA = WORDMARK - PRE-N - Adv ;
 
 
@@ -152,7 +154,8 @@ SELECT VerbSupine IF (-1 VerbAux);
 SELECT Adv IF (0 Adj) (-1 BOS OR (NOT -1 Prep)) (1 EOS OR (NOT 1 N LINK 1 Gen));
 
 # sú líkn
-SELECT PrnDem IF (-1 N) (NOT 0 N);
+# CEx. Guð sá að ljósið var gott
+#SELECT PrnDem IF (-1 N) (NOT 0 N);
 
 SELECT VerbBe IF (NOT 0 N);
 
@@ -247,7 +250,7 @@ SELECT Verb IF (-1 (prn p2 pl)) (0 (p2 pl)) (1C Adv);
 SELECT Verb IF (-1 (prn p3 pl)) (0 (p3 pl)) (1C Adv);
 
 # Ex. Sá einn, sem er frá Guði, hefur séð föðurinn.
-REMOVE:AlwaysVfin VFIN IF (1C* VFIN BARRIER EOS);
+REMOVE:AlwaysVfin VFIN IF (1C* VFIN BARRIER CLB);
 
 #################################################################################
 # NPs  

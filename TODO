@@ -1,6 +1,16 @@
-                                                                               
-13/10/2009	~160 duplicates in Icelandic analyser
+31/10/2009	* Look at verbs which govern different cases:
+	
+		    is: lýsa jörðina-ACC vs.
+		    fo: lýsa á jørðini-DAT
+	
+		* How should ordinals be tagged, "det" or "adj" ?
 
-		cat /tmp/testvoc-is-fo | grep '@' | grep '<n>' | \
-		grep '<sg><nom><ind>' | sort -f | uniq -c  | \
-		sort -gr | grep -v '^ *1\W' 
+		* Should specifying pronouns be tagged as "det" ? 
+
+		   e.g. _that_ man, _all_ cats, ...
+                                                                               
+13/10/2009	* ~160 duplicates in Icelandic analyser
+
+		  cat /tmp/testvoc-is-fo | grep '@' | grep '<n>' | \
+		  grep '<sg><nom><ind>' | sort -f | uniq -c  | \
+		  sort -gr | grep -v '^ *1\W' 

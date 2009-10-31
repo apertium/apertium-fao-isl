@@ -701,6 +701,154 @@
       </e>
     </pardef>
 
+    <pardef n="/allur__det">
+      <e>
+        <p>
+          <l>allur</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>allan</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>øllum</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>als</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>øll</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>alla</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>allari</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>allar</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>alt</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>alt</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>øllum</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>als</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>allir</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>allar</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>øllum</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>alla</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>allar</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>allar</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>øllum</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>alla</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>øll</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="nt"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>øll</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="nt"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>øllum</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="nt"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>alla</l>
+          <r>allur<s n="det"/><s n="qnt"/><s n="nt"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
 
 
     <!-- Pronouns -->
@@ -23826,6 +23974,8 @@
     <e lm="ein"><i>ei</i><par n="ei/n__det"/></e>
     <e lm="tann"><i>t</i><par n="t/ann__det"/></e>
 
+    <e lm="allur"><i/><par n="/allur__det"/></e>
+
     <!-- Pronouns -->
 
     <e lm="prnpers"><i/><par n="/eg__prn"/></e>
@@ -23921,6 +24071,7 @@
     <e lm="har"><i>har</i><par n="ikki__adv"/></e> 
     <e lm="her"><i>her</i><par n="ikki__adv"/></e> 
     <e lm="síðan"><i>síðan</i><par n="ikki__adv"/></e> 
+    <e lm="soleiðis"><i>soleiðis</i><par n="ikki__adv"/></e> 
 
     <!-- Special verbs -->
     <e lm="vera"><i/><par n="/vera__vbser"/></e>

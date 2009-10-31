@@ -37,6 +37,7 @@
     <sdef n="ind"      c="Indefinite"/>
     <sdef n="def"      c="Definite"/>
     <sdef n="qnt"      c="Quantifier"/>
+    <sdef n="ord"      c="Ordinal"/>
 
     <sdef n="al"       c="Altres"/>
     <sdef n="top"      c="Toponyms"/>
@@ -195,6 +196,8 @@
 
     <e r="LR"><p><l>hin<s n="det"/><s n="def"/></l><r>hinn<s n="det"/><s n="def"/></r></p></e>
     <e><p><l>tann<s n="det"/><s n="def"/></l><r>hinn<s n="det"/><s n="def"/></r></p></e>
+
+    <e><p><l>allur<s n="det"/><s n="qnt"/></l><r>allur<s n="det"/><s n="qnt"/></r></p></e>
 
     <!-- Numerals -->
 
@@ -807,17 +810,16 @@
     <e><p><l>oyðin<s n="adj"/></l><r>auður<s n="adj"/></r></p></e><!-- ? -->
     <e><p><l>líkur<s n="adj"/></l><r>líkur<s n="adj"/></r></p></e><!-- ? -->
     <e><p><l>dýrur<s n="adj"/></l><r>dýr<s n="adj"/></r></p></e><!-- ? -->
-    <e><p><l>soleiðis<s n="adj"/></l><r>þannig<s n="adj"/></r></p></e><!-- ? -->
     <e><p><l>fastur<s n="adj"/></l><r>fastur<s n="adj"/></r></p></e><!-- ? -->
     <e><p><l>beinur<s n="adj"/></l><r>beinn<s n="adj"/></r></p></e><!-- ? -->
+    <e><p><l>eitur<s n="adj"/></l><r>heitur<s n="adj"/></r></p></e><!-- ? -->
+    <e><p><l>báðir<s n="adj"/></l><r>báðir<s n="adj"/></r></p></e><!-- ? -->
 
-
-
-    <e><p><l>fyrsti<s n="adj"/></l><r>fyrstur<s n="adj"/></r></p></e>
-    <e><p><l>triðji<s n="adj"/></l><r>þriðji<s n="adj"/></r></p></e>
-    <e><p><l>fjórði<s n="adj"/></l><r>fjórði<s n="adj"/></r></p></e>
-    <e><p><l>fimti<s n="adj"/></l><r>fimmti<s n="adj"/></r></p></e>
-    <e><p><l>sætti<s n="adj"/></l><r>sjötti<s n="adj"/></r></p></e>
+    <e><p><l>fyrsti<s n="adj"/><s n="ord"/></l><r>fyrstur<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>triðji<s n="adj"/><s n="ord"/></l><r>þriðji<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>fjórði<s n="adj"/><s n="ord"/></l><r>fjórði<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>fimti<s n="adj"/><s n="ord"/></l><r>fimmti<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>sætti<s n="adj"/><s n="ord"/></l><r>sjötti<s n="adj"/><s n="ord"/></r></p></e>
 
     <!-- Adverbs -->
 
@@ -841,6 +843,7 @@
     <e><p><l>longu<s n="adv"/></l><r>þegar<s n="adv"/></r></p></e>
     <e><p><l>vissuliga<s n="adv"/></l><r>vissulega<s n="adv"/></r></p></e>
     <e><p><l>eisini<s n="adv"/></l><r>einnig<s n="adv"/></r></p></e>
+    <e><p><l>soleiðis<s n="adv"/></l><r>þannig<s n="adv"/></r></p></e><!-- ? -->
 
     <e><p><l>hví<s n="adv"/><s n="itg"/></l><r>hví<s n="adv"/><s n="itg"/></r></p></e>
     <e r="RL"><p><l>hví<s n="adv"/><s n="itg"/></l><r>af<b/>hverju<s n="adv"/><s n="itg"/></r></p></e>
