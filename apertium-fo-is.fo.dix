@@ -12171,6 +12171,88 @@
     </pardef>
 
 
+    <pardef n="skil/ja__vblex">
+      <e>
+        <p>
+          <l>ja</l>
+          <r>ja<s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r>ja<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>ja<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>ja<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ja</l>
+          <r>ja<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ja</l>
+          <r>ja<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ja</l>
+          <r>ja<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>di</l>
+          <r>ja<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>di</l>
+          <r>ja<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>di</l>
+          <r>ja<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>du</l>
+          <r>ja<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>du</l>
+          <r>ja<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>du</l>
+          <r>ja<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
     <pardef n="vel/ja__vblex">
       <e>
         <p>
@@ -13182,6 +13264,228 @@
         </p>
       </e>
     </pardef>
+
+    <!-- Adjectives -->
+
+    <pardef n="g/óður__adj">
+      <e>
+        <p>
+          <l>óða</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðum</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðar</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðir</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðs</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óða</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðum</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óða</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðan</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óða</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óður</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óði</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óða</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðum</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðar</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðar</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðar</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðu</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðari</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðu</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óða</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðu</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óð</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óða</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óða</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="nt"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðum</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="nt"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óð</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="nt"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óð</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="nt"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðs</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óða</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óðum</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>óða</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ott</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>óða</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ott</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>óða</l>
+          <r>óður<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+    </pardef>
+
 
     <pardef n="lít/il__adj">
       <e>
@@ -26074,10 +26378,12 @@
     <e lm="sterkur"><i>sterk</i><par n="rík/ur__adj"/></e>
     <e lm="stórur"><i>st</i><par n="st/órur__adj"/></e>
     <e lm="lítil"><i>lít</i><par n="lít/il__adj"/></e>
+    <e lm="góður"><i>g</i><par n="g/óður__adj"/></e>
 
 
     <e lm="verða"><i>v</i><par n="v/erða__vblex"/></e>
     <e lm="velja"><i>vel</i><par n="vel/ja__vblex"/></e>
+    <e lm="skilja"><i>skil</i><par n="skil/ja__vblex"/></e>
     <e lm="rógva"><i>r</i><par n="r/ógva__vblex"/></e> 
     <e lm="røra"><i>rø</i><par n="rø/ra__vblex"/></e> 
     <e lm="síggja"><i>s</i><par n="s/íggja__vblex"/></e> 
