@@ -31,7 +31,7 @@ LIST VerbSpecAux = (vaux) ;
 LIST VerbAux = (vaux) ;
 LIST VerbSupine = (vblex supn) ;
 LIST VerbBe = (vbser) ;
-LIST Verb = vblex vbser vbhaver;
+LIST Verb = (vblex) (vbser) (vbhaver);
 LIST FiniteTenses = (psi) (pss) (pri) (prs) (past);
 LIST PastPart = (pp) ;
 LIST RelativeConjunction = (rel) ;
@@ -251,6 +251,8 @@ SELECT Verb IF (-1 (prn p3 pl)) (0 (p3 pl)) (1C Adv);
 
 # Ex. Sá einn, sem er frá Guði, hefur séð föðurinn.
 REMOVE:AlwaysVfin VFIN IF (1C* VFIN BARRIER CLB);
+
+REMOVE:AlwaysVfin VFIN IF (-1C* VFIN BARRIER CLB);
 
 #################################################################################
 # NPs  
