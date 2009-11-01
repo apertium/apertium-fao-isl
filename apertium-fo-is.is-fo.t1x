@@ -58,6 +58,8 @@
 	  <attr-item tags="adj.ssup"/>
 	  <attr-item tags="adj.sta"/>
 	  <attr-item tags="adj.vei"/>
+	  <attr-item tags="adj.ord.vei"/>
+	  <attr-item tags="adj.ord.sta"/>
      </def-attr>
 
      <def-attr n="a_verb">
@@ -345,6 +347,25 @@
           <lit-tag v="adj"/>
         </let>
       </when>
+      <when>
+        <test> <!-- Remove strength -->
+          <or>
+              <equal>
+                <clip pos="1" side="tl" part="a_adj"/>
+                <lit-tag v="adj.ord.vei"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="tl" part="a_adj"/>
+                <lit-tag v="adj.ord.sta"/>
+              </equal>
+          </or>
+        </test>
+        <let>
+          <clip pos="1" side="tl" part="a_adj"/>
+          <lit-tag v="adj.ord"/>
+        </let>
+      </when>
+
     </choose>
   </def-macro>
 

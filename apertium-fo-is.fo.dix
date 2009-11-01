@@ -23,6 +23,7 @@
     <sdef n="dem"     c="Demonstrative"/>
     <sdef n="ref"     c="Reflexive"/>
     <sdef n="qnt"     c="Quantifier"/>
+    <sdef n="ord"     c="Ordinal"/>
 
     <sdef n="vblex"   c="Verb"/>
     <sdef n="vbser"   c="Verb 'to be'"/>
@@ -11181,6 +11182,106 @@
 
 
 
+    <pardef n="fl/úgva__vblex">
+      <e>
+        <p>
+          <l>úgva</l>
+          <r>úgva<s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>úgvi</l>
+          <r>úgva<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>úgur</l>
+          <r>úgva<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>úgur</l>
+          <r>úgva<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>úgva</l>
+          <r>úgva<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>úgva</l>
+          <r>úgva<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>úgva</l>
+          <r>úgva<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r>úgva<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>eyg</l>
+          <r>úgva<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>úgst</l>
+          <r>úgva<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>eygst</l>
+          <r>úgva<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r>úgva<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>eyg</l>
+          <r>úgva<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ugu</l>
+          <r>úgva<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ugu</l>
+          <r>úgva<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ugu</l>
+          <r>úgva<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
     <pardef n="lýs/a__vblex">
       <e>
         <p>
@@ -13532,6 +13633,64 @@
       </e>
     </pardef>
 
+    <pardef n="sætt/i__adj">
+      <e>
+        <p>
+          <l>a</l>
+          <r>i<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>i<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r>i<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>u</l>
+          <r>i<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>u</l>
+          <r>i<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>i<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>i<s n="adj"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>i<s n="adj"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>i<s n="adj"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
     <pardef n="g/óður__adj">
       <e>
         <p>
@@ -14221,6 +14380,15 @@
         <p>
           <l>ørstor</l>
           <r>órur<s n="adj"/><s n="sup"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="livandi__adj">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="adj"/></r>
         </p>
       </e>
     </pardef>
@@ -24808,6 +24976,7 @@
     <e lm="síðan"><i>síðan</i><par n="við__pr"/></e>
     <e lm="áðrenn"><i>áðrenn</i><par n="við__pr"/></e> 
     <e lm="uttan"><i>uttan</i><par n="við__pr"/></e> 
+    <e lm="undan"><i>undan</i><par n="við__pr"/></e> 
 
     <e lm="ímillum"><i>ímillum</i><par n="við__pr"/></e>
     <e lm="ímóti"><i>ímóti</i><par n="við__pr"/></e>
@@ -25294,6 +25463,7 @@
     <e lm="tíð"><i>tíð</i><par n="ál__n_f"/></e>
     <e lm="villa"><i>vill</i><par n="ap/a__n_f"/></e>
     <e lm="eldur"><i>eld</i><par n="eld/ur__n_m"/></e>
+    <e lm="skapningur"><i>skapning</i><par n="eld/ur__n_m"/></e>
     <e lm="herur"><i>her</i><par n="eld/ur__n_m"/></e>
     <e lm="roykur"><i>royk</i><par n="royk/ur__n"/></e>
     <e lm="høvur"><i>høvur</i><par n="ok__n_nt"/></e>
@@ -26793,6 +26963,11 @@
     <e lm="lítil"><i>lít</i><par n="lít/il__adj"/></e>
     <e lm="góður"><i>g</i><par n="g/óður__adj"/></e>
     <e lm="oyðin"><i>oyð</i><par n="oyð/in__adj"/></e>
+    <e lm="livandi"><i>livandi</i><par n="livandi__adj"/></e>
+
+    <e lm="fyrsti"><i>fyrst</i><par n="sætt/i__adj"/></e>
+    <e lm="fimti"><i>fimt</i><par n="sætt/i__adj"/></e>
+    <e lm="sætti"><i>sætt</i><par n="sætt/i__adj"/></e>
 
 
     <e lm="verða"><i>v</i><par n="v/erða__vblex"/></e>
@@ -26816,6 +26991,7 @@
     <e lm="tala"><i>tal</i><par n="bak/a__vblex"/></e>
     <e lm="eta"><i/><par n="/eta__vblex"/></e>
     <e lm="lýsa"><i>lýs</i><par n="lýs/a__vblex"/></e>
+    <e lm="flúgva"><i>fl</i><par n="fl/úgva__vblex"/></e>
 
     <!-- Automatically added using Extract -->
     <!--

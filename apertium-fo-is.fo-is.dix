@@ -75,6 +75,7 @@
     <e r="RL"><p><l>við<s n="pr"/></l><r>með<s n="pr"/></r></p></e>
     <e r="RL"><p><l>við<s n="pr"/></l><r>ásamt<s n="pr"/></r></p></e>
     <e><p><l>yvir<s n="pr"/></l><r>yfir<s n="pr"/></r></p></e>
+    <e><p><l>undan<s n="pr"/></l><r>undan<s n="pr"/></r></p></e>
 
     <e><p><l>av<s n="pr"/></l><r>af<s n="pr"/></r></p></e>
     <e><p><l>fyri<s n="pr"/></l><r>fyrir<s n="pr"/></r></p></e>
@@ -170,6 +171,9 @@
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>þeir<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>þær<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></l><r>þau<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
+
+    <e r="RL"><p><l>prnpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>vér<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>prnpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>þér<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
 
     <e><p><l>mín<s n="prn"/><s n="pos"/></l><r>minn<s n="prn"/><s n="pos"/></r></p></e>
     <e><p><l>tín<s n="prn"/><s n="pos"/></l><r>þinn<s n="prn"/><s n="pos"/></r></p></e>
@@ -569,7 +573,7 @@
     <e><p><l>fótur<s n="n"/><s n="m"/></l><r>fótur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>akur<s n="n"/><s n="m"/></l><r>akur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>esil<s n="n"/><s n="nt"/></l><r>asni<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
-    <e><p><l>ark<s n="n"/><s n="nt"/></l><r>örk<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
+    <e><p><l>ørk<s n="n"/><s n="f"/></l><r>örk<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>fingur<s n="n"/><s n="m"/></l><r>fingur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>veggur<s n="n"/><s n="m"/></l><r>veggur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>djevul<s n="n"/><s n="m"/></l><r>djöfull<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
@@ -714,6 +718,8 @@
     <e><p><l>hundrað<s n="n"/><s n="nt"/></l><r>hundrað<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>túsund<s n="n"/><s n="nt"/></l><r>þúsund<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>hvølv<s n="n"/><s n="nt"/></l><r>festing<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
+    <e><p><l>skapningur<s n="n"/><s n="m"/></l><r>skepna<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
+    <e><p><l>fólk<s n="n"/><s n="nt"/></l><r>lýður<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
 
 
 
@@ -815,6 +821,7 @@
     <e><p><l>beinur<s n="adj"/></l><r>beinn<s n="adj"/></r></p></e><!-- ? -->
     <e><p><l>eitur<s n="adj"/></l><r>heitur<s n="adj"/></r></p></e><!-- ? -->
     <e><p><l>báðir<s n="adj"/></l><r>báðir<s n="adj"/></r></p></e><!-- ? -->
+    <e><p><l>livandi<s n="adj"/></l><r>lifandi<s n="adj"/></r></p></e><!-- ? -->
 
     <e><p><l>fyrsti<s n="adj"/><s n="ord"/></l><r>fyrstur<s n="adj"/><s n="ord"/></r></p></e>
     <e><p><l>triðji<s n="adj"/><s n="ord"/></l><r>þriðji<s n="adj"/><s n="ord"/></r></p></e>
