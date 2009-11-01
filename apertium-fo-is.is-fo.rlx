@@ -35,6 +35,7 @@ LIST VerbSupine = (vblex supn) ;
 LIST VerbBe = (vbser) ;
 LIST Verb = (vblex) (vbser) (vbhaver);
 LIST FiniteTenses = (psi) (pss) (pri) (prs) (past);
+LIST Imp = (imp) ;
 LIST PastPart = (pp) ;
 LIST RelativeConjunction = (rel) ;
 LIST Conjunction = (cnjcoo) (cnjadv) (cnjsub) ;
@@ -254,10 +255,13 @@ SELECT Verb IF (-1 (prn p1 pl)) (0 (p1 pl)) (1C Adv);
 SELECT Verb IF (-1 (prn p2 pl)) (0 (p2 pl)) (1C Adv);
 SELECT Verb IF (-1 (prn p3 pl)) (0 (p3 pl)) (1C Adv);
 
+REMOVE:Imp_with_subj Imp IF (-1C PrnPers);
+
 # Ex. Sá einn, sem er frá Guði, hefur séð föðurinn.
 REMOVE:AlwaysVfin VFIN IF (1C* VFIN BARRIER CLB);
 
 REMOVE:AlwaysVfin VFIN IF (-1C* VFIN BARRIER CLB);
+
 
 #################################################################################
 # NPs  

@@ -720,6 +720,7 @@
     <e><p><l>hvølv<s n="n"/><s n="nt"/></l><r>festing<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>skapningur<s n="n"/><s n="m"/></l><r>skepna<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>fólk<s n="n"/><s n="nt"/></l><r>lýður<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>drottin<s n="n"/><s n="m"/></l><r>drottinn<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
 
 
 
@@ -998,9 +999,11 @@
     <e><p><l>anda<s n="vblex"/></l><r>anda<s n="vblex"/></r></p></e>
     <e><p><l>leiði<s n="vblex"/></l><r>leiði<s n="vblex"/></r></p></e>
     <e><p><l>lýsa<s n="vblex"/></l><r>lýsa<s n="vblex"/></r></p></e>
+    <e><p><l>líta<s n="vblex"/></l><r>líta<s n="vblex"/></r></p></e>
     <e><p><l>vaksa<s n="vblex"/></l><r>vaxa<s n="vblex"/></r></p></e> <!-- ? -->
     <e><p><l>láta<s n="vblex"/></l><r>ljúka<s n="vblex"/></r></p></e> <!-- ? -->
     <e><p><l>eita<s n="vblex"/></l><r>heita<s n="vblex"/></r></p></e> <!-- ? -->
+    <e><p><l>lata<s n="vblex"/></l><r>leiða<s n="vblex"/></r></p></e>
 
 
 
