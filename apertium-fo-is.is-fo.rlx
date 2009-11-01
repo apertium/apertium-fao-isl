@@ -42,7 +42,7 @@ LIST CS = (cnjsub);
 LIST CC = (cnjcoo);
 LIST Num = (num) ;
 LIST Exclamation = (ij) ;
-LIST Article = (def) ;
+LIST Def = (def) ;
 LIST Det = (det) ;
 LIST Interj = (ij) ;
 
@@ -171,7 +171,7 @@ SELECT Adj IF (-1 VerbBe) (NOT -2 BOS) (-2 PrnPers);
 
 # Check this.
 # Ex. Gud gjörði tvö stóru ljósin.
-REMOVE Weak IF (1C N);
+REMOVE Weak IF (1C N) (NOT 1 Def);
 
 
 #################################################################################
