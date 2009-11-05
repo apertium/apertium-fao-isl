@@ -21,6 +21,10 @@
        <cat-item tags="prn.*.*.*.*.gen"/>
      </def-cat>
 
+     <def-cat n="np_ant_gen">
+       <cat-item tags="np.ant.*.*.gen"/>
+     </def-cat>
+
      <def-cat n="navn">
        <cat-item tags="n.*"/>
      </def-cat>
