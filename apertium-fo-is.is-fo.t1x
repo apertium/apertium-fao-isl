@@ -18,6 +18,7 @@
 
      <def-cat n="pron_pos">
        <cat-item tags="prn.pos.*"/>
+       <cat-item tags="prn.*.*.*.*.gen"/>
      </def-cat>
 
      <def-cat n="navn">
