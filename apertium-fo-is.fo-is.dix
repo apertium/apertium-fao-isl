@@ -289,6 +289,7 @@
     <e><p><l>morgun<s n="n"/><s n="m"/></l><r>morgunn<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>dagur<s n="n"/><s n="m"/></l><r>dagur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>bróðir<s n="n"/><s n="m"/></l><r>bróðir<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e><p><l>mamma<s n="n"/><s n="f"/></l><r>mamma<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>maður<s n="n"/><s n="m"/></l><r>maður<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>hattur<s n="n"/><s n="m"/></l><r>hattur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>hestur<s n="n"/><s n="m"/></l><r>hestur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
@@ -925,7 +926,6 @@
     <e><p><l>kalla<s n="vblex"/></l><r>kalla<s n="vblex"/></r></p></e>
     <e><p><l>oyða<s n="vblex"/></l><r>eyða<s n="vblex"/></r></p></e>
     <e><p><l>breiða<s n="vblex"/></l><r>breiða<s n="vblex"/></r></p></e>
-    <e><p><l>leiða<s n="vblex"/></l><r>leiða<s n="vblex"/></r></p></e>
     <e><p><l>sovna<s n="vblex"/></l><r>sofna<s n="vblex"/></r></p></e>
     <e><p><l>hitta<s n="vblex"/></l><r>hitta<s n="vblex"/></r></p></e>
     <e><p><l>bróta<s n="vblex"/></l><r>brjóta<s n="vblex"/></r></p></e>
@@ -1006,9 +1006,10 @@
     <e><p><l>vaksa<s n="vblex"/></l><r>vaxa<s n="vblex"/></r></p></e> <!-- ? -->
     <e><p><l>láta<s n="vblex"/></l><r>ljúka<s n="vblex"/></r></p></e> <!-- ? -->
     <e><p><l>eita<s n="vblex"/></l><r>heita<s n="vblex"/></r></p></e> <!-- ? -->
-    <e><p><l>lata<s n="vblex"/></l><r>leiða<s n="vblex"/></r></p></e>
     <e><p><l>spretta<s n="vblex"/></l><r>spretta<s n="vblex"/></r></p></e>
+    <e><p><l>leiða<s n="vblex"/></l><r>leiða<s n="vblex"/></r></p></e>
 
+    <!--<e><p><l>lata<s n="vblex"/></l><r>leiða<s n="vblex"/></r></p></e>-->
 
 
     <!-- Interjections -->

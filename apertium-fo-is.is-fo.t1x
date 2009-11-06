@@ -135,6 +135,27 @@
       <def-var n="poss_prep"/>
 </section-def-vars>
 
+<section-def-lists>
+
+      <def-list n="body_parts"> <!-- Plural with 'í', singular with 'á' -->
+        <list-item v="høvur"/>
+        <list-item v="eyga"/>
+        <list-item v="hal"/>
+      </def-list>
+
+      <def-list n="close_kinship_terms"> <!-- Appositional accusative -->
+        <list-item v="systir"/>
+        <list-item v="abbi"/>
+        <list-item v="omma"/>
+        <list-item v="bróðir"/>
+        <list-item v="beiggi"/>
+        <list-item v="pápi"/>
+        <list-item v="mamma"/>
+      </def-list>
+
+</section-def-lists>
+
+
 <section-def-macros>
 
   <def-macro n="set_poss_prep2" npar="2">
@@ -144,16 +165,85 @@
     <let>
       <var n="poss_prep"/> 
       <concat>
+        <lit v="$ ^"/>
         <lit v="hjá"/>
         <lit-tag v="pr"/>
       </concat>
     </let>
 
-    <let>
-      <clip pos="2" side="tl" part="cas"/>
-      <lit-tag v="dat"/>
-    </let>
+    <choose>
+      <!-- For body parts in the singular, e.g. "høvur" (head), set 'á' (on) -->
+      <when>
+        <test>
+          <and>
+            <in caseless="yes">
+              <clip pos="1" side="tl" part="lem"/>
+              <list n="body_parts"/>
+            </in> 
+            <equal>
+              <clip pos="1" side="sl" part="nbr"/>
+              <lit-tag v="sg"/> 
+            </equal>
+          </and>
+        </test>
+        <let>
+          <var n="poss_prep"/> 
+          <concat>
+            <lit v="$ ^"/>
+            <lit v="á"/>
+            <lit-tag v="pr"/>
+          </concat>
+        </let>
+      </when>
+      <!-- For body parts in the plural , e.g. "eyguna" (eyes), set 'í' (in) -->
+      <when>
+        <test>
+          <and>
+            <in caseless="yes">
+              <clip pos="1" side="tl" part="lem"/>
+              <list n="body_parts"/>
+            </in> 
+            <equal>
+              <clip pos="1" side="sl" part="nbr"/>
+              <lit-tag v="pl"/> 
+            </equal>
+          </and>
+        </test>
+        <let>
+          <var n="poss_prep"/> 
+          <concat>
+            <lit v="$ ^"/>
+            <lit v="í"/>
+            <lit-tag v="pr"/>
+          </concat>
+        </let>
+      </when>
+    </choose>
 
+    <choose>
+      <when>
+        <test>
+          <in caseless="yes">
+            <clip pos="1" side="tl" part="lem"/>
+            <list n="close_kinship_terms"/>
+          </in> 
+        </test>
+        <let>
+          <clip pos="2" side="tl" part="cas"/>
+          <lit-tag v="acc"/>
+        </let>
+        <let>
+          <var n="poss_prep"/>
+          <lit v=""/>
+        </let>
+      </when>
+      <otherwise>
+        <let>
+          <clip pos="2" side="tl" part="cas"/>
+          <lit-tag v="dat"/>
+        </let>
+      </otherwise>
+    </choose>
   </def-macro>
 
   <def-macro n="conv_poss_to_pers1" npar="1">
@@ -428,12 +518,9 @@
 	<out>
 	  <lu>
 	    <clip pos="1" side="tl" part="whole"/>
+            <var n="poss_prep"/>
 	  </lu>
           <b pos="1"/>
-          <lu>
-            <var n="poss_prep"/>
-          </lu>
-          <b/>
 	  <lu>
 	    <clip pos="2" side="tl" part="lemh"/>
 	    <clip pos="2" side="tl" part="a_prn"/>
