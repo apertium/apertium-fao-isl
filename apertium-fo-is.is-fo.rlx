@@ -1,55 +1,66 @@
 ###############################################################################
 #
 #	This is a partial conversion of the rule file from the IceTagger 
-#	part-of-speech tagger for Icelandic by Hrafn Loftsson.
+#	part-of-speech tagger for Icelandic by Hrafn Loftsson, along with 
+#       some hacked up rules from Trond Trosterud's Faroese CG and some of 
+#       our very own home-brew crack.
 #
 ###############################################################################
 
 SOFT-DELIMITERS = "<,>" ;
-DELIMITERS = "<.>"ri "<:>"ri "<!>"ri "<?>"ri ;
+DELIMITERS = "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>";
 
-LIST BOS = (>>>) (<s>) (sent) ; 
-LIST EOS = (<<<) (</s>) (sent) ; 
 
+LIST BOS = (>>>) (<s>) (sent) sent ; 
+LIST EOS = (<<<) (</s>) (sent) sent ; 
+
+LIST CLB = (sent) (cnjsub) (cm) (rel) (cnjcoo); 
+
+LIST Coma = (cm);
 LIST N = (n) ;
-LIST ProperN = (np) ;
+LIST Num = (num) ("þúsund" n) ("milljón" n) ("milljarður" n) ("hundrað" n);
+LIST ProperNom = (np) ;
 LIST Adj = (adj) ;
-LIST Strong = (sta);
-LIST Weak = (vei);
+LIST Weak = (vei) ;
+LIST Strong = (sta) ;
 LIST Adv = (adv) ;
-
-LIST Prn = (prn) ;
-LIST PrnPers = (prn p1) (prn p2) (prn p3) ;
-LIST PrnInd = (prn ind);
-LIST PrnDem = (prn dem) ;
-LIST PrnRefl = (prn ref) ;
-LIST PrnItg = (prn itg) ;
-LIST PrnPoss = (prn pos) ;
-
+LIST PersPron = (prn p1) (prn p2) (prn p3) ;
+LIST IndefPron = (prn ind);
+LIST DemPron = (prn dem) ;
+LIST Refl = (prn ref) ;
+LIST InterrPron = (prn itg) ;
+LIST PossPron = (prn pos) ;
+LIST Pron = (prn);
 LIST Prep = (pr) ;
-LIST Infinitive = (inf) ;
+LIST Participle = (pp) (supn);
+LIST PP = (actv pp) ;
+LIST Inf = (inf) ;
 LIST VerbInf = (vblex inf) ;
 LIST VerbSpecAux = (vaux) ;
-LIST VerbAux = (vaux) ;
+LIST VerbAux = (vaux) (vbhaver) (vbser) ("verða" vblex) ("geta" vblex); ## check verða = aux ?
 LIST VerbSupine = (vblex supn) ;
 LIST VerbBe = (vbser) ;
-LIST Verb = (vblex) (vbser) (vbhaver);
-LIST FiniteTenses = (psi) (pss) (pri) (prs) (past);
-LIST Imp = (imp) ;
-LIST PastPart = (pp) ;
-LIST RelativeConjunction = (rel) ;
-LIST Conjunction = (cnjcoo) (cnjadv) (cnjsub) ;
-LIST CS = (cnjsub);
-LIST CC = (cnjcoo);
-LIST Num = (num) ;
+LIST Verb = (vblex) (vbser) (vbhaver) (vaux);
+LIST TempsFin = (pri) (past) (prs) (pss);
+LIST TempsIrreal = (prs) (pss);
+LIST Rel = (rel) ;
+LIST Conj = (cnjcoo) (cnjadv) (cnjsub) ;
+LIST CC = (cnjcoo) ;
+LIST CS = (cnjsub) ;
 LIST Exclamation = (ij) ;
-LIST Def = (def) ;
+LIST Article = (def) ;
 LIST Det = (det) ;
-LIST Interj = (ij) ;
+LIST Interj = (itg) ;
+
+LIST Def = (def) ;
+LIST Indef = (ind) ;
 
 LIST Fem = (f);
 LIST Msc = (m);
 LIST Neu = (nt);
+
+LIST Sg = (sg);
+LIST Pl = (pl);
 
 LIST Nom = (nom);
 LIST Gen = (gen);
@@ -65,14 +76,23 @@ LIST DatPrep = "að"ri "af"ri "andspænis"ri "ásamt"ri "frá"ri "gagn"ri "gagnv
                "hjá"ri "meðfram"ri "mót"ri "móti"ri "nálægt"ri "undan"ri "úr"ri ;
 LIST AccDatPrep = "á"ri "eftir"ri "fyrir"ri "í"ri "með"ri "undir"ri "við"ri "yfir"ri ;
 
-SET VFIN = Verb + FiniteTenses;
+LIST MODV = "ætla" "kunna" "láta" "skula" "vilja" "munu" "mega" "vera" ; #todo: translate fao to icelandic
+
+LIST ACCSUBJVERB = "bresta" "dreyma" "fýsir" "greinir" "grípa" "gruna" "hrylla" "hungra" "kitla" "klígja" "klæja" "kreppa" "langa" "lengja" "lengja# eftir" "lysta" "lægja" "misminnir" "minnir" "muna" "órar" "raga" "ráma" "reka" "saka" "setur" "skefur" "skipta" "skorta" "stoða" "sundla" "svengja" "svima" "svíða" "syfja" "undra" "vanhagar" "vanta" "varðar" "verkjar" "þrjóta" "þverra" ;
+LIST DATSUBJVERB = "auðnast" "áskotnast" "batna" "ber" "berast" "birtast" "bjóða" "blandast" "blæða" "blæða# út" "blöskra" "bragðast" "bregða" "brenna" "búa" "bætast" "daprast" "dáma" "dettta" "drjúpa" "duga" "dveljast" "dyljast" "elna" "endast" "fara" "feila" "festast" "fjölga" "fljúga" "fylgja" "fyrirgefa" "fæðast" "fækka" "förla" "gagnast" "ganga" "geðjast" "gefast" "gremjast" "greypast" "græðast" "haldast" "hefnast" "heilsast" "henta" "heppnast" "heyrast" "henta" "hlaupa" "hlekkjast" "hlotnast" "hlýnar" "hnignar" "hrakar" "hrjósa" "hugkvæmast" "hugnast" "hæfa" "hægja" "hættir" "kemur" "kólna" "kyngir" "lánast" "lást" "leiðast" "leyfast" "ljúka" "ljósta" "lærast" "misfarast" "misheppnast" "misheyrast" "nægja" "ofbjóða" "óa" "ratast" "reiknast" "réna" "rigna" "rísa" "sárna" "seinka" "sinnast" "sjatna" "sjást" "skána" "skeika" "skiljast" "skjátlast" "skola" "skrika" "snúast" "sortna" "stafa" "standa" "stígur" "stekkur" "súrna" "svelgjast" "svipa" "svíða" "sýnast" "sækjast" "sæma" "takast" "teljast" "mér" "vefjast" "vegna" "veita" "versna" "viðkoma" "viðvíkja" "vinnast" "vinnast" "vitnast" "volgna" "vökna" "yfirsjást" "ylna" "þoka" "þóknast" "líða" ("finna" midv) ("skilja" midv) "líka" "mislíka"; ## TODO: CHECK 'líða' and 'finnst'
+LIST WANTINGVERB = "vilja";
+LIST REPORTINGVERB = "segja";
+
+LIST SADV = "aldrei" "ekki" "alltaf" ; # complete
 
 LIST NAGD = nom acc gen dat;
 LIST GENDER = m f nt;
 LIST NUMBER = sg pl;
+LIST PERSON = p1 p2 p3;
 
 LIST COMMA = (",") ;
 
+SET VerbFin = Verb + TempsFin;
 
 SET NomMscFem = (n m) OR (n f) ;
 SET NomMscNeu = (n m) OR (n nt) ;
@@ -83,23 +103,34 @@ SET NOTACC = Nom | Gen | Dat ;
 SET NOTACCDAT = Nom | Gen ;
 SET OBL = Acc | Dat | Gen ;
 
-SET PRE-N =  Adj | Det | (N Gen) | Num | (prn gen) | (prn dem) | CC ; # Det???
+SET POST-DET = Adj | Det | N | Num | Adv ;
+SET PRE-N =  Adj | Det | (N Gen) | Num | (Pron Gen) | (Pron Dem) | CC ; # Det???
 
-SET WORD = N | Verb | Adj | Prep | Prn | Det | Adv | CC | CS | Interj | Num | ("\?") ;
-SET MARK =  COMMA | ("\") | ("\;") ; #"
+SET WORD = N | Verb | Adj | Prep | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
+SET MARK =  COMMA | ("\\") | ("\;") ; #"
 SET WORDMARK = WORD | MARK ;
-
-SET CLB = MARK | CC | CS;
 
 SET NPNHA = WORDMARK - PRE-N - Adv ;
 
 
 SECTION
 
+#################################################################################
 # Specific lexemes
+#################################################################################
 
-REMOVE N IF (-1C N OR ProperN) (0 ("<á>"ri));
+REMOVE N IF (-1C N OR ProperNom) (0 ("<á>"));
+REMOVE N IF (1 PP | VerbSupine) (0 ("hafa"));
 
+#Finnland er í Evrópusambandinu og er eina Norðurlandaþjóðin sem hefur tekið upp evruna sem gjaldmiðil.
+REMOVE Rel IF (0 ("sem")) (NOT 1* VerbFin BARRIER CLB);
+REMOVE Conj IF (0 ("er")) (-1 Conj); 
+
+#Ekki er búið að boða hvenær það hefst.
+REMOVE Rel IF (0 ("er")) (NOT -1 COMMA) ;
+
+#Töldu margir þingmenn að skýrslan gæti verið gott innlegg í umræðuna og gæti aukið jöfnuð á ný meðal Kínverja.
+REMOVE ("gæta") IF (0 ("gæta")) (0 ("geta")) (1 Adj | PP | VerbSupine);
 
 #################################################################################
 # Proper nouns
@@ -107,43 +138,49 @@ REMOVE N IF (-1C N OR ProperN) (0 ("<á>"ri));
 
 # hús Láru
 
-SELECT ProperN IF (-1C N) (1 Gen) ; 					# !tag.isCase(GENITIVE) ;
-SELECT ProperN IF (-1C GenPrep) (1 Gen) ;	
-SELECT ProperN IF (-1C AccPrep) (1 Acc) ;
-SELECT ProperN IF (-1C DatPrep) (1 Dat) ;
+SELECT ProperNom IF (-1C N) (1 Gen) ; 					# !tag.isCase(GENITIVE) ;
+SELECT ProperNom IF (-1C GenPrep) (1 Gen) ;	
+SELECT ProperNom IF (-1C AccPrep) (1 Acc) ;
+SELECT ProperNom IF (-1C DatPrep) (1 Dat) ;
 
 # Hildar Guðmundsdóttur
-SELECT ProperN IF (-1C ProperN) (-1C Gen) (0 ("<.*dóttur">)) (0 Gen) ; 	# !tag.isCase(GENITIVE) ;
-SELECT ProperN IF (-1C ProperN) (-1C Fem) ; 				# !tag.isGender(FEMININE) ;
-SELECT ProperN IF (-1C ProperN) (-1C Msc) ; 				# !tag.isGender(MASCULINE) ;
+SELECT ProperNom IF (-1C ProperNom) (-1C Gen) (0 ("<.*dóttur>"r)) (0 Gen) ; 	# !tag.isCase(GENITIVE) ;
+SELECT ProperNom IF (-1C ProperNom) (-1C Fem) ; 				# !tag.isGender(FEMININE) ;
+SELECT ProperNom IF (-1C ProperNom) (-1C Msc) ; 				# !tag.isGender(MASCULINE) ;
+
+REMOVE ProperNom + Acc IF (1C* Acc BARRIER CLB);
 
 #################################################################################
-# Ns
+# Noms
 #################################################################################
 
 # hann sýnir but stakk hún hendi is ok, það sýnir aldrei
 
-# CEx.  Ég borða fisk
-#SELECT N IF ((-1C PrnPers) OR (-1C PrnPers LINK -1C PrnDem) OR (-1C ("<við>"ri))); 
-
-SELECT N IF (-1C GenPrep) (1 Gen) ;	
-SELECT N IF (-1C AccPrep) (1 Acc) ;
-SELECT N IF (-1C DatPrep) (1 Dat) ;
+# CEx. Þessi íslenska kona
+#SELECT Nom IF ((-1C PersPron) OR (-1C PersPron LINK -1C DemPron) OR (-1C ("<við>"ri)));
+# CEx. um nýja samkomulagið
+#SELECT N IF (-1C GenPrep) (1 Gen) ;	
+#SELECT N IF (-1C AccPrep) (1 Acc) ;
+#SELECT N IF (-1C DatPrep) (1 Dat) ;
 
 # að (cn/aa) beina (sgn/n*) mér
-SELECT N IF (-1 Inf) (0 VerbInf) ;
+# Íslendingar munu boða að
+REMOVE N IF (-1 Inf) (0 VerbInf) (NOT -1 MODV) ;
 
 # einhvern sem sæti
-SELECT N IF (-1 ("<sem>"ri)) (0 Verb) ;
+# sem steðjar að heiminum
+REMOVE N IF (-1 ("<sem>"ri)) (0 Verb) (NOT 1 ("að"ri));
 
 # choose the verb
-SELECT N IF (-1C ProperN) (0 Verb) ;
+# CEx. Ísland á dagskrá eftir viku
+# CEx. Fundi Íslendinga með Bretum og Hollendingum um Icesave málið lauk í dag án niðurstöðu.
+#REMOVE N IF (-1C ProperNom) (0 Verb) ;
 
 # Disallow two nouns in a row unless the latter is in the genitive case
-SELECT N IF (-1C N) (NOT -1 Gen) ((NOT -2 ProperN) OR (-2 BOS));
+REMOVE N IF (-1C N) (NOT -1 Gen) ((NOT -2 ProperNom) OR (-2 BOS));
 
 # select the possessive pronoun, "pabbi sinn"
-SELECT PrnPoss IF (-1C N);
+SELECT PossPron IF (-1C N);
 
 SELECT ("á"ri) IF (-1 Adv);
 
@@ -151,68 +188,155 @@ SELECT ("á"ri) IF (-1 Adv);
 SELECT VerbInf IF ((-1 VerbSpecAux) OR (-1C Adv LINK NOT -2 BOS LINK -2 VerbSpecAux));
 
 # hafði talið, velja sagnbót
-SELECT VerbSupine IF (-1 VerbAux);
+# þetta kerfi get ekki þýtt neitt.
+SELECT VerbSupine IF ((-1 VerbAux) OR (-2 VerbAux));
 
 # select the adjective, but ok is "fyrir framan X", and ok is "bara verð markaðarins"
 SELECT Adv IF (0 Adj) (-1 BOS OR (NOT -1 Prep)) (1 EOS OR (NOT 1 N LINK 1 Gen));
 
 # sú líkn
-# CEx. Guð sá að ljósið var gott
-#SELECT PrnDem IF (-1 N) (NOT 0 N);
+# CEx. að í því hefðu fyrirvararnir
+#SELECT DemPron IF (-1 N) (NOT 0 N);
 
-SELECT VerbBe IF (NOT 0 N);
+#SELECT VerbBe IF (NOT 0 N);
 
 # select the adjective, "hann er lasinn",
-SELECT Adj IF (-1 VerbBe) (NOT -2 BOS) (-2 PrnPers);
+SELECT Adj IF (-1 VerbBe) (NOT -2 BOS) (-2 PersPron);
 
+#Auðvitað brá okkur við þetta
+REMOVE N IF (NOT -1* VerbFin BARRIER BOS) (NOT 1* VerbFin BARRIER EOS) (0 VerbFin) (0 N);
+#Bandaríkin heita aðstoð
+REMOVE Adj IF (NOT -1* VerbFin BARRIER BOS) (NOT 1* VerbFin BARRIER EOS) (0 VerbFin) (0 Adj);
+#Finnland er í Evrópusambandinu og er eina Norðurlandaþjóðin sem hefur tekið upp evruna sem gjaldmiðil.
+REMOVE Conj IF (NOT -1* VerbFin BARRIER BOS) (NOT 1* VerbFin BARRIER EOS) (0 VerbFin) (0 Conj);
+REMOVE Conj IF (NOT -1* VerbFin BARRIER BOS) (NOT 1* VerbFin BARRIER Conj LINK 1 VerbFin) (0 VerbFin) (0 Conj);
 
-#################################################################################
-# Adjectives
-#################################################################################
+#Að því loknu verður málið rætt á þingi.
+REMOVE N + Acc IF (0 Nom) (0 Acc) (NOT -1* N + Nom BARRIER CLB) (NOT 1* N + Nom BARRIER CLB) (NOT 1* ACCSUBJVERB BARRIER CLB) (NOT -1* ACCSUBJVERB BARRIER CLB);
 
-# Check this.
-# Ex. Gud gjörði tvö stóru ljósin.
-REMOVE Weak IF (1C N) (NOT 1 Def);
-
+#Þór býr í höll sem heitir Bilskirnir
+REMOVE Adj IF (-1C Prep) (1 Conj | Rel);
 
 #################################################################################
 # Adverbs
 #################################################################################
 
+#Hin íslenska Wikipedia fór í gang 5. desember 2003 og inniheldur núna 27.671 greinar.
+REMOVE ("núa") + PP IF (0 ("núna") + Adv) (NOT -1C* VerbAux BARRIER CLB) (NOT 1C* VerbAux BARRIER CLB);
 
+#Rouston Benoit, 10 ára, var á gangi með ömmu sinni þegar skjálftinn reið yfir.
+REMOVE ("þegar") + Adv IF (-1* VerbFin BARRIER BOS) (1* VerbFin BARRIER EOS);
+
+#################################################################################
+# Adjectives
+#################################################################################
+
+# Hann borðar mjög heita súpu en hún hleypur.
+REMOVE N IF (-1C ("<mjög>"));
+REMOVE VerbInf IF (-1C ("<mjög>"));
+REMOVE VerbFin IF (-1C ("<mjög>"));
+
+# norska ríkisstjórnin
+REMOVE N IF (0 N) (0 Nom) (0 Adj) (0 (vei)) (1C N) (1C Def);
+
+# íslenskan almenning 
+REMOVE N IF (0 N) (0 Nom) (0 Adj) (0 (sta)) (1C N) (1C Indef);
+
+# kröfurnar voru skýrar;
+REMOVE Adv IF (0 Adv) (0 Adj) (-1C VerbBe) (1C CLB);
+
+# Fallega rauða rósin
+REMOVE Adv IF (NOT -1C* VerbFin BARRIER CLB) (0 Adv) (0 Adj) (1 Adj);
+
+# Ég er að flytja frá Akureyri til Reykjavíkur í eitt ár.
+REMOVE Adj IF (-1 Prep) (0 Adj) (0 Num) (1 N) (1 Sg);
+
+#Bankarnir stóru.
+REMOVE Adj + Strong IF (-1C N + Def);
+
+#################################################################################
+# Advs
+#################################################################################
+
+SELECT Adv IF (-1C VerbFin) (1C Verb) (1 Participle);
 
 #################################################################################
 # Personal pronouns 
 #################################################################################
 
+#ég gerði það sjálfur
+SELECT PersPron + Acc IF (-1 VerbFin) (-1C* PersPron + Nom BARRIER VerbFin | CLB);
+
+#Við gerðum það sjálf.
+SELECT:r53p $$PERSON IF (1C VerbFin + $$PERSON)(0 PersPron) ;
+
+#þá auðveldustu
+REMOVE ("<þá>"ri) + PersPron IF (1 Verb OR Adv OR  N); # was + Conj
+REMOVE ("<þá>"ri) + PersPron IF (-1 VerbBe OR Adv OR  N); # was + Conj
+REMOVE ("<þá>"ri) + PersPron IF ((-1C Refl) OR (-1 VerbBe OR PersPron)); # væri þá and réði sig þá
+
+REMOVE PersPron + Nom IF (-1C* PersPron + Nom BARRIER VerbFin | CLB);
+REMOVE PersPron + Nom IF (-1C* PersPron + Nom BARRIER VerbFin | CLB);
+
+#sem hann sá í gær.
+REMOVE PersPron + Acc IF (-1 ("sem")) (1 VerbFin) (0 PersPron + Nom) (0 PersPron + Acc) (NOT 1* Nom BARRIER CLB | EOS);
+
+#Ég veit ekki hvort það hafa einhverjir nemendur ekki lokið verkefninu
+REMOVE InterrPron + Nom IF (-1C* PersPron + Nom BARRIER CLB);
 
 #################################################################################
 # Indefinite pronouns 
 #################################################################################
 
+#Hvað ert þú að gera ?
+REMOVE Pron + Nom IF (1C* PersPron + Nom BARRIER CLB);
+
+REMOVE IndefPron + Nom IF (-1 BOS | EOS) (0 IndefPron) (0 InterrPron);
+
+REMOVE IndefPron IF (-1 BOS | EOS) (0 IndefPron) (0 InterrPron) ;
 
 #################################################################################
 # Demonstrative pronouns 
 #################################################################################
 
-# Ex. Guð talaði öll þessi orð og sagði:
-REMOVE Fem IF (0C PrnDem)  (1C Neu);
-REMOVE Fem IF (0C PrnDem)  (1C Msc);
-REMOVE Msc IF (0C PrnDem)  (1C Neu);
-REMOVE Msc IF (0C PrnDem)  (1C Fem);
-REMOVE Neu IF (0C PrnDem)  (1C Fem);
-REMOVE Neu IF (0C PrnDem)  (1C Msc);
-REMOVE Msc IF (0C PrnDem)  (1C Fem);
+# Ég sá ekki 
+# finnst þér þá
+#ég þakka þeim kærlega fyrir
+#Fá þeir íbúar, sem ekki geta eða vilja snúa aftur í íbúðirnar yfir nóttina, aðstoð með gistingu ef þörf krefur.
+REMOVE DemPron + Nom IF (0 DemPron) (0 PersPron); ## this needs fixing
+#SELECT DemPron + $$GENDER + $$NUMBER + $$NAGD IF (1C N + $$GENDER + $$NUMBER + $$NAGD);
 
+REMOVE DemPron IF (-1C PersPron) ;
+REMOVE ("<þá>"ri) + DemPron IF (1 VerbFin) (NOT 1 Rel); # þá sem ...
+REMOVE ("<þá>"ri) + DemPron IF (1 Conj OR Adv) (-1 BOS); # Þá þegar ...
+REMOVE ("<þá>"ri) + DemPron IF (1C N OR ProperNom) (-1 Verb); # gekk þá maðurinn 
+
+# En mér leið ekki vel eftir þetta.
+REMOVE Det IF (0 Det) (0 Pron) (NOT 1 POST-DET);
+
+# Við gerðum það sjálf.
+REMOVE DemPron IF (-1C VerbFin) (1C Refl);
+
+# í gær sá stelpan.
+REMOVE DemPron IF (0 DemPron) (0 VerbFin) (NOT -1* VerbFin BARRIER CLB) (NOT 1 VerbFin BARRIER CLB);
+
+#Þetta er borgin, er hann kom frá.
+SELECT Rel IF (-1C Coma) (0 ("er")) (1C* VerbFin BARRIER CLB);
 
 #################################################################################
 # Reflexive pronouns 
 #################################################################################
 
+# sem hann sér í dag.
+REMOVE Refl IF (0 Refl) (0 VerbFin) (NOT -1* VerbFin BARRIER CLB) (NOT 1 VerbFin BARRIER CLB);
 
 #################################################################################
 # Interrogative pronouns 
 #################################################################################
+
+# Ég veit ekki hvort Jón læsi aldrei bókina
+REMOVE ("hvor"ri) + InterrPron IF (1 N + Nom) ;
+REMOVE ("hvor"ri) + InterrPron IF (1 ProperNom + Nom) ;
 
 
 #################################################################################
@@ -224,67 +348,260 @@ REMOVE Msc IF (0C PrnDem)  (1C Fem);
 # Prepositions
 #################################################################################
 
+#að styðja 
+SELECT Prep IF (0 ("að"ri)) (1 VerbInf);
 
-#################################################################################
-# Verbs  
-#################################################################################
+#sem leggja fram kæru á hendur ríkinu.
+SELECT Prep IF (0 ("[Áá]"ri)) (1C N OR ProperNom) (NOT 1C Gen);
 
-SELECT (vblex p3 sg) IF (-1C (prn p3 sg));
-# Ex.: Ég borða fisk
-SELECT (vblex p1 sg) IF (-1C (prn p1 sg));
+#Þeir eru undir rúminu
+SELECT Prep IF (0 Prep) (0 Adv) (1C PRE-N);
 
-SELECT (vbser p3 sg) IF (-1 (prn p3 sg));
-SELECT (vbser p1 sg) IF (-1 (prn p1 sg));
-
-SELECT (vaux p3 sg) IF (-1 (prn p3 sg));
-SELECT (vaux p1 sg) IF (-1 (prn p1 sg));
-# Ex. Við munum fara í dag
-SELECT (vaux p1 pl) IF (-1 (prn p1 pl));
-
-# Ex.: Þið lesið bókina
-REMOVE PastPart IF (-1C PrnPers);
-
-# Ex.: Hann sagði að skipið færi á morgun
-REMOVE Verb IF (-1 CS) (1 VFIN);
-
-# Ex.: Peir hafa ekki vín
-SELECT Verb IF (-1 (prn p1 sg)) (0 (p1 sg)) (1C Adv);
-SELECT Verb IF (-1 (prn p2 sg)) (0 (p2 sg)) (1C Adv);
-SELECT Verb IF (-1 (prn p3 sg)) (0 (p3 sg)) (1C Adv);
-SELECT Verb IF (-1 (prn p1 pl)) (0 (p1 pl)) (1C Adv);
-SELECT Verb IF (-1 (prn p2 pl)) (0 (p2 pl)) (1C Adv);
-SELECT Verb IF (-1 (prn p3 pl)) (0 (p3 pl)) (1C Adv);
-
-REMOVE:Imp_with_subj Imp IF (-1C PrnPers);
-
-# Ex. Sá einn, sem er frá Guði, hefur séð föðurinn.
-REMOVE:AlwaysVfin VFIN IF (1C* VFIN BARRIER CLB);
-
-REMOVE:AlwaysVfin VFIN IF (-1C* VFIN BARRIER CLB);
-
+#Ég talaði aldrei við Súsönnu.
+REMOVE PersPron + Nom IF (-1C* PersPron BARRIER CLB);
 
 #################################################################################
 # NPs  
 #################################################################################
 
+# 15 milljörðum dollara
+# um 1.950 milljörðum íslenskra króna. 
+#   This is a hack because we don't want to do unification with 'billion' etc. perhaps there
+#   is a better way of doing it .
+SELECT (n pl gen) IF (-1C Num + (pl)); 
+
+REMOVE:ufc_f  PP + Fem IF (0  $$NAGD) (*1 NomMscNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Fem);
+REMOVE:ufc_m  PP + Msc IF (0  $$NAGD) (*1 NomFemNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Msc);
+REMOVE:ufc_nt PP + Neu IF (0  $$NAGD) (*1 NomMscFem + $$NAGD BARRIER NPNHA LINK NOT 0 Neu);
+
 REMOVE:ufc_f  Adj + Fem IF (0  $$NAGD) (*1 NomMscNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Fem);
 REMOVE:ufc_m  Adj + Msc IF (0  $$NAGD) (*1 NomFemNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Msc);
 REMOVE:ufc_nt Adj + Neu IF (0  $$NAGD) (*1 NomMscFem + $$NAGD BARRIER NPNHA LINK NOT 0 Neu);
 
-SELECT:r28 $$GENDER IF (-1C (Adj) + $$GENDER)(0 N);
-SELECT:r30b $$GENDER IF (-1C (Det) + $$GENDER)(0 N);
-SELECT:r30c $$GENDER IF (-1C (Pron Indef) + $$GENDER)(0 N);
+REMOVE:ufc_f_p  Adj + Fem IF (0  $$NAGD) (*-1 NomMscNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Fem) (NOT 1* Nom + Fem BARRIER NPNHA);
+REMOVE:ufc_m_p  Adj + Msc IF (0  $$NAGD) (*-1 NomFemNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Msc) (NOT 1* Nom + Msc BARRIER NPNHA);
+REMOVE:ufc_nt_p Adj + Neu IF (0  $$NAGD) (*-1 NomMscFem + $$NAGD BARRIER NPNHA LINK NOT 0 Neu) (NOT 1* Nom + Neu BARRIER NPNHA);
 
-SELECT:r29 $$NAGD IF (-1C (Adj) + $$NAGD)(0 N);
-SELECT:r30b $$NAGD IF (-1C (Det) + $$NAGD)(0 N);
-SELECT:r30c $$NAGD IF (-1C (Pron Indef) + $$NAGD)(0 N);
+REMOVE:d_ufc_f  Det + Fem IF (0  $$NAGD) (*1 NomMscNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Fem);
+REMOVE:d_ufc_m  Det + Msc IF (0  $$NAGD) (*1 NomFemNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Msc);
+REMOVE:d_ufc_nt Det + Neu IF (0  $$NAGD) (*1 NomMscFem + $$NAGD BARRIER NPNHA LINK NOT 0 Neu);
 
-SELECT:r30 $$NUMBER IF (-1C (Adj) + $$NUMBER)(0 N);
-SELECT:r30b $$NUMBER IF (-1C (Det) + $$NUMBER)(0 N);
-SELECT:r30c $$NUMBER IF (-1C (Pron Indef) + $$NUMBER)(0 N);
+SELECT:r30 $$GENDER IF (-1C Num + $$GENDER)(0 N);
+SELECT:r28 $$GENDER IF (-1C Adj + $$GENDER)(0 N);
+SELECT:r28b $$GENDER IF (-1C Det + $$GENDER)(0 N);
+SELECT:r28c $$GENDER IF (-1C IndefPron + $$GENDER)(0 N);
+SELECT:r28d $$GENDER IF (-1C PP + $$GENDER)(0 N);
+
+SELECT:r30 $$NAGD IF (-1C Num + $$NAGD)(0 N);
+SELECT:r29 $$NAGD IF (-1C Adj + $$NAGD)(0 N);
+SELECT:r29b $$NAGD IF (-1C Det + $$NAGD)(0 N);
+SELECT:r29c $$NAGD IF (-1C IndefPron + $$NAGD)(0 N);
+SELECT:r29d $$NAGD IF (-1C PP + $$NAGD)(0 N);
+
+SELECT:r30 $$NUMBER IF (-1C Num + $$NUMBER)(0 N);
+SELECT:r30 $$NUMBER IF (-1C Adj + $$NUMBER)(0 N);
+SELECT:r30b $$NUMBER IF (-1C Det + $$NUMBER)(0 N);
+SELECT:r30c $$NUMBER IF (-1C IndefPron + $$NUMBER)(0 N);
+SELECT:r30d $$NUMBER IF (-1C PP + $$NUMBER)(0 N);
+
+# enga bók
+SELECT:r31 Det IF (1C PRE-N) (0 Det) (0 IndefPron);
+
+#Nánast allir Íslendingar nota nú netið með ADSL.
+SELECT Det IF (0 $$NAGD) (0 Det OR Pron) (1C* N) (1C* $$NAGD);
+
+#Hundur systur minnar
+SELECT Gen IF (-1C Nom) (0 NAGD) (1C PossPron)
+
+#á mati lögreglu
+SELECT Gen IF (-1C N) (-1C Nom OR Acc OR Dat) (NOT 0 VerbFin);
+
+#Einungis þriðjungur Norðmanna vill að landið gangi í Evrópusambandið
+#REMOVE Nom IF (-1C VerbFin) (0 Nom) (0 Acc) (NOT -1 DATSUBJVERB | ACCSUBJVERB);
+
+#################################################################################
+# Verbs
+#################################################################################
+
+REMOVE (imp) (NOT -1 CLB); 
+
+#Fá þeir íbúar, sem ekki geta eða vilja snúa aftur í íbúðirnar yfir nóttina, aðstoð með gistingu ef þörf krefur.
+REMOVE Inf IF (-1 BOS) (NOT 1* VerbFin BARRIER CLB);
+
+SELECT Inf IF (-1 ("að"ri)) (-2 ("við"ri));
+
+# Ég sé hesta
+#Ennfremur sé málið mjög viðkvæmt í Hollandi.
+#Tjónið gæti verið meira en 15 milljörðum dollara eða um 1.950 milljörðum íslenskra króna.
+REMOVE TempsIrreal + VerbAux IF (NOT -1* CS) (NOT -1 BOS) (NOT -1 Adv LINK -1 BOS) (NOT 0 VerbAux);
+
+SELECT:r51 Inf IF (*-1 MODV BARRIER Verb);
+
+# María mun koma
+SELECT:r52 MODV IF (1C Inf);
+
+# Íslendingar munu boða að þeir ætli að draga úr losun
+SELECT MODV + TempsFin IF (1C Inf);
+
+# Ég las bókina
+# #á morgun í Kaupmannahöfn, að því er Ríkisútvarpið greindi frá. 
+SELECT:r53 $$PERSON IF (-1 PersPron + $$PERSON)(0 VerbFin) (NOT 1 ("er"ri));
+
+SELECT:r53a $$PERSON IF (1C PersPron + $$PERSON + Nom)(0 VerbFin) (NOT 1 ("er"ri)) (NOT 0 ("sem"ri) OR ("er"ri));
+
+SELECT:r53b VerbFin + $$NUMBER IF (-1 N + $$NUMBER + Nom) (0 VerbFin) (NOT 1 ("er"ri)) (NOT 0 ("sem"ri));
+
+# The modals munu and skulu can never be preceded by another auxiliary. (p.10)
+REMOVE:r54 VerbAux IF (1C ("munu") OR ("skulu")); 
+
+REMOVE:r55 VerbFin IF (-1C* VerbFin BARRIER CLB) (0 VerbFin) ;
+
+# *NATO sendi 7.000 hermenn
+REMOVE VerbFin + (p1) IF (NOT -1* (prn p1) BARRIER CLB) (NOT 1* (prn p1) BARRIER CLB) ;
+REMOVE VerbFin + (p2) IF (NOT -1* (prn p2) BARRIER CLB) (NOT 1* (prn p2) BARRIER CLB) ;
+
+#Bandaríkin hafa beðið þær 43 þjóðir sem eru með hermenn í Afganistan að senda 10.000 hermenn
+SELECT ("hafa"ri) + VerbFin IF (1C* Participle BARRIER PRE-N);
+
+#100 breskir hermenn hafa fallið í Afganistan
+#Við vorum að vakna og nú tekur við fundur þar sem farið verður yfir verkefni dagsins
+SELECT Participle IF (-1C VerbAux);
+SELECT Participle IF (1C VerbAux);
+
+#Himinninn er blár
+REMOVE Rel IF (0 ("<er>"ri)) (NOT -1* VerbFin BARRIER CLB) (NOT 1* VerbFin BARRIER CLB);
+
+#mátt þú ekki eta
+SELECT MODV + $$PERSON IF (1C PersPron + $$PERSON) (NOT 0 ("er"));
+
+# Í gær borðuðu allir stóru strákarnir góðu súpuna.
+REMOVE PP IF (NOT -1* VerbFin BARRIER BOS) (NOT 1* VerbFin BARRIER EOS) (0 VerbFin) (0 PP);
+
+# Þetta er besti árangur minn.
+REMOVE ("er"ri) + Conj IF (NOT -1* VerbFin BARRIER BOS) (NOT 1* VerbFin BARRIER EOS) (0 VerbFin) (0 Conj);
 
 
-#Ex. við eiginkonu sína
-SELECT $$GENDER IF (-1C (n) + $$GENDER) (0 PrnPoss) (0 ("sinn"ri));
+# Haítí, Port-au-Prince, er rústir einar.
+REMOVE ("er"ri) + Conj IF (-1C Coma LINK -1 N | ProperNom LINK -1C Coma);
 
+# en fjölskylda hans tilkynnti ekki um hvarfið fyrr en í nóvember þar sem hún hélt að hann væri á sólarströnd við Karabíska hafið.
+REMOVE Verb IF (-1C Adj) (0 N) (0 Verb) (1 EOS);
 
+##
+# Specific pre-disambiguation lexical selection
+# 
+
+SELECT ("stig"ri) IF (0 ("<stiga>"ri)) (1 ("frost"ri) OR ("hiti"ri));
+
+#################################################################################
+# Syntax  
+#################################################################################
+
+## Todo: 
+##       Disambiguate co-ordinators, find objects, predicates, adverbials, just 
+##       enough to let us write transfer rules more easily.
+
+SECTION
+
+LIST @X = @X;
+LIST @←ADVL = @←ADVL;
+LIST @ADVL→ = @ADVL→;
+LIST @←SUBJ = @←SUBJ;
+LIST @SUBJ→ = @SUBJ→;
+LIST @-FMAINV = @-FMAINV;
+LIST @+FMAINV = @+FMAINV; 
+LIST @-FAUXV = @-FAUXV;
+LIST @+FAUXV = @FAUXV; 
+LIST @←N = @←N;
+LIST @N→ = @N→;
+LIST @CS→ = @CS→;
+LIST @CNP = @CNP; # SN co-ordinator
+LIST @CVP = @CVP; # SV co-ordinator
+
+MAP (@←SUBJ) TARGET PersPron + Nom + $$PERSON + $$NUMBER (-1C* VerbFin + $$PERSON + $$NUMBER BARRIER CLB) (0C PersPron) (NOT 0 PossPron); 
+
+MAP (@SUBJ→) TARGET DemPron + Nom (1C* VerbFin BARRIER CLB) (0C DemPron) (NOT 0 PossPron);
+
+MAP (@SUBJ→) TARGET PersPron + Nom (1C* VerbFin BARRIER CLB) (0C PersPron) (NOT 0 PossPron);
+MAP (@SUBJ→) TARGET PersPron + Dat (1C* VerbFin + DATSUBJVERB BARRIER CLB) (0C PersPron) (NOT 0 PossPron);
+MAP (@SUBJ→) TARGET PersPron + Acc (1C* VerbFin + ACCSUBJVERB BARRIER CLB) (0C PersPron) (NOT 0 PossPron);
+
+MAP (@←SUBJ) TARGET PersPron + Nom + $$PERSON + $$NUMBER (-1C* VerbFin BARRIER CLB) (-1* VerbFin + $$PERSON + $$NUMBER BARRIER CLB) (0 PersPron + Nom) (NOT 0 PossPron) (NOT -1C* PersPron + Nom) (1 EOS);
+MAP (@←SUBJ) TARGET PersPron + Dat (-1C* VerbFin + DATSUBJVERB BARRIER CLB) (0C PersPron) (NOT 0 PossPron);
+MAP (@←SUBJ) TARGET PersPron + Acc (-1C* VerbFin + ACCSUBJVERB BARRIER CLB) (0C PersPron) (NOT 0 PossPron);
+
+#MAP (@←SUBJ) TARGET N + Nom + $$NUMBER (-1C* VerbFin + $$NUMBER + (p3) BARRIER CLB) (0 N + Nom + $$NUMBER);
+
+MAP (@←SUBJ) TARGET N + Nom + $$NUMBER (-1* VerbFin + $$NUMBER + (p3) BARRIER CLB) 
+                                       (0 N + Nom + $$NUMBER)
+                                       (NOT -1* @←SUBJ OR @SUBJ→ BARRIER CLB);
+
+MAP (@SUBJ→) TARGET N + Nom (1C VerbFin) (0 N + Nom);
+MAP (@SUBJ→) TARGET N + Nom (1C* VerbFin BARRIER CLB) (0 N + Nom);
+
+MAP (@SUBJ→) TARGET ProperNom + Nom (1 VerbFin) (0 ProperNom + Nom) (NOT -1* Nom BARRIER CLB) (NOT 1C* Nom BARRIER CLB);
+
+MAP (@SUBJ→) TARGET ProperNom + Nom (1C VerbFin) (0C ProperNom + Nom);
+MAP (@←SUBJ) TARGET ProperNom + Nom (-1C VerbFin) (0C ProperNom + Nom) (NOT -1C* @SUBJ→ BARRIER CLB);
+
+#Litlu músina hafði stóra uglan étið í gær
+MAP (@OBJ→) TARGET N + Acc (1C VerbFin) (0C N + Acc);
+MAP (@←OBJ) TARGET N + Acc (-1C VerbFin) (0C N + Acc);
+
+# Check these 'auxv' with pp/supn and 'modv' with 'inf' ?
+MAP (@+FAUXV) TARGET VerbAux + TempsFin (NOT 1C* VerbAux + TempsFin BARRIER CLB) 
+                                        (NOT -1C* VerbAux + TempsFin BARRIER CLB) 
+                                        (0C VerbAux + TempsFin) 
+                                        (1C* Participle OR Inf OR VerbSupine BARRIER CLB | PRE-N);
+
+MAP (@+FAUXV) TARGET MODV + TempsFin    (NOT 1C* MODV + TempsFin BARRIER CLB) 
+                                        (NOT -1C* MODV + TempsFin BARRIER CLB | Conj) 
+                                        (0C MODV + TempsFin) 
+                                        (1C* Participle OR Inf OR VerbSupine BARRIER CLB | PRE-N);
+
+MAP (@+FMAINV) TARGET VerbFin + (p3) + $$NUMBER (1* @←SUBJ + $$NUMBER BARRIER CLB) (0 VerbFin LINK -1 Adv);
+MAP (@+FMAINV) TARGET VerbFin + (p3) + $$NUMBER (-1* @SUBJ→ + $$NUMBER BARRIER CLB);
+
+MAP (@+FMAINV) TARGET VerbFin + $$PERSON + $$NUMBER (-1C* @SUBJ→ + $$PERSON + $$NUMBER BARRIER CLB);
+MAP (@+FMAINV) TARGET VerbFin + $$PERSON + $$NUMBER (1C* @←SUBJ + $$PERSON + $$NUMBER BARRIER CLB);
+
+MAP (@+FMAINV) TARGET VerbFin + $$PERSON + $$NUMBER (NOT 1* @+FMAINV BARRIER CLB) (NOT -1* @+FMAINV BARRIER CLB);
+
+# sem leikað var ...
+MAP (@-FMAINV) TARGET VerbSupine | Participle (-1 Rel) (1C VerbAux + TempsFin);
+
+MAP (@-FMAINV) TARGET VerbSupine | Participle (-1C* VerbAux + TempsFin BARRIER CLB);
+MAP (@-FMAINV) TARGET Inf (-1C* MODV + TempsFin BARRIER CLB + PRE-N); 
+
+MAP (@←N) TARGET Adj + $$NAGD + $$NUMBER (0C Adj) (-1C N + $$NAGD + $$NUMBER);
+SELECT Adj + @←N (0C Adj) (NOT 1* N + $$NAGD + $$NUMBER) (-1C N + $$NAGD + $$NUMBER); ## ugly hack.
+
+MAP (@N→) TARGET Num + Gen (0C Num) (1C N + Gen);
+MAP (@N→) TARGET Num (0C Num) (1C* N BARRIER CLB | VerbFin);
+MAP (@N→) TARGET (det) (0C (det)) (1C N);
+MAP (@←N) TARGET Num + Gen (0C Num + $$NUMBER) (-1C N + $$NUMBER);
+MAP (@←N) TARGET Num + Gen (0C Num) (-1C N + Gen);
+
+MAP (@CS→) TARGET (cnjsub) (0C (cnjsub));
+
+MAP (@ADVL→) TARGET Adv (1* @+FMAINV | @-FMAINV BARRIER CLB) ;
+MAP (@←ADVL) TARGET Adv (-1* @+FMAINV | @-FMAINV BARRIER CLB) ;
+
+AFTER-SECTIONS
+
+#Okkur fannst hún grunsamleg er hún kom hingað fyrst og keypti sprautur og nálar.
+SELECT @SUBJ→ IF (1C @+FMAINV);
+
+MAP (@X) TARGET VerbFin;
+
+MAP (@X) TARGET N;
+MAP (@X) TARGET ProperNom;
+MAP (@X) TARGET Det;
+
+# ganga# í vs. ganga+í
+#SUBSTITUTE (pr @X) (pr) Verb (0 (+í));
+#SUBSTITUTE (pr @+FMAINV) (pr) Verb (0 (+í));
+#SUBSTITUTE (pr @-FMAINV) (pr) Verb (0 (+í));
+#
+#SUBSTITUTE (sg pr) (sg) Verb;
+#SUBSTITUTE (+í) (+í pr) Verb (0 (+í));
