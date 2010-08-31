@@ -30,6 +30,7 @@
 
      <def-cat n="navn_def">
        <cat-item tags="n.*.*.*.def"/>
+       <cat-item tags="n.*.*.*.def.*"/>
      </def-cat>
 
      <def-cat n="pron_pers">
@@ -45,10 +46,12 @@
      <def-cat n="pron_pos">
        <cat-item tags="prn.pos.*"/>
        <cat-item tags="prn.*.*.*.*.gen"/>
+       <cat-item tags="prn.*.*.*.*.gen.*"/>
      </def-cat>
 
      <def-cat n="np_ant_gen">
        <cat-item tags="np.ant.*.*.gen"/>
+       <cat-item tags="np.ant.*.*.gen.*"/>
      </def-cat>
 
      <def-cat n="navn">
@@ -177,6 +180,7 @@
       <def-var n="definite"/>
       <def-var n="numero"/>
       <def-var n="adjectiu1"/>
+      <def-var n="person"/>
       <def-var n="poss_prep"/>
 </section-def-vars>
 
@@ -303,25 +307,56 @@
       <clip pos="1" side="tl" part="lem"/>
       <lit v="prnpers"/>
     </let>
+    <let>
+      <var n="person"/>
+      <clip pos="1" side="tl" part="pers"/>
+    </let>
     <choose>
       <when>
         <test>
-          <or>
             <equal>
               <clip pos="1" side="sl" part="lem"/>
               <lit v="minn"/>
             </equal>
+        </test>
+        <let>
+          <var n="person"/>
+          <lit-tag v="p1"/>
+        </let>
+        <let>
+          <clip pos="1" side="tl" part="gen"/>
+          <lit-tag v="mf"/>
+        </let>
+      </when>
+      <when>
+        <test>
             <equal>
               <clip pos="1" side="sl" part="lem"/>
-              <lit v="tinn"/>
+              <lit v="þinn"/>
             </equal>
-          </or>
         </test>
+        <let>
+          <var n="person"/>
+          <lit-tag v="p2"/>
+        </let>
         <let>
           <clip pos="1" side="tl" part="gen"/>
           <lit-tag v="mf"/>
         </let>
       </when>   
+      <when>
+        <test>
+            <equal>
+              <clip pos="1" side="sl" part="lem"/>
+              <lit v="sinn"/>
+            </equal>
+        </test>
+        <let>
+          <var n="person"/>
+          <lit-tag v="p3"/>
+        </let>
+      </when>   
+
     </choose>
   </def-macro>
 
@@ -636,14 +671,20 @@
         </call-macro>
 	<out>
 	  <lu>
-	    <clip pos="1" side="tl" part="whole"/>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_nom"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="cas"/>
+	    <clip pos="1" side="tl" part="defnes"/>
+	    <clip pos="1" side="tl" part="lemq"/>
             <var n="poss_prep"/>
 	  </lu>
           <b pos="1"/>
 	  <lu>
 	    <clip pos="2" side="tl" part="lemh"/>
 	    <clip pos="2" side="tl" part="a_prn"/>
-	    <clip pos="2" side="tl" part="pers"/>
+            <var n="person"/>
 	    <clip pos="2" side="tl" part="gen"/>
 	    <clip pos="2" side="tl" part="nbr"/>
 	    <clip pos="2" side="tl" part="cas"/>
