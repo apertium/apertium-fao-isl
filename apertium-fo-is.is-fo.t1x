@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
 <transfer>
 <section-def-cats>
+     <def-cat n="cnjsub">
+       <cat-item tags="cnjsub"/>
+       <cat-item tags="cnjsub.*"/>
+     </def-cat>
+
+     <def-cat n="cnjcoo">
+       <cat-item tags="cnjcoo"/>
+       <cat-item tags="cnjcoo.*"/>
+     </def-cat>
+
+     <def-cat n="adv">
+       <cat-item tags="adv"/>
+       <cat-item tags="adv.*"/>
+     </def-cat>
+
      <def-cat n="sent">
        <cat-item tags="sent"/>
+       <cat-item tags="sent.*"/>
      </def-cat>
   
      <def-cat n="verb">
@@ -14,6 +30,16 @@
 
      <def-cat n="navn_def">
        <cat-item tags="n.*.*.*.def"/>
+     </def-cat>
+
+     <def-cat n="pron_pers">
+       <cat-item tags="prn.p1.*"/>
+       <cat-item tags="prn.p2.*"/>
+       <cat-item tags="prn.p3.*"/>
+     </def-cat>
+
+     <def-cat n="pron_dem">
+       <cat-item tags="prn.dem.*"/>
      </def-cat>
 
      <def-cat n="pron_pos">
@@ -35,12 +61,26 @@
 
      <def-cat n="adjec">          
         <cat-item tags="adj.*"/>
-        <cat-item tags="vblex.pp.*"/>
+     </def-cat>
+
+     <def-cat n="pp">
+        <cat-item tags="vblex.*.pp.*"/>
+        <cat-item tags="vblex.*.supn.*"/>
      </def-cat>
          
 </section-def-cats>
 
 <section-def-attrs>
+     <def-attr n="a_cnj">
+	  <attr-item tags="cnjsub"/>
+	  <attr-item tags="cnjcoo"/>
+     </def-attr>
+
+     <def-attr n="a_adv">
+	  <attr-item tags="adv"/>
+	  <attr-item tags="adv.itg"/>
+     </def-attr>
+
      <def-attr n="a_nom">
 	  <attr-item tags="n"/>
 	  <attr-item tags="np.ant"/>
@@ -61,16 +101,20 @@
 	  <attr-item tags="adj.comp"/>
 	  <attr-item tags="adj.sup"/>
 	  <attr-item tags="adj.ssup"/>
-	  <attr-item tags="adj.sta"/>
-	  <attr-item tags="adj.vei"/>
-	  <attr-item tags="adj.ord.vei"/>
-	  <attr-item tags="adj.ord.sta"/>
+	  <attr-item tags="adj.ord"/>
      </def-attr>
 
      <def-attr n="a_verb">
           <attr-item tags="vblex"/>
+	  <attr-item tags="vbser"/>
+	  <attr-item tags="vbhaver"/>
 	  <attr-item tags="vbmod"/>
 	  <attr-item tags="vaux"/>
+     </def-attr>
+
+     <def-attr n="strength">
+          <attr-item tags="sta"/>
+          <attr-item tags="vei"/>
      </def-attr>
 
      <def-attr n="gen">
@@ -94,6 +138,7 @@
 	  <attr-item tags="past"/>
 	  <attr-item tags="pres"/>
 	  <attr-item tags="ppres"/>
+	  <attr-item tags="pri"/>
 	  <attr-item tags="prs"/>
 	  <attr-item tags="psi"/>
 	  <attr-item tags="pss"/>
@@ -421,6 +466,10 @@
         </let>
       </when>
     </choose>
+    <let>
+      <clip pos="1" side="tl" part="voz"/>
+      <lit v=""/>
+    </let>
   </def-macro>
 
   <def-macro n="conj_adjec1" npar="1">
@@ -429,36 +478,18 @@
         <test> <!-- Remove strength -->
           <or>
               <equal>
-                <clip pos="1" side="tl" part="a_adj"/>
-                <lit-tag v="adj.vei"/>
+                <clip pos="1" side="tl" part="strength"/>
+                <lit-tag v="vei"/>
               </equal>
               <equal>
-                <clip pos="1" side="tl" part="a_adj"/>
-                <lit-tag v="adj.sta"/>
+                <clip pos="1" side="tl" part="strength"/>
+                <lit-tag v="sta"/>
               </equal>
           </or>
         </test>
         <let>
-          <clip pos="1" side="tl" part="a_adj"/>
-          <lit-tag v="adj"/>
-        </let>
-      </when>
-      <when>
-        <test> <!-- Remove strength -->
-          <or>
-              <equal>
-                <clip pos="1" side="tl" part="a_adj"/>
-                <lit-tag v="adj.ord.vei"/>
-              </equal>
-              <equal>
-                <clip pos="1" side="tl" part="a_adj"/>
-                <lit-tag v="adj.ord.sta"/>
-              </equal>
-          </or>
-        </test>
-        <let>
-          <clip pos="1" side="tl" part="a_adj"/>
-          <lit-tag v="adj.ord"/>
+          <clip pos="1" side="tl" part="strength"/>
+          <lit v=""/>
         </let>
       </when>
 
@@ -487,6 +518,87 @@
 
     <!-- SINTAGMES NOMINALS // NOUN PHRASES -->
 
+    <rule comment="REGLA: NAVN">
+      <pattern>
+	<pattern-item n="navn"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_nom"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="cas"/>
+	    <clip pos="1" side="tl" part="defnes"/>
+	    <clip pos="1" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: DEMONSTRATIVE PRONOUN">
+      <pattern>
+	<pattern-item n="pron_dem"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_prn"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="cas"/>
+	    <clip pos="1" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: PERSONAL PRONOUN">
+      <pattern>
+	<pattern-item n="pron_pers"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_prn"/>
+	    <clip pos="1" side="tl" part="pers"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="cas"/>
+	    <clip pos="1" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
+
+    <rule comment="REGLA: PP">
+      <pattern>
+	<pattern-item n="pp"/>
+      </pattern>
+      <action>
+        <call-macro n="conj_adjec1">
+          <with-param pos="1"/>
+        </call-macro>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_verb"/>
+            <lit-tag v="pp"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="cas"/>
+	    <clip pos="1" side="tl" part="defnes"/>
+	    <clip pos="1" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: ADJEC">
       <pattern>
 	<pattern-item n="adjec"/>
@@ -497,7 +609,13 @@
         </call-macro>
 	<out>
 	  <lu>
-	    <clip pos="1" side="tl" part="whole"/>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_adj"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="cas"/>
+	    <clip pos="1" side="tl" part="defnes"/>
+	    <clip pos="1" side="tl" part="lemq"/>
 	  </lu>
 	</out>
       </action>
@@ -547,11 +665,63 @@
         </call-macro>
 	<out>
 	  <lu>
-	    <clip pos="1" side="tl" part="whole"/>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_verb"/>
+	    <clip pos="1" side="tl" part="temps"/>
+	    <clip pos="1" side="tl" part="pers"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="lemq"/>
 	  </lu>
 	</out>
       </action>
     </rule>
+
+    <rule comment="REGLA: ADV // í gær → í gjár">
+      <pattern>
+	<pattern-item n="adv"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_adv"/>
+	    <clip pos="1" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: CNJCOO // og → og">
+      <pattern>
+	<pattern-item n="cnjcoo"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_cnj"/>
+	    <clip pos="1" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: CNJSUB // ef → um">
+      <pattern>
+	<pattern-item n="cnjsub"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_cnj"/>
+	    <clip pos="1" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: SENT // . → .">
       <pattern>

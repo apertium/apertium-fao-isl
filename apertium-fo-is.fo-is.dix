@@ -46,6 +46,7 @@
 
     <sdef n="ij"       c="Interjection"/>
     <sdef n="sent"     c="Sentence marker"/>
+    <sdef n="cm"       c="Comma"/>
 
     <sdef n="GD"       c="Gender to be determined"/>
   </sdefs>
@@ -146,6 +147,7 @@
     <e r="RL"><p><l>av<b/>tí<b/>at<s n="cnjsub"/></l><r>sökum<b/>þess<b/>að<s n="cnjsub"/></r></p></e>
     <e r="RL"><p><l>av<b/>tí<b/>at<s n="cnjsub"/></l><r>vegna<b/>þess<b/>að<s n="cnjsub"/></r></p></e>
     <e><p><l>tí<b/>at<s n="cnjsub"/></l><r>því<b/>að<s n="cnjsub"/></r></p></e>
+    <e><p><l>er<s n="cnjsub"/></l><r>er<s n="cnjsub"/></r></p></e>
     <e><p><l>táið<s n="cnjsub"/></l><r>þá<b/>er<s n="cnjsub"/></r></p></e>
     <e><p><l>inntil<s n="cnjsub"/></l><r>þar<b/>til<b/>er<s n="cnjsub"/></r></p></e>
     <e><p><l>eins<b/>og<s n="cnjsub"/></l><r>eins<b/>og<s n="cnjsub"/></r></p></e>
@@ -168,11 +170,11 @@
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>hann<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>hún<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>það<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e><p><l>prnpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>við<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e><p><l>prnpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>þið<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>þeir<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>þær<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></l><r>þau<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>ég<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>þú<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>hann<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>hún<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><p><l>prnpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></l><r>það<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
 
     <e r="RL"><p><l>prnpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>vér<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>prnpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>þér<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -283,7 +285,6 @@
     <e><p><l>dóttir<s n="n"/><s n="f"/></l><r>dóttir<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>vinna<s n="n"/><s n="f"/></l><r>vinna<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>bilur<s n="n"/><s n="m"/></l><r>bíll<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
-    <e><p><l>gudur<s n="n"/><s n="m"/></l><r>guð<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>hundur<s n="n"/><s n="m"/></l><r>hundur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>bóndi<s n="n"/><s n="m"/></l><r>bóndi<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>morgun<s n="n"/><s n="m"/></l><r>morgunn<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
@@ -326,6 +327,7 @@
     <e><p><l>hugi<s n="n"/><s n="m"/></l><r>hugi<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
     <e><p><l>stund<s n="n"/><s n="f"/></l><r>stund<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>gudur<s n="n"/><s n="m"/></l><r>guð<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
+    <e r="RL"><p><l>gudur<s n="n"/><s n="m"/></l><r>guð<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>summar<s n="n"/><s n="nt"/></l><r>sumar<s n="n"/><s n="nt"/></r></p><par n="default__n"/></e>
     <e><p><l>talva<s n="n"/><s n="f"/></l><r>tafla<s n="n"/><s n="f"/></r></p><par n="default__n"/></e>
     <e><p><l>kraftur<s n="n"/><s n="m"/></l><r>kraftur<s n="n"/><s n="m"/></r></p><par n="default__n"/></e>
@@ -839,8 +841,10 @@
 
     <e><p><l>her<s n="adv"/></l><r>hér<s n="adv"/></r></p></e>
     <e><p><l>ikki<s n="adv"/></l><r>ekki<s n="adv"/></r></p></e>
+    <e><p><l>í<b/>dag<s n="adv"/></l><r>í<b/>dag<s n="adv"/></r></p></e>
     <e><p><l>í<b/>gjár<s n="adv"/></l><r>í<b/>gær<s n="adv"/></r></p></e>
     <e><p><l>í<b/>morgin<s n="adv"/></l><r>á<b/>morgun<s n="adv"/></r></p></e>
+    <e><p><l>í<b/>upphavi<s n="adv"/></l><r>í<b/>upphafi<s n="adv"/></r></p></e>
     <e><p><l>ofta<s n="adv"/></l><r>oft<s n="adv"/></r></p></e>
     <e><p><l>mikið<s n="adv"/></l><r>mikið<s n="adv"/></r></p></e>
     <e><p><l>upp<s n="adv"/></l><r>upp<s n="adv"/></r></p></e>
@@ -859,6 +863,7 @@
     <e><p><l>burt<s n="adv"/></l><r>burt<s n="adv"/></r></p></e>
     <e><p><l>eisini<s n="adv"/></l><r>einnig<s n="adv"/></r></p></e>
     <e><p><l>soleiðis<s n="adv"/></l><r>þannig<s n="adv"/></r></p></e><!-- ? -->
+    <e><p><l>væl<s n="adv"/></l><r>vel<s n="adv"/></r></p></e><!-- ? -->
 
     <e><p><l>hví<s n="adv"/><s n="itg"/></l><r>hví<s n="adv"/><s n="itg"/></r></p></e>
     <e r="RL"><p><l>hví<s n="adv"/><s n="itg"/></l><r>af<b/>hverju<s n="adv"/><s n="itg"/></r></p></e>
@@ -1025,8 +1030,8 @@
 
 
     <!-- Punctuation -->
-    <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>[.\?;:!·]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
-
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
   </section>
 </dictionary>
