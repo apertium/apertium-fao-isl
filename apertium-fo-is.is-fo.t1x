@@ -11,6 +11,11 @@
        <cat-item tags="cnjcoo.*"/>
      </def-cat>
 
+     <def-cat n="det">
+       <cat-item tags="det"/>
+       <cat-item tags="det.*"/>
+     </def-cat>
+
      <def-cat n="adv">
        <cat-item tags="adv"/>
        <cat-item tags="adv.*"/>
@@ -96,6 +101,14 @@
 	  <attr-item tags="prn.pos"/>
 	  <attr-item tags="prn.dem"/>
 	  <attr-item tags="prn.qnt"/>
+     </def-attr>
+
+     <def-attr n="a_det">
+	  <attr-item tags="det.def"/>
+	  <attr-item tags="det.dem"/>
+	  <attr-item tags="det.ind"/>
+	  <attr-item tags="det.ord"/>
+	  <attr-item tags="det.qnt"/>
      </def-attr>
 
      <def-attr n="a_adj">
@@ -628,6 +641,24 @@
 	    <clip pos="1" side="tl" part="nbr"/>
 	    <clip pos="1" side="tl" part="cas"/>
 	    <clip pos="1" side="tl" part="defnes"/>
+	    <clip pos="1" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: DET">
+      <pattern>
+	<pattern-item n="det"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_det"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="cas"/>
 	    <clip pos="1" side="tl" part="lemq"/>
 	  </lu>
 	</out>
