@@ -129,10 +129,11 @@ apertium_fo_is_DATA=$(PREFIX2).automorf.bin \
 install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
 	cp *.mode modes/
-	$(INSTALL_DATA) $(PREFIX2).mode $(apertium_fo_modesdir)
+	test -d $(DESTDIR)$(apertium_fo_modesdir) || mkdir $(DESTDIR)$(apertium_fo_modesdir)
+	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_fo_modesdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x 
 
-# $(BASENAME).$(PREFIX2).t2x $(apertium_fo_isdir)
-#	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x  $(apertium_fo_isdir)
+# $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_fo_isdir)
+#	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x  $(DESTDIR)$(apertium_fo_isdir)
 
 CLEANFILES = -rf $(TARGETS_COMMON) modes
