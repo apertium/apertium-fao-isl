@@ -1,6 +1,6 @@
 VERSION=0.1.0
-LANG1=fo
-LANG2=is
+LANG1=fao
+LANG2=isl
 PREFIX1=$(LANG1)-$(LANG2)
 PREFIX2=$(LANG2)-$(LANG1)
 
@@ -105,14 +105,14 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
 #           $(BASENAME).$(LANG1).tsx 
 #           $(BASENAME).$(LANG2).tsx  
 
-apertium_fo_isdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_fo_modesdir=$(prefix)/share/apertium/modes/
+apertium_fao_isldir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
+apertium_fao_modesdir=$(prefix)/share/apertium/modes/
 
 $(PREFIX2).mode: modes.xml 
 	apertium-gen-modes modes.xml
 	cp *.mode modes/
 
-apertium_fo_is_DATA=$(PREFIX2).automorf.bin \
+apertium_fao_isl_DATA=$(PREFIX2).automorf.bin \
                     $(PREFIX2).autobil.bin \
                     $(PREFIX2).autogen.bin \
                     $(PREFIX2).prob  \
@@ -124,16 +124,16 @@ apertium_fo_is_DATA=$(PREFIX2).automorf.bin \
 #$(PREFIX2).autopgen.bin
 #$(PREFIX1).mode
 		  
-#$(INSTALL_DATA) $(PREFIX2).mode $(apertium_fo_modesdir)
+#$(INSTALL_DATA) $(PREFIX2).mode $(apertium_fao_modesdir)
 
 install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
 	cp *.mode modes/
-	test -d $(DESTDIR)$(apertium_fo_modesdir) || mkdir $(DESTDIR)$(apertium_fo_modesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_fo_modesdir)
+	test -d $(DESTDIR)$(apertium_fao_modesdir) || mkdir $(DESTDIR)$(apertium_fao_modesdir)
+	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_fao_modesdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x 
 
-# $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_fo_isdir)
-#	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x  $(DESTDIR)$(apertium_fo_isdir)
+# $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_fao_isldir)
+#	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x  $(DESTDIR)$(apertium_fao_isldir)
 
 CLEANFILES = -rf $(TARGETS_COMMON) modes

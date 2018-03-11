@@ -7,14 +7,14 @@ AC_PREREQ(2.52)
 m4_define([required_apertium_version], [3.2.0])
 m4_define([required_lttoolbox_version], [3.2.0])
 
-AC_INIT([apertium-fo-is], [0.1.0], [ftyers@users.sourceforge.net])
-AM_INIT_AUTOMAKE([apertium-fo-is], [0.1.0], no-define)
+AC_INIT([apertium-fao-isl], [0.1.0], [ftyers@users.sourceforge.net])
+AM_INIT_AUTOMAKE([apertium-fao-isl], [0.1.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 AC_CONFIG_HEADER([config])
 
-PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
-PKG_CHECK_MODULES(LTTOOLBOX,   lttoolbox >= required_lttoolbox_version, [], [PKG_CHECK_MODULES(LTTOOLBOX,   lttoolbox-3.2 >= required_lttoolbox_version)])
+PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.4 >= required_apertium_version)])
+PKG_CHECK_MODULES(LTTOOLBOX,   lttoolbox >= required_lttoolbox_version, [], [PKG_CHECK_MODULES(LTTOOLBOX,   lttoolbox-3.4 >= required_lttoolbox_version)])
 
 
 AC_PATH_PROG(CGCOMP, cg-comp, no)
