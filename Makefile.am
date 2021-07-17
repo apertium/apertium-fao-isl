@@ -108,21 +108,17 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
 
 apertium_fao_isldir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 
-apertium_fao_isl_DATA=$(PREFIX2).automorf.bin \
-                    $(PREFIX2).autobil.bin \
-                    $(PREFIX2).autogen.bin \
+apertium_fao_isl_DATA=$(TARGETS_COMMON) \
                     $(PREFIX2).prob  \
-		    $(PREFIX2).rlx.bin \
-		    $(PREFIX2).t1x.bin
-		    
+					$(BASENAME).$(PREFIX2).t1x
+
 #$(PREFIX1).t2x.bin $(PREFIX1).t3x.bin 
 #$(PREFIX2).autopgen.bin
 #$(PREFIX1).mode
-		  
-install-data-local:
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_fao_isldir)
 
-# $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_fao_isldir)
-#	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x  $(DESTDIR)$(apertium_fao_isldir)
+install-data-local: install-modes
 
 CLEANFILES = -rf $(TARGETS_COMMON) modes
+
+test: all
+	apertium-regtest test

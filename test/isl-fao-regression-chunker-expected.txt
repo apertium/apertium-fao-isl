@@ -1,0 +1,144 @@
+[0JidHEFiBlOu#0] ^Prnpers<prn><p1><mf><sg><nom>$ ^fáa<vblex><pri><p1><sg>$ ^lesa<vblex><pp>$ ^bók<n><f><sg><acc><def>$
+[/0JidHEFiBlOu]
+[2lOzaUlJ6FJw#0] ^Prnpers<prn><p2><mf><sg><nom>$ ^vera<vblex><pri><p2><sg>$
+[/2lOzaUlJ6FJw]
+[34WhsEbYO_rX#0] ^Bilur<n><m><sg><nom><def>$ ^hjá<pr>$ ^prnpers<prn><p3><f><sg><dat>$
+[/34WhsEbYO_rX]
+[52SE2JJvLbYs#0] ^Hví<adv><itg>$^?<sent>$
+[/52SE2JJvLbYs]
+[5agpn4x0-hBn#0] ^Hví<adv><itg>$ ^ikki<adv>$^?<sent>$
+[/5agpn4x0-hBn]
+[6E23Ja5uChb1#0] ^Prnpers<prn><p3><m><sg><nom>$ ^vaska<vblex><pri><p3><sg>$ ^seg<prn><ref><p3><mf><sp><dat>$^.<sent>$
+[/6E23Ja5uChb1]
+[6IHUJvyGVAwk#0] ^Prnpers<prn><p1><mf><sg><nom>$ ^lesa<vblex><pri><p1><sg>$
+[/6IHUJvyGVAwk]
+[6XAIM5W4ZQDx#0] ^Prnpers<prn><p1><mf><sg><nom>$ ^síggja<vblex><past><p1><sg>$ ^genta<n><f><sg><acc><def>$^.<sent>$
+[/6XAIM5W4ZQDx]
+[7G8i353NInai#0] ^Hesin<prn><dem><nt><sg><nom>$ ^vera<vblex><pri><p3><sg>$ ^stórur<adj><pst><m><sg><nom>$ ^bilur<n><m><sg><nom><ind>$ ^og<cnjcoo>$ ^lítil<adj><pst><f><sg><nom>$ ^bók<n><f><sg><nom><ind>$^.<sent>$
+[/7G8i353NInai]
+[906nUc_bqPCZ#0] ^Prnpers<prn><p3><f><sg><nom>$ ^taka<vblex><past><p3><sg>$ ^hattur<n><m><sg><acc><def>$ ^hjá<pr>$ ^prnpers<prn><p3><f><sg><dat>$
+[/906nUc_bqPCZ]
+[9TkWDuXImIqV#0] ^Verða<vblex><pp><f><sg><nom>$
+[/9TkWDuXImIqV]
+[9coyeAcJiOIF#0] ^Prnpers<prn><p1><mf><sg><nom>$ ^hava<vbhaver><pri><p1><sg>$ ^lesa<vblex><pp>$ ^bók<n><f><sg><acc><def>$
+[/9coyeAcJiOIF]
+[A7DeWEE-msct#0] ^Prnpers<prn><p1><mf><pl><nom>$ ^munna<vbmod><pri><p1><pl>$ ^fara<vblex><inf>$ ^í dag<adv>$
+[/A7DeWEE-msct]
+[ACc6dOyjeibm#0] ^Prnpers<prn><p1><mf><sg><nom>$ ^eta<vblex><past><p1><sg>$ ^fiskur<n><m><sg><acc><ind>$
+[/ACc6dOyjeibm]
+[AxNVx6xDe6EA#0] ^Prnpers<prn><p1><mf><sg><nom>$ ^hava<vbhaver><pri><p1><sg>$ ^fara<vblex><pp>$ ^í<pr>$ ^vinna<n><f><sg><acc><def>$
+[/AxNVx6xDe6EA]
+[DmC5QRZIy6qL#0] ^Mamma<n><f><sg><nom><ind>$ ^genta<n><f><sg><gen><def>$
+[/DmC5QRZIy6qL]
+[EQ9YiqJctVUO#0] ^Í upphavi<adv>$ ^skapa<vblex><past><p3><sg>$ ^Gud<np><al><m><sg><nom><@X>$ ^himmal<n><m><sg><acc><ind>$ ^og<cnjcoo>$ ^jørð<n><f><sg><nom><ind>$^.<sent>$
+[/EQ9YiqJctVUO]
+[EZvjFcAmSOAj#0] ^Prnpers<prn><p1><mf><sg><nom>$ ^eta<vblex><pri><p1><sg>$ ^fiskur<n><m><sg><acc><ind>$
+[/EZvjFcAmSOAj]
+[GJbvlrWTucGR#0] ^Prnpers<prn><p1><mf><pl><nom>$ ^vera<vblex><pri><p1><pl>$
+[/GJbvlrWTucGR]
+[GK8M-geJZlMi#0] ^Breyð<n><nt><sg><nom><def>$ ^vera<vblex><past><p3><sg>$ ^baka<vblex><pp>$
+[/GK8M-geJZlMi]
+[GbnjqgqNroa1#0] ^Orð<n><nt><sg><nom><ind>$
+[/GbnjqgqNroa1]
+[HNrYUaEgjgDW#0] ^Prnpers<prn><p3><nt><pl><nom>$ ^fara<vblex><pri><p3><pl>$ ^í<pr>$ ^vinna<n><f><sg><acc><def>$
+[/HNrYUaEgjgDW]
+[HyFOgyXo-oQv#0] ^Prnpers<prn><p3><m><pl><nom>$ ^vera<vblex><pri><p3><pl>$
+[/HyFOgyXo-oQv]
+[JHmIMMJjLyS4#0] ^Nær<adv><itg>$ ^koma<vblex><pri><p2><sg>$ ^prnpers<prn><p2><mf><sg><nom>$^?<sent>$
+[/JHmIMMJjLyS4]
+[LBSOOpS0tL7S#0] ^Mín<prn><pos><m><pl><acc>$ ^bók<n><f><sg><nom><ind>$
+[/LBSOOpS0tL7S]
+[Lko7UwNORcZe#0] ^Hús<n><nt><sg><nom><def>$ ^hjá<pr>$ ^prnpers<prn><p1><mf><sg><dat>$
+[/Lko7UwNORcZe]
+[NFXwn6qsY4wI#0] ^Eyga<n><nt><pl><nom><def>$ ^í<pr>$ ^prnpers<prn><p3><m><sg><dat>$
+[/NFXwn6qsY4wI]
+[OmfcE2rFGsWa#0] ^Dóttir<n><f><sg><nom><ind>$ ^mín<prn><pos><m><sg><nom>$
+[/OmfcE2rFGsWa]
+[OyBJQFweOotn#0] ^Hundur<n><m><sg><nom><def>$
+[/OyBJQFweOotn]
+[PPeHzfP_VnEG#0] ^Prnpers<prn><p1><mf><sg><nom>$ ^baka<vblex><past><p1><sg>$ ^breyð<n><nt><sg><nom><ind>$
+[/PPeHzfP_VnEG]
+[R2Av0deyzG1o#0] ^Prnpers<prn><p3><m><sg><nom>$ ^fara<vblex><pri><p3><sg>$ ^í morgin<adv>$
+[/R2Av0deyzG1o]
+[T_8Gc3_K7D6T#0] ^Prnpers<prn><p2><mf><pl><nom>$ ^vera<vblex><pri><p2><pl>$
+[/T_8Gc3_K7D6T]
+[WIteD6b0D5Yo#0] ^Her<adv>$ ^vera<vblex><pri><p3><sg>$ ^hús<n><nt><sg><nom><ind>$ ^ríkur<adj><pst><m><sg><gen>$ ^maður<n><m><sg><gen><ind>$^.<sent>$
+[/WIteD6b0D5Yo]
+[XhVN5brSXnu9#0] ^Mamma<n><f><sg><nom><ind>$ ^mín<prn><pos><f><sg><nom>$
+[/XhVN5brSXnu9]
+[Y_f-gUq5BgA7#0] ^Prnpers<prn><p3><nt><sg><nom>$ ^vera<vblex><pri><p3><sg>$ ^annaðhvørt<cnjcoo>$ ^prnpers<prn><p1><mf><sg><nom>$ ^ella<cnjcoo>$ ^prnpers<prn><p3><m><sg><nom>$^.<sent>$
+[/Y_f-gUq5BgA7]
+[ZAZejq-Pa_ws#0] ^Hví<adv><itg>$ ^prnpers<prn><p3><m><sg><nom>$^?<sent>$
+[/ZAZejq-Pa_ws]
+[_-Y8UAnru4Xi#0] ^Prnpers<prn><p2><mf><pl><gen>$ ^bók<n><f><sg><nom><ind>$
+[/_-Y8UAnru4Xi]
+[_JDAOQYChecX#0] ^Bilur<n><m><sg><nom><def>$ ^hjá<pr>$ ^prnpers<prn><p1><mf><sg><dat>$
+[/_JDAOQYChecX]
+[_yQOjzWc3uKd#0] ^Prnpers<prn><p3><m><sg><gen>$ ^bók<n><f><sg><nom><ind>$
+[/_yQOjzWc3uKd]
+[_ybxld0d2KCw#0] ^Prnpers<prn><p2><mf><pl><nom>$ ^lesa<vblex><pri><p2><pl>$ ^bók<n><f><sg><acc><def>$
+[/_ybxld0d2KCw]
+[a-BrfPbGQPA_#0] ^Prnpers<prn><p1><mf><sg><nom>$ ^skriva<vblex><pri><p1><sg>$
+[/a-BrfPbGQPA_]
+[aHgMYeqFMnPf#0] ^Prnpers<prn><p3><nt><pl><nom>$ ^fara<vblex><past><p3><pl>$ ^í<pr>$ ^vinna<n><f><sg><acc><def>$
+[/aHgMYeqFMnPf]
+[akm4u0ev8FrJ#0] ^Mín<prn><pos><nt><sg><nom>$ ^blað<n><nt><sg><nom><ind>$
+[/akm4u0ev8FrJ]
+[aqBArGhDRoWc#0] ^Hundur<n><m><sg><nom><ind>$
+[/aqBArGhDRoWc]
+[aqjnv8LaEzuf#0] ^Hvussu<adv><itg>$ ^hava<vbhaver><pri><p2><sg>$ ^prnpers<prn><p2><mf><sg><nom>$ ^prnpers<prn><p3><nt><sg><acc>$^?<sent>$
+[/aqjnv8LaEzuf]
+[cg_A3pb2a7xH#0] ^Prnpers<prn><p1><mf><sg><nom>$ ^vera<vblex><pri><p1><sg>$
+[/cg_A3pb2a7xH]
+[cq7slFNAaN_C#0] ^Hvør<prn><itg><nt><pl><acc>$ ^vera<vblex><pri><p2><sg>$ ^prnpers<prn><p2><mf><sg><nom>$^?<sent>$
+[/cq7slFNAaN_C]
+[dcIVbtXG9C_d#0] ^Prnpers<prn><p3><m><sg><nom>$ ^fara<vblex><past><p3><sg>$ ^í gjár<adv>$
+[/dcIVbtXG9C_d]
+[e3Im8FCmKpts#0] ^@Hvaða<prn><itg><mf><sp><nom>$ ^hundur<n><m><sg><nom><ind>$^?<sent>$
+[/e3Im8FCmKpts]
+[eqaewjXsv7af#0] ^Prnpers<prn><p3><m><sg><nom>$ ^vera<vblex><pri><p3><sg>$
+[/eqaewjXsv7af]
+[ftFT1e6A5ifH#0] ^Hvar<adv><itg>$ ^keypa<vblex><past><p2><sg>$ ^prnpers<prn><p2><mf><sg><nom>$ ^bók<n><f><sg><acc><def>$^?<sent>$
+[/ftFT1e6A5ifH]
+[gH6GCFETIgYT#0] ^Prnpers<prn><p3><f><sg><gen>$ ^bilur<n><m><sg><nom><ind>$
+[/gH6GCFETIgYT]
+[gYSCKGG6UEzP#0] ^Prnpers<prn><p2><mf><sg><nom>$ ^lesa<vblex><past><p2><sg>$ ^bók<n><f><sg><acc><def>$ ^vera<vblex><pri><p3><sg>$ ^prnpers<prn><p2><mf><sg><nom>$ ^@gæta<vblex><inf>$
+[/gYSCKGG6UEzP]
+[gj-Jbe_Jls2x#0] ^Prnpers<prn><p1><mf><sg><nom>$ ^lesa<vblex><past><p1><sg>$
+[/gj-Jbe_Jls2x]
+[iJFMD7MiOnj0#0] ^Prnpers<prn><p3><m><sg><nom>$ ^siga<vblex><past><p3><sg>$ ^at<pr>$ ^skip<n><nt><sg><nom><def>$ ^@færa<vblex><pri><p3><sg>$ ^í morgin<adv>$
+[/iJFMD7MiOnj0]
+[mHcDcNzdk-Rj#0] ^@Heimili<n><nt><sg><nom><ind>$ ^mín<prn><pos><nt><sg><nom>$
+[/mHcDcNzdk-Rj]
+[ouTppGFfDsyd#0] ^Stórur<adj><pst><m><sg><nom>$ ^hundur<n><m><sg><nom><def>$
+[/ouTppGFfDsyd]
+[qP0Jrt9Q52i4#0] ^Prnpers<prn><p1><mf><sg><nom>$ ^skriva<vblex><past><p1><sg>$
+[/qP0Jrt9Q52i4]
+[rK3nvatKU8LY#0] ^Prnpers<prn><p3><f><sg><nom>$ ^klæða<vblex><pri><p3><sg>$ ^seg<prn><ref><p3><mf><sp><acc>$^.<sent>$
+[/rK3nvatKU8LY]
+[rvu2qZ3fEqWP#0] ^Prnpers<prn><p3><m><sg><nom>$ ^tala<vblex><pri><p3><sg>$ ^@mikill<det><qnt><nt><sg><nom>$
+[/rvu2qZ3fEqWP]
+[s-1j8-Ib_JJE#0] ^Um<cnjsub>$ ^prnpers<prn><p1><mf><sg><nom>$ ^vera<vblex><past><p1><sg>$ ^sterkur<adj><comp><f><sg><dat>$ ^sláa<vblex><past><p1><sg>$ ^prnpers<prn><p1><mf><sg><nom>$ ^prnpers<prn><p3><m><sg><acc>$
+[/s-1j8-Ib_JJE]
+[s2hSG7YFOLZr#0] ^Hesin<prn><dem><nt><sg><nom>$ ^vera<vblex><pri><p3><sg>$ ^bilur<n><m><sg><nom><def>$ ^hjá<pr>$ ^prnpers<prn><p3><f><sg><dat>$
+[/s2hSG7YFOLZr]
+[srFEtV2X4elZ#0] ^Himmal<n><m><sg><nom><def>$ ^vera<vblex><pri><p3><sg>$ ^bláur<adj><pst><m><sg><nom>$
+[/srFEtV2X4elZ]
+[tD1ED5pOw2M-#0] ^Hvagar<adv><itg>$ ^vera<vblex><pri><p2><sg>$ ^prnpers<prn><p2><mf><sg><nom>$ ^at<pr>$ ^fara<vblex><inf>$^?<sent>$
+[/tD1ED5pOw2M-]
+[tgpMWWmgci93#0] ^Prnpers<prn><p2><mf><pl><gen>$ ^blað<n><nt><sg><nom><ind>$
+[/tgpMWWmgci93]
+[tyXrLvXppIsF#0] ^Prnpers<prn><p3><nt><pl><nom>$ ^fara<vblex><pri><p3><pl>$ ^ofta<adv>$ ^í<pr>$ ^vinna<n><f><sg><acc><def>$
+[/tyXrLvXppIsF]
+[uaA0sxNt0K84#0] ^@Hvort<cnjsub>$ ^vilja<vblex><pri><p2><sg>$ ^prnpers<prn><p2><mf><sg><nom>$^?<sent>$
+[/uaA0sxNt0K84]
+[v3sucl-v4wYP#0] ^Bók<n><f><sg><nom><ind>$ ^prnpers<prn><p3><m><sg><gen>$
+[/v3sucl-v4wYP]
+[wbHKxBabKx7p#0] ^Hvar<adv><itg>$ ^vera<vblex><pri><p2><sg>$ ^prnpers<prn><p2><mf><sg><nom>$^?<sent>$
+[/wbHKxBabKx7p]
+[x7W3EyTxcbUU#0] ^Hvaðan<adv><itg>$ ^koma<vblex><pri><p2><sg>$ ^prnpers<prn><p2><mf><sg><nom>$^?<sent>$
+[/x7W3EyTxcbUU]
+[xLySbpWoASOK#0] ^Stórur<adj><pst><m><sg><nom>$ ^hundur<n><m><sg><nom><ind>$
+[/xLySbpWoASOK]
+[yp_UgrZy_7pS#0] ^Hvør<prn><itg><m><sg><nom>$ ^taka<vblex><past><p3><sg>$ ^bók<n><f><sg><acc><def>$^?<sent>$
+[/yp_UgrZy_7pS]

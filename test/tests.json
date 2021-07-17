@@ -1,0 +1,6 @@
+{
+    "isl-fao-regression": {
+        "input": "isl-fao-regression-input.txt",
+        "mode": "isl-fao"
+    }
+}

@@ -1,0 +1,144 @@
+[0JidHEFiBlOu#0] ^Ég/Ég<prn><p1><mf><sg><nom>$ ^get/geta<vblex><actv><pri><p1><sg>/geta<vblex><actv><imp><p2><sg>$ ^lesið/lesa<vblex><actv><supn>/lesa<vblex><actv><pri><p2><pl>/lesa<vblex><actv><prs><p2><pl>/lesa<vblex><actv><imp><p2><pl>/lesa<vblex><actv><pp><nt><sg><nom><sta>/lesa<vblex><actv><pp><nt><sg><acc><sta>$ ^bókina/bók<n><f><sg><acc><def>$
+[/0JidHEFiBlOu]
+[2lOzaUlJ6FJw#0] ^Þú/Þú<prn><p2><mf><sg><nom>$ ^ert/vera<vbser><pri><p2><sg>$
+[/2lOzaUlJ6FJw]
+[34WhsEbYO_rX#0] ^Bíllinn/Bíll<n><m><sg><nom><def>$ ^hennar/hún<prn><p3><f><sg><gen>$
+[/34WhsEbYO_rX]
+[52SE2JJvLbYs#0] ^Hví/Hví<adv><itg>$^?/?<sent>$
+[/52SE2JJvLbYs]
+[5agpn4x0-hBn#0] ^Af hverju/Af hverju<adv><itg>$ ^ekki/ekki<adv>$^?/?<sent>$
+[/5agpn4x0-hBn]
+[6E23Ja5uChb1#0] ^Hann/Hann<prn><p3><m><sg><nom>/Hann<prn><p3><m><sg><acc>$ ^þvær/þvo<vblex><actv><pri><p3><sg>$ ^sér/sjá<vblex><actv><pri><p3><sg>/sig<prn><ref><p3><mf><sp><dat>$^./.<sent>$
+[/6E23Ja5uChb1]
+[6IHUJvyGVAwk#0] ^Ég/Ég<prn><p1><mf><sg><nom>$ ^les/lesa<vblex><actv><pri><p3><sg>/lesa<vblex><actv><pri><p1><sg>/lesa<vblex><actv><imp><p2><sg>$
+[/6IHUJvyGVAwk]
+[6XAIM5W4ZQDx#0] ^Ég/Ég<prn><p1><mf><sg><nom>$ ^sá/sá<prn><dem><m><sg><nom>/sá<det><dem><m><sg><nom>/sjá<vblex><actv><past><p3><sg>/sjá<vblex><actv><past><p1><sg>$ ^stúlkuna/stúlka<n><f><sg><acc><def>$^./.<sent>$
+[/6XAIM5W4ZQDx]
+[7G8i353NInai#0] ^Þetta/Þessi<prn><dem><nt><sg><nom>/Þessi<prn><dem><nt><sg><acc>/Þessi<det><dem><nt><sg><nom>/Þessi<det><dem><nt><sg><acc>$ ^er/er<cnjsub>/er<rel><an><mf><sp>/vera<vbser><pri><p3><sg>/vera<vbser><pri><p1><sg>$ ^stór/stór<adj><pst><m><sg><nom><sta>/stór<adj><pst><f><sg><nom><sta>/stór<adj><pst><nt><pl><nom><sta>/stór<adj><pst><nt><pl><acc><sta>$ ^bíll/bíll<n><m><sg><nom><ind>$ ^og/og<cnjcoo>$ ^lítil/lítill<adj><pst><f><sg><nom><sta>/lítill<adj><pst><nt><pl><nom><sta>/lítill<adj><pst><nt><pl><acc><sta>$ ^bók/bók<n><f><sg><nom><ind>/bók<n><f><sg><acc><ind>/bók<n><f><sg><dat><ind>$^./.<sent>$
+[/7G8i353NInai]
+[906nUc_bqPCZ#0] ^Hún/Hún<prn><p3><f><sg><nom>$ ^tók/taka<vblex><actv><past><p3><sg>/taka<vblex><actv><past><p1><sg>$ ^hattinn/hattur<n><m><sg><acc><def>$ ^sín/sinn<prn><pos><f><sg><nom>/sinn<prn><pos><nt><pl><nom>/sinn<prn><pos><nt><pl><acc>/sinn<det><pos><f><sg><nom>/sinn<det><pos><nt><pl><nom>/sinn<det><pos><nt><pl><acc>/sig<prn><ref><p3><mf><sp><gen>$
+[/906nUc_bqPCZ]
+[9TkWDuXImIqV#0] ^Orðin/Orð<n><nt><pl><nom><def>/Orð<n><nt><pl><acc><def>/Verða<vblex><actv><pp><f><sg><nom><sta>/Verða<vblex><actv><pp><nt><pl><nom><sta>/Verða<vblex><actv><pp><nt><pl><acc><sta>$
+[/9TkWDuXImIqV]
+[9coyeAcJiOIF#0] ^Ég/Ég<prn><p1><mf><sg><nom>$ ^hef/hafa<vbhaver><pri><p1><sg>/hefja<vblex><actv><imp><p2><sg>$ ^lesið/lesa<vblex><actv><supn>/lesa<vblex><actv><pri><p2><pl>/lesa<vblex><actv><prs><p2><pl>/lesa<vblex><actv><imp><p2><pl>/lesa<vblex><actv><pp><nt><sg><nom><sta>/lesa<vblex><actv><pp><nt><sg><acc><sta>$ ^bókina/bók<n><f><sg><acc><def>$
+[/9coyeAcJiOIF]
+[A7DeWEE-msct#0] ^Við/Við<pr>/Ég<prn><p1><mf><pl><nom>/Viður<n><m><sg><acc><ind>$ ^munum/munu<vaux><pri><p1><pl>/munu<vaux><prs><p1><pl>/muna<vblex><actv><pri><p1><pl>/muna<vblex><actv><prs><p1><pl>/munur<n><m><pl><dat><ind>$ ^fara/fara<vblex><actv><inf>/för<n><f><pl><gen><ind>/fara<vblex><actv><pri><p3><pl>$ ^í dag/í dag<adv>$
+[/A7DeWEE-msct]
+[ACc6dOyjeibm#0] ^Ég/Ég<prn><p1><mf><sg><nom>$ ^borðaði/borða<vblex><actv><past><p3><sg>/borða<vblex><actv><past><p1><sg>/borða<vblex><actv><pss><p3><sg>/borða<vblex><actv><pss><p1><sg>/borða<vblex><actv><pp><m><sg><nom><vei>$ ^fisk/fiskur<n><m><sg><acc><ind>/fiskur<n><m><sg><acc><def>$
+[/ACc6dOyjeibm]
+[AxNVx6xDe6EA#0] ^Ég/Ég<prn><p1><mf><sg><nom>$ ^hef/hafa<vbhaver><pri><p1><sg>/hefja<vblex><actv><imp><p2><sg>$ ^farið/fara<vblex><actv><supn>/fara<vblex><actv><pri><p2><pl>/fara<vblex><actv><prs><p2><pl>/fara<vblex><actv><imp><p2><pl>/fara<vblex><actv><pp><nt><sg><nom><sta>/fara<vblex><actv><pp><nt><sg><acc><sta>$ ^í/í<pr>$ ^vinnuna/vinna<n><f><sg><acc><def>$
+[/AxNVx6xDe6EA]
+[DmC5QRZIy6qL#0] ^Mamma/Mamma<n><f><sg><nom><ind>/Mamma<n><f><pl><gen><ind>$ ^stúlkunnar/stúlka<n><f><sg><gen><def>$
+[/DmC5QRZIy6qL]
+[EQ9YiqJctVUO#0] ^Í upphafi/Í upphafi<adv>$ ^skapaði/skapa<vblex><actv><past><p3><sg>/skapa<vblex><actv><past><p1><sg>/skapa<vblex><actv><pss><p3><sg>/skapa<vblex><actv><pss><p1><sg>/skapa<vblex><actv><pp><m><sg><nom><vei>$ ^Guð/Guð<np><al><m><sg><nom>/Guð<np><al><m><sg><acc>/Guð<n><m><sg><nom><ind>/Guð<n><m><sg><acc><ind>/Guð<n><nt><sg><nom><ind>/Guð<n><nt><sg><acc><ind>/Guð<n><nt><pl><nom><ind>/Guð<n><nt><pl><acc><ind>$ ^himin/himinn<n><m><sg><acc><ind>$ ^og/og<cnjcoo>$ ^jörð/jörð<n><f><sg><nom><ind>/jörð<n><f><sg><acc><ind>/jörð<n><f><sg><dat><ind>$^./.<sent>$
+[/EQ9YiqJctVUO]
+[EZvjFcAmSOAj#0] ^Ég/Ég<prn><p1><mf><sg><nom>$ ^borða/borða<vblex><actv><inf>/borð<n><nt><pl><gen><ind>/borða<vblex><actv><pri><p3><pl>/borða<vblex><actv><pri><p1><sg>/borða<vblex><actv><imp><p2><sg>$ ^fisk/fiskur<n><m><sg><acc><ind>/fiskur<n><m><sg><acc><def>$
+[/EZvjFcAmSOAj]
+[GJbvlrWTucGR#0] ^Við/Við<pr>/Ég<prn><p1><mf><pl><nom>/Viður<n><m><sg><acc><ind>$ ^erum/vera<vbser><pri><p1><pl>$
+[/GJbvlrWTucGR]
+[GK8M-geJZlMi#0] ^Brauðið/Brauð<n><nt><sg><nom><def>/Brauð<n><nt><sg><acc><def>$ ^var/vera<vbser><past><p3><sg>/vera<vbser><past><p1><sg>$ ^bakað/baka<vblex><actv><supn>/baka<vblex><actv><pp><nt><sg><nom><sta>/baka<vblex><actv><pp><nt><sg><acc><sta>$
+[/GK8M-geJZlMi]
+[GbnjqgqNroa1#0] ^Orð/Orð<n><nt><sg><nom><ind>/Orð<n><nt><sg><acc><ind>/Orð<n><nt><pl><nom><ind>/Orð<n><nt><pl><acc><ind>$
+[/GbnjqgqNroa1]
+[HNrYUaEgjgDW#0] ^Þau/Sá<prn><dem><nt><pl><nom>/Sá<prn><dem><nt><pl><acc>/Sá<det><dem><nt><pl><nom>/Sá<det><dem><nt><pl><acc>/Það<prn><p3><nt><pl><nom>/Það<prn><p3><nt><pl><acc>$ ^fara/fara<vblex><actv><inf>/för<n><f><pl><gen><ind>/fara<vblex><actv><pri><p3><pl>$ ^í/í<pr>$ ^vinnuna/vinna<n><f><sg><acc><def>$
+[/HNrYUaEgjgDW]
+[HyFOgyXo-oQv#0] ^Þeir/Sá<prn><dem><m><pl><nom>/Sá<det><dem><m><pl><nom>/Hann<prn><p3><m><pl><nom>$ ^eru/vera<vbser><pri><p3><pl>$
+[/HyFOgyXo-oQv]
+[JHmIMMJjLyS4#0] ^Hvenær/Hvenær<adv><itg>$ ^kemur/koma<vblex><actv><pri><p3><sg>/koma<vblex><actv><pri><p2><sg>$ ^þú/þú<prn><p2><mf><sg><nom>$^?/?<sent>$
+[/JHmIMMJjLyS4]
+[LBSOOpS0tL7S#0] ^Mína/Minn<prn><pos><m><pl><acc>/Minn<prn><pos><f><sg><acc>$ ^bók/bók<n><f><sg><nom><ind>/bók<n><f><sg><acc><ind>/bók<n><f><sg><dat><ind>$
+[/LBSOOpS0tL7S]
+[Lko7UwNORcZe#0] ^Húsið/Hús<n><nt><sg><nom><def>/Hús<n><nt><sg><acc><def>$ ^mitt/minn<prn><pos><nt><sg><nom>/minn<prn><pos><nt><sg><acc>$
+[/Lko7UwNORcZe]
+[NFXwn6qsY4wI#0] ^Augun/Auga<n><nt><pl><nom><def>/Auga<n><nt><pl><acc><def>$ ^hans/hann<prn><p3><m><sg><gen>$
+[/NFXwn6qsY4wI]
+[OmfcE2rFGsWa#0] ^Dóttir/Dóttir<n><f><sg><nom><ind>$ ^minn/minn<prn><pos><m><sg><nom>/minn<prn><pos><m><sg><acc>/minna<vblex><actv><imp><p2><sg>$
+[/OmfcE2rFGsWa]
+[OyBJQFweOotn#0] ^Hundurinn/Hundur<n><m><sg><nom><def>$
+[/OyBJQFweOotn]
+[PPeHzfP_VnEG#0] ^Ég/Ég<prn><p1><mf><sg><nom>$ ^bakaði/baka<vblex><actv><past><p3><sg>/baka<vblex><actv><past><p1><sg>/baka<vblex><actv><pss><p3><sg>/baka<vblex><actv><pss><p1><sg>/baka<vblex><actv><pp><m><sg><nom><vei>$ ^brauð/brauð<n><nt><sg><nom><ind>/brauð<n><nt><sg><acc><ind>/brauð<n><nt><pl><nom><ind>/brauð<n><nt><pl><acc><ind>$
+[/PPeHzfP_VnEG]
+[R2Av0deyzG1o#0] ^Hann/Hann<prn><p3><m><sg><nom>/Hann<prn><p3><m><sg><acc>$ ^fer/fara<vblex><actv><pri><p3><sg>/fara<vblex><actv><pri><p1><sg>$ ^á morgun/á morgun<adv>$
+[/R2Av0deyzG1o]
+[T_8Gc3_K7D6T#0] ^Þið/Þú<prn><p2><mf><pl><nom>$ ^eruð/vera<vbser><pri><p2><pl>$
+[/T_8Gc3_K7D6T]
+[WIteD6b0D5Yo#0] ^Hér/Hér<adv>$ ^er/er<cnjsub>/er<rel><an><mf><sp>/vera<vbser><pri><p3><sg>/vera<vbser><pri><p1><sg>$ ^hús/hús<n><nt><sg><nom><ind>/hús<n><nt><sg><acc><ind>/hús<n><nt><pl><nom><ind>/hús<n><nt><pl><acc><ind>$ ^ríks/ríkur<adj><pst><m><sg><gen><sta>/ríkur<adj><pst><nt><sg><gen><sta>$ ^manns/maður<n><m><sg><gen><ind>$^./.<sent>$
+[/WIteD6b0D5Yo]
+[XhVN5brSXnu9#0] ^Mamma/Mamma<n><f><sg><nom><ind>/Mamma<n><f><pl><gen><ind>$ ^mín/ég<prn><p1><mf><sg><gen>/minn<prn><pos><f><sg><nom>/minn<prn><pos><nt><pl><nom>/minn<prn><pos><nt><pl><acc>$
+[/XhVN5brSXnu9]
+[Y_f-gUq5BgA7#0] ^Það/Sá<prn><dem><nt><sg><nom>/Sá<prn><dem><nt><sg><acc>/Sá<det><dem><nt><sg><nom>/Sá<det><dem><nt><sg><acc>/Það<prn><p3><nt><sg><nom>/Það<prn><p3><nt><sg><acc>$ ^er/er<cnjsub>/er<rel><an><mf><sp>/vera<vbser><pri><p3><sg>/vera<vbser><pri><p1><sg>$ ^annaðhvort/annaðhvort<cnjcoo>$ ^ég/ég<prn><p1><mf><sg><nom>$ ^eða/eða<cnjcoo>$ ^hann/hann<prn><p3><m><sg><nom>/hann<prn><p3><m><sg><acc>$^./.<sent>$
+[/Y_f-gUq5BgA7]
+[ZAZejq-Pa_ws#0] ^Hvers vegna/Hvers vegna<adv><itg>$ ^hann/hann<prn><p3><m><sg><nom>/hann<prn><p3><m><sg><acc>$^?/?<sent>$
+[/ZAZejq-Pa_ws]
+[_-Y8UAnru4Xi#0] ^Ykkar/Þú<prn><p2><mf><pl><gen>$ ^bók/bók<n><f><sg><nom><ind>/bók<n><f><sg><acc><ind>/bók<n><f><sg><dat><ind>$
+[/_-Y8UAnru4Xi]
+[_JDAOQYChecX#0] ^Bíllinn/Bíll<n><m><sg><nom><def>$ ^minn/minn<prn><pos><m><sg><nom>/minn<prn><pos><m><sg><acc>/minna<vblex><actv><imp><p2><sg>$
+[/_JDAOQYChecX]
+[_yQOjzWc3uKd#0] ^Hans/Hann<prn><p3><m><sg><gen>/Hans<np><ant><m><sg><nom><ind>/Hans<np><ant><m><sg><acc><ind>/Hans<np><ant><m><sg><dat><ind>/Hans<np><ant><m><sg><gen><ind>$ ^bók/bók<n><f><sg><nom><ind>/bók<n><f><sg><acc><ind>/bók<n><f><sg><dat><ind>$
+[/_yQOjzWc3uKd]
+[_ybxld0d2KCw#0] ^Þið/Þú<prn><p2><mf><pl><nom>$ ^lesið/lesa<vblex><actv><supn>/lesa<vblex><actv><pri><p2><pl>/lesa<vblex><actv><prs><p2><pl>/lesa<vblex><actv><imp><p2><pl>/lesa<vblex><actv><pp><nt><sg><nom><sta>/lesa<vblex><actv><pp><nt><sg><acc><sta>$ ^bókina/bók<n><f><sg><acc><def>$
+[/_ybxld0d2KCw]
+[a-BrfPbGQPA_#0] ^Ég/Ég<prn><p1><mf><sg><nom>$ ^skrifa/skrifa<vblex><actv><inf>/skrif<n><nt><pl><gen><ind>/skrifa<vblex><actv><pri><p3><pl>/skrifa<vblex><actv><pri><p1><sg>/skrifa<vblex><actv><imp><p2><sg>$
+[/a-BrfPbGQPA_]
+[aHgMYeqFMnPf#0] ^Þau/Sá<prn><dem><nt><pl><nom>/Sá<prn><dem><nt><pl><acc>/Sá<det><dem><nt><pl><nom>/Sá<det><dem><nt><pl><acc>/Það<prn><p3><nt><pl><nom>/Það<prn><p3><nt><pl><acc>$ ^fóru/fara<vblex><actv><past><p3><pl>$ ^í/í<pr>$ ^vinnuna/vinna<n><f><sg><acc><def>$
+[/aHgMYeqFMnPf]
+[akm4u0ev8FrJ#0] ^Mitt/Minn<prn><pos><nt><sg><nom>/Minn<prn><pos><nt><sg><acc>$ ^blað/blað<n><nt><sg><nom><ind>/blað<n><nt><sg><acc><ind>$
+[/akm4u0ev8FrJ]
+[aqBArGhDRoWc#0] ^Hundur/Hundur<n><m><sg><nom><ind>$
+[/aqBArGhDRoWc]
+[aqjnv8LaEzuf#0] ^Hvernig/Hvernig<adv><itg>$ ^hefur/hafa<vbhaver><pri><p3><sg>/hafa<vbhaver><pri><p2><sg>$ ^þú/þú<prn><p2><mf><sg><nom>$ ^það/sá<prn><dem><nt><sg><nom>/sá<prn><dem><nt><sg><acc>/sá<det><dem><nt><sg><nom>/sá<det><dem><nt><sg><acc>/það<prn><p3><nt><sg><nom>/það<prn><p3><nt><sg><acc>$^?/?<sent>$
+[/aqjnv8LaEzuf]
+[cg_A3pb2a7xH#0] ^Ég/Ég<prn><p1><mf><sg><nom>$ ^er/er<cnjsub>/er<rel><an><mf><sp>/vera<vbser><pri><p3><sg>/vera<vbser><pri><p1><sg>$
+[/cg_A3pb2a7xH]
+[cq7slFNAaN_C#0] ^Hver/Hver<prn><itg><m><sg><nom>/Hver<prn><itg><f><sg><nom>/Hver<prn><itg><nt><pl><nom>/Hver<prn><itg><nt><pl><acc>/Hver<prn><ind><m><sg><nom>/Hver<prn><ind><f><sg><nom>/Hver<prn><ind><nt><pl><nom>/Hver<prn><ind><nt><pl><acc>$ ^ert/vera<vbser><pri><p2><sg>$ ^þú/þú<prn><p2><mf><sg><nom>$^?/?<sent>$
+[/cq7slFNAaN_C]
+[dcIVbtXG9C_d#0] ^Hann/Hann<prn><p3><m><sg><nom>/Hann<prn><p3><m><sg><acc>$ ^fór/fara<vblex><actv><past><p3><sg>/fara<vblex><actv><past><p1><sg>$ ^í gær/í gær<adv>$
+[/dcIVbtXG9C_d]
+[e3Im8FCmKpts#0] ^Hvaða/Hvaða<prn><itg><mf><sp><nom>/Hvaða<prn><itg><mf><sp><acc>/Hvaða<prn><itg><mf><sp><dat>/Hvaða<prn><itg><mf><sp><gen>$ ^hundur/hundur<n><m><sg><nom><ind>$^?/?<sent>$
+[/e3Im8FCmKpts]
+[eqaewjXsv7af#0] ^Hann/Hann<prn><p3><m><sg><nom>/Hann<prn><p3><m><sg><acc>$ ^er/er<cnjsub>/er<rel><an><mf><sp>/vera<vbser><pri><p3><sg>/vera<vbser><pri><p1><sg>$
+[/eqaewjXsv7af]
+[ftFT1e6A5ifH#0] ^Hvar/Hvar<adv><itg>$ ^keyptir/kaupa<vblex><actv><past><p2><sg>/kaupa<vblex><actv><pss><p2><sg>/kaupa<vblex><actv><pp><m><pl><nom><sta>$ ^þú/þú<prn><p2><mf><sg><nom>$ ^bókina/bók<n><f><sg><acc><def>$^?/?<sent>$
+[/ftFT1e6A5ifH]
+[gH6GCFETIgYT#0] ^Hennar/Hún<prn><p3><f><sg><gen>$ ^bíll/bíll<n><m><sg><nom><ind>$
+[/gH6GCFETIgYT]
+[gYSCKGG6UEzP#0] ^Þú/Þú<prn><p2><mf><sg><nom>$ ^læsir/lesa<vblex><actv><pss><p2><sg>/læsa<vblex><actv><pri><p3><sg>/læsa<vblex><actv><pri><p2><sg>/læsa<vblex><actv><prs><p2><sg>$ ^bókina/bók<n><f><sg><acc><def>$ ^er/er<cnjsub>/er<rel><an><mf><sp>/vera<vbser><pri><p3><sg>/vera<vbser><pri><p1><sg>$ ^þú/þú<prn><p2><mf><sg><nom>$ ^gætir/gæta<vblex><actv><inf>/geta<vblex><actv><pss><p2><sg>/gæta<vblex><actv><pri><p3><sg>/gæta<vblex><actv><pri><p2><sg>/gæta<vblex><actv><prs><p2><sg>$
+[/gYSCKGG6UEzP]
+[gj-Jbe_Jls2x#0] ^Ég/Ég<prn><p1><mf><sg><nom>$ ^las/lesa<vblex><actv><past><p3><sg>/lesa<vblex><actv><past><p1><sg>$
+[/gj-Jbe_Jls2x]
+[iJFMD7MiOnj0#0] ^Hann/Hann<prn><p3><m><sg><nom>/Hann<prn><p3><m><sg><acc>$ ^sagði/segja<vblex><actv><past><p3><sg>/segja<vblex><actv><past><p1><sg>/segja<vblex><actv><pp><m><sg><nom><vei>$ ^að/að<pr>/að<cnjsub>$ ^skipið/skip<n><nt><sg><nom><def>/skip<n><nt><sg><acc><def>/skipa<vblex><actv><pri><p2><pl>/skipa<vblex><actv><prs><p2><pl>/skipa<vblex><actv><imp><p2><pl>$ ^færi/færa<vblex><actv><pri><p1><sg>/færa<vblex><actv><prs><p3><sg>/færa<vblex><actv><prs><p3><pl>/færa<vblex><actv><prs><p1><sg>/fær<adj><pst><m><sg><nom><vei>/fara<vblex><actv><pss><p3><sg>/fara<vblex><actv><pss><p1><sg>$ ^á morgun/á morgun<adv>$
+[/iJFMD7MiOnj0]
+[mHcDcNzdk-Rj#0] ^Heimili/Heimili<n><nt><sg><nom><ind>/Heimili<n><nt><sg><acc><ind>/Heimili<n><nt><sg><dat><ind>/Heimili<n><nt><pl><nom><ind>/Heimili<n><nt><pl><acc><ind>$ ^mitt/minn<prn><pos><nt><sg><nom>/minn<prn><pos><nt><sg><acc>$
+[/mHcDcNzdk-Rj]
+[ouTppGFfDsyd#0] ^Stóri/Stór<adj><pst><m><sg><nom><vei>$ ^hundurinn/hundur<n><m><sg><nom><def>$
+[/ouTppGFfDsyd]
+[qP0Jrt9Q52i4#0] ^Ég/Ég<prn><p1><mf><sg><nom>$ ^skrifaði/skrifa<vblex><actv><past><p3><sg>/skrifa<vblex><actv><past><p1><sg>/skrifa<vblex><actv><pss><p3><sg>/skrifa<vblex><actv><pss><p1><sg>/skrifa<vblex><actv><pp><m><sg><nom><vei>$
+[/qP0Jrt9Q52i4]
+[rK3nvatKU8LY#0] ^Hún/Hún<prn><p3><f><sg><nom>$ ^klæðir/klæða<vblex><actv><pri><p3><sg>/klæða<vblex><actv><pri><p2><sg>/klæða<vblex><actv><prs><p2><sg>$ ^sig/sig<prn><ref><p3><mf><sp><acc>$^./.<sent>$
+[/rK3nvatKU8LY]
+[rvu2qZ3fEqWP#0] ^Hann/Hann<prn><p3><m><sg><nom>/Hann<prn><p3><m><sg><acc>$ ^talar/tala<vblex><actv><pri><p3><sg>/tala<vblex><actv><pri><p2><sg>$ ^mikið/mikið<adv>/mikill<det><qnt><nt><sg><nom><sta>/mikill<det><qnt><nt><sg><acc><sta>$
+[/rvu2qZ3fEqWP]
+[s-1j8-Ib_JJE#0] ^Ef/Ef<cnjsub>$ ^ég/ég<prn><p1><mf><sg><nom>$ ^væri/vera<vbser><pss><p3><sg>/vera<vbser><pss><p1><sg>$ ^sterkari/sterkur<adj><comp><f><sg><dat><sta>/sterkur<adj><comp><nt><pl><gen><sta>/sterkur<adj><comp><nt><pl><dat><sta>/sterkur<adj><comp><nt><pl><acc><sta>/sterkur<adj><comp><nt><pl><nom><sta>/sterkur<adj><comp><f><pl><gen><sta>/sterkur<adj><comp><f><pl><dat><sta>/sterkur<adj><comp><f><pl><acc><sta>/sterkur<adj><comp><f><pl><nom><sta>/sterkur<adj><comp><f><sg><gen><sta>/sterkur<adj><comp><m><sg><nom><sta>/sterkur<adj><comp><f><sg><acc><sta>/sterkur<adj><comp><f><sg><nom><sta>/sterkur<adj><comp><m><pl><gen><sta>/sterkur<adj><comp><m><pl><dat><sta>/sterkur<adj><comp><m><pl><acc><sta>/sterkur<adj><comp><m><pl><nom><sta>/sterkur<adj><comp><m><sg><gen><sta>/sterkur<adj><comp><m><sg><dat><sta>/sterkur<adj><comp><m><sg><acc><sta>$ ^lemdi/lemja<vblex><actv><pss><p3><sg>/lemja<vblex><actv><pss><p1><sg>$ ^ég/ég<prn><p1><mf><sg><nom>$ ^hann/hann<prn><p3><m><sg><nom>/hann<prn><p3><m><sg><acc>$
+[/s-1j8-Ib_JJE]
+[s2hSG7YFOLZr#0] ^Þetta/Þessi<prn><dem><nt><sg><nom>/Þessi<prn><dem><nt><sg><acc>/Þessi<det><dem><nt><sg><nom>/Þessi<det><dem><nt><sg><acc>$ ^er/er<cnjsub>/er<rel><an><mf><sp>/vera<vbser><pri><p3><sg>/vera<vbser><pri><p1><sg>$ ^bíllinn/bíll<n><m><sg><nom><def>$ ^sín/sinn<prn><pos><f><sg><nom>/sinn<prn><pos><nt><pl><nom>/sinn<prn><pos><nt><pl><acc>/sinn<det><pos><f><sg><nom>/sinn<det><pos><nt><pl><nom>/sinn<det><pos><nt><pl><acc>/sig<prn><ref><p3><mf><sp><gen>$
+[/s2hSG7YFOLZr]
+[srFEtV2X4elZ#0] ^Himinninn/Himinn<n><m><sg><nom><def>$ ^er/er<cnjsub>/er<rel><an><mf><sp>/vera<vbser><pri><p3><sg>/vera<vbser><pri><p1><sg>$ ^blár/blár<adj><pst><m><sg><nom><sta>$
+[/srFEtV2X4elZ]
+[tD1ED5pOw2M-#0] ^Hvert/Hvert<adv><itg>/Hver<prn><itg><nt><sg><nom>/Hver<prn><itg><nt><sg><acc>/Hver<prn><ind><nt><sg><nom>/Hver<prn><ind><nt><sg><acc>$ ^ert/vera<vbser><pri><p2><sg>$ ^þú/þú<prn><p2><mf><sg><nom>$ ^að/að<pr>/að<cnjsub>$ ^fara/fara<vblex><actv><inf>/för<n><f><pl><gen><ind>/fara<vblex><actv><pri><p3><pl>$^?/?<sent>$
+[/tD1ED5pOw2M-]
+[tgpMWWmgci93#0] ^Ykkar/Þú<prn><p2><mf><pl><gen>$ ^blað/blað<n><nt><sg><nom><ind>/blað<n><nt><sg><acc><ind>$
+[/tgpMWWmgci93]
+[tyXrLvXppIsF#0] ^Þau/Sá<prn><dem><nt><pl><nom>/Sá<prn><dem><nt><pl><acc>/Sá<det><dem><nt><pl><nom>/Sá<det><dem><nt><pl><acc>/Það<prn><p3><nt><pl><nom>/Það<prn><p3><nt><pl><acc>$ ^fara/fara<vblex><actv><inf>/för<n><f><pl><gen><ind>/fara<vblex><actv><pri><p3><pl>$ ^oft/oft<adv>/oft<adv><pst>$ ^í/í<pr>$ ^vinnuna/vinna<n><f><sg><acc><def>$
+[/tyXrLvXppIsF]
+[uaA0sxNt0K84#0] ^Hvort/Hvort<cnjsub>/Hvor<prn><itg><nt><sg><nom>/Hvor<prn><itg><nt><sg><acc>$ ^vilt/vilja<vblex><actv><pri><p2><sg>$ ^þú/þú<prn><p2><mf><sg><nom>$^?/?<sent>$
+[/uaA0sxNt0K84]
+[v3sucl-v4wYP#0] ^Bók/Bók<n><f><sg><nom><ind>/Bók<n><f><sg><acc><ind>/Bók<n><f><sg><dat><ind>$ ^hans/hann<prn><p3><m><sg><gen>$
+[/v3sucl-v4wYP]
+[wbHKxBabKx7p#0] ^Hvar/Hvar<adv><itg>$ ^ert/vera<vbser><pri><p2><sg>$ ^þú/þú<prn><p2><mf><sg><nom>$^?/?<sent>$
+[/wbHKxBabKx7p]
+[x7W3EyTxcbUU#0] ^Hvaðan/Hvaðan<adv><itg>$ ^kemur/koma<vblex><actv><pri><p3><sg>/koma<vblex><actv><pri><p2><sg>$ ^þú/þú<prn><p2><mf><sg><nom>$^?/?<sent>$
+[/x7W3EyTxcbUU]
+[xLySbpWoASOK#0] ^Stór/Stór<adj><pst><m><sg><nom><sta>/Stór<adj><pst><f><sg><nom><sta>/Stór<adj><pst><nt><pl><nom><sta>/Stór<adj><pst><nt><pl><acc><sta>$ ^hundur/hundur<n><m><sg><nom><ind>$
+[/xLySbpWoASOK]
+[yp_UgrZy_7pS#0] ^Hver/Hver<prn><itg><m><sg><nom>/Hver<prn><itg><f><sg><nom>/Hver<prn><itg><nt><pl><nom>/Hver<prn><itg><nt><pl><acc>/Hver<prn><ind><m><sg><nom>/Hver<prn><ind><f><sg><nom>/Hver<prn><ind><nt><pl><nom>/Hver<prn><ind><nt><pl><acc>$ ^tók/taka<vblex><actv><past><p3><sg>/taka<vblex><actv><past><p1><sg>$ ^bókina/bók<n><f><sg><acc><def>$^?/?<sent>$
+[/yp_UgrZy_7pS]
